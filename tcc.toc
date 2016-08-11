@@ -1,0 +1,52 @@
+\changetocdepth {4}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{21}{chapter.1}
+\contentsline {section}{\numberline {1.1}Contextualiza\IeC {\c c}\IeC {\~a}o}{21}{section.1.1}
+\contentsline {section}{\numberline {1.2}Problema de pesquisa}{21}{section.1.2}
+\contentsline {section}{\numberline {1.3}Justificativa}{21}{section.1.3}
+\contentsline {section}{\numberline {1.4}Objetivos}{22}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Objetivo geral}{22}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Objetivos espec\IeC {\'\i }ficos}{22}{subsection.1.4.2}
+\contentsline {section}{\numberline {1.5}Resultados Esperados}{22}{section.1.5}
+\contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{22}{section.1.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{23}{chapter.2}
+\contentsline {section}{\numberline {2.1}Qualidade}{23}{section.2.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Suporte Tecnol\IeC {\'o}gico}}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}Engenharia de software}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}GIT}{25}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Github}{25}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Bonita BPMN}{25}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Linux Mint}{25}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}LaTeX}{26}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Sublime Text 3}{26}{subsection.3.1.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Proposta}}{27}{chapter.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Metodologia}}{29}{chapter.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Resultados parciais}}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Revis\IeC {\~a}o sistem\IeC {\'a}tica}{31}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Planejamento da revis\IeC {\~a}o}{31}{subsection.6.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.1}Objetivos e quest\IeC {\~a}o de pesquisa}{31}{subsubsection.6.1.1.1}
+\contentsline {subsubsection}{\numberline {6.1.1.2}Estrat\IeC {\'e}gia de pesquisa}{32}{subsubsection.6.1.1.2}
+\contentsline {subsubsection}{\numberline {6.1.1.3}Procedimento de sele\IeC {\c c}\IeC {\~a}o}{34}{subsubsection.6.1.1.3}
+\contentsline {subsubsection}{\numberline {6.1.1.4}Avalia\IeC {\c c}\IeC {\~a}o da qualidade}{34}{subsubsection.6.1.1.4}
+\contentsline {subsubsection}{\numberline {6.1.1.5}Extra\IeC {\c c}\IeC {\~a}o de dados}{35}{subsubsection.6.1.1.5}
+\contentsline {subsection}{\numberline {6.1.2}Condu\IeC {\c c}\IeC {\~a}o da revis\IeC {\~a}o}{35}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Publica\IeC {\c c}\IeC {\~a}o dos resultados}{38}{subsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.3.1}Arquitetura da solu\IeC {\c c}\IeC {\~a}o}{39}{subsubsection.6.1.3.1}
+\contentsline {subsubsection}{\numberline {6.1.3.2}T\IeC {\'e}cnica probabilistica utilizada}{40}{subsubsection.6.1.3.2}
+\contentsline {subsubsection}{\numberline {6.1.3.3}Informa\IeC {\c c}\IeC {\~o}es dispon\IeC {\'\i }veis}{41}{subsubsection.6.1.3.3}
+\contentsline {section}{\numberline {6.2}Desenvolvimento pr\IeC {\'a}tico}{43}{section.6.2}
+\contentsline {section}{\numberline {6.3}Considera\IeC {\c c}\IeC {\~o}es parciais}{43}{section.6.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es finais}}{45}{chapter.7}
+\vspace {\cftbeforechapterskip }
