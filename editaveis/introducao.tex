@@ -5,40 +5,43 @@
 
 \section{Contextualização}
 	O conceito de engenharia de software foi proposto inicialmente durante uma conferência na década de 60 em Garmisch na Alemanha. Nesta conferência estavam presentes usuarios, fabricantes e pesquisadores que debatiam sobre os constantes problemas no desenvolvimento de software \cite{Paduelli}.
+A qualidade na produção de software é uma área muito ampla e que abrange desde qualidade da arquitetura de software até qualidade no processo REFERENCIA. Este trabalho teve como objetivo central apresentar uma solução para visualização de métricas de qualidade dentro de alguns orgãos, tendo como os principais pilares três áreas comuns da engenharia de software, gerência de configuração, integração contínua e análise estática de código. Uma arquitetura próxima a essa vem sendo trabalhada dentro de alguns órgãos públicos do governo federal, entre eles o Tribunal de Contas da União o qual tem mostrado os melhores resultados nesta área. O problema encontrado atualmente está na falta de um acompanhamento na qualidade dos chamados softwares legados, softwares que são produzidos dentro/para o órgão e que passado um tempo ainda estão em atividade.
+	\\Dentro da área de Tecnologia as organizações tem encontrado um grande problema quando se trata de softwares legados. O trabalho feito por REFERENCIA prova que os softwares legados são esquecidos pelas organizações quando se fala sob uma perspectiva de manutenção. Contudo o estudo também revela que em grande parte das empresas esses mesmos softwares continuam rodando no ambiente de produção.
 	
 
 \section{Problema de pesquisa}
-
-
+O principal produto da engenharia de software é o software, contudo o que tem se vivenciado na realidade brasileira de computação é que o software que está sendo entregue é um software precário e de baixa qualidade. Por ser uma palavra abstrata, o conceito de qualidade é bem amplo, porém o termo qualidade normalmente está associado a uma medida relativa, essa qualidade pode ser entendida como “conformidade às especificações”. Conceituando dessa forma, a não conformidade às especificação é igual a ausência de qualidade.
+	\\Uma das grandes dificuldades nos orgãos públicos está no acompanhamento das manutenções prestadas por terceirizadas. Esse problema se agrava ainda mais quando a empresa contratante não consegue acompanhar ou não tem parametros concretos de indicadores de qualidade. Este trabalho tem como proposta a criação de uma dashboard de monitoramento para softwares legados onde é possível acompanhar de maneira simples e totalmente visual, indicadores de qualidade de código para projetos selecionados.
+	\\O grande desafio está em criar uma maneira de visualização de dados de maneira simplificada e objetiva para acompanhamento de software em um orgão público federal. Tomando este problema como base tem-se a seguinte questão de pesquisa:
+	
+	\begin{center}
+	\textit{"Uma vez definido os indicadores das métricas, como criar uma interface de visualização da informação? }"	
+	\end{center}
 
 \section{Justificativa}
 
-	A utilização da Robótica como uma forma de ensinar programação em escolas e faculdades, conhecida como Robótica Educacional \cite{roboticaEducacionalAulasMatematica}, traz alguns benefícios para o aluno. Conforme colocado pelos autores \cite{teachingWithRoboticKit}, \cite{roboticEducationBasedLego}, \cite{roboticaEducacionalAulasMatematica} e \cite{evaluationRoboticEducationScale}, alguns desses benefícios são: 
-	\begin{itemize}
-		\item maior interesse pelos conteúdos estudados em aula;
-		\item capacidade de trabalhar em grupo;
-		\item aplicação prática do conhecimento teórico, e
-		\item multidisciplinaridade.
-	\end{itemize}
-	 
+	A motivação deste trabalho se deu como uma extensão de um trabalho de conclusão de concurso elaborado anteriormente em que eram tratados aspectos para monitoramento da qualidade dentro de um orgão público federal. O trabalho abordava aspectos de contratação de software dentro desses orgãos e como acontecia o acompanhamento desses softwares e propunha uma solução com integração contínua e gerência de configuração.
+	\\Após a conclusão do trabalho citado algumas lacunas continuaram, essas lacunas estão ligadas à apresentação destes dados para a equipe de gestão com o intuito de facilitar o acompanhamento das métricas.
 
 
 	\section{Objetivos}
 
-	\subsection{Objetivo geral} % (fold)
+	\subsection{Objetivos Gerais} % (fold)
 	\label{sub:objetivos_gerais}
 	
-		Adaptar técnicas de resolução do problema de SLAM para o contexto de robôs simples, utilizando os kits de robótica \textit{Mindstorms} da Lego, em um primeiro momento.
+		Desenvolver uma solução intuitiva para monitoramento da qualidade de código de software
 
 	% subsection objetivos_gerais (end)
 
-	\subsection{Objetivos específicos} % (fold)
+	\subsection{Objetivos Específicos} % (fold)
 	\label{sub:objetivos_específicos}
+
+	Para que seja possivel alcancar o objetivo geral alguns outros objetivos menores precisam ser alcancados para garantir  o objetivo geral 
 		 
 	\begin{itemize}
-		\item Identificar uma solução para o problema de SLAM em um contexto simplificado;
-		\item Propor adaptação para o contexto de robôs simples, na Robótica Educacional;
-		\item Implementar adaptação.
+		\item Identificar metricas de codigo ja existentes que mais se adequem as necessidades de um projeto de software 
+		\item Propor um ambiente integralizado e automatizado, englobando solucoes de analise estatica de código, integracao continua e versionamento de codigo
+		\item Uma solução que agregue valor à equipe de manutenção 
 	\end{itemize}
 	
 	% subsection objetivos_específicos (end)
@@ -49,18 +52,5 @@
 
 	\section{Organização do trabalho} % (fold)
 	\label{sec:organização_do_trabalho}
-		Este trabalho de conclusão de curso está organizado nos capítulos:
-		\begin{itemize}
-			\item Introdução: Capítulo referente à contextualização, levantamento da questão de pesquisa, justificativa e definição dos objetivos do trabalho;
-
-			\item Referencial teórico: O objetivo deste capítulo é fornecer ao leitor o conhecimento necessário para compreender a pesquisa realizada. O capítulo é sub-dividido nas seções \textit{robótica e a auto-localização},  \textit{o problema de SLAM} e \textit{robótica educacional};
-
-			\item Suporte tecnológico: Apresenta as ferramentas e tecnologias utilizadas para auxiliar o desenvolvimento desta pesquisa, desde a pesquisa bibliográfica e documentação, até o desenvolvimento da prova de conceito e apresentação;
-
-			\item Metodologia: Este capítulo busca apresentar as técnicas utilizadas para a realização da pesquisa, definindo as atividades a serem desempenhadas para conclusão do trabalho, e
-
-			\item Resultados parciais: Neste capítulo, são apresentados os resultados obtidos durante o desenvolvimento da primeira etapa deste trabalho de conclusão de curso.
-
-			\item Consiferações finais: Capítulo final do TCC\_1 que tem como objetivo apresentar o status atual do trabalho, assim como o que se espera para a próxima etapa do trabalho.
-		\end{itemize}
+		
 	% section organização_do_trabalho (end)
