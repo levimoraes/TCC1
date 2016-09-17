@@ -25,43 +25,43 @@ Warning--faltando school em Paduelli
 +---------------------------------------------------------+
 You've used 5 entries,
             6714 wiz_defined-function locations,
-            1215 strings with 9959 characters,
-and the built_in function-call counts, 3812 in all, are:
-= -- 438
+            1218 strings with 10310 characters,
+and the built_in function-call counts, 10607 in all, are:
+= -- 1518
 > -- 90
-< -- 7
-+ -- 91
+< -- 361
++ -- 445
 - -- 27
-* -- 247
-:= -- 564
-add.period$ -- 11
+* -- 607
+:= -- 1293
+add.period$ -- 14
 call.type$ -- 5
 change.case$ -- 39
 chr.to.int$ -- 11
 cite$ -- 5
-duplicate$ -- 134
-empty$ -- 241
+duplicate$ -- 1190
+empty$ -- 244
 format.name$ -- 131
-if$ -- 908
+if$ -- 1994
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 76
-newline$ -- 29
+newline$ -- 32
 num.names$ -- 15
-pop$ -- 114
+pop$ -- 117
 preamble$ -- 1
 purify$ -- 18
 quote$ -- 0
-skip$ -- 278
+skip$ -- 1328
 stack$ -- 1
-substring$ -- 164
-swap$ -- 58
-text.length$ -- 5
+substring$ -- 518
+swap$ -- 409
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 10
 warning$ -- 1
-while$ -- 26
+while$ -- 29
 width$ -- 0
-write$ -- 67
+write$ -- 70
 (There was 1 warning)

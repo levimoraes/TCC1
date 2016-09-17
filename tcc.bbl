@@ -9,18 +9,24 @@
 \abntrefinfo{BENTO et al.}{BENTO et al.}{2013}
 {BENTO, G.~V. et al. An{\'a}lise {Comparativa} de {Sistemas} de {Controle} de
   {Vers{\~o}es} com foco em {Versionamento} de {Banco} de {Dados} {Oracle}.
-\emph{e-RAC}, v.~3, n.~1, 2013.}
+\emph{e-RAC}, v.~3, n.~1, 2013.
+Dispon{\'\i}vel em:
+  \url{http://www.computacao.unitri.edu.br/erac/index.php/e-rac/article/view/122}.}
 
 \bibitem[MARTINHO e MUNIZ 2013]{martinho_git_2013}
 \abntrefinfo{MARTINHO e MUNIZ}{MARTINHO; MUNIZ}{2013}
 {MARTINHO, M.; MUNIZ, E. {GIT} {SCM}: {Sistema} de {Controle} de
   {Versionamento} {Distribu{\'\i}do}.
-\emph{GIT SCM: Sistema de Controle de Versionamento Distribu{\'\i}do}, 2013.}
+\emph{GIT SCM: Sistema de Controle de Versionamento Distribu{\'\i}do}, 2013.
+Dispon{\'\i}vel em:
+  \url{http://www.tjam.jus.br/index.php?option=com\_content&view=article&id=4032\%3Agit-scm-sistema-de-controle-de-versionamento-distribuido&catid=344\%3Asds-artigos-cientificos-e-tecnologicos&Itemid=455&showall=1}.}
 
-\bibitem[{NBR} {ISO}/{IEC} 9126-1 2003]{_nbr_2016}
-\abntrefinfo{{NBR}\ldots}{{NBR}\ldots}{2003}
+\bibitem[{NBR} {ISO}/{IEC} 9126-1 2016]{_nbr_2016}
+\abntrefinfo{{NBR}\ldots}{{NBR}\ldots}{2016}
 {{NBR} {ISO}/{IEC} 9126-1.
-v.~1, n.~7, p. 088--108, 2003.}
+v.~5, n.~7, p. 088--108, 2016.
+Dispon{\'\i}vel em:
+  \url{http://periodicos.udesc.br/index.php/reavi/article/view/2316419005072016088}.}
 
 \bibitem[Paduelli 2007]{Paduelli}
 \abntrefinfo{Paduelli}{PADUELLI}{2007}
