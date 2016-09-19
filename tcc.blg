@@ -13,55 +13,55 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
+Warning--I didn't find a database entry for "Paduelli"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Warning--faltando school em Paduelli
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 5 entries,
+You've used 4 entries,
             6714 wiz_defined-function locations,
-            1218 strings with 10310 characters,
-and the built_in function-call counts, 10607 in all, are:
-= -- 1518
-> -- 90
-< -- 361
-+ -- 445
-- -- 27
-* -- 607
-:= -- 1293
-add.period$ -- 14
-call.type$ -- 5
-change.case$ -- 39
-chr.to.int$ -- 11
-cite$ -- 5
-duplicate$ -- 1190
-empty$ -- 244
-format.name$ -- 131
-if$ -- 1994
+            1211 strings with 9822 characters,
+and the built_in function-call counts, 3078 in all, are:
+= -- 387
+> -- 74
+< -- 3
++ -- 86
+- -- 22
+* -- 192
+:= -- 469
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 33
+chr.to.int$ -- 7
+cite$ -- 3
+duplicate$ -- 91
+empty$ -- 189
+format.name$ -- 108
+if$ -- 745
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 76
-newline$ -- 32
-num.names$ -- 15
-pop$ -- 117
+missing$ -- 57
+newline$ -- 23
+num.names$ -- 10
+pop$ -- 92
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 15
 quote$ -- 0
-skip$ -- 1328
+skip$ -- 237
 stack$ -- 1
-substring$ -- 518
-swap$ -- 409
-text.length$ -- 8
+substring$ -- 114
+swap$ -- 31
+text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
-warning$ -- 1
-while$ -- 29
+type$ -- 6
+warning$ -- 0
+while$ -- 17
 width$ -- 0
-write$ -- 70
+write$ -- 51
 (There was 1 warning)
