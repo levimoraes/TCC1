@@ -52,10 +52,10 @@ A norma apresenta três guias de qualidade. O primeiro modelo é referente à Qu
 \label{img:modelo_square}
 \end{figure}
 
-Este trabalho tem seu desenvolvimento focado no modelo de Qualidade de Uso que apresenta características externas ao software \cite{Square}. O foco deste trabalho está em medir indicadores quanto à manutenção do software.  
+Este trabalho tem seu desenvolvimento focado no modelo de Qualidade de Uso que apresenta características externas ao software \cite{Square}. O foco deste trabalho está em medir indicadores quanto à manutenabilidade do software. Essa característica está diretamente ligada ao processo de Manutenção do Software.  
 
 \subsection{Manutenção de Software}
-Segundo Sommervile \cite{sommervile} manutenção de software é o processo de alterar o sistema depois que ele foi alterado. As alterações feitas no software podem ser simples correções de erro, a até mudanças significativamente grandes que corrigem falhas arquiteturais, ou mesmo melhorias para acomodar novos requisitos.
+Segundo Sommervile \cite{sommervile} manutenção de software é o processo de alterar o sistema depois que ele foi publicado. As alterações feitas no software podem ser simples correções de erro, a até mudanças significativamente grandes que corrigem falhas arquiteturais, ou mesmo melhorias para acomodar novos requisitos.
 \\Outra visão sobre manutenção de software é dada por Pressman \cite{pressman} em que o autor conceitua o termo como sendo a correção de defeitos, adaptação do software para atender uma mudança do ambiente e aperfeiçoar as funcionalidades para que atendam às necessidades dos usuários. Outra característica do processo de manutenção é a sua composição por um conjunto de sub processos, atividades e tarefas que podem ser utilizados durante a fase de manutenção para alterar um produto de software, contanto que seja mantido o seu funcionamento \cite{calazans_avaliacao_2005}.
 \\Para Sommervile existem quatro categorias de manutenção:
 \begin{itemize}
@@ -64,3 +64,25 @@ Segundo Sommervile \cite{sommervile} manutenção de software é o processo de a
 \item \textbf{Manutenção Perfectiva}: está manutenção é feito com o intuito de aperfeiçoar o software, além dos requisitos funcionais originais. Esta expansão dos requisitos traz consigo uma melhoria às funcionalidades até então implementadas ou um ganho de performance do sistema.
 \item \textbf{Manutenção Preventiva}: implementada para permitir que seja mais simples a correção, adaptação ou melhoria do software.
 \end{itemize}
+
+O modelo da figura \ref{img:modelo_manutencao}} apresenta as atividades propostas por Pfleeger para um processo de manutenção. Na figura percebe-se que o processo de acompanhamento da manutenção ocorre durante todo o processo. As atividades apresentadas no diagrama são:
+
+\begin{itemize}
+\item \textbf{Analise do Impacto da Mudanção de Software}: estima o impacto de uma determinada mudança. Nesta atividade determina-se o grau de mudança e o quanto está mudança impactará no resto do software. 
+\item \textbf{Entendimento do Software a ser Alterado}: nesta atividade são analisados os códigos-fonte do software para entender a mudança e a integração do que deve ser alterado. Esta atividade depende muito do grau de manutenabilidade do software, uma vez que quanto mais manutenível mais fácil e rapido se dá o processo de analise do software.
+\item \textbf{Implementação da Mudança}: incremento ou modificação do software. Está atividade é diretamente relacionada com o grau de adaptação do software, o quanto o software pode ser expandido ou comprimido. Essa característica de adaptabilidade é uma subcaracterística da Manutenabilidade de software apresentada pela norma Square. 
+\item \textbf{Mudanças pelo Efeito Cascata}: Analise da propagação das mudanças ao longo do software. Essa atividade está intimamente relacionada com o indicador de coesão e acomplamento do software, este afere o quão amarrado estão as classes e os métodos do software.
+\item \textbf{(Re)Teste do Software}: é a ultima atividade antes da entrega do software alterado. O software é testado novamente sob a perspectiva do novo requisito.
+\end{itemize}
+
+\graphicspath{{figuras/}}
+\begin{figure}
+\centering
+\includegraphics[scale=0.50]{Manutencao}
+\caption{Diagrama das Atividades de Manutenção de Software.Fonte:\cite{pfleeger_framework_1990}}
+\label{img:modelo_manutencao}
+\end{figure}
+Um estudo realizado por Kustyers e Heemstra \cite{kusters} mostram a dificuldade de atuais na manutenção de software em seis grandes organizações da Alemanha. Um dos resultados obtidos foi que existe um uma falta muito grande na percepção quanto ao tamanho e o custo das manutenções de software. Os autores relatam que os gastos com manutenção são altos e que das seis empresas apenas uma mantinha registrado os seus processos de manutenção e os usava para fazer um novo planejamento. 
+\\Normalmente tem se como verdade de que a manutenção de software está unicamente ligada ao conserto de \textit{bugs}, entretanto estudos e \textit{surveys} ao longo dos anos comprovam que mais de 80\% do esforço gasto na manutenção é utilizado em ações não corretivas segundo Pigosky \cite{pigosky}. O autor também afirma que entre 40\% a 60\% do esforço de manutenção está em entender o software que será modificado.
+ 
+

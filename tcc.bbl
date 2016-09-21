@@ -13,14 +13,26 @@
 Dispon{\'\i}vel em:
   \url{http://www.computacao.unitri.edu.br/erac/index.php/e-rac/article/view/122}.}
 
-\bibitem[International Standards Organization]{Square}
-\abntrefinfo{International Standards Organization}{INTERNATIONAL STANDARDS
-  ORGANIZATION}{}
-{INTERNATIONAL STANDARDS ORGANIZATION. \emph{Systems and software engineering
-  -- Systems and software Quality Requirements and Evaluation (SQuaRE) --
-  System and software quality models.}
-2011. ed. [S.l.]. Dispon{\'\i}vel em:
-  \url{https://www.itscj.ipsj.or.jp/sc29/open/29view/29n8146t.doc}.}
+\bibitem[Calazans e Oliveira 2005]{calazans_avaliacao_2005}
+\abntrefinfo{Calazans e Oliveira}{CALAZANS; OLIVEIRA}{2005}
+{CALAZANS, A. T.~S.; OLIVEIRA, M. A.~L. Avalia{\c c}{\~a}o de {Estimativa} de
+  {Tamanho} para projetos de {Manuten{\c c}{\~a}o} de {Software}. In:
+  \emph{Proc. of {Argentine} {Symposium} on {Software} {Engineering}}. [S.l.:
+  s.n.], 2005.}
+
+\bibitem[ISO 25010]{Square}
+\abntrefinfo{ISO 25010}{ISO 25010}{}
+{ISO 25010. \emph{Systems and software engineering -- Systems and software
+  Quality Requirements and Evaluation (SQuaRE) -- System and software quality
+  models.}
+2011. ed. [S.l.].}
+
+\bibitem[Kusters e Heemstra 2001]{kusters}
+\abntrefinfo{Kusters e Heemstra}{KUSTERS; HEEMSTRA}{2001}
+{KUSTERS, R.~J.; HEEMSTRA, F.~J. Software maintenance: an approach towards
+  control. In:  \emph{Software Maintenance, 2001. Proceedings. IEEE
+  International Conference on}. [S.l.: s.n.], 2001. p. 667--670.
+ISSN 1063-6773.}
 
 \bibitem[MARTINHO e MUNIZ 2013]{martinho_git_2013}
 \abntrefinfo{MARTINHO e MUNIZ}{MARTINHO; MUNIZ}{2013}
@@ -42,6 +54,18 @@ Dispon{\'\i}vel em:
 \emph{Manuten{\c c}{\~a}o de Software: problemas t{\'\i}picos e diretrizes para
   uma disciplina espec{\'\i}fica}.
 Disserta\c{c}\~{a}o (Mestrado), 2007.}
+
+\bibitem[Pfleeger e Bohner 1990]{pfleeger_framework_1990}
+\abntrefinfo{Pfleeger e Bohner}{PFLEEGER; BOHNER}{1990}
+{PFLEEGER, S.~L.; BOHNER, S.~A. A framework for software maintenance metrics.
+  In:  \emph{Software {Maintenance}, 1990, {Proceedings}., {Conference} on}.
+  [S.l.]: IEEE, 1990. p. 320--327.}
+
+\bibitem[Pigoski 1996]{pigosky}
+\abntrefinfo{Pigoski}{PIGOSKI}{1996}
+{PIGOSKI, T.~M. Pratical software maintenance: Best practices for managing your
+  software investment.
+\emph{Wiley Computer Publishing}, 1996.}
 
 \bibitem[Pressman 2010]{pressman}
 \abntrefinfo{Pressman}{PRESSMAN}{2010}

@@ -13,6 +13,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
+Warning--I didn't find a database entry for "img:modelo_manutencao"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -24,45 +25,45 @@ Warning--faltando school em Paduelli
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 8 entries,
+You've used 12 entries,
             6714 wiz_defined-function locations,
-            1233 strings with 10702 characters,
-and the built_in function-call counts, 13345 in all, are:
-= -- 1823
-> -- 123
-< -- 422
-+ -- 514
-- -- 37
-* -- 760
-:= -- 1623
-add.period$ -- 28
-call.type$ -- 8
-change.case$ -- 59
-chr.to.int$ -- 23
-cite$ -- 9
-duplicate$ -- 1463
-empty$ -- 420
-format.name$ -- 177
-if$ -- 2595
+            1257 strings with 11391 characters,
+and the built_in function-call counts, 15427 in all, are:
+= -- 1888
+> -- 234
+< -- 365
++ -- 497
+- -- 72
+* -- 927
+:= -- 1920
+add.period$ -- 45
+call.type$ -- 12
+change.case$ -- 99
+chr.to.int$ -- 27
+cite$ -- 13
+duplicate$ -- 1445
+empty$ -- 694
+format.name$ -- 341
+if$ -- 3194
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 128
-newline$ -- 44
-num.names$ -- 25
-pop$ -- 176
+missing$ -- 197
+newline$ -- 62
+num.names$ -- 45
+pop$ -- 266
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 42
 quote$ -- 0
-skip$ -- 1594
+skip$ -- 1597
 stack$ -- 1
-substring$ -- 588
-swap$ -- 502
-text.length$ -- 8
+substring$ -- 657
+swap$ -- 518
+text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 13
 warning$ -- 2
-while$ -- 39
+while$ -- 67
 width$ -- 0
-write$ -- 116
-(There were 2 warnings)
+write$ -- 177
+(There were 3 warnings)

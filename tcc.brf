@@ -1,6 +1,7 @@
 \backcite {_nbr_2016}{{13}{(document)}{Doc-Start}}
 \backcite {_nbr_2016}{{13}{(document)}{Doc-Start}}
 \backcite {Square}{{13}{(document)}{Doc-Start}}
+\backcite {pfleeger_framework_1990}{{13}{(document)}{Doc-Start}}
 \backcite {Paduelli}{{21}{1.1}{section.1.1}}
 \backcite {Paduelli}{{25}{2.1}{section.2.1}}
 \backcite {_nbr_2016}{{25}{2.1}{section.2.1}}
@@ -11,6 +12,11 @@
 \backcite {Square}{{27}{2.1.1}{figure.2.3}}
 \backcite {sommervile}{{28}{2.1.2}{subsection.2.1.2}}
 \backcite {pressman}{{28}{2.1.2}{subsection.2.1.2}}
-\backcite {bento_alise_2013}{{29}{3.1.1}{subsection.3.1.1}}
-\backcite {martinho_git_2013}{{29}{3.1.1}{subsection.3.1.1}}
-\backcite {martinho_git_2013}{{29}{3.1.2}{subsection.3.1.2}}
+\backcite {calazans_avaliacao_2005}{{28}{2.1.2}{subsection.2.1.2}}
+\backcite {img:modelo_manutencao}{{28}{2.1.2}{subsection.2.1.2}}
+\backcite {pfleeger_framework_1990}{{29}{4}{figure.2.4}}
+\backcite {kusters}{{29}{2.1.2}{figure.2.4}}
+\backcite {pigosky}{{29}{2.1.2}{figure.2.4}}
+\backcite {bento_alise_2013}{{31}{3.1.1}{subsection.3.1.1}}
+\backcite {martinho_git_2013}{{31}{3.1.1}{subsection.3.1.1}}
+\backcite {martinho_git_2013}{{31}{3.1.2}{subsection.3.1.2}}
