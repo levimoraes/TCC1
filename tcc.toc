@@ -18,25 +18,27 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{25}{chapter.2}
 \contentsline {section}{\numberline {2.1}Qualidade}{25}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Normas SQuaRE}{27}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Manuten\IeC {\c c}\IeC {\~a}o de Software}{28}{subsection.2.1.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Suporte Tecnol\IeC {\'o}gico}}{27}{chapter.3}
-\contentsline {section}{\numberline {3.1}Ferramentas para Programa\IeC {\c c}\IeC {\~a}o}{27}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}GIT}{27}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Github}{27}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Bonita}{27}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Mac OS X}{28}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}LaTeX}{28}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Sublime Text 3}{28}{subsection.3.1.6}
-\contentsline {subsection}{\numberline {3.1.7}Zotero}{28}{subsection.3.1.7}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Suporte Tecnol\IeC {\'o}gico}}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}Ferramentas para Programa\IeC {\c c}\IeC {\~a}o}{29}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}GIT}{29}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Github}{29}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Bonita}{29}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Mac OS X}{30}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}LaTeX}{30}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Sublime Text 3}{30}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Zotero}{30}{subsection.3.1.7}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Proposta}}{29}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Proposta}}{31}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Metodologia}}{31}{chapter.5}
-\contentsline {section}{\numberline {5.1}Metodologia}{31}{section.5.1}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Metodologia}}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Metodologia}{33}{section.5.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Resultados parciais}}{33}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Resultados parciais}}{35}{chapter.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es finais}}{35}{chapter.7}
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es finais}}{37}{chapter.7}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{37}{section*.12}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{39}{section*.12}
