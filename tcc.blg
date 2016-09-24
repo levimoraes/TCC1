@@ -13,11 +13,13 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
-Warning--I didn't find a database entry for "img:modelo_manutencao"
+Warning--entry type for "Lei_1993" isn't style-file defined
+--line 19 of file bibliografia.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo year vazio ou faltando em Lei_1993
 Warning--campo year vazio ou faltando em Square
 Warning--faltando school em Paduelli
 +---------------------------------------------------------+
@@ -25,45 +27,45 @@ Warning--faltando school em Paduelli
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 12 entries,
+You've used 15 entries,
             6714 wiz_defined-function locations,
-            1257 strings with 11391 characters,
-and the built_in function-call counts, 15427 in all, are:
-= -- 1888
-> -- 234
+            1268 strings with 11653 characters,
+and the built_in function-call counts, 16970 in all, are:
+= -- 1987
+> -- 279
 < -- 365
-+ -- 497
-- -- 72
-* -- 927
-:= -- 1920
-add.period$ -- 45
-call.type$ -- 12
-change.case$ -- 99
-chr.to.int$ -- 27
-cite$ -- 13
-duplicate$ -- 1445
-empty$ -- 694
-format.name$ -- 341
-if$ -- 3194
++ -- 512
+- -- 87
+* -- 1020
+:= -- 2158
+add.period$ -- 53
+call.type$ -- 15
+change.case$ -- 117
+chr.to.int$ -- 30
+cite$ -- 17
+duplicate$ -- 1519
+empty$ -- 840
+format.name$ -- 410
+if$ -- 3558
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 197
-newline$ -- 62
-num.names$ -- 45
-pop$ -- 266
+missing$ -- 240
+newline$ -- 76
+num.names$ -- 60
+pop$ -- 311
 preamble$ -- 1
-purify$ -- 42
+purify$ -- 51
 quote$ -- 0
-skip$ -- 1597
+skip$ -- 1697
 stack$ -- 1
-substring$ -- 657
-swap$ -- 518
+substring$ -- 696
+swap$ -- 544
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 13
-warning$ -- 2
-while$ -- 67
+warning$ -- 3
+while$ -- 84
 width$ -- 0
-write$ -- 177
-(There were 3 warnings)
+write$ -- 217
+(There were 4 warnings)

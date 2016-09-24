@@ -5,6 +5,10 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[1993]{Lei_1993}
+\abntrefinfo{1993}{1993}{}
+{1993, B. \emph{Lei n 8.666, de 21 de junho de 1993}.}
+
 \bibitem[BENTO et al. 2013]{bento_alise_2013}
 \abntrefinfo{BENTO et al.}{BENTO et al.}{2013}
 {BENTO, G.~V. et al. An{\'a}lise {Comparativa} de {Sistemas} de {Controle} de
@@ -12,6 +16,11 @@
 \emph{e-RAC}, v.~3, n.~1, 2013.
 Dispon{\'\i}vel em:
   \url{http://www.computacao.unitri.edu.br/erac/index.php/e-rac/article/view/122}.}
+
+\bibitem[BRASIL 1997]{decreto_2271}
+\abntrefinfo{BRASIL}{BRASIL}{1997}
+{BRASIL. \emph{DECRETO No 2.271, DE 7 DE JULHO DE 1997}.
+[S.l.], 1997.}
 
 \bibitem[Calazans e Oliveira 2005]{calazans_avaliacao_2005}
 \abntrefinfo{Calazans e Oliveira}{CALAZANS; OLIVEIRA}{2005}
@@ -75,5 +84,11 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
 \bibitem[Sommervile 2011]{sommervile}
 \abntrefinfo{Sommervile}{SOMMERVILE}{2011}
 {SOMMERVILE, I. \emph{Software Engineering}. 9. ed. [S.l.]: Pearson, 2011.}
+
+\bibitem[Uni{\~a}o 2012]{guia_boas_praticas}
+\abntrefinfo{Uni{\~a}o}{UNI{\~A}O}{2012}
+{UNI{\~A}O, T. de~Contas~da. \emph{Guia de boas pr{\'a}ticas em contrata{\c
+  c}{\~a}o de solu{\c c}{\~o}es de tecnologia da Informa{\c c}{\~a}o}.
+[S.l.], 2012.}
 
 \end{thebibliography}
