@@ -4,6 +4,25 @@
 	
 	Este capítulo tem como objetivo servir como referencial teórico para todo o documento. As idéias discutidas neste capítulo são
 	
+\section{Processo de Contratação de Software na APF}
+O Decreto n\c 2.271 de 1997 \cite{decreto_2271} dispõe sobre a contratação de serviços pela APF. Segundo o Decreto todos os produtos ou serviços que não apresentam relação direta com o propósito da instituição do governo federal devem ser tercerizados. O Decreto coloca como exemplo algumas atividades como por exemplo, conservação, limpeza, segurança, vigilância, transportes, informática, copeiragem, recepção, reprografia, telecomunicações são atividades livres para tercerização.
+\\A licitação é um conjunto de processos administrativos de caráter formal para as compras de bens ou serviços nos governos federais, estaduais ou municipais. Segundo a Lei  n 8.666 de 1993, o governo brasileiro para garantir a isonomia (princípio geral do direito segundo o qual todos são iguais perante a lei) diz que para contratações de bens ou serviços deve-se dar prioridade para licitação \cite{Lei_1993}. A licitação pode ocorrer de quatro categorias: concorrência, tomada de preços, convite e pregão \cite{brazil_licitacoes_2010}.
+\\Uma vez que uma empresa ganha a licitação para um serviço a empresa ganha o direito de contratação para prestar o serviço ao orgão contratante. Para ajudar no processo de contratação de empresas terceirizadas voltadas para a área de TI o TCU disponibiliza um Guia de boas práticas de contratações em soluções de TI \cite{guia_boas_praticas}. Segundo o guia a prática de contratação do serviço de desenvolvimento de um sistema de informação pode englobar elementos do tipo:
+\begin{itemize}
+\item Os softwares do sistema, devidamente documentados e com evidências de que foram testados;
+\item As bases de dados do sistema, devidamente documentadas;
+\item O sistema implantado no ambiente de produção do órgão;
+\item A tecnologia do sistema transferida para a equipe do órgão, que deve ocorrer ao longo de todo o contrato;
+\item As rotinas de produção do sistema, devidamente documentadas e implantadas no ambiente de produção do órgão;
+\item As minutas dos normativos que legitimem os atos praticados por intermédio do sistema;
+\item O sistema de indicadores de desempenho do sistema implantado, que pode incluir as atividades de coleta de dados para gerar os indicadores, fórmula de cálculo de cada indicador e forma de publicação dos indicadores. Citam-se, como exemplos, os indicadores de disponibilidade, de desempenho das transações e de satisfação dos usuários com o sistema de informação;
+\item Os scripts necessários para prover os atendimentos relativos ao sistema por parte da equipe de atendimento aos usuários, devidamente implantados e documentados;
+\item A capacitação dos diversos atores envolvidos com o sistema (e.g. equipe de suporte técnico do órgão, equipe de atendimento aos usuários, equipe da unidade gestora do sistema e usuários finais), que pode envolver treinamentos presenciais e a distância;
+\item O serviço contínuo de suporte técnico ao sistema (e.g. atendimento aos chamados feitos pelo órgão junto à contratada sobre dúvidas e problemas relativos ao sistema);
+\item O serviço contínuo de manutenção do sistema (e.g. implantação de manutenções corretivas e evolutivas).
+\end{itemize} 
+
+
 \section{Qualidade}
 	O principal produto da engenharia de software é o software, contudo o que tem se vivenciado na realidade brasileira de computação é que o software que está sendo entregue é um software precário e de baixa qualidade. Por ser uma palavra abstrata, o conceito de qualidade é bem amplo, porém o termo qualidade normalmente está associado a uma medida relativa, essa qualidade pode ser entendida como "conformidade às especificações". Conceituando dessa forma, a não conformidade às especificação é igual a ausência de qualidade \cite{Paduelli}.
 \\ A ISO 9126-1 proposta em 2001, também conhecida como Engenharia de Software - Qualidade do Produto, descreve o modelo de qualidade voltado para o produto de software como sendo composto por duas categorias como pode ser visto na Figura \ref{img:relacao_iso}. A primeira categoria está relacionada a qualidade interna e a qualidade externa do software. A segunda categoria se relaciona com a qualidade de uso do software \cite{_nbr_2016}
@@ -33,8 +52,8 @@
 \end{itemize}
 Em 2011 surgiu um conjunto de normas conhecidos como SQuaRE que traziam um framework aprimorado à atual norma vigente. Este framework tinha como objetivo avaliar o produto de qualidade de software.
 
-\subsection{Normas SQuaRE}
-Este conjunto de normas surgiu para substituir a ISO/IEC 9126, Engenharia de Software - Qualidade do Produto. ISO/IEC 25010 mantém as características de qualidade com alguns incrementos.
+\subsection{Norma SQuaRE}
+O conjunto de normas SQuaRE (Requisitos e Avaliação de Qualidade de Sistema e Software) surgiu para substituir a ISO/IEC 9126. O objetivo destas normas é prover um framework que avalie a qualidade do produto de software \cite{luiza_yago}. ISO/IEC 25010 mantém as características de qualidade já definidas na ISO 9126 com alguns incrementos.
 
 \begin{itemize}
 \item O escopo dos modelos de qualidade foram extendidos para incluir sistemas computacionais e a qualidade em uso pelo ponto de vista do sistema
@@ -44,6 +63,19 @@ Este conjunto de normas surgiu para substituir a ISO/IEC 9126, Engenharia de Sof
 \end{itemize}
 
 A norma apresenta três guias de qualidade. O primeiro modelo é referente à Qualidade do Produto, o segundo da Qualidade em Uso e o último Qualidade de Dados.O modelo de Qualidade do Produto subdivide um sistema de software em oito categorias como mostra a imagem \ref{img:modelo_square}.
+Assim como a ISO 9126, a ISO 25010 também apresenta categorias, estas categorias se assemelham às categorias da ISO 9126 a qual serviu como base para criação da norma SQuaRE, estas caracteristicas são:
+
+\begin{itemize}
+\item \textbf{Adequação Funcional}: nível que determina o quanto um produto ou sistema satisfazem as especificações providas pelo usuário.
+\item \textbf{Eficiência de Performance}: performance relativa à quantidade de recursos usados em condições específicas.
+\item \textbf{Compatibilidade}: o nível que um sistema ou produto pode compartilhar informaçõesc com outros produtos, sistemas ou componentes.
+\item \textbf{Usabilidade}: O nível que um produto ou sistema pode ser usado por usuários específicos para atingir seus objetivos com efetividade, eficiência e satisfação em contexto específico de uso.
+\item \textbf{Confiabilidade}: nível que um sistema, produto ou componente executa suas atividades em um contexto pré-determinado e específico para uso.
+\item \textbf{Segurança}: nível no qual um sistema protege as informações e os dados de maneira que pessoas ou outros sistemas tenham acesso limitado de acordo com nível de autorização especifíco.
+\item \textbf{Manutenibilidade}: nível de efetividade e eficiência com o qual um produto ou sistema pode ser modificado pelos sistemas mantenedores.
+\item \textbf{Portabilidade}: Nível de efetividade e eficiência com o qual um sistema, produto ou componente pode ser transferido de um hardware, software ou ambiente de uso para outro.
+\end{itemize}
+
 \graphicspath{{figuras/}}
 \begin{figure}
 \centering
@@ -52,7 +84,7 @@ A norma apresenta três guias de qualidade. O primeiro modelo é referente à Qu
 \label{img:modelo_square}
 \end{figure}
 
-Este trabalho tem seu desenvolvimento focado no modelo de Qualidade de Uso que apresenta características externas ao software \cite{Square}. O foco deste trabalho está em medir indicadores quanto à manutenabilidade do software. Essa característica está diretamente ligada ao processo de Manutenção do Software.  
+Este trabalho tem seu desenvolvimento focado no modelo de Qualidade de Uso que apresenta características externas ao software e os resultados são coletados através de atributos estáticos \cite{Square}. O foco deste trabalho está em medir indicadores quanto à manutenabilidade do software. Essa característica está diretamente ligada ao processo de Manutenção do Software.  
 
 \subsection{Manutenção de Software}
 Segundo Sommervile \cite{sommervile} manutenção de software é o processo de alterar o sistema depois que ele foi publicado. As alterações feitas no software podem ser simples correções de erro, a até mudanças significativamente grandes que corrigem falhas arquiteturais, ou mesmo melhorias para acomodar novos requisitos.
@@ -84,21 +116,38 @@ O modelo da figura \ref{img:modelo_manutencao} apresenta as atividades propostas
 \end{figure}
 Um estudo realizado por Kustyers e Heemstra \cite{kusters} mostram a dificuldade de atuais na manutenção de software em seis grandes organizações da Alemanha. Um dos resultados obtidos foi que existe um uma falta muito grande na percepção quanto ao tamanho e o custo das manutenções de software. Os autores relatam que os gastos com manutenção são altos e que das seis empresas apenas uma mantinha registrado os seus processos de manutenção e os usava para fazer um novo planejamento. 
 \\Normalmente tem se como verdade de que a manutenção de software está unicamente ligada ao conserto de \textit{bugs}, entretanto estudos e \textit{surveys} ao longo dos anos comprovam que mais de 80\% do esforço gasto na manutenção é utilizado em ações não corretivas segundo Pigosky \cite{pigosky}. O autor também afirma que entre 40\% a 60\% do esforço de manutenção está em entender o software que será modificado.
- 
-\section{Processo de Contratação de Software na APF}
-O Decreto n\c 2.271 de 1997 \cite{decreto_2271} dispõe sobre a contratação de serviços pela APF. Segundo o Decreto todos os produtos ou serviços que não apresentam relação direta com o propósito da instituição do governo federal devem ser tercerizados. O Decreto coloca como exemplo algumas atividades como por exemplo, conservação, limpeza, segurança, vigilância, transportes, informática, copeiragem, recepção, reprografia, telecomunicações são atividades livres para tercerização.
-\\A licitação é um conjunto de processos administrativos de caráter formal para as compras de bens ou serviços nos governos federais, estaduais ou municipais. Segundo a Lei  n 8.666 de 1993, o governo brasileiro para garantir a isonomia (princípio geral do direito segundo o qual todos são iguais perante a lei) diz que para contratações de bens ou serviços deve-se dar prioridade para licitação \cite{Lei_1993}. A licitação pode ocorrer de quatro categorias: concorrência, tomada de preços, convite e pregão \cite{brazil_licitacoes_2010}.
-\\Uma vez que uma empresa ganha a licitação para um serviço a empresa ganha o direito de contratação para prestar o serviço ao orgão contratante. Para ajudar no processo de contratação de empresas terceirizadas voltadas para a área de TI o TCU disponibiliza um Guia de boas práticas de contratações em soluções de TI \cite{guia_boas_praticas}. Segundo o guia a prática de contratação do serviço de desenvolvimento de um sistema de informação pode englobar elementos do tipo:
+
+\section{Métricas de Qualidade de Software}
+Uma métrica é uma função que pode ser medida, e métrica de qualidade de software é uma funcão na cuja entrada é uma informação de software e cuja saida é um único valor numérico que pode ser interpretado como nível que é dado a um software \cite{karner}. Segundo \cite{pressman} métricas podem ser definidas como sendo um pequeno subconjunto de informações que tem informações úteis acerca do software.
+Segundo Mills algumas características são inerentes a uma boa métrica, caracteristicas como, simplicidade,objetividade, fácil obtenção, validade, robustez, linearidade de escala. Diversos autores sugeriram conjunto de métricas que combinadas tratam de várias áreas de qualidade de software \cite{paulo_meirelles}.
+
+\subsection{Suíte de Chidamber-Kemerer}
+Este conjunto de métricas foi proposto por Shyam R. Chidamber e por Chris F. Kemerer em 1994 tem como objetivo avaliar aspectos de qualidade interna dos artefatos produzidos sob a visão de uma linguagem orientada a objetos \cite{chidamber}. A suíte apresenta as seguintes métricas:
 \begin{itemize}
-\item Os softwares do sistema, devidamente documentados e com evidências de que foram testados;
-\item As bases de dados do sistema, devidamente documentadas;
-\item O sistema implantado no ambiente de produção do órgão;
-\item A tecnologia do sistema transferida para a equipe do órgão, que deve ocorrer ao longo de todo o contrato;
-\item As rotinas de produção do sistema, devidamente documentadas e implantadas no ambiente de produção do órgão;
-\item As minutas dos normativos que legitimem os atos praticados por intermédio do sistema;
-\item O sistema de indicadores de desempenho do sistema implantado, que pode incluir as atividades de coleta de dados para gerar os indicadores, fórmula de cálculo de cada indicador e forma de publicação dos indicadores. Citam-se, como exemplos, os indicadores de disponibilidade, de desempenho das transações e de satisfação dos usuários com o sistema de informação;
-\item Os scripts necessários para prover os atendimentos relativos ao sistema por parte da equipe de atendimento aos usuários, devidamente implantados e documentados;
-\item A capacitação dos diversos atores envolvidos com o sistema (e.g. equipe de suporte técnico do órgão, equipe de atendimento aos usuários, equipe da unidade gestora do sistema e usuários finais), que pode envolver treinamentos presenciais e a distância;
-\item O serviço contínuo de suporte técnico ao sistema (e.g. atendimento aos chamados feitos pelo órgão junto à contratada sobre dúvidas e problemas relativos ao sistema);
-\item O serviço contínuo de manutenção do sistema (e.g. implantação de manutenções corretivas e evolutivas).
-\end{itemize} 
+
+\item \textbf{WMC}: Em uma classe com \textit{n} métodos, a complexidade é dada como sendo a complexidade dos \textit{n} métodos. 
+ \begin{equation}
+WMC = \sum_{i=1}^{n}Ci
+\end{equation}
+
+
+Essa métrica serve como indicador para o nível geral da modularização. Quanto maior o valor mais complexas estão a classe ou poucas classes possuem um indíce de complexidade muito alto.
+
+\item \textbf{DIT}: Tamanho do maior caminho entre a raiz da árvore de herança e a classe a qual está sendo analisada. Essa métrica permite ver o quanto uma mudança em uma determinada classe pode afetar todo o sistema.
+
+\item \textbf{NOC}: Quantidade de classes que se utilizam da classe em analise, seja por herança ou implementação. Essa métrica junto com outras ajuda a determinar quais classes são primordiais para o funcionamento do sistema.
+
+\item \textbf{CBO}: Está métrica é dada pela equação 2.2: 
+
+\begin{equation}
+CBO = \frac{Número de Depencencias}{Número de Classes no Pacote}
+\end{equation}
+Uma dependência pode ser definida como o uso de um método ou variável de outra classe porém do mesmo pacote.
+
+\item \textbf{RFC}: Número de métodos e construtores distintos que são chamados por uma classe. Está medida é muito utilizada para cobertura de testes, em que é pode ser constatado a necessidade ou não de uma modularização de uma classe.
+
+\item \textbf{LCOM}: Sendo \textit{C} uma classe com \textit{n} métodos, seja \textit{In} o conjunto de variáveis de instância utilizadas pelo método \textit{n}, seja \textit{P} o conjunto tal que:
+
+\end{itemize}
+
+\subsection{Visualização de Métricas de Software}

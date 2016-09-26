@@ -5,10 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[1993]{Lei_1993}
-\abntrefinfo{1993}{1993}{}
-{1993, B. \emph{Lei n 8.666, de 21 de junho de 1993}.}
-
 \bibitem[BENTO et al. 2013]{bento_alise_2013}
 \abntrefinfo{BENTO et al.}{BENTO et al.}{2013}
 {BENTO, G.~V. et al. An{\'a}lise {Comparativa} de {Sistemas} de {Controle} de
@@ -17,10 +13,21 @@
 Dispon{\'\i}vel em:
   \url{http://www.computacao.unitri.edu.br/erac/index.php/e-rac/article/view/122}.}
 
+\bibitem[BRASIL]{Lei_1993}
+\abntrefinfo{BRASIL}{BRASIL}{}
+{BRASIL. \emph{Lei n 8.666, de 21 de junho de 1993}.}
+
 \bibitem[BRASIL 1997]{decreto_2271}
 \abntrefinfo{BRASIL}{BRASIL}{1997}
 {BRASIL. \emph{DECRETO No 2.271, DE 7 DE JULHO DE 1997}.
 [S.l.], 1997.}
+
+\bibitem[{Brazil} 2010]{brazil_licitacoes_2010}
+\abntrefinfo{{Brazil}}{{Brazil}}{2010}
+{{Brazil} (Ed.). \emph{Licita{\c c}{\~o}es \& contratos: orienta{\c c}{\~o}es e
+  jurisprud{\^e}ncia do {TCU}}. 4a edi{\c c}{\~a}o revista, ampliada e
+  atualizada. ed. Bras{\'\i}lia: TCU, Tribunal de Contas da Uni{\~a}o, 2010.
+ISBN 978-85-7018-319-4.}
 
 \bibitem[Calazans e Oliveira 2005]{calazans_avaliacao_2005}
 \abntrefinfo{Calazans e Oliveira}{CALAZANS; OLIVEIRA}{2005}
@@ -29,12 +36,23 @@ Dispon{\'\i}vel em:
   \emph{Proc. of {Argentine} {Symposium} on {Software} {Engineering}}. [S.l.:
   s.n.], 2005.}
 
+\bibitem[Chidamber 1994]{chidamber}
+\abntrefinfo{Chidamber}{CHIDAMBER}{1994}
+{CHIDAMBER, C. F.~K. S.~R. A metrics suite for object oriented design. In:
+  \emph{IEEE Transactions On Software Engineering}. [S.l.: s.n.], 1994.}
+
 \bibitem[ISO 25010]{Square}
 \abntrefinfo{ISO 25010}{ISO 25010}{}
 {ISO 25010. \emph{Systems and software engineering -- Systems and software
   Quality Requirements and Evaluation (SQuaRE) -- System and software quality
   models.}
 2011. ed. [S.l.].}
+
+\bibitem[Kaner 2004]{karner}
+\abntrefinfo{Kaner}{KANER}{2004}
+{KANER, C. Software engineering metrics: What do they measure and how do we
+  know?
+\emph{10TH INTERNATIONAL SOFTWARE METRICS SYMPOSIUM}, 2004.}
 
 \bibitem[Kusters e Heemstra 2001]{kusters}
 \abntrefinfo{Kusters e Heemstra}{KUSTERS; HEEMSTRA}{2001}
@@ -50,6 +68,13 @@ ISSN 1063-6773.}
 \emph{GIT SCM: Sistema de Controle de Versionamento Distribu{\'\i}do}, 2013.
 Dispon{\'\i}vel em:
   \url{http://www.tjam.jus.br/index.php?option=com\_content&view=article&id=4032\%3Agit-scm-sistema-de-controle-de-versionamento-distribuido&catid=344\%3Asds-artigos-cientificos-e-tecnologicos&Itemid=455&showall=1}.}
+
+\bibitem[Meirelles 2008]{paulo_meirelles}
+\abntrefinfo{Meirelles}{MEIRELLES}{2008}
+{MEIRELLES, P.~R.
+\emph{Levantamento de M{\'e}tricas de Avalia{\c c}{\~a}o de Projetos de
+  Software Livre}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade de S{\~a}o Paulo, 2008.}
 
 \bibitem[{NBR} {ISO}/{IEC} 9126-1 2016]{_nbr_2016}
 \abntrefinfo{{NBR}\ldots}{{NBR}\ldots}{2016}
@@ -80,6 +105,13 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
 \abntrefinfo{Pressman}{PRESSMAN}{2010}
 {PRESSMAN, R.~S. \emph{Software Engineering - A Practioner's Approach}. 7. ed.
   [S.l.]: Higher Education, 2010.}
+
+\bibitem[Schaidt 2014]{luiza_yago}
+\abntrefinfo{Schaidt}{SCHAIDT}{2014}
+{SCHAIDT, Y.~R. L.
+\emph{Monitoramento de Qualidade de Software na Administra{\c c}{\~a}o
+  P{\'u}blica Federal}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia, 2014.}
 
 \bibitem[Sommervile 2011]{sommervile}
 \abntrefinfo{Sommervile}{SOMMERVILE}{2011}

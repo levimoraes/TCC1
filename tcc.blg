@@ -14,7 +14,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "Lei_1993" isn't style-file defined
---line 19 of file bibliografia.bib
+--line 61 of file bibliografia.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -27,45 +27,45 @@ Warning--faltando school em Paduelli
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 15 entries,
+You've used 20 entries,
             6714 wiz_defined-function locations,
-            1268 strings with 11653 characters,
-and the built_in function-call counts, 16970 in all, are:
-= -- 1987
-> -- 279
-< -- 365
-+ -- 512
-- -- 87
-* -- 1020
-:= -- 2158
-add.period$ -- 53
-call.type$ -- 15
-change.case$ -- 117
-chr.to.int$ -- 30
-cite$ -- 17
-duplicate$ -- 1519
-empty$ -- 840
-format.name$ -- 410
-if$ -- 3558
+            1294 strings with 12440 characters,
+and the built_in function-call counts, 19820 in all, are:
+= -- 2176
+> -- 355
+< -- 366
++ -- 538
+- -- 112
+* -- 1207
+:= -- 2579
+add.period$ -- 71
+call.type$ -- 20
+change.case$ -- 150
+chr.to.int$ -- 38
+cite$ -- 22
+duplicate$ -- 1671
+empty$ -- 1105
+format.name$ -- 525
+if$ -- 4222
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 240
-newline$ -- 76
-num.names$ -- 60
-pop$ -- 311
+missing$ -- 324
+newline$ -- 102
+num.names$ -- 85
+pop$ -- 402
 preamble$ -- 1
-purify$ -- 51
+purify$ -- 66
 quote$ -- 0
-skip$ -- 1697
+skip$ -- 1857
 stack$ -- 1
-substring$ -- 696
-swap$ -- 544
+substring$ -- 783
+swap$ -- 602
 text.length$ -- 9
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 13
+type$ -- 22
 warning$ -- 3
-while$ -- 84
+while$ -- 114
 width$ -- 0
-write$ -- 217
+write$ -- 292
 (There were 4 warnings)
