@@ -23,7 +23,9 @@
 \contentsline {subsection}{\numberline {2.2.2}Manuten\IeC {\c c}\IeC {\~a}o de Software}{29}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}M\IeC {\'e}tricas de Qualidade de Software}{31}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Su\IeC {\'\i }te de Chidamber-Kemerer}{32}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Visualiza\IeC {\c c}\IeC {\~a}o de M\IeC {\'e}tricas de Software}{33}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Su\IeC {\'\i }te MOOD}{33}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Suite de Halstead}{34}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Visualiza\IeC {\c c}\IeC {\~a}o de M\IeC {\'e}tricas de Software}{34}{subsection.2.3.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Suporte Tecnol\IeC {\'o}gico}}{35}{chapter.3}
 \contentsline {section}{\numberline {3.1}Ferramentas para Programa\IeC {\c c}\IeC {\~a}o}{35}{section.3.1}

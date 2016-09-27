@@ -140,14 +140,67 @@ Essa métrica serve como indicador para o nível geral da modularização. Quant
 \item \textbf{CBO}: Está métrica é dada pela equação 2.2: 
 
 \begin{equation}
-CBO = \frac{Número de Depencencias}{Número de Classes no Pacote}
+CBO = \frac{NumberOfDependencies}{NumberOfClassInPackage}
 \end{equation}
 Uma dependência pode ser definida como o uso de um método ou variável de outra classe porém do mesmo pacote.
 
 \item \textbf{RFC}: Número de métodos e construtores distintos que são chamados por uma classe. Está medida é muito utilizada para cobertura de testes, em que é pode ser constatado a necessidade ou não de uma modularização de uma classe.
 
 \item \textbf{LCOM}: Sendo \textit{C} uma classe com \textit{n} métodos, seja \textit{In} o conjunto de variáveis de instância utilizadas pelo método \textit{n}, seja \textit{P} o conjunto tal que:
-
+\begin{equation}
+P = \{(Ii,Ij)|(Ii\bigcap Ij)= \o\}
+\end{equation}
+e \textit{Q} o conjunto tal que:
+\begin{equation}
+Q = \{(Ii,Ij)|(Ii\bigcap Ij)= \o\}
+\end{equation}
+então LCOM é definida como sendo:
+\begin{equation}
+LCOM = |P| - |Q| se |P|>|Q|
+\end{equation}
+ou zero caso contrário.
 \end{itemize}
 
-\subsection{Visualização de Métricas de Software}
+\subsection{Suíte MOOD}
+Outro conjunto de métricas que tem como objetivo de medir de maneira quantitativa é a suíte de métricas MOOD. Ela conta com oito métricas. Essas métricas visam atender as principais características da orientação a objeto, então principios como polimorfismo, baixo acoplamento, encapsulamento e outros princípios são altamente valorizados. As métricas são \cite{paulo_meirelles} \cite{moreira_avaliacao_2015}
+\begin{itemize}
+\item \textbf{MHF}: Métrica que indica a razão entre a soma de todos os métodos que são invisíveis em relação ao total de métodos do sistema.
+\\Número de métodos Visíveis em uma classe C
+\begin{equation}
+Mv(C)
+\end{equation}
+\\Número de métodos encapsulados em uma classe C
+\begin{equation}
+Me(C)
+\end{equation}
+\\O total de métodos é dado por
+\begin{equation}
+Mt(C) = Mv(C)+Me(C)
+\end{equation}
+\\A equação que representa esta métrica é dada por:
+\begin{equation}
+MHF =\frac{\sum_{TC}^{i=1}Mh(Ci)}{\sum_{TC}^{i=1}Mt(Ci)}
+\end{equation}
+Onde TC é o total de classes analisadas.
+
+\item \textbf{AHF}: Razão do somatório de todas os atributos que são herdados de todas as classes em relação ao número total de atributos. A equação que descreve este método é semelhante a dada por MHF
+\begin{equation}
+AHF =\frac{\sum_{TC}^{i=1}Ah(Ci)}{\sum_{TC}^{i=1}At(Ci)}
+\end{equation}
+
+\item \textbf{MIF}: Razão entre o somatório dos métodos herdados nas classes e o número total de métodos presentes no sistema.
+\begin{equation}
+MIF = \frac{TMh}{TMd}
+\end{equation}
+\item \textbf{AIF}: Razão entre a soma dos atributos herdados em todas as classes do sistema e o total de atributos da classe.
+\begin{equation}
+MIF = \frac{TAh}{TAd}
+\end{equation}
+\item \textbf{CFA}:Razão entre o total de acomplamentos permitídos no sistema e o atual número de acoplamentos possíveis por herança. Para está metrica toma-se como base uma relação cliente servidor entre as classes. Sempre que existir uma referência a um método ou atributo da classe servidora, usa-se a seguinte equação para calcular o fator de acoplamento.
+\begin{equation}
+COF = \frac{\sum_{TC}^{i=1}[\sum_{TC}^{i=1}isClient(Ci,Cj)]}{TC^2-TC}
+\end{equation}
+\item \textbf{PFA}: Razão entre o numéro atual de possibilidades de polimorfismo diferentes que podem ser utilizados em uma classe e o número máximo de polimorfismos diferentes que podem haver nesta mesma classe.
+\end{itemize}
+
+\section{Visualização da Informação}
