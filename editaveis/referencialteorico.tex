@@ -203,4 +203,46 @@ COF = \frac{\sum_{TC}^{i=1}[\sum_{TC}^{i=1}isClient(Ci,Cj)]}{TC^2-TC}
 \item \textbf{PFA}: Razão entre o numéro atual de possibilidades de polimorfismo diferentes que podem ser utilizados em uma classe e o número máximo de polimorfismos diferentes que podem haver nesta mesma classe.
 \end{itemize}
 
+Uma vez que as métricas se encontram definidas, deve-se pensar na melhor maneira de exibir as métricas para o usúario. O papel da visualização das métricas de software é definir com base na natureza, e na escala de uma métrica qual a melhor maneira de imprimir na tela essas informações.
+
 \section{Visualização da Informação}
+Computadores se tornaram peças fundamentais cotidiano do ser humano do século 21. Seja para lazer, estudo, comunicação, o computador revolucionou significamente em cada área que passou \cite{hasan_humancomputer_2014}.
+A visualização de software pode ser definida como uma disciplina que faz uso de várias formas de imagens que servem de insumo para compreender, entender e reduzir a complexidade dos sistemas de software existentes \cite{gracanin_software_2005}. Porém a visão que melhor se adapta ao contexto deste trabalho é dada por Gomes \cite{gomes_percepcao_2011} que diz que a visualização de uma forma generalizada é a construção de uma imagem visual na mente humana e está imagem vai além de representações gráficas ou conceitos.
+
+
+
+\subsection{Visualização de Dados}
+Segundo Gomes \cite{gomes_percepcao_2011} algumas técnicas para visualização de dados são mais eficazes do que outras dependendo da natureza do dado a ser observado. Gomes destaca duas técnicas de visualização de dados.
+
+\begin{itemize}
+\item \textbf{Visualização de Atributos}: Nesta técnica a natureza do dado é representado através de um gráfico ou um mapa. Também é possível representar através de ícones ou \textit{glifos}. ícones normalmente representam uma entidade ou um elemento que pertence a um contexto. O \textit{glifo} representa um objeto geométrico que representa uma entidade ou um elemento do todo. O \textit{glifo} tem uma forma que é definida pelo valor dos atributos da entidade como pode ser visto na figura \ref{img:glifo}.
+\graphicspath{{figuras/}}
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{Glifo}
+\caption{Exemplo de glifo utilizado na visualização da variação das medidas relacionadas com o desenvolvimento computacional. Fonte: \cite{gomes_percepcao_2011}}
+\label{img:glifo}
+\end{figure}
+
+\item \textbf{Visualização de Estruturas e Relações}: está técnica utiliza do conjunto de dados ou elementos que podem ser distribuitos de maneira hierarquica. Dentro deste conceito existe uma ramificação para o uso da técnica aplicado de maneiras diferentes que possuem focos diferentes, algumas dessas técnicas são \textit{Bifocal Display} em que a informação é apresentada em três seções distintas da minha representação, sendo a central a que contêm informações mais relevantes. Outra técnica utilizada é a \textit{Perspective Wall} em que a informação é "projetada para uma parede". Uma comparação entre as duas técnicas pode ser observado na imagem \ref{img:comparativo}.
+\graphicspath{{figuras/}}
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{Bifocal_Wall}
+\caption{Comparativo entre a)Bifocal Display e b) Perspective Wall}
+\label{img:comparativo}
+\end{figure}
+%
+\end{itemize}
+Uma revisão sistemática feita com foco em visualização de software \cite{salameh_software_2016} apresenta alguns questionamentos levantados pelos autores referente ao objetivo de se utilizar a técnica. As respostas encontradas pelos autores estavam divididas em quatro categorias. A primeira categoria encontrada baseava-se no artefato, a técnica era utilizada para acompanhar a evolução dos artefatos no repositório ao longo do tempo. A segunda categoria estava focada nas métricas, o objetivo estava em observar a alteração das métricas ao passar das entregas. A terceira categoria estava voltada para \textit{features}, o acompanhamento focava em analisar como e quais \textit{features} mudavam ao longo do tempo. A última categoria era centrada na arquitetura e em perceber as mudanças que estão envolvidas. Este trabalho tem seu objetivo focado na segunda categoria, acompanhar as métricas ao longo de um período de tempo e exibir para o usuário.
+\\Para que se possa acompanhar as métricas dos projetos é necessário que se mantenha um histórico das métricas coletadas em momentos diferentes do desenvolvimento do software para que seja possível fazer uma comparação \cite{da_silva_iavems:_2010}. Em seus estudos \cite{gracanin_software_2005} aponta três características que são necessárias para que se faça um bom acompanhamento histórico do software.
+\begin{itemize}
+\item \textbf{Tempo}: A visualização deve ser agrupada através do número da release ou outro indicador que possua um tempo definido. Deve ser feito um \textit{snapshot} do sistema em que é possível ver claramente quais alterações foram realizadas.
+\item \textbf{Estrutura}: O sistema deve ser decomposto em sub-sistemas, cada sub-sistema decomposto em módulos e cada módulo responsável por uma parte do código.
+\item \textbf{Atributos}: Deve conter o número da versão, tamanho, alterações, complexidade.
+\end{itemize}
+
+Uma vez que é coletado os dados, eles ja estão categorizados de acordo com a sua natureza e ja podem ser exibidos ainda é necessário discutir qual a melhor forma de exibir todas essas informações na tela. Uma das formas de se agrupar toda a informação de maneira ordenada e com sentido lógico é através de \textit{dashboards}. O conceito será apresntado no tópico a seguir
+
+\subsection{Dashboard}
+O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que um \textit{dashboard} é um \textit{display} virtual das informações mais importantes para atingir um ou mais objetivos, ele deve ser construido e organizado para ser capaz de caber em uma única página para que a informação seja achada com facilidade.

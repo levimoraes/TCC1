@@ -41,6 +41,27 @@ ISBN 978-85-7018-319-4.}
 {CHIDAMBER, C. F.~K. S.~R. A metrics suite for object oriented design. In:
   \emph{IEEE Transactions On Software Engineering}. [S.l.: s.n.], 1994.}
 
+\bibitem[Gomes e Tavares 2011]{gomes_percepcao_2011}
+\abntrefinfo{Gomes e Tavares}{GOMES; TAVARES}{2011}
+{GOMES, L. F.~O.; TAVARES, J. M.~R. Percep{\c c}{\~a}o humana na visualiza{\c
+  c}{\~a}o de grandes volumes de dados. In:  \emph{Actas do 10º {Congresso}
+  {Iberoamericano} de {Engenharia} {Mec{\^a}nica} ({CIBEM} 10)}. [s.n.], 2011.
+  Dispon{\'\i}vel em:
+  \url{https://repositorio-aberto.up.pt/handle/10216/56574}.}
+
+\bibitem[Gra{\v c}anin, Matkovi{\'c} e Eltoweissy 2005]{gracanin_software_2005}
+\abntrefinfo{Gra{\v c}anin, Matkovi{\'c} e Eltoweissy}{GRA{\v C}ANIN;
+  MATKOVI{\'C}; ELTOWEISSY}{2005}
+{GRA{\v C}ANIN, D.; MATKOVI{\'C}, K.; ELTOWEISSY, M. Software visualization.
+\emph{Innovations in Systems and Software Engineering}, v.~1, n.~2, p.
+  221--230, set. 2005.}
+
+\bibitem[Hasan e Abdul-Kareem 2014]{hasan_humancomputer_2014}
+\abntrefinfo{Hasan e Abdul-Kareem}{HASAN; ABDUL-KAREEM}{2014}
+{HASAN, H.; ABDUL-KAREEM, S. Human--computer interaction using vision-based
+  hand gesture recognition systems: a survey.
+\emph{Neural Computing and Applications}, v.~25, n.~2, p. 251--261, ago. 2014.}
+
 \bibitem[ISO 25010]{Square}
 \abntrefinfo{ISO 25010}{ISO 25010}{}
 {ISO 25010. \emph{Systems and software engineering -- Systems and software
@@ -81,7 +102,8 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de S{\~a}o Paulo, 2008.}
 {MOREIRA, L.~N. Avalia{\c c}{\~a}o de qualidade de software baseada em
   m{\'e}tricas est{\'a}ticas: um estudo de caso no {Tribunal} de {Contas} da
   {Uni{\~a}o}.
-2015.}
+2015.
+Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/10107}.}
 
 \bibitem[{NBR} {ISO}/{IEC} 9126-1 2016]{_nbr_2016}
 \abntrefinfo{{NBR}\ldots}{{NBR}\ldots}{2016}
@@ -113,12 +135,26 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
 {PRESSMAN, R.~S. \emph{Software Engineering - A Practioner's Approach}. 7. ed.
   [S.l.]: Higher Education, 2010.}
 
+\bibitem[Salameh, Ahmad e Aljammal 2016]{salameh_software_2016}
+\abntrefinfo{Salameh, Ahmad e Aljammal}{SALAMEH; AHMAD; ALJAMMAL}{2016}
+{SALAMEH, H.~B.; AHMAD, A.; ALJAMMAL, A. Software evolution visualization
+  techniques and methods-a systematic review. In:  \emph{Computer {Science} and
+  {Information} {Technology} ({CSIT}), 2016 7th {International} {Conference}
+  on}. [S.l.]: IEEE, 2016. p.~1--6.}
+
 \bibitem[Schaidt 2014]{luiza_yago}
 \abntrefinfo{Schaidt}{SCHAIDT}{2014}
 {SCHAIDT, Y.~R. L.
 \emph{Monitoramento de Qualidade de Software na Administra{\c c}{\~a}o
   P{\'u}blica Federal}.
 Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia, 2014.}
+
+\bibitem[Silva 2010]{da_silva_iavems:_2010}
+\abntrefinfo{Silva}{SILVA}{2010}
+{SILVA, M.~A. da.
+\emph{{IAVEMS}: {Infraestrutura} de {Apoio} {\`a} {Visualiza{\c c}{\~a}o} da
+  {Evolu{\c c}{\~a}o} de {M{\'e}tricas} de {Software}}.
+Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2010.}
 
 \bibitem[Sommervile 2011]{sommervile}
 \abntrefinfo{Sommervile}{SOMMERVILE}{2011}

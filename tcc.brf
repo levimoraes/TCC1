@@ -2,6 +2,7 @@
 \backcite {_nbr_2016}{{13}{(document)}{Doc-Start}}
 \backcite {Square}{{13}{(document)}{Doc-Start}}
 \backcite {pfleeger_framework_1990}{{13}{(document)}{Doc-Start}}
+\backcite {gomes_percepcao_2011}{{13}{(document)}{Doc-Start}}
 \backcite {Paduelli}{{21}{1.1}{section.1.1}}
 \backcite {decreto_2271}{{25}{2.1}{section.2.1}}
 \backcite {Lei_1993}{{25}{2.1}{section.2.1}}
@@ -27,6 +28,14 @@
 \backcite {chidamber}{{32}{2.3.1}{subsection.2.3.1}}
 \backcite {paulo_meirelles}{{33}{2.3.2}{subsection.2.3.2}}
 \backcite {moreira_avaliacao_2015}{{33}{2.3.2}{subsection.2.3.2}}
-\backcite {bento_alise_2013}{{35}{3.1.1}{subsection.3.1.1}}
-\backcite {martinho_git_2013}{{35}{3.1.1}{subsection.3.1.1}}
-\backcite {martinho_git_2013}{{35}{3.1.2}{subsection.3.1.2}}
+\backcite {hasan_humancomputer_2014}{{34}{2.4}{section.2.4}}
+\backcite {gracanin_software_2005}{{34}{2.4}{section.2.4}}
+\backcite {gomes_percepcao_2011}{{34}{2.4}{section.2.4}}
+\backcite {gomes_percepcao_2011}{{35}{5}{figure.2.5}}
+\backcite {gomes_percepcao_2011}{{35}{2.4.1}{subsection.2.4.1}}
+\backcite {salameh_software_2016}{{35}{2.4.1}{figure.2.6}}
+\backcite {da_silva_iavems:_2010}{{36}{2.4.1}{figure.2.6}}
+\backcite {gracanin_software_2005}{{36}{2.4.1}{figure.2.6}}
+\backcite {bento_alise_2013}{{37}{3.1.1}{subsection.3.1.1}}
+\backcite {martinho_git_2013}{{37}{3.1.1}{subsection.3.1.1}}
+\backcite {martinho_git_2013}{{37}{3.1.2}{subsection.3.1.2}}
