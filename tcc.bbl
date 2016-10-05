@@ -41,6 +41,11 @@ ISBN 978-85-7018-319-4.}
 {CHIDAMBER, C. F.~K. S.~R. A metrics suite for object oriented design. In:
   \emph{IEEE Transactions On Software Engineering}. [S.l.: s.n.], 1994.}
 
+\bibitem[Few 2006]{book_design}
+\abntrefinfo{Few}{FEW}{2006}
+{FEW, S. \emph{Information Dashboard Design - The effective Visual Comunication
+  of Data}. [S.l.]: O'Reilly, 2006.}
+
 \bibitem[Gomes e Tavares 2011]{gomes_percepcao_2011}
 \abntrefinfo{Gomes e Tavares}{GOMES; TAVARES}{2011}
 {GOMES, L. F.~O.; TAVARES, J. M.~R. Percep{\c c}{\~a}o humana na visualiza{\c

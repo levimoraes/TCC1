@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.7)  2 OCT 2016 21:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.7)  5 OCT 2016 08:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1293,13 +1293,13 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 ) (./editaveis/referencialteorico.tex [23] [24
 
 ] [25]
-<figuras/ISO.png, id=267, 700.6175pt x 436.63126pt>
+<figuras/ISO.png, id=271, 700.6175pt x 436.63126pt>
 File: figuras/ISO.png Graphic file (type png)
  <use figuras/ISO.png>
 Package pdftex.def Info: figuras/ISO.png used on input line 32.
 (pdftex.def)             Requested size: 280.24203pt x 174.6494pt.
 
-<figuras/Modelo_de_Qualidade.png, id=273, 714.67pt x 354.32375pt>
+<figuras/Modelo_de_Qualidade.png, id=277, 714.67pt x 354.32375pt>
 File: figuras/Modelo_de_Qualidade.png Graphic file (type png)
 
 <use figuras/Modelo_de_Qualidade.png>
@@ -1321,7 +1321,7 @@ has been already used, duplicate ignored
 l.49 \item \textbf
                   {Eficiência}: Capacidade do produto de software de aprese...
  <./figuras/ISO.png> <./figuras/Modelo_de_Qualidade.png>] [28]
-<figuras/SQuaRE.png, id=296, 1140.26pt x 232.87pt>
+<figuras/SQuaRE.png, id=301, 1140.26pt x 232.87pt>
 File: figuras/SQuaRE.png Graphic file (type png)
  <use figuras/SQuaRE.png>
 Package pdftex.def Info: figuras/SQuaRE.png used on input line 82.
@@ -1339,7 +1339,7 @@ Overfull \hbox (1.09592pt too wide) in paragraph at lines 82--83
 l.94 \item
            \textbf{Manutenção Corretiva}: seu objetivo está em identifica...
  <./figuras/SQuaRE.png>] [30]
-<figuras/Manutencao.png, id=318, 701.62125pt x 304.13625pt>
+<figuras/Manutencao.png, id=322, 701.62125pt x 304.13625pt>
 File: figuras/Manutencao.png Graphic file (type png)
 
 <use figuras/Manutencao.png>
@@ -1359,14 +1359,14 @@ LaTeX Warning: Command \o invalid in math mode on input line 151.
 
 LaTeX Warning: Command \o invalid in math mode on input line 155.
 
-[33] [34] <figuras/Glifo.png, id=379, 449.68pt x 208.78pt>
+[33] [34] <figuras/Glifo.png, id=383, 449.68pt x 208.78pt>
 File: figuras/Glifo.png Graphic file (type png)
 
 <use figuras/Glifo.png>
 Package pdftex.def Info: figuras/Glifo.png used on input line 222.
 (pdftex.def)             Requested size: 224.83945pt x 104.38972pt.
 
-<figuras/Bifocal_Wall.png, id=383, 494.84875pt x 126.4725pt>
+<figuras/Bifocal_Wall.png, id=387, 494.84875pt x 126.4725pt>
 File: figuras/Bifocal_Wall.png Graphic file (type png)
 
 <use figuras/Bifocal_Wall.png>
@@ -1394,18 +1394,37 @@ l.240 \item
 
 ] [40
 
-])
-(./editaveis/resultados_parciais.tex [41] [42
+]
+<figuras/TCCMetodologia.pdf, id=445, 1027.84pt x 770.88pt>
+File: figuras/TCCMetodologia.pdf Graphic file (type pdf)
 
-])
-(./editaveis/consideracoes_finais.tex [43] [44
+<use figuras/TCCMetodologia.pdf>
+Package pdftex.def Info: figuras/TCCMetodologia.pdf used on input line 27.
+(pdftex.def)             Requested size: 411.12872pt x 308.34654pt.
+) (./editaveis/resultados_parciais.tex [41pdfTeX warning (ext4): destination wi
+th the same identifier (name{table.5.1}) has been already used, duplicate ignor
+ed
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            [Resultados parciais]{Resultados Parciais}] [42pdfTeX warning (ext4
+): destination with the same identifier (name{figure.5.7}) has been already use
+d, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            [Resultados parciais]{Resultados Parciais} <./figuras/TCCMetodologi
+a.pdf>]) (./editaveis/consideracoes_finais.tex [43
+
+] [44
 
 ]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
-
-[45] [46
+ [45] [46
 
 ]
 
@@ -1433,7 +1452,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: B1049F3E5B42E8D4B1A6C0B0386EBF10;2183.
+(rerunfilecheck)             Checksum: 86B7C3A9B51765D35B2F7331297C0B84;2238.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1441,13 +1460,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 13592 strings out of 493014
- 198704 string characters out of 6133352
- 328519 words of memory out of 5000000
- 16637 multiletter control sequences out of 15000+600000
+ 13616 strings out of 493014
+ 199123 string characters out of 6133352
+ 328786 words of memory out of 5000000
+ 16657 multiletter control sequences out of 15000+600000
  80020 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,38p,1041b,627s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,13n,38p,1041b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -1466,10 +1485,10 @@ ive/2016/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/ty
 pe1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (50 pages, 1274211 bytes).
+Output written on tcc.pdf (50 pages, 1424653 bytes).
 PDF statistics:
- 748 PDF objects out of 1000 (max. 8388607)
- 650 compressed objects within 7 object streams
- 155 named destinations out of 1000 (max. 500000)
- 416 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 865 PDF objects out of 1000 (max. 8388607)
+ 725 compressed objects within 8 object streams
+ 158 named destinations out of 1000 (max. 500000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
 
