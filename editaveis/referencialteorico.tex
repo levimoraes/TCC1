@@ -2,7 +2,7 @@
 
 \chapter[Referencial Teórico]{Referencial teórico}
 	
-	Este capítulo tem como objetivo servir como referencial teórico para todo o documento. As idéias discutidas neste capítulo são
+	Este capítulo tem como objetivo servir como referencial teórico para todo o documento. Inicialmente o capítulo apresenta uma visão geral sobre o processo de contratação de software na APF, destacam-se a importancia de algumas leis que servem como fundamento para a contratacao de terceirizadas e o nível de qualidade que é exigido por parte dos orgãos públicos. Em seguida discute-se sobre o conceito de qualidade de software na visão de alguns atores e o que é qualidade segundo a ISO 9126 que serviu como base para a norma SQUARE também discutida neste trabalho. Após a definição de qualidade pela norma SQUARE, é apresentado conceitos fundamentais de manutenção de software que servem como guia para o desenvolvimento deste trabalho. Tendo definido manutenabilidade alguns conjuntos de métricas que visam identificar possíveis lacunas de manutenabilidade no código são apresentados. Com as métricas definidas é necessário que se faça a devida visualização das métricas, tópico final deste capítulo.
 	
 \section{Processo de Contratação de Software na APF}
 O Decreto n\c 2.271 de 1997 \cite{decreto_2271} dispõe sobre a contratação de serviços pela APF. Segundo o Decreto todos os produtos ou serviços que não apresentam relação direta com o propósito da instituição do governo federal devem ser tercerizados. O Decreto coloca como exemplo algumas atividades como por exemplo, conservação, limpeza, segurança, vigilância, transportes, informática, copeiragem, recepção, reprografia, telecomunicações são atividades livres para tercerização.
@@ -21,21 +21,58 @@ O Decreto n\c 2.271 de 1997 \cite{decreto_2271} dispõe sobre a contratação de
 \item O serviço contínuo de suporte técnico ao sistema (e.g. atendimento aos chamados feitos pelo órgão junto à contratada sobre dúvidas e problemas relativos ao sistema);
 \item O serviço contínuo de manutenção do sistema (e.g. implantação de manutenções corretivas e evolutivas).
 \end{itemize} 
+Tendo definido o que pode ser terceirizado dentro de um órgão público, é necessário que o produto entregue tenha qualidade aceitável para que seja fechado o acordo por parte da tercerizada e da contratante (neste caso APF). Contudo é necessário estipular o que é avaliado durante a contratação de um software.
 
+\subsection{Avaliação da Qualidade Em Um Processo de Contratação }
+Uma vez que o software é produzido pela tercerizada o software passa por um processo de verificação de todo o artefato que foi entregue seja ele em forma de código, como em forma de documentos. São lançados dezenas de editais todos os anos com o intuito de suprir a necessidade dos órgãos públicos quanto a demanda de software. Cada órgão é responsável por disponibilizar o seu edital contendo entre vários assuntos a forma como será inspecionado o código entregue pela tercerizada. Em um edital feito pelo DNPM \cite{edital} um dos objetos de avaliação é a cobertura miníma de testes como mostra a Tabela \ref{tabela1}, são avaliados tanto testes unitários, como de interface e de integração.
+
+\begin{table}[h]
+\centering
+\caption{Índice de Cobertura Por Tipo de Teste do Edital da DNPM. Fonte:\cite{edital}}
+\label{tabela1}
+\begin{tabular}{ll}
+\textbf{Tipo de Teste} & \textbf{\% de cobertura} \\
+Unitários              & 70\%                     \\
+De Integração          & 100\%                    \\
+De Interface           & 20\%                    
+\end{tabular}
+\end{table}
+
+Este mesmo edital também apresenta outra tabela \ref{tabela2} mostrando outros detalhes que também serão cobrados na entrega do software. Algumas características desta tabela devem ser salientadas, como por exemplo, algumas métricas (mais especificamente taxa de cobertura de código, complexidade por método e LCOM4) não possuem valores definidos de cobrança e são ajustados de acordo com o projeto.
+\begin{table}[h]
+\centering
+\caption{Métricas de Qualidade de Código Exigidas pela DNPM. Fonte: \cite{edital}}
+\label{tabela2}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Métrica}                      & \textbf{Meta}                                                                                                   & \textbf{Severidade} \\ \hline
+Taxa de cobertura de código          & Definida na Demanda                                                                                             & Média              \\ \hline
+Complexidade por método              & Definida na Demanda                                                                                             & Média              \\ \hline
+Coesão (LCOM4)                       & Definida na Demanda                                                                                             & Média              \\ \hline
+Violações do tipo Blocker           & Zero                                                                                                            & Média               \\ \hline
+Violações do tipo Critical          & Zero                                                                                                            & Média               \\ \hline
+Violações do tipo Major             & \begin{tabular}[c]{@{}l@{}}Igual ou menor que 0,5\% em\\ relação ao total de linhas de\\ código\end{tabular} & Baixa               \\ \hline
+Violações do tipo Minor             & \begin{tabular}[c]{@{}l@{}}Igual ou menor que 1\% em\\ relação ao total de linhas de\\ código\end{tabular}   & Baixa               \\ \hline
+Taxa de sucesso em testes unitários  & 100\%                                                                                                           & Baixa               \\ \hline
+Taxa de duplicações de blocos       & Igual ou menor que 2\%                                                                                          & Baixa               \\ \hline
+Taxas de comentários da API Pública & Maior ou igual a 80\%                                                                                           & Baixa               \\ \hline
+Linhas de código comentadas          & \begin{tabular}[c]{@{}l@{}}Igual ou menor que 0,1\% em\\ relação ao total de linhas de\\ código\end{tabular} & Baixa               \\ \hline
+\end{tabular}
+\end{table}
 
 \section{Qualidade}
 	O principal produto da engenharia de software é o software, contudo o que tem se vivenciado na realidade brasileira de computação é que o software que está sendo entregue é um software precário e de baixa qualidade. Por ser uma palavra abstrata, o conceito de qualidade é bem amplo, porém o termo qualidade normalmente está associado a uma medida relativa, essa qualidade pode ser entendida como "conformidade às especificações". Conceituando dessa forma, a não conformidade às especificação é igual a ausência de qualidade \cite{Paduelli}.
 \\ A ISO 9126-1 proposta em 2001, também conhecida como Engenharia de Software - Qualidade do Produto, descreve o modelo de qualidade voltado para o produto de software como sendo composto por duas categorias como pode ser visto na Figura \ref{img:relacao_iso}. A primeira categoria está relacionada a qualidade interna e a qualidade externa do software. A segunda categoria se relaciona com a qualidade de uso do software \cite{_nbr_2016}
 \graphicspath{{figuras/}}
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[scale=0.40]{ISO}
 \caption{Relação entre as NBR ISO/IEC 9126 e NBR ISO/IEC 14598 .Fonte:\cite{_nbr_2016}}
 \label{img:relacao_iso}
 \end{figure}
 \\ Sob o aspecto de modelo de qualidade,a ISO 9126 classifica a qualidade interna do produto como sendo o somatório das características do ponto de vista interno do software. Os principais produtos desta categoria são os de cunho intermediário, entre eles: relatórios de analise estática do código fonte, revisão dos documentos produzidos, entre outros. A qualidade externa por sua vez já apresenta o seu foco mais voltado para as relações externas do software, normalmente esta relacionado com a execução do código coletando suas métricas enquanto o software está em funcionamento. A Figura \ref{img:modelo_qualidade} apresenta a divisão proposta pela \cite{_nbr_2016} onde são categorizados seis aspectos de qualidade de software e suas subcaracterísticas, essas podem ser medidas por meio de métricas internas e externas. 
- \graphicspath{{figuras/}}
-\begin{figure}
+\graphicspath{{figuras/}}
+\begin{figure}[h]
 \centering
 \includegraphics[scale=0.50]{Modelo_de_Qualidade}
 \caption{Modelo de Qualidade para Qualidade Interna e Externa .Fonte:\cite{_nbr_2016}}
@@ -77,7 +114,7 @@ Assim como a ISO 9126, a ISO 25010 também apresenta categorias, estas categoria
 \end{itemize}
 
 \graphicspath{{figuras/}}
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[scale=0.40]{SQuaRE}
 \caption{Produto de Qualidade de Software.Fonte:\cite{Square}}
@@ -108,7 +145,7 @@ O modelo da figura \ref{img:modelo_manutencao} apresenta as atividades propostas
 \end{itemize}
 
 \graphicspath{{figuras/}}
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[scale=0.50]{Manutencao}
 \caption{Diagrama das Atividades de Manutenção de Software.Fonte:\cite{pfleeger_framework_1990}}
@@ -217,7 +254,7 @@ Segundo Gomes \cite{gomes_percepcao_2011} algumas técnicas para visualização 
 \begin{itemize}
 \item \textbf{Visualização de Atributos}: Nesta técnica a natureza do dado é representado através de um gráfico ou um mapa. Também é possível representar através de ícones ou \textit{glifos}. ícones normalmente representam uma entidade ou um elemento que pertence a um contexto. O \textit{glifo} representa um objeto geométrico que representa uma entidade ou um elemento do todo. O \textit{glifo} tem uma forma que é definida pelo valor dos atributos da entidade como pode ser visto na figura \ref{img:glifo}.
 \graphicspath{{figuras/}}
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{Glifo}
 \caption{Exemplo de glifo utilizado na visualização da variação das medidas relacionadas com o desenvolvimento computacional. Fonte: \cite{gomes_percepcao_2011}}
@@ -226,7 +263,7 @@ Segundo Gomes \cite{gomes_percepcao_2011} algumas técnicas para visualização 
 
 \item \textbf{Visualização de Estruturas e Relações}: está técnica utiliza do conjunto de dados ou elementos que podem ser distribuitos de maneira hierarquica. Dentro deste conceito existe uma ramificação para o uso da técnica aplicado de maneiras diferentes que possuem focos diferentes, algumas dessas técnicas são \textit{Bifocal Display} em que a informação é apresentada em três seções distintas da minha representação, sendo a central a que contêm informações mais relevantes. Outra técnica utilizada é a \textit{Perspective Wall} em que a informação é "projetada para uma parede". Uma comparação entre as duas técnicas pode ser observado na imagem \ref{img:comparativo}.
 \graphicspath{{figuras/}}
-\begin{figure}
+\begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{Bifocal_Wall}
 \caption{Comparativo entre a)Bifocal Display e b) Perspective Wall}
@@ -242,7 +279,7 @@ Uma revisão sistemática feita com foco em visualização de software \cite{sal
 \item \textbf{Atributos}: Deve conter o número da versão, tamanho, alterações, complexidade.
 \end{itemize}
 
-Uma vez que é coletado os dados, eles ja estão categorizados de acordo com a sua natureza e ja podem ser exibidos ainda é necessário discutir qual a melhor forma de exibir todas essas informações na tela. Uma das formas de se agrupar toda a informação de maneira ordenada e com sentido lógico é através de \textit{dashboards}. O conceito será apresntado no tópico a seguir
+Uma vez que é coletado os dados, eles ja estão categorizados de acordo com a sua natureza e ja podem ser exibidos ainda é necessário discutir qual a melhor forma de exibir todas essas informações na tela. Uma das formas de se agrupar toda a informação de maneira ordenada e com sentido lógico é através de \textit{dashboards}. O conceito será apresentado no tópico a seguir.
 
 \subsection{Dashboard}
 O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que um \textit{dashboard} é um \textit{display} virtual das informações mais importantes para atingir um ou mais objetivos, ele deve ser construido e organizado para ser capaz de caber em uma única página para que a informação seja achada com facilidade.

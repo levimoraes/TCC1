@@ -46,6 +46,11 @@ ISBN 978-85-7018-319-4.}
 {FEW, S. \emph{Information Dashboard Design - The effective Visual Comunication
   of Data}. [S.l.]: O'Reilly, 2006.}
 
+\bibitem[Filho 2007]{fonseca2007historia}
+\abntrefinfo{Filho}{FILHO}{2007}
+{FILHO, C. F. \emph{Hist{\'o}ria da computa{\c{c}}{\~a}o: O Caminho do
+  Pensamento e da Tecnologia}. [S.l.]: EDIPUCRS, 2007.}
+
 \bibitem[Gomes e Tavares 2011]{gomes_percepcao_2011}
 \abntrefinfo{Gomes e Tavares}{GOMES; TAVARES}{2011}
 {GOMES, L. F.~O.; TAVARES, J. M.~R. Percep{\c c}{\~a}o humana na visualiza{\c
@@ -59,13 +64,17 @@ ISBN 978-85-7018-319-4.}
   MATKOVI{\'C}; ELTOWEISSY}{2005}
 {GRA{\v C}ANIN, D.; MATKOVI{\'C}, K.; ELTOWEISSY, M. Software visualization.
 \emph{Innovations in Systems and Software Engineering}, v.~1, n.~2, p.
-  221--230, set. 2005.}
+  221--230, set. 2005.
+ISSN 1614-5046, 1614-5054.
+Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s11334-005-0019-8}.}
 
 \bibitem[Hasan e Abdul-Kareem 2014]{hasan_humancomputer_2014}
 \abntrefinfo{Hasan e Abdul-Kareem}{HASAN; ABDUL-KAREEM}{2014}
 {HASAN, H.; ABDUL-KAREEM, S. Human--computer interaction using vision-based
   hand gesture recognition systems: a survey.
-\emph{Neural Computing and Applications}, v.~25, n.~2, p. 251--261, ago. 2014.}
+\emph{Neural Computing and Applications}, v.~25, n.~2, p. 251--261, ago. 2014.
+ISSN 0941-0643, 1433-3058.
+Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s00521-013-1481-0}.}
 
 \bibitem[ISO 25010]{Square}
 \abntrefinfo{ISO 25010}{ISO 25010}{}
@@ -87,6 +96,12 @@ ISBN 978-85-7018-319-4.}
   International Conference on}. [S.l.: s.n.], 2001. p. 667--670.
 ISSN 1063-6773.}
 
+\bibitem[Machado e Souza 2004]{machado_metricas_2004}
+\abntrefinfo{Machado e Souza}{MACHADO; SOUZA}{2004}
+{MACHADO, M.~P.; SOUZA, S.~F. M{\'e}tricas e qualidade de software.
+\emph{Departamento de Inform{\'a}tica--Universidade Federal do Esp{\'\i}rito
+  Santo}, 2004.}
+
 \bibitem[MARTINHO e MUNIZ 2013]{martinho_git_2013}
 \abntrefinfo{MARTINHO e MUNIZ}{MARTINHO; MUNIZ}{2013}
 {MARTINHO, M.; MUNIZ, E. {GIT} {SCM}: {Sistema} de {Controle} de
@@ -101,6 +116,11 @@ Dispon{\'\i}vel em:
 \emph{Levantamento de M{\'e}tricas de Avalia{\c c}{\~a}o de Projetos de
   Software Livre}.
 Disserta\c{c}\~{a}o (Mestrado) --- Universidade de S{\~a}o Paulo, 2008.}
+
+\bibitem[Mineral 2015]{edital}
+\abntrefinfo{Mineral}{MINERAL}{2015}
+{MINERAL, D.~N. de P. \emph{Edital Preg{\~a}o Eletronico No 14/2015}.
+[S.l.], 2015.}
 
 \bibitem[Moreira 2015]{moreira_avaliacao_2015}
 \abntrefinfo{Moreira}{MOREIRA}{2015}
@@ -145,7 +165,8 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
 {SALAMEH, H.~B.; AHMAD, A.; ALJAMMAL, A. Software evolution visualization
   techniques and methods-a systematic review. In:  \emph{Computer {Science} and
   {Information} {Technology} ({CSIT}), 2016 7th {International} {Conference}
-  on}. [S.l.]: IEEE, 2016. p.~1--6.}
+  on}. IEEE, 2016. p.~1--6. Dispon{\'\i}vel em:
+  \url{http://ieeexplore.ieee.org/abstract/document/7549475/}.}
 
 \bibitem[Schaidt 2014]{luiza_yago}
 \abntrefinfo{Schaidt}{SCHAIDT}{2014}
@@ -154,12 +175,21 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
   P{\'u}blica Federal}.
 Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia, 2014.}
 
+\bibitem[Silva 2014]{silva_painel_2014}
+\abntrefinfo{Silva}{SILVA}{2014}
+{SILVA, A.~B. Painel de acompanhamento de medidas e indicadores para
+  monitoramento da qualidade de software.
+2014.
+Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/6979}.}
+
 \bibitem[Silva 2010]{da_silva_iavems:_2010}
 \abntrefinfo{Silva}{SILVA}{2010}
 {SILVA, M.~A. da.
 \emph{{IAVEMS}: {Infraestrutura} de {Apoio} {\`a} {Visualiza{\c c}{\~a}o} da
   {Evolu{\c c}{\~a}o} de {M{\'e}tricas} de {Software}}.
-Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2010.}
+Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2010.
+Dispon{\'\i}vel em:
+  \url{http://reuse.cos.ufrj.br/files/publicacoes/graduacao/PF\_Marlon\_IAVEMS.pdf}.}
 
 \bibitem[Sommervile 2011]{sommervile}
 \abntrefinfo{Sommervile}{SOMMERVILE}{2011}

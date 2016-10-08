@@ -4,10 +4,8 @@
 
 
 \section{Contextualização}
-	O conceito de engenharia de software foi proposto inicialmente durante uma conferência na década de 60 em Garmisch na Alemanha. Nesta conferência estavam presentes usuarios, fabricantes e pesquisadores que debatiam sobre os constantes problemas no desenvolvimento de software \cite{Paduelli}.
-A qualidade na produção de software é uma área muito ampla e que abrange desde qualidade da arquitetura de software até qualidade no processo REFERENCIA. Este trabalho teve como objetivo central apresentar uma solução para visualização de métricas de qualidade dentro de alguns orgãos, tendo como os principais pilares três áreas comuns da engenharia de software, gerência de configuração, integração contínua e análise estática de código. Uma arquitetura próxima a essa vem sendo trabalhada dentro de alguns órgãos públicos do governo federal, entre eles o Tribunal de Contas da União o qual tem mostrado os melhores resultados nesta área. O problema encontrado atualmente está na falta de um acompanhamento na qualidade dos chamados softwares legados, softwares que são produzidos dentro/para o órgão e que passado um tempo ainda estão em atividade.
-	\\Dentro da área de Tecnologia as organizações tem encontrado um grande problema quando se trata de softwares legados. O trabalho feito por REFERENCIA prova que os softwares legados são esquecidos pelas organizações quando se fala sob uma perspectiva de manutenção. Contudo o estudo também revela que em grande parte das empresas esses mesmos softwares continuam rodando no ambiente de produção.
-	
+	O conceito de engenharia de software foi proposto inicialmente durante uma conferência na década de 60 em Garmisch na Alemanha. Nesta conferência estavam presentes usuarios, fabricantes e pesquisadores que debatiam sobre os constantes problemas no desenvolvimento de software \cite{Paduelli}. Desde então empresas, orgãos públicos e diversas outras instituições utilizam do computador para automatizar tarefas ou cálculos antes feitos por humanos \cite{fonseca2007historia}. O Decreto n\c 2.271 de 1997 \cite{decreto_2271} coloca a atividade de informática (e seus afins) como sendo um dos tipos de serviço passíveis de tercerização, ou seja, uma empresa tercerizada deve realizar os serviços referentes à este tipo de atividade. Uma vez que o software é produzido por uma empresa tercerizada é necessário que se faça o controle da qualidade deste software.
+\\O controle da qualidade é um dos processos no ciclo de vida de desenvolvimento de software \cite{machado_metricas_2004}. A qualidade de software na produção do software é uma área muito ampla e que abrange desde qualidade da arquitetura de software até qualidade no processo . Este trabalho teve como objetivo central apresentar uma solução para visualização de métricas de qualidade dentro de alguns orgãos, tendo como os principais pilares três áreas comuns da engenharia de software, gerência de configuração, integração contínua e análise estática de código. Uma arquitetura próxima a essa vem sendo trabalhada dentro de alguns órgãos públicos do governo federal, entre eles o Tribunal de Contas da União o qual tem mostrado os melhores resultados nesta área. O problema encontrado atualmente está na falta de um acompanhamento na qualidade dos softwares entregues pelas empresas tercerizadas 	
 
 \section{Problema de pesquisa}
 O principal produto da engenharia de software é o software, contudo o que tem se vivenciado na realidade brasileira de computação é que o software que está sendo entregue é um software precário e de baixa qualidade. Por ser uma palavra abstrata, o conceito de qualidade é bem amplo, porém o termo qualidade normalmente está associado a uma medida relativa, essa qualidade pode ser entendida como “conformidade às especificações”. Conceituando dessa forma, a não conformidade às especificação é igual a ausência de qualidade.
@@ -20,8 +18,8 @@ O principal produto da engenharia de software é o software, contudo o que tem s
 
 \section{Justificativa}
 
-	A motivação deste trabalho se deu como uma extensão de um trabalho de conclusão de concurso elaborado anteriormente em que eram tratados aspectos para monitoramento da qualidade dentro de um orgão público federal. O trabalho abordava aspectos de contratação de software dentro desses orgãos e como acontecia o acompanhamento desses softwares e propunha uma solução com integração contínua e gerência de configuração.
-	\\Após a conclusão do trabalho citado algumas lacunas continuaram, essas lacunas estão ligadas à apresentação destes dados para a equipe de gestão com o intuito de facilitar o acompanhamento das métricas.
+	A motivação deste trabalho se deu como uma extensão de um trabalho de conclusão de concurso elaborado anteriormente por Luiza e Yago \cite{luiza_yago} em que eram tratados aspectos para monitoramento da qualidade dentro de um orgão público federal. O trabalho abordava aspectos de contratação de software dentro desses orgãos e como acontecia o acompanhamento desses softwares e propunha uma solução com integração contínua e gerência de configuração. Após a conclusão do trabalho algumas lacunas continuaram, essas lacunas estão ligadas à apresentação destes dados para a equipe de gestão com o intuito de facilitar o acompanhamento das métricas.
+\\Este trabalho também teve como base outro trabalho de conclusão de concurso de Adriano \cite{silva_painel_2014}, contudo o propósito deste trabalho é apresentar uma visão diferente a já abordada. O foco deste trabalho está em facilitar a comunicação entre a tercerizada e o gestor de projetos apresentando uma ferramenta que fará a ponte entre as duas partes.
 
 
 	\section{Objetivos}
@@ -29,7 +27,7 @@ O principal produto da engenharia de software é o software, contudo o que tem s
 	\subsection{Objetivos Gerais} % (fold)
 	\label{sub:objetivos_gerais}
 	
-		Desenvolver uma solução intuitiva para monitoramento da qualidade de código de software
+		Desenvolver uma solução para monitoramento da qualidade de código de software
 
 	% subsection objetivos_gerais (end)
 
@@ -39,18 +37,18 @@ O principal produto da engenharia de software é o software, contudo o que tem s
 	Para que seja possivel alcancar o objetivo geral alguns outros objetivos menores precisam ser alcancados para garantir  o objetivo geral 
 		 
 	\begin{itemize}
-		\item Identificar metricas de codigo ja existentes que mais se adequem as necessidades de um projeto de software 
-		\item Propor um ambiente integralizado e automatizado, englobando solucoes de analise estatica de código, integracao continua e versionamento de codigo
-		\item Uma solução que agregue valor à equipe de manutenção 
+		\item A partir de um conjunto de métricas já estabelecidas, acompanhar a evolução de em um projeto de software.
+		\item Utilizar dos dados de uma ferramenta de analise estática para coleta de métricas.  
+		\item Propor uma ferramenta automatizada de visualização e acompanhamento de métricas para um projeto.
+		\item Verificar a qualidade de um software com base em editais de contratação. 
 	\end{itemize}
 	
 	% subsection objetivos_específicos (end)
-
-
-
+	
 	\section{Resultados Esperados}
 
+Ao fim deste trabalho espera-se apresentar uma solução em software para visualização de métricas coletadas  juntamente com uma ferramenta de analíse estática, mostrar um \textit{dashboard} que indica a atual situação de um projeto do ponto de vista de um orgão público. 
+
 	\section{Organização do trabalho} % (fold)
-	\label{sec:organização_do_trabalho}
-		
+	\label{sec:organização_do_trabalho} 	
 	% section organização_do_trabalho (end)
