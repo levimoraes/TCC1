@@ -36,10 +36,20 @@ ISBN 978-85-7018-319-4.}
   \emph{Proc. of {Argentine} {Symposium} on {Software} {Engineering}}. [S.l.:
   s.n.], 2005.}
 
+\bibitem[ChartsJS documentation]{chartsjs}
+\abntrefinfo{ChartsJS\ldots}{CHARTSJS\ldots}{}
+{CHARTSJS documentation. \url{http://www.chartjs.org/docs/}.
+Accessed: 2016-10-10.}
+
 \bibitem[Chidamber 1994]{chidamber}
 \abntrefinfo{Chidamber}{CHIDAMBER}{1994}
 {CHIDAMBER, C. F.~K. S.~R. A metrics suite for object oriented design. In:
   \emph{IEEE Transactions On Software Engineering}. [S.l.: s.n.], 1994.}
+
+\bibitem[Ferenc et al. 2014]{ferenc_source_2014}
+\abntrefinfo{Ferenc et al.}{FERENC et al.}{2014}
+{FERENC, R. et al. Source {Meter} {Sonar} {Qube} {Plug}-in. In:  . [S.l.]:
+  IEEE, 2014. p. 77--82.}
 
 \bibitem[Few 2006]{book_design}
 \abntrefinfo{Few}{FEW}{2006}
@@ -58,6 +68,12 @@ ISBN 978-85-7018-319-4.}
   {Iberoamericano} de {Engenharia} {Mec{\^a}nica} ({CIBEM} 10)}. [s.n.], 2011.
   Dispon{\'\i}vel em:
   \url{https://repositorio-aberto.up.pt/handle/10216/56574}.}
+
+\bibitem[Google Charts documentation]{google_charts}
+\abntrefinfo{Google\ldots}{GOOGLE\ldots}{}
+{GOOGLE Charts documentation.
+  \url{https://developers.google.com/chart/interactive/docs/reference}.
+Accessed: 2016-10-10.}
 
 \bibitem[Gra{\v c}anin, Matkovi{\'c} e Eltoweissy 2005]{gracanin_software_2005}
 \abntrefinfo{Gra{\v c}anin, Matkovi{\'c} e Eltoweissy}{GRA{\v C}ANIN;
@@ -102,6 +118,12 @@ ISSN 1063-6773.}
 \emph{Departamento de Inform{\'a}tica--Universidade Federal do Esp{\'\i}rito
   Santo}, 2004.}
 
+\bibitem[Mahnic 2011]{mahnic_case_2011}
+\abntrefinfo{Mahnic}{MAHNIC}{2011}
+{MAHNIC, V. A case study on agile estimating and planning using scrum.
+\emph{Elektronika ir Elektrotechnika}, v.~111, n.~5, p. 123--128, 2011.
+Dispon{\'\i}vel em: \url{http://ecoman.ktu.lt/index.php/elt/article/view/372}.}
+
 \bibitem[MARTINHO e MUNIZ 2013]{martinho_git_2013}
 \abntrefinfo{MARTINHO e MUNIZ}{MARTINHO; MUNIZ}{2013}
 {MARTINHO, M.; MUNIZ, E. {GIT} {SCM}: {Sistema} de {Controle} de
@@ -129,6 +151,12 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de S{\~a}o Paulo, 2008.}
   {Uni{\~a}o}.
 2015.
 Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/10107}.}
+
+\bibitem[Moresi e {others} 2003]{moresi}
+\abntrefinfo{Moresi e {others}}{MORESI; {others}}{2003}
+{MORESI, E.; {others}. Metodologia da pesquisa.
+\emph{Bras{\'\i}lia: Universidade Cat{\'o}lica de Bras{\'\i}lia}, v.~108,
+  2003.}
 
 \bibitem[{NBR} {ISO}/{IEC} 9126-1 2016]{_nbr_2016}
 \abntrefinfo{{NBR}\ldots}{{NBR}\ldots}{2016}
@@ -159,6 +187,12 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
 \abntrefinfo{Pressman}{PRESSMAN}{2010}
 {PRESSMAN, R.~S. \emph{Software Engineering - A Practioner's Approach}. 7. ed.
   [S.l.]: Higher Education, 2010.}
+
+\bibitem[Sabbagh 2014]{sabbagh_scrum:_2014}
+\abntrefinfo{Sabbagh}{SABBAGH}{2014}
+{SABBAGH, R. \emph{Scrum: {Gest{\~a}o} {\'a}gil para projetos de sucesso}.
+  Editora Casa do C{\'o}digo, 2014. Dispon{\'\i}vel em:
+  \url{https://books.google.com/books?hl=en&lr=&id=pG-CCwAAQBAJ&oi=fnd&pg=PT9&dq=\%22Agilidade+em+diferentes+organiza\%C3\%A7\%C3\%B5es.+Hoje+\%C3\%A9+poss\%C3\%ADvel+ver+os+assuntos+ligados\%22+\%22Mas,+segundo+o+pr\%C3\%B3prio+Rafael\%22+\%22que+n\%C3\%A3o+\%C3\%A9+necess\%C3\%A1rio+ter+uma+ampla+compreens\%C3\%A3o+do+Scrum+para\%22+&ots=ERSywNIEAd&sig=rvmJD\_BXcQY-P0MYZBqQJOaOcOA}.}
 
 \bibitem[Salameh, Ahmad e Aljammal 2016]{salameh_software_2016}
 \abntrefinfo{Salameh, Ahmad e Aljammal}{SALAMEH; AHMAD; ALJAMMAL}{2016}
@@ -194,6 +228,12 @@ Dispon{\'\i}vel em:
 \bibitem[Sommervile 2011]{sommervile}
 \abntrefinfo{Sommervile}{SOMMERVILE}{2011}
 {SOMMERVILE, I. \emph{Software Engineering}. 9. ed. [S.l.]: Pearson, 2011.}
+
+\bibitem[SonarQube documentation]{sonar}
+\abntrefinfo{SonarQube\ldots}{SONARQUBE\ldots}{}
+{SONARQUBE documentation.
+  \url{http://docs.sonarqube.org/display/SONAR/Architecture+and+Integration}.
+Accessed: 2016-10-10.}
 
 \bibitem[Uni{\~a}o 2012]{guia_boas_praticas}
 \abntrefinfo{Uni{\~a}o}{UNI{\~A}O}{2012}
