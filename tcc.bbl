@@ -61,6 +61,16 @@ Accessed: 2016-10-10.}
 {FILHO, C. F. \emph{Hist{\'o}ria da computa{\c{c}}{\~a}o: O Caminho do
   Pensamento e da Tecnologia}. [S.l.]: EDIPUCRS, 2007.}
 
+\bibitem[Gerhardt 2009]{tatiana_denise}
+\abntrefinfo{Gerhardt}{GERHARDT}{2009}
+{GERHARDT, D. T.~S. T.~E. \emph{M{\'e}todos de pesquisa}. [S.l.]: Universidade
+  Aberta do Brasil, 2009.}
+
+\bibitem[Gil 2002]{gil_como_2002}
+\abntrefinfo{Gil}{GIL}{2002}
+{GIL, A.~C. \emph{Como elaborar projetos de pesquisa}. S{\~a}o Paulo (SP):
+  Atlas, 2002.}
+
 \bibitem[Gomes e Tavares 2011]{gomes_percepcao_2011}
 \abntrefinfo{Gomes e Tavares}{GOMES; TAVARES}{2011}
 {GOMES, L. F.~O.; TAVARES, J. M.~R. Percep{\c c}{\~a}o humana na visualiza{\c
@@ -152,11 +162,12 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de S{\~a}o Paulo, 2008.}
 2015.
 Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/10107}.}
 
-\bibitem[Moresi e {others} 2003]{moresi}
+\bibitem[Moresi e {others} 2003]{moresi_metodologia_2003}
 \abntrefinfo{Moresi e {others}}{MORESI; {others}}{2003}
 {MORESI, E.; {others}. Metodologia da pesquisa.
-\emph{Bras{\'\i}lia: Universidade Cat{\'o}lica de Bras{\'\i}lia}, v.~108,
-  2003.}
+\emph{Bras{\'\i}lia: Universidade Cat{\'o}lica de Bras{\'\i}lia}, v.~108, 2003.
+Dispon{\'\i}vel em:
+  \url{http://ftp.unisc.br/portal/upload/com\_arquivo/1370886616.pdf}.}
 
 \bibitem[{NBR} {ISO}/{IEC} 9126-1 2016]{_nbr_2016}
 \abntrefinfo{{NBR}\ldots}{{NBR}\ldots}{2016}

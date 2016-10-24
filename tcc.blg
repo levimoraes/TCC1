@@ -14,7 +14,8 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "Lei_1993" isn't style-file defined
---line 273 of file bibliografia.bib
+--line 293 of file bibliografia.bib
+Warning--I didn't find a database entry for "moresi"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -30,45 +31,45 @@ Warning--campo year vazio ou faltando em sonar
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 38 entries,
+You've used 40 entries,
             6714 wiz_defined-function locations,
-            1383 strings with 15954 characters,
-and the built_in function-call counts, 47828 in all, are:
-= -- 5657
-> -- 750
-< -- 1143
-+ -- 1494
-- -- 234
-* -- 2870
-:= -- 5924
-add.period$ -- 141
-call.type$ -- 38
-change.case$ -- 310
-chr.to.int$ -- 68
-cite$ -- 43
-duplicate$ -- 4564
-empty$ -- 2155
-format.name$ -- 1098
-if$ -- 9855
+            1396 strings with 16245 characters,
+and the built_in function-call counts, 50256 in all, are:
+= -- 5936
+> -- 780
+< -- 1204
++ -- 1565
+- -- 244
+* -- 3005
+:= -- 6229
+add.period$ -- 148
+call.type$ -- 40
+change.case$ -- 322
+chr.to.int$ -- 70
+cite$ -- 45
+duplicate$ -- 4821
+empty$ -- 2281
+format.name$ -- 1144
+if$ -- 10347
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 632
-newline$ -- 195
-num.names$ -- 160
-pop$ -- 835
+missing$ -- 670
+newline$ -- 204
+num.names$ -- 170
+pop$ -- 886
 preamble$ -- 1
-purify$ -- 130
+purify$ -- 136
 quote$ -- 0
-skip$ -- 5021
+skip$ -- 5272
 stack$ -- 1
-substring$ -- 2000
-swap$ -- 1622
-text.length$ -- 30
+substring$ -- 2095
+swap$ -- 1710
+text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 53
 warning$ -- 6
-while$ -- 232
+while$ -- 245
 width$ -- 0
-write$ -- 566
-(There were 7 warnings)
+write$ -- 595
+(There were 8 warnings)
