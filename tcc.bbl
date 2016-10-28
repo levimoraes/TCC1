@@ -69,7 +69,8 @@ Accessed: 2016-10-10.}
 \bibitem[Gil 2002]{gil_como_2002}
 \abntrefinfo{Gil}{GIL}{2002}
 {GIL, A.~C. \emph{Como elaborar projetos de pesquisa}. S{\~a}o Paulo (SP):
-  Atlas, 2002.}
+  Atlas, 2002. OCLC: 817765297.
+ISBN 978-85-224-3169-4.}
 
 \bibitem[Gomes e Tavares 2011]{gomes_percepcao_2011}
 \abntrefinfo{Gomes e Tavares}{GOMES; TAVARES}{2011}
@@ -121,6 +122,12 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s00521-013-1481-0}.}
   control. In:  \emph{Software Maintenance, 2001. Proceedings. IEEE
   International Conference on}. [S.l.: s.n.], 2001. p. 667--670.
 ISSN 1063-6773.}
+
+\bibitem[Lopez-Martinez et al. 2016]{lopez-martinez_problems_2016}
+\abntrefinfo{Lopez-Martinez et al.}{LOPEZ-MARTINEZ et al.}{2016}
+{LOPEZ-MARTINEZ, J. et al. Problems in the {Adoption} of {Agile}-{Scrum}
+  {Methodologies}: {A} {Systematic} {Literature} {Review}. In:  . [S.l.]: IEEE,
+  2016. p. 141--148.}
 
 \bibitem[Machado e Souza 2004]{machado_metricas_2004}
 \abntrefinfo{Machado e Souza}{MACHADO; SOUZA}{2004}
@@ -181,6 +188,12 @@ Dispon{\'\i}vel em:
 \emph{Manuten{\c c}{\~a}o de Software: problemas t{\'\i}picos e diretrizes para
   uma disciplina espec{\'\i}fica}.
 Disserta\c{c}\~{a}o (Mestrado), 2007.}
+
+\bibitem[Pagotto et al. 2016]{pagotto_scrum_2016}
+\abntrefinfo{Pagotto et al.}{PAGOTTO et al.}{2016}
+{PAGOTTO, T. et al. Scrum solo: {Software} process for individual development.
+  In:  \emph{Information {Systems} and {Technologies} ({CISTI}), 2016 11th
+  {Iberian} {Conference} on}. [S.l.]: AISTI, 2016. p.~1--6.}
 
 \bibitem[Pfleeger e Bohner 1990]{pfleeger_framework_1990}
 \abntrefinfo{Pfleeger e Bohner}{PFLEEGER; BOHNER}{1990}
