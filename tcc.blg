@@ -14,7 +14,7 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "Lei_1993" isn't style-file defined
---line 318 of file bibliografia.bib
+--line 334 of file bibliografia.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -32,43 +32,43 @@ Warning--campo year vazio ou faltando em sonar
 +---------------------------------------------------------+
 You've used 42 entries,
             6714 wiz_defined-function locations,
-            1407 strings with 16804 characters,
-and the built_in function-call counts, 52311 in all, are:
-= -- 6102
+            1410 strings with 16918 characters,
+and the built_in function-call counts, 54253 in all, are:
+= -- 6414
 > -- 862
-< -- 1206
-+ -- 1597
+< -- 1305
++ -- 1696
 - -- 268
-* -- 3162
-:= -- 6496
-add.period$ -- 160
+* -- 3268
+:= -- 6709
+add.period$ -- 163
 call.type$ -- 42
 change.case$ -- 351
 chr.to.int$ -- 72
 cite$ -- 47
-duplicate$ -- 4911
-empty$ -- 2438
+duplicate$ -- 5205
+empty$ -- 2441
 format.name$ -- 1266
-if$ -- 10856
+if$ -- 11173
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 706
-newline$ -- 213
+newline$ -- 214
 num.names$ -- 180
 pop$ -- 929
 preamble$ -- 1
 purify$ -- 146
 quote$ -- 0
-skip$ -- 5375
+skip$ -- 5665
 stack$ -- 1
-substring$ -- 2179
-swap$ -- 1759
-text.length$ -- 33
+substring$ -- 2278
+swap$ -- 1858
+text.length$ -- 35
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 55
 warning$ -- 6
-while$ -- 263
+while$ -- 265
 width$ -- 0
-write$ -- 629
+write$ -- 632
 (There were 7 warnings)
