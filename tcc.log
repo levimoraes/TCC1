@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.7)  29 OCT 2016 00:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.9.7)  30 OCT 2016 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1267,9 +1267,9 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/it' in size <12> not available
 ])
 (./editaveis/abstract.tex [11] [12
 
-]) (./fixos/listasAutomaticas.tex (./tcc.lof) [13] [14
+]) (./fixos/listasAutomaticas.tex (./tcc.lof) [13] [14] (./tcc.lot) [15
 
-] (./tcc.lot) [15] [16
+] [16
 
 ]) (./editaveis/abreviaturas.tex [17
 
@@ -1296,13 +1296,13 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
 (./editaveis/referencialteorico.tex [23] [24
 
 ] [25] [26]
-<figuras/ISO.png, id=370, 700.6175pt x 436.63126pt>
+<figuras/ISO.png, id=400, 700.6175pt x 436.63126pt>
 File: figuras/ISO.png Graphic file (type png)
  <use figuras/ISO.png>
 Package pdftex.def Info: figuras/ISO.png used on input line 69.
 (pdftex.def)             Requested size: 280.24203pt x 174.6494pt.
 
-<figuras/Modelo_de_Qualidade.png, id=376, 714.67pt x 354.32375pt>
+<figuras/Modelo_de_Qualidade.png, id=406, 714.67pt x 354.32375pt>
 File: figuras/Modelo_de_Qualidade.png Graphic file (type png)
 
 <use figuras/Modelo_de_Qualidade.png>
@@ -1342,7 +1342,7 @@ ifier (name{figure.2.2}) has been already used, duplicate ignored
 l.99 \item A
              qualidade interna e externa foram combinadas como modelo de qua...
  <./figuras/Modelo_de_Qualidade.png>]
-<figuras/SQuaRE.png, id=400, 1140.26pt x 232.87pt>
+<figuras/SQuaRE.png, id=430, 1140.26pt x 232.87pt>
 File: figuras/SQuaRE.png Graphic file (type png)
  <use figuras/SQuaRE.png>
 Package pdftex.def Info: figuras/SQuaRE.png used on input line 118.
@@ -1363,7 +1363,7 @@ e.2.3}) has been already used, duplicate ignored
 l.140 \item \textbf
                    {Entendimento do Software a ser Alterado}: nesta atividad...
  <./figuras/SQuaRE.png>]
-<figuras/Manutencao.png, id=420, 701.62125pt x 304.13625pt>
+<figuras/Manutencao.png, id=450, 701.62125pt x 304.13625pt>
 File: figuras/Manutencao.png Graphic file (type png)
 
 <use figuras/Manutencao.png>
@@ -1382,14 +1382,14 @@ LaTeX Warning: Command \o invalid in math mode on input line 187.
 
 LaTeX Warning: Command \o invalid in math mode on input line 191.
 
-[34] [35] <figuras/Glifo.png, id=481, 230.36063pt x 200.24812pt>
+[34] [35] <figuras/Glifo.png, id=511, 230.36063pt x 200.24812pt>
 File: figuras/Glifo.png Graphic file (type png)
 
 <use figuras/Glifo.png>
 Package pdftex.def Info: figuras/Glifo.png used on input line 258.
 (pdftex.def)             Requested size: 115.18002pt x 100.12381pt.
 
-<figuras/Bifocal_Wall.png, id=485, 494.84875pt x 126.4725pt>
+<figuras/Bifocal_Wall.png, id=515, 494.84875pt x 126.4725pt>
 File: figuras/Bifocal_Wall.png Graphic file (type png)
 
 <use figuras/Bifocal_Wall.png>
@@ -1401,24 +1401,152 @@ Package pdftex.def Info: figuras/Bifocal_Wall.png used on input line 267.
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.272 \end{itemize}
-                    <./figuras/Glifo.png>] [37pdfTeX warning (ext4): destinatio
-n with the same identifier (name{figure.2.6}) has been already used, duplicate 
-ignored
+                    <./figuras/Glifo.png>]
+<figuras/grafico_pesquisa.pdf, id=529, 510.08113pt x 257.45404pt>
+File: figuras/grafico_pesquisa.pdf Graphic file (type pdf)
+
+<use figuras/grafico_pesquisa.pdf>
+Package pdftex.def Info: figuras/grafico_pesquisa.pdf used on input line 290.
+(pdftex.def)             Requested size: 255.03993pt x 128.7267pt.
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.285 
-       <./figuras/Bifocal_Wall.png>]) (./editaveis/suporteTecnologico.tex
-[38] <figuras/Sonar.png, id=519, 704.6325pt x 376.40625pt>
+l.294 
+       <./figuras/Bifocal_Wall.png>]
+<figuras/chart_bar.pdf, id=543, 635.30103pt x 270.73286pt>
+File: figuras/chart_bar.pdf Graphic file (type pdf)
+
+<use figuras/chart_bar.pdf>
+Package pdftex.def Info: figuras/chart_bar.pdf used on input line 301.
+(pdftex.def)             Requested size: 254.1159pt x 108.29121pt.
+
+<figuras/line_chart.pdf, id=545, 622.18317pt x 366.36113pt>
+File: figuras/line_chart.pdf Graphic file (type pdf)
+
+<use figuras/line_chart.pdf>
+Package pdftex.def Info: figuras/line_chart.pdf used on input line 310.
+(pdftex.def)             Requested size: 248.86885pt x 146.54185pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figuras/pie_chart.pdf, id=547, 261.05966pt x 248.90732pt>
+File: figuras/pie_chart.pdf Graphic file (type pdf)
+
+<use figuras/pie_chart.pdf>
+Package pdftex.def Info: figuras/pie_chart.pdf used on input line 319.
+(pdftex.def)             Requested size: 104.42201pt x 99.56116pt.
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.323 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.323 
+       <./figuras/grafico_pesquisa.pdf> <./figuras/chart_bar.pdf, page is rotat
+ed 90 degrees>] <figuras/network_graph.pdf, id=578, 638.2036pt x 456.67476pt>
+File: figuras/network_graph.pdf Graphic file (type pdf)
+
+<use figuras/network_graph.pdf>
+Package pdftex.def Info: figuras/network_graph.pdf used on input line 328.
+(pdftex.def)             Requested size: 255.27692pt x 182.66666pt.
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.335 \begin{quote}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.2.10}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.335 \begin{quote}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{figure.2.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.335 \begin{quote}
+                    <./figuras/line_chart.pdf, page is rotated 90 degrees> <./f
+iguras/pie_chart.pdf, page is rotated 90 degrees> <./figuras/network_graph.pdf,
+ page is rotated 90 degrees>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 363.
+
+<figuras/dashboard1.pdf, id=624, 778.09445pt x 525.92188pt>
+File: figuras/dashboard1.pdf Graphic file (type pdf)
+
+<use figuras/dashboard1.pdf>
+Package pdftex.def Info: figuras/dashboard1.pdf used on input line 365.
+(pdftex.def)             Requested size: 389.04626pt x 262.9603pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 371.
+
+<figuras/dashboard2.pdf, id=628, 605.25732pt x 609.0214pt>
+File: figuras/dashboard2.pdf Graphic file (type pdf)
+
+<use figuras/dashboard2.pdf>
+Package pdftex.def Info: figuras/dashboard2.pdf used on input line 373.
+(pdftex.def)             Requested size: 302.62791pt x 304.50995pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 379.
+
+<figuras/dashboard3.pdf, id=632, 576.67195pt x 459.24022pt>
+File: figuras/dashboard3.pdf Graphic file (type pdf)
+
+<use figuras/dashboard3.pdf>
+Package pdftex.def Info: figuras/dashboard3.pdf used on input line 381.
+(pdftex.def)             Requested size: 288.33527pt x 229.61954pt.
+ [40pdfTeX warning (ext4): destination with the same identifier (name{table.2.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.385 
+      ] [41pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.2.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.385 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.385 
+       <./figuras/dashboard1.pdf, page is rotated 90 degrees> <./figuras/dashbo
+ard2.pdf>]) (./editaveis/suporteTecnologico.tex [42pdfTeX warning (ext4): desti
+nation with the same identifier (name{figure.2.14}) has been already used, dupl
+icate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2 \chapter
+            [Suporte Tecnológico]{Suporte Tecnológico} <./figuras/dashboard3.
+pdf>] <figuras/Sonar.png, id=693, 704.6325pt x 376.40625pt>
 File: figuras/Sonar.png Graphic file (type png)
 
 <use figuras/Sonar.png>
 Package pdftex.def Info: figuras/Sonar.png used on input line 31.
 (pdftex.def)             Requested size: 352.3154pt x 188.20265pt.
- [39
+ [43
 
 ]
-<figuras/Arq_Sonar.pdf, id=535, 792.09299pt x 214.21642pt>
+<figuras/Arq_Sonar.pdf, id=709, 792.09299pt x 214.21642pt>
 File: figuras/Arq_Sonar.pdf Graphic file (type pdf)
 
 <use figuras/Arq_Sonar.pdf>
@@ -1428,7 +1556,7 @@ Package pdftex.def Info: figuras/Arq_Sonar.pdf used on input line 50.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/sonar_int.pdf, id=540, 790.06508pt x 463.35558pt>
+<figuras/sonar_int.pdf, id=714, 790.06508pt x 463.35558pt>
 File: figuras/sonar_int.pdf Graphic file (type pdf)
 
 <use figuras/sonar_int.pdf>
@@ -1438,21 +1566,21 @@ Package pdftex.def Info: figuras/sonar_int.pdf used on input line 58.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
-}) has been already used, duplicate ignored
+[44pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.64 \item D
             esenvolvedores podem subir seus códigos para suas ferramentas d...
- <./figuras/Sonar.png>] [41pdfTeX warning (ext4): destination with the same ide
-ntifier (name{figure.3.8}) has been already used, duplicate ignored
+ <./figuras/Sonar.png>] [45pdfTeX warning (ext4): destination with the same ide
+ntifier (name{figure.3.16}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.70 \end{enumerate}
                     pdfTeX warning (ext4): destination with the same identifier
- (name{figure.3.9}) has been already used, duplicate ignored
+ (name{figure.3.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1461,8 +1589,8 @@ l.70 \end{enumerate}
 iguras/sonar_int.pdf, page is rotated 90 degrees>]
 Underfull \vbox (badness 2495) has occurred while \output is active []
 
- [42])
-(./editaveis/proposta.tex [43] [44
+ [46])
+(./editaveis/proposta.tex [47] [48
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
@@ -1470,8 +1598,8 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-<figuras/questionario.pdf, id=628, 474.86789pt x 615.1184pt>
+ [49]
+<figuras/questionario.pdf, id=802, 474.86789pt x 615.1184pt>
 File: figuras/questionario.pdf Graphic file (type pdf)
 
 <use figuras/questionario.pdf>
@@ -1485,38 +1613,38 @@ Overfull \hbox (19.86673pt too wide) in paragraph at lines 18--19
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./editaveis/metodologia.tex [46] [47pdfTeX warning (ext4): destination with 
-the same identifier (name{figure.4.10}) has been already used, duplicate ignore
+) (./editaveis/metodologia.tex [50] [51pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.4.18}) has been already used, duplicate ignore
 d
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            [Metodologia]{Metodologia} <./figuras/questionario.pdf>] [48
+            [Metodologia]{Metodologia} <./figuras/questionario.pdf>] [52
 
 ]
-<figuras/metodologia_pesquisa.pdf, id=660, 621.56429pt x 379.25117pt>
+<figuras/metodologia_pesquisa.pdf, id=834, 621.56429pt x 379.25117pt>
 File: figuras/metodologia_pesquisa.pdf Graphic file (type pdf)
 
 <use figuras/metodologia_pesquisa.pdf>
 Package pdftex.def Info: figuras/metodologia_pesquisa.pdf used on input line 9.
 
 (pdftex.def)             Requested size: 310.78137pt x 189.62512pt.
- [49pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-11}) has been already used, duplicate ignored
+ [53pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+19}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.18 
       <./figuras/metodologia_pesquisa.pdf, page is rotated 90 degrees>]
-[50] <figuras/zotero_edit2.pdf, id=691, 794.0068pt x 428.85693pt>
+[54] <figuras/zotero_edit2.pdf, id=865, 794.0068pt x 428.85693pt>
 File: figuras/zotero_edit2.pdf Graphic file (type pdf)
 
 <use figuras/zotero_edit2.pdf>
 Package pdftex.def Info: figuras/zotero_edit2.pdf used on input line 35.
 (pdftex.def)             Requested size: 397.00243pt x 214.42793pt.
 
-<figuras/iniciacao.pdf, id=692, 792.20662pt x 263.19116pt>
+<figuras/iniciacao.pdf, id=866, 792.20662pt x 263.19116pt>
 File: figuras/iniciacao.pdf Graphic file (type pdf)
 
 <use figuras/iniciacao.pdf>
@@ -1526,52 +1654,52 @@ Package pdftex.def Info: figuras/iniciacao.pdf used on input line 43.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figuras/TCCMetodologia.pdf, id=693, 1027.84pt x 770.88pt>
+<figuras/TCCMetodologia.pdf, id=867, 1027.84pt x 770.88pt>
 File: figuras/TCCMetodologia.pdf Graphic file (type pdf)
 
 <use figuras/TCCMetodologia.pdf>
 Package pdftex.def Info: figuras/TCCMetodologia.pdf used on input line 53.
 (pdftex.def)             Requested size: 411.12872pt x 308.34654pt.
- [51pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-12}) has been already used, duplicate ignored
+ [55pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+20}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.57 
       <./figuras/zotero_edit2.pdf>]
-<figuras/scrum.png, id=728, 1093.686pt x 429.2838pt>
+<figuras/scrum.png, id=902, 1093.686pt x 429.2838pt>
 File: figuras/scrum.png Graphic file (type png)
  <use figuras/scrum.png>
 Package pdftex.def Info: figuras/scrum.png used on input line 64.
 (pdftex.def)             Requested size: 437.46664pt x 171.71046pt.
 
-[52pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
-3}) has been already used, duplicate ignored
+[56pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.68 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.14}) has been already used, duplicate ignored
+.22}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.68 
       <./figuras/iniciacao.pdf, page is rotated 90 degrees> <./figuras/TCCMetod
-ologia.pdf>] <figuras/US.pdf, id=856, 250.81364pt x 161.8823pt>
+ologia.pdf>] <figuras/US.pdf, id=1030, 250.81364pt x 161.8823pt>
 File: figuras/US.pdf Graphic file (type pdf)
 
 <use figuras/US.pdf>
 Package pdftex.def Info: figuras/US.pdf used on input line 78.
 (pdftex.def)             Requested size: 200.65117pt x 129.506pt.
- [53pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-15}) has been already used, duplicate ignored
+ [57pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+23}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.82 \item \textit
                   {\textbf{Story Point}}:Unidade relativa que caracteriza o ...
- <./figuras/scrum.png>] <figuras/kanban.jpg, id=869, 1027.84pt x 518.93875pt>
+ <./figuras/scrum.png>] <figuras/kanban.jpg, id=1042, 1027.84pt x 518.93875pt>
 File: figuras/kanban.jpg Graphic file (type jpg)
 
 <use figuras/kanban.jpg>
@@ -1580,37 +1708,37 @@ Package pdftex.def Info: figuras/kanban.jpg used on input line 87.
 
 Underfull \vbox (badness 1168) has occurred while \output is active []
 
- [54pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
-16}) has been already used, duplicate ignored
+ [58pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+24}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.96 
      pdfTeX warning (ext4): destination with the same identifier (name{figure.5
-.17}) has been already used, duplicate ignored
+.25}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.96 
       <./figuras/US.pdf> <./figuras/kanban.jpg>])
-(./editaveis/resultados_parciais.tex [55pdfTeX warning (ext4): destination with
- the same identifier (name{table.5.3}) has been already used, duplicate ignored
+(./editaveis/resultados_parciais.tex [59pdfTeX warning (ext4): destination with
+ the same identifier (name{table.5.4}) has been already used, duplicate ignored
 
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            [Resultados parciais]{Resultados Parciais}] [56
+            [Resultados parciais]{Resultados Parciais}] [60
 
 ])
-(./editaveis/consideracoes_finais.tex [57] [58
+(./editaveis/consideracoes_finais.tex [61] [62
 
 ]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
 
-[59] [60
+[63] [64
 
 ]
 
@@ -1618,11 +1746,11 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[61] [62] [63])
+[65] [66] [67])
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[64]
+[68]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1638,7 +1766,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 52.
 Package rerunfilecheck Info: File `tcc.brf' has not changed.
-(rerunfilecheck)             Checksum: 1F68334682EC884FBCFAE8AAD1166E25;4122.
+(rerunfilecheck)             Checksum: D9D49E944E33AB8E92A3C742258DE36A;4796.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
@@ -1646,13 +1774,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 13947 strings out of 493014
- 205071 string characters out of 6133352
- 340902 words of memory out of 5000000
- 16897 multiletter control sequences out of 15000+600000
+ 14042 strings out of 493014
+ 207262 string characters out of 6133352
+ 346124 words of memory out of 5000000
+ 16968 multiletter control sequences out of 15000+600000
  89908 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,17n,38p,1253b,652s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,17n,38p,1590b,655s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -1673,10 +1801,10 @@ texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist
 e1/public/lm/lmssbo10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
 c/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lms
 so17.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (66 pages, 3349701 bytes).
+Output written on tcc.pdf (70 pages, 8123299 bytes).
 PDF statistics:
- 1332 PDF objects out of 1440 (max. 8388607)
- 1125 compressed objects within 12 object streams
- 232 named destinations out of 1000 (max. 500000)
- 607 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1517 PDF objects out of 1728 (max. 8388607)
+ 1269 compressed objects within 13 object streams
+ 248 named destinations out of 1000 (max. 500000)
+ 647 words of extra memory for PDF output out of 10000 (max. 10000000)
 
