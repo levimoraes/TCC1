@@ -13,56 +13,55 @@
 \contentsline {section}{\numberline {1.4}Objetivos}{23}{section.1.4}
 \contentsline {subsection}{\numberline {1.4.1}Objetivos Gerais}{23}{subsection.1.4.1}
 \contentsline {subsection}{\numberline {1.4.2}Objetivos Espec\IeC {\'\i }ficos}{23}{subsection.1.4.2}
-\contentsline {section}{\numberline {1.5}Resultados Esperados}{23}{section.1.5}
-\contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{23}{section.1.6}
-\contentsline {section}{\numberline {1.7}Resumo do Cap\IeC {\'\i }tulo}{23}{section.1.7}
+\contentsline {section}{\numberline {1.5}Resultados Esperados}{24}{section.1.5}
+\contentsline {section}{\numberline {1.6}Organiza\IeC {\c c}\IeC {\~a}o do trabalho}{24}{section.1.6}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{25}{chapter.2}
 \contentsline {section}{\numberline {2.1}Processo de Contrata\IeC {\c c}\IeC {\~a}o de Software na APF}{25}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Avalia\IeC {\c c}\IeC {\~a}o da Qualidade Em Um Processo de Contrata\IeC {\c c}\IeC {\~a}o }{26}{subsection.2.1.1}
-\contentsline {section}{\numberline {2.2}Qualidade}{27}{section.2.2}
+\contentsline {subsection}{\numberline {2.1.1}Avalia\IeC {\c c}\IeC {\~a}o da Qualidade Em Um Processo de Contrata\IeC {\c c}\IeC {\~a}o }{27}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Qualidade}{28}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Norma SQuaRE}{29}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Manuten\IeC {\c c}\IeC {\~a}o de Software}{31}{subsection.2.2.2}
 \contentsline {section}{\numberline {2.3}M\IeC {\'e}tricas de Qualidade de Software}{33}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Su\IeC {\'\i }te de Chidamber-Kemerer}{33}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Su\IeC {\'\i }te MOOD}{34}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.2}Su\IeC {\'\i }te MOOD}{35}{subsection.2.3.2}
 \contentsline {section}{\numberline {2.4}Visualiza\IeC {\c c}\IeC {\~a}o da Informa\IeC {\c c}\IeC {\~a}o}{36}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Visualiza\IeC {\c c}\IeC {\~a}o de Dados}{36}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Dashboard}{38}{subsection.2.4.2}
-\contentsline {section}{\numberline {2.5}Resumo do Cap\IeC {\'\i }tulo}{42}{section.2.5}
+\contentsline {section}{\numberline {2.5}Resumo do Cap\IeC {\'\i }tulo}{43}{section.2.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Suporte Tecnol\IeC {\'o}gico}}{43}{chapter.3}
-\contentsline {section}{\numberline {3.1}Ferramentas de Programa\IeC {\c c}\IeC {\~a}o}{43}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}GIT}{43}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Github}{43}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}SonarQube}{43}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Google Charts e Charts.js}{46}{subsection.3.1.4}
-\contentsline {section}{\numberline {3.2}Ferramentas de Gerenciamento}{46}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Bonita}{46}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Mac OS X}{46}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}LaTeX}{47}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Sublime Text 3}{47}{subsection.3.2.4}
-\contentsline {subsection}{\numberline {3.2.5}Zotero}{47}{subsection.3.2.5}
-\contentsline {section}{\numberline {3.3}Resumo do Cap\IeC {\'\i }tulo}{47}{section.3.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Suporte Tecnol\IeC {\'o}gico}}{45}{chapter.3}
+\contentsline {section}{\numberline {3.1}Ferramentas de Programa\IeC {\c c}\IeC {\~a}o}{45}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}GIT}{45}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Github}{45}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}SonarQube}{46}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Google Charts e Charts.js}{48}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Ferramentas de Gerenciamento}{48}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Bonita}{48}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Mac OS X}{49}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}LaTeX}{49}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Sublime Text 3}{49}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Zotero}{49}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Resumo do Cap\IeC {\'\i }tulo}{49}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Proposta}}{49}{chapter.4}
-\contentsline {section}{\numberline {4.1}Coleta das M\IeC {\'e}tricas}{49}{section.4.1}
-\contentsline {section}{\numberline {4.2}Cria\IeC {\c c}\IeC {\~a}o do \textit {Dashboard}}{50}{section.4.2}
-\contentsline {section}{\numberline {4.3}Avalia\IeC {\c c}\IeC {\~a}o}{50}{section.4.3}
-\contentsline {section}{\numberline {4.4}Resumo do Cap\IeC {\'\i }tulo}{50}{section.4.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Proposta}}{51}{chapter.4}
+\contentsline {section}{\numberline {4.1}Coleta das M\IeC {\'e}tricas}{51}{section.4.1}
+\contentsline {section}{\numberline {4.2}Cria\IeC {\c c}\IeC {\~a}o do \textit {Dashboard}}{52}{section.4.2}
+\contentsline {section}{\numberline {4.3}Avalia\IeC {\c c}\IeC {\~a}o}{52}{section.4.3}
+\contentsline {section}{\numberline {4.4}Resumo do Cap\IeC {\'\i }tulo}{52}{section.4.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Metodologia}}{53}{chapter.5}
-\contentsline {section}{\numberline {5.1}Metodologia de Pesquisa}{53}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Plano Metodol\IeC {\'o}gico}{54}{subsection.5.1.1}
-\contentsline {section}{\numberline {5.2}Metodologia de Desenvolvimento}{56}{section.5.2}
-\contentsline {section}{\numberline {5.3}Cronograma}{59}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Cronograma TCC1}{59}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Cronograma TCC2}{59}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}Resumo do Cap\IeC {\'\i }tulo}{59}{section.5.4}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Metodologia}}{55}{chapter.5}
+\contentsline {section}{\numberline {5.1}Metodologia de Pesquisa}{55}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Plano Metodol\IeC {\'o}gico}{56}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Metodologia de Desenvolvimento}{59}{section.5.2}
+\contentsline {section}{\numberline {5.3}Cronograma}{61}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Cronograma TCC1}{62}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Cronograma TCC2}{62}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Resumo do Cap\IeC {\'\i }tulo}{62}{section.5.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Resultados parciais}}{61}{chapter.6}
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es finais}}{63}{chapter.7}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Resultados parciais}}{63}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}\textit {Status} atual do Projeto}{63}{subsection.6.0.1}
+\contentsline {subsection}{\numberline {6.0.2}Pr\IeC {\'o}ximas Atividades}{63}{subsection.6.0.2}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\uppercase {Refer\^encias}}{65}{section*.12}

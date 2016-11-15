@@ -1,30 +1,32 @@
 %\part{Aspectos Gerais}
 
-\chapter[Referencial Teórico]{Referencial teórico}
-	
-	Este capítulo tem como objetivo servir como referencial teórico para todo o documento. Inicialmente o capítulo apresenta uma visão geral sobre o processo de contratação de software na APF, destacam-se a importancia de algumas leis que servem como fundamento para a contratacao de terceirizadas e o nível de qualidade que é exigido por parte dos orgãos públicos. Em seguida discute-se sobre o conceito de qualidade de software na visão de alguns atores e o que é qualidade segundo a ISO 9126 que serviu como base para a norma SQUARE também discutida neste trabalho. Após a definição de qualidade pela norma SQUARE, é apresentado conceitos fundamentais de manutenção de software que servem como guia para o desenvolvimento deste trabalho. Tendo definido manutenabilidade alguns conjuntos de métricas que visam identificar possíveis lacunas de manutenabilidade no código são apresentados. Com as métricas definidas é necessário que se faça a devida visualização das métricas, tópico final deste capítulo.
+\chapter[Referencial Teórico]{Referencial Teórico}	
+Este capítulo tem como principal objetivo conferir detalhes sobre o referencial teórico, o qual embasa a presente proposta.    Inicialmente, o capítulo apresenta uma visão geral sobre o processo de contratação de software na Administração Pública Federal (APF), onde são destacadas algumas leis que fundamentam o tópico de contratação no âmbito das terceirizadas bem como estabelecem o nível de qualidade exigido por parte dos Órgãos Públicos Brasileiros. Em seguida discute-se sobre o conceito de qualidade de software na visão de alguns atores com destaque para o que é qualidade de acordo com a ISO 9126. Essa serviu como base para a norma SQUARE também discutida neste trabalho. Após a definição de qualidade pela norma SQUARE, sendo apresentados conceitos fundamentais de manutenção de software, os quais servem como guias para o desenvolvimento desta proposta. Tendo definido manutenabilidade, alguns conjuntos de métricas, que visam identificar possíveis lacunas de manutenabilidade no código, são apresentados. Com as métricas definidas, é necessário que se faça a devida visualização das métricas, tópico final deste capítulo.
 	
 \section{Processo de Contratação de Software na APF}
-O Decreto n\c 2.271 de 1997 \cite{decreto_2271} dispõe sobre a contratação de serviços pela APF. Segundo o Decreto todos os produtos ou serviços que não apresentam relação direta com o propósito da instituição do governo federal devem ser tercerizados. O Decreto coloca como exemplo algumas atividades como por exemplo, conservação, limpeza, segurança, vigilância, transportes, informática, copeiragem, recepção, reprografia, telecomunicações são atividades livres para tercerização.
-\\A licitação é um conjunto de processos administrativos de caráter formal para as compras de bens ou serviços nos governos federais, estaduais ou municipais. Segundo a Lei  n 8.666 de 1993, o governo brasileiro para garantir a isonomia (princípio geral do direito segundo o qual todos são iguais perante a lei) diz que para contratações de bens ou serviços deve-se dar prioridade para licitação \cite{Lei_1993}. A licitação pode ocorrer de quatro categorias: concorrência, tomada de preços, convite e pregão \cite{brazil_licitacoes_2010}.
-\\Uma vez que uma empresa ganha a licitação para um serviço a empresa ganha o direito de contratação para prestar o serviço ao orgão contratante. Para ajudar no processo de contratação de empresas terceirizadas voltadas para a área de TI o TCU disponibiliza um Guia de boas práticas de contratações em soluções de TI \cite{guia_boas_praticas}. Segundo o guia a prática de contratação do serviço de desenvolvimento de um sistema de informação pode englobar elementos do tipo:
+O Decreto n\c 2.271 de 1997 \cite{decreto_2271} dispõe sobre a contratação de serviços pela APF. Segundo o Decreto, todos os produtos ou serviços que não apresentam relação direta com o propósito da Instituição do Governo Federal devem ser tercerizados. O Decreto coloca como exemplo algumas atividades, tais como: conservação, limpeza, segurança, vigilância, transporte, informática, copeiragem, recepção, reprografia, telecomunicações. Essas atividades são livres para tercerização.
+
+A licitação é um conjunto de processos administrativos de caráter formal para as compras de bens ou serviços nos governos federais, estaduais ou municipais. Segundo a Lei  n 8.666 de 1993, o Governo Brasileiro para garantir a isonomia (princípio geral do direito segundo o qual todos são iguais perante a lei), diz que para contratações de bens ou serviços deve-se dar prioridade para licitação \cite{Lei_1993}. A licitação pode ocorrer de acordo com quatro categorias: concorrência, tomada de preços, convite e pregão \cite{brazil_licitacoes_2010}.
+
+Uma vez que uma empresa ganha a licitação para um serviço, a empresa ganha o direito de contratação para prestar o serviço ao Órgão contratante. Para ajudar no processo de contratação de empresas terceirizadas voltadas para a área de Tecnologia da Informação (TI), o Tribunal de Contas da União disponibiliza um guia de boas práticas de contratações em soluções de TI \cite{guia_boas_praticas}. Segundo o guia, a prática de contratação do serviço de desenvolvimento de um sistema de informação pode englobar elementos do tipo:
 \begin{itemize}
-\item Os softwares do sistema, devidamente documentados e com evidências de que foram testados;
-\item As bases de dados do sistema, devidamente documentadas;
-\item O sistema implantado no ambiente de produção do órgão;
-\item A tecnologia do sistema transferida para a equipe do órgão, que deve ocorrer ao longo de todo o contrato;
-\item As rotinas de produção do sistema, devidamente documentadas e implantadas no ambiente de produção do órgão;
-\item As minutas dos normativos que legitimem os atos praticados por intermédio do sistema;
-\item O sistema de indicadores de desempenho do sistema implantado, que pode incluir as atividades de coleta de dados para gerar os indicadores, fórmula de cálculo de cada indicador e forma de publicação dos indicadores. Citam-se, como exemplos, os indicadores de disponibilidade, de desempenho das transações e de satisfação dos usuários com o sistema de informação;
-\item Os scripts necessários para prover os atendimentos relativos ao sistema por parte da equipe de atendimento aos usuários, devidamente implantados e documentados;
-\item A capacitação dos diversos atores envolvidos com o sistema (e.g. equipe de suporte técnico do órgão, equipe de atendimento aos usuários, equipe da unidade gestora do sistema e usuários finais), que pode envolver treinamentos presenciais e a distância;
-\item O serviço contínuo de suporte técnico ao sistema (e.g. atendimento aos chamados feitos pelo órgão junto à contratada sobre dúvidas e problemas relativos ao sistema);
-\item O serviço contínuo de manutenção do sistema (e.g. implantação de manutenções corretivas e evolutivas).
+\item os produtos de software, devidamente documentados e com evidências de que foram testados;
+\item as bases de dados do sistema, devidamente documentadas;
+\item o sistema implantado no ambiente de produção do Órgão;
+\item a tecnologia do sistema transferida para a equipe do Órgão, que deve ocorrer ao longo de todo o contrato;
+\item as rotinas de produção do sistema, devidamente documentadas e implantadas no ambiente de produção do Órgão;
+\item as minutas dos normativos que legitimem os atos praticados por intermédio do sistema;
+\item o sistema de indicadores de desempenho do sistema implantado, que pode incluir as atividades de coleta de dados para gerar os indicadores, fórmula de cálculo de cada indicador e forma de publicação dos indicadores. Citam-se, como exemplos, os indicadores de disponibilidade, de desempenho das transações e de satisfação dos usuários com o sistema de informação;
+\item os \textit{scripts} necessários para prover os atendimentos relativos ao sistema por parte da equipe de atendimento aos usuários, devidamente implantados e documentados;
+\item a capacitação dos diversos atores envolvidos com o sistema (e.g. equipe de suporte técnico do Órgão, equipe de atendimento aos usuários, equipe da unidade gestora do sistema e usuários finais), que pode envolver treinamentos presenciais e à distância;
+\item o serviço contínuo de suporte técnico ao sistema (e.g. atendimento aos chamados feitos pelo Órgão junto à contratada sobre dúvidas e problemas relativos ao sistema);
+\item o serviço contínuo de manutenção do sistema (e.g. implantação de manutenções corretivas e evolutivas).
 \end{itemize} 
-Tendo definido o que pode ser terceirizado dentro de um órgão público, é necessário que o produto entregue tenha qualidade aceitável para que seja fechado o acordo por parte da tercerizada e da contratante (neste caso APF). Contudo é necessário estipular o que é avaliado durante a contratação de um software.
+
+Tendo definido o que pode ser terceirizado dentro de um Órgão público, é necessário que o produto entregue tenha qualidade aceitável para que seja fechado o acordo por parte da tercerizada e da contratante (neste caso APF). Contudo, é necessário estipular o que é avaliado durante a contratação de um software.
 
 \subsection{Avaliação da Qualidade Em Um Processo de Contratação }
-Uma vez que o software é produzido pela tercerizada o software passa por um processo de verificação de todo o artefato que foi entregue seja ele em forma de código, como em forma de documentos. São lançados dezenas de editais todos os anos com o intuito de suprir a necessidade dos órgãos públicos quanto a demanda de software. Cada órgão é responsável por disponibilizar o seu edital contendo entre vários assuntos a forma como será inspecionado o código entregue pela tercerizada. Em um edital feito pelo DNPM \cite{edital} um dos objetos de avaliação é a cobertura miníma de testes como mostra a Tabela \ref{tabela1}, são avaliados tanto testes unitários, como de interface e de integração.
+Uma vez que o software é produzido pela tercerizada, o mesmo passa por um processo de verificação de todos os artefatos que foram entregues, sejam eles em forma de documento, ou em código. São lançados dezenas de editais todos os anos com o intuito de suprir a necessidade dos Órgãos Públicos quanto à demanda de software. Cada Órgão é responsável por disponibilizar o seu edital contendo, entre vários assuntos, a forma como será inspecionado o código entregue pela tercerizada. Em um edital feito pelo Departamento Nacional de Produção Mineral \cite{edital}, um dos objetos de avaliação é a cobertura miníma de testes, como mostra a Tabela \ref{tabela1}. São avaliados tanto testes unitários, como de interface e de integração.
 
 \begin{table}[h]
 \centering
@@ -38,7 +40,9 @@ De Interface           & 20\%
 \end{tabular}
 \end{table}
 
-Este mesmo edital também apresenta outra tabela \ref{tabela2} mostrando outros detalhes que também serão cobrados na entrega do software. Algumas características desta tabela devem ser salientadas, como por exemplo, algumas métricas (mais especificamente taxa de cobertura de código, complexidade por método e LCOM4) não possuem valores definidos de cobrança e são ajustados de acordo com o projeto.
+
+
+Este mesmo edital também apresenta outra tabela, Tabela \ref{tabela2}. Nessa, são mostrados outros detalhes que serão cobrados na entrega do software. Algumas características desta tabela devem ser salientadas, como por exemplo, algumas métricas (mais especificamente taxa de cobertura de código, complexidade por método e LCOM4), as quais não possuem valores definidos de cobrança, sendo, portanto, ajustados conforme o projeto.
 \begin{table}[h]
 \centering
 \caption{Métricas de Qualidade de Código Exigidas pela DNPM. Fonte: \cite{edital}}
@@ -61,8 +65,9 @@ Linhas de código comentadas          & \begin{tabular}[c]{@{}l@{}}Igual ou meno
 \end{table}
 
 \section{Qualidade}
-	O principal produto da engenharia de software é o software, contudo o que tem se vivenciado na realidade brasileira de computação é que o software que está sendo entregue é um software precário e de baixa qualidade. Por ser uma palavra abstrata, o conceito de qualidade é bem amplo, porém o termo qualidade normalmente está associado a uma medida relativa, essa qualidade pode ser entendida como "conformidade às especificações". Conceituando dessa forma, a não conformidade às especificação é igual a ausência de qualidade \cite{Paduelli}.
-\\ A ISO 9126-1 proposta em 2001, também conhecida como Engenharia de Software - Qualidade do Produto, descreve o modelo de qualidade voltado para o produto de software como sendo composto por duas categorias como pode ser visto na Figura \ref{img:relacao_iso}. A primeira categoria está relacionada a qualidade interna e a qualidade externa do software. A segunda categoria se relaciona com a qualidade de uso do software \cite{_nbr_2016}
+	O principal produto da Engenharia de Software é o software. Contudo, o que tem se vivenciado na realidade brasileira de computação é que o software entregue é precário e de baixa qualidade. Por ser um conceito abstrato, qualidade é algo amplo. Porém, normalmente, está associada a uma medida relativa, sendo entendida como "conformidade às especificações". Conceituando dessa forma, a não conformidade às especificação pode ser vista como baixa ou ausência de qualidade \cite{Paduelli}.
+
+ A ISO 9126-1 proposta em 2001, também conhecida como Engenharia de Software - Qualidade do Produto, descreve o modelo de qualidade voltado para o produto de software como sendo composto por duas categorias, conforme ilustra a Figura \ref{img:relacao_iso}. A primeira categoria está relacionada a qualidade interna e a qualidade externa do software. A segunda categoria relaciona-se com a qualidade de uso do software \cite{_nbr_2016}
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -70,7 +75,8 @@ Linhas de código comentadas          & \begin{tabular}[c]{@{}l@{}}Igual ou meno
 \caption{Relação entre as NBR ISO/IEC 9126 e NBR ISO/IEC 14598 .Fonte:\cite{_nbr_2016}}
 \label{img:relacao_iso}
 \end{figure}
-\\ Sob o aspecto de modelo de qualidade,a ISO 9126 classifica a qualidade interna do produto como sendo o somatório das características do ponto de vista interno do software. Os principais produtos desta categoria são os de cunho intermediário, entre eles: relatórios de analise estática do código fonte, revisão dos documentos produzidos, entre outros. A qualidade externa por sua vez já apresenta o seu foco mais voltado para as relações externas do software, normalmente esta relacionado com a execução do código coletando suas métricas enquanto o software está em funcionamento. A Figura \ref{img:modelo_qualidade} apresenta a divisão proposta pela \cite{_nbr_2016} onde são categorizados seis aspectos de qualidade de software e suas subcaracterísticas, essas podem ser medidas por meio de métricas internas e externas. 
+
+ Como modelo de qualidade,a ISO 9126 classifica a qualidade interna do produto como sendo o somatório das características do ponto de vista interno do software. Os principais produtos desta categoria são os de cunho intermediário, entre eles: relatórios de análise estática do código fonte, revisão dos documentos produzidos, entre outros. A qualidade externa, por sua vez, já apresenta foco mais voltado para as relações externas do software, normalmente, relacionando-se com a execução do código. Nesse caso, é necessário coletar suas métricas, enquanto o software está em funcionamento. A Figura \ref{img:modelo_qualidade} apresenta a divisão proposta pela \cite{_nbr_2016}, onde são categorizados seis aspectos de qualidade de software e suas subcaracterísticas, medidas por meio de métricas internas e externas. 
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -78,7 +84,8 @@ Linhas de código comentadas          & \begin{tabular}[c]{@{}l@{}}Igual ou meno
 \caption{Modelo de Qualidade para Qualidade Interna e Externa .Fonte:\cite{_nbr_2016}}
 \label{img:modelo_qualidade}
 \end{figure}
-\\Segundo a ISO 9126 essas caracteristicas podem ser definidas como:
+
+Segundo a ISO 9126, essas caracteristicas podem ser definidas como:
 \begin{itemize}
 \item \textbf{Funcionalidade}: Capacidade do produto de software de prover funções que atendam às necessidades explícitas e implícitas, quando o software estiver sendo utilizado sob condições especificadas.
 \item \textbf{Confiabilidade}:Capacidade do produto de software de manter um nível de desempenho especificado, quando usado em condições especificadas.
@@ -87,30 +94,31 @@ Linhas de código comentadas          & \begin{tabular}[c]{@{}l@{}}Igual ou meno
 \item \textbf{Manutenibilidade}: Capacidade do produto de software de ser modificado. As modificações podem incluir correções, melhorias ou adaptações do software devido a mudanças no ambiente e nos seus requisitos ou especificações funcionais.
 \item \textbf{Portabilidade}: Capacidade do produto de software de ser transferido de um ambiente para outro.
 \end{itemize}
-Em 2011 surgiu um conjunto de normas conhecidos como SQuaRE que traziam um framework aprimorado à atual norma vigente. Este framework tinha como objetivo avaliar o produto de qualidade de software.
+
+Em 2011, surgiu um conjunto de normas conhecido como SQuaRE. Esse conjunto trazia um \textit{framework} aprimorado à atual norma vigente. Além disso, tinha como objetivo avaliar o produto de qualidade de software.
 
 \subsection{Norma SQuaRE}
-O conjunto de normas SQuaRE (Requisitos e Avaliação de Qualidade de Sistema e Software) surgiu para substituir a ISO/IEC 9126. O objetivo destas normas é prover um framework que avalie a qualidade do produto de software \cite{luiza_yago}. ISO/IEC 25010 mantém as características de qualidade já definidas na ISO 9126 com alguns incrementos.
+O conjunto de normas SQuaRE (Requisitos e Avaliação de Qualidade de Sistema e Software) surgiu para substituir a ISO/IEC 9126. O objetivo destas normas é prover um \textit{framework} que avalie a qualidade do produto de software \cite{luiza_yago}. ISO/IEC 25010 mantém as características de qualidade já definidas na ISO 9126 com alguns incrementos.
 
 \begin{itemize}
-\item O escopo dos modelos de qualidade foram extendidos para incluir sistemas computacionais e a qualidade em uso pelo ponto de vista do sistema
+\item O escopo dos modelos de qualidade foram extendidos para incluir sistemas computacionais e a qualidade em uso sob o ponto de vista do sistema.
 \item Segurança foi adicionada como característica, e não uma subcaracterística de funcionalidade.
 \item Compatibilidade foi adicionada como característica.
 \item A qualidade interna e externa foram combinadas como modelo de qualidade de produto.
 \end{itemize}
 
-A norma apresenta três guias de qualidade. O primeiro modelo é referente à Qualidade do Produto, o segundo da Qualidade em Uso e o último Qualidade de Dados.O modelo de Qualidade do Produto subdivide um sistema de software em oito categorias como mostra a imagem \ref{img:modelo_square}.
-Assim como a ISO 9126, a ISO 25010 também apresenta categorias, estas categorias se assemelham às categorias da ISO 9126 a qual serviu como base para criação da norma SQuaRE, estas caracteristicas são:
+A norma apresenta três guias de qualidade. O primeiro modelo é referente à Qualidade do Produto; o segundo, à Qualidade em Uso, e o último, à Qualidade de Dados.O modelo de Qualidade do Produto subdivide um sistema de software em oito categorias, como mostra a Figura \ref{img:modelo_square}.
+Assim como a ISO 9126, a ISO 25010 também apresenta categorias, estas categorias assemelham-se às categorias da ISO 9126, sendo essa base para criação da norma SQuaRE. Seguem as caracteristicas:
 
 \begin{itemize}
 \item \textbf{Adequação Funcional}: nível que determina o quanto um produto ou sistema satisfazem as especificações providas pelo usuário.
-\item \textbf{Eficiência de Performance}: performance relativa à quantidade de recursos usados em condições específicas.
-\item \textbf{Compatibilidade}: o nível que um sistema ou produto pode compartilhar informaçõesc com outros produtos, sistemas ou componentes.
+\item \textbf{Eficiência de Desempenho}: desempenho relativo à quantidade de recursos usados em condições específicas.
+\item \textbf{Compatibilidade}: o nível que um sistema ou produto pode compartilhar informações, com outros produtos, sistemas ou componentes.
 \item \textbf{Usabilidade}: O nível que um produto ou sistema pode ser usado por usuários específicos para atingir seus objetivos com efetividade, eficiência e satisfação em contexto específico de uso.
 \item \textbf{Confiabilidade}: nível que um sistema, produto ou componente executa suas atividades em um contexto pré-determinado e específico para uso.
 \item \textbf{Segurança}: nível no qual um sistema protege as informações e os dados de maneira que pessoas ou outros sistemas tenham acesso limitado de acordo com nível de autorização especifíco.
-\item \textbf{Manutenibilidade}: nível de efetividade e eficiência com o qual um produto ou sistema pode ser modificado pelos sistemas mantenedores.
-\item \textbf{Portabilidade}: Nível de efetividade e eficiência com o qual um sistema, produto ou componente pode ser transferido de um hardware, software ou ambiente de uso para outro.
+\item \textbf{Manutenibilidade}: nível de efetividade e eficiência, com o qual um produto ou sistema pode ser modificado pelos sistemas mantenedores.
+\item \textbf{Portabilidade}: Nível de efetividade e eficiência com o qual um sistema, produto ou componente pode ser transferido de um \textit{hardware}, software ou ambiente de uso para outro.
 \end{itemize}
 \graphicspath{{figuras/}}
 \begin{figure}[h]
@@ -120,26 +128,29 @@ Assim como a ISO 9126, a ISO 25010 também apresenta categorias, estas categoria
 \label{img:modelo_square}
 \end{figure}
 
-Este trabalho tem seu desenvolvimento focado no modelo de Qualidade de Uso que apresenta características externas ao software e os resultados são coletados através de atributos estáticos \cite{Square}. O foco deste trabalho está em medir indicadores quanto à manutenabilidade do software. Essa característica está diretamente ligada ao processo de Manutenção do Software.  
+Este trabalho tem seu desenvolvimento focado no modelo de Qualidade de Uso 
+o qual apresenta características externas ao software, e os resultados sendo coletados através de atributos estáticos \cite{Square}. O foco deste trabalho está em medir indicadores quanto à manutenabilidade do software. Essa característica está diretamente ligada ao processo de Manutenção do Software.  
 
 \subsection{Manutenção de Software}
-Segundo Sommervile \cite{sommervile} manutenção de software é o processo de alterar o sistema depois que ele foi publicado. As alterações feitas no software podem ser simples correções de erro, a até mudanças significativamente grandes que corrigem falhas arquiteturais, ou mesmo melhorias para acomodar novos requisitos.
-\\Outra visão sobre manutenção de software é dada por Pressman \cite{pressman} em que o autor conceitua o termo como sendo a correção de defeitos, adaptação do software para atender uma mudança do ambiente e aperfeiçoar as funcionalidades para que atendam às necessidades dos usuários. Outra característica do processo de manutenção é a sua composição por um conjunto de sub processos, atividades e tarefas que podem ser utilizados durante a fase de manutenção para alterar um produto de software, contanto que seja mantido o seu funcionamento \cite{calazans_avaliacao_2005}.
-\\Para Sommervile existem quatro categorias de manutenção:
+Segundo Sommervile \cite{sommervile}, manutenção de software é o processo de alterar o sistema depois que ele foi publicado. As alterações feitas no software podem ser simples correções de erro, até mudanças significativamente grandes para correção falhas arquiteturais, ou mesmo melhorias para acomodar novos requisitos.
+
+Outra visão sobre manutenção de software é dada por Pressman \cite{pressman}, em que o autor conceitua o termo como sendo a correção de defeitos, e adaptação do software para lidar com uma mudança do ambiente e aperfeiçoar as funcionalidades em atendimento às necessidades dos usuários. Outra característica do processo de manutenção é a sua composição por um conjunto de sub processos, atividades e tarefas que podem ser utilizados durante a fase de manutenção para alterar um produto de software, contanto que seja mantido o seu funcionamento \cite{calazans_avaliacao_2005}.
+
+Para Sommervile, existem quatro categorias de manutenção:
 \begin{itemize}
 \item \textbf{Manutenção Corretiva}: seu objetivo está em identificar e remover falhas de software
-\item \textbf{Manutenção Adaptativa}: provê modificações no software para alojar mudanças no ambiente externo. Nesta manutenção também está incluso o processo de migração para diferentes plataformas tanto de software quanto de hardware.
-\item \textbf{Manutenção Perfectiva}: está manutenção é feito com o intuito de aperfeiçoar o software, além dos requisitos funcionais originais. Esta expansão dos requisitos traz consigo uma melhoria às funcionalidades até então implementadas ou um ganho de performance do sistema.
+\item \textbf{Manutenção Adaptativa}: provê modificações no software para alojar mudanças no ambiente externo. Nesta manutenção, também está incluso o processo de migração para diferentes plataformas tanto de software quanto de \textit{hardware}.
+\item \textbf{Manutenção Perfectiva}: feita com o intuito de aperfeiçoar o software, além dos requisitos funcionais originais. Esta expansão dos requisitos traz consigo uma melhoria às funcionalidades até então implementadas ou um ganho de desempenho do sistema.
 \item \textbf{Manutenção Preventiva}: implementada para permitir que seja mais simples a correção, adaptação ou melhoria do software.
 \end{itemize}
 
-O modelo da figura \ref{img:modelo_manutencao} apresenta as atividades propostas por Pfleeger para um processo de manutenção. Na figura percebe-se que o processo de acompanhamento da manutenção ocorre durante todo o processo. As atividades apresentadas no diagrama são:
+O modelo da Figura \ref{img:modelo_manutencao} apresenta as atividades propostas por Pfleeger \cite{pfleeger_framework_1990} para um processo de manutenção. Na figura, percebe-se que o processo de acompanhamento da manutenção ocorre durante todo o processo. As atividades apresentadas no diagrama são:
 
 \begin{itemize}
-\item \textbf{Analise do Impacto da Mudanção de Software}: estima o impacto de uma determinada mudança. Nesta atividade determina-se o grau de mudança e o quanto está mudança impactará no resto do software. 
-\item \textbf{Entendimento do Software a ser Alterado}: nesta atividade são analisados os códigos-fonte do software para entender a mudança e a integração do que deve ser alterado. Esta atividade depende muito do grau de manutenabilidade do software, uma vez que quanto mais manutenível mais fácil e rapido se dá o processo de analise do software.
-\item \textbf{Implementação da Mudança}: incremento ou modificação do software. Está atividade é diretamente relacionada com o grau de adaptação do software, o quanto o software pode ser expandido ou comprimido. Essa característica de adaptabilidade é uma subcaracterística da Manutenabilidade de software apresentada pela norma Square. 
-\item \textbf{Mudanças pelo Efeito Cascata}: Analise da propagação das mudanças ao longo do software. Essa atividade está intimamente relacionada com o indicador de coesão e acomplamento do software, este afere o quão amarrado estão as classes e os métodos do software.
+\item \textbf{Análise do Impacto da Mudança de Software}: estima o impacto de uma determinada mudança. Nesta atividade, determina-se o grau de mudança e o quanto esta mudança impactará no resto do software. 
+\item \textbf{Entendimento do Software a ser Alterado}: nesta atividade, são analisados os códigos-fonte do software para entender a mudança e a integração do que deve ser alterado. Esta atividade depende muito do grau de manutenabilidade do software, uma vez que quanto mais manutenível, mais fácil e rápido se dá o processo de análise do software.
+\item \textbf{Implementação da Mudança}: incremento ou modificação do software. Esta atividade é diretamente relacionada com o grau de adaptação do software; o quanto o software pode ser expandido ou comprimido. Essa característica de adaptabilidade é uma subcaracterística da manutenabilidade de software apresentada pela norma SQuaRE. 
+\item \textbf{Mudanças pelo Efeito Cascata}: Análise da propagação das mudanças ao longo do software. Essa atividade está intimamente relacionada ao indicador de coesão, que relaciona a responsabilidade de uma classe com seus métodos, e acoplamento do software, este afere o quão amarrado estão as classes e os métodos do software.
 \item \textbf{(Re)Teste do Software}: é a ultima atividade antes da entrega do software alterado. O software é testado novamente sob a perspectiva do novo requisito.
 \end{itemize}
 
@@ -150,14 +161,19 @@ O modelo da figura \ref{img:modelo_manutencao} apresenta as atividades propostas
 \caption{Diagrama das Atividades de Manutenção de Software.Fonte:\cite{pfleeger_framework_1990}}
 \label{img:modelo_manutencao}
 \end{figure}
-Um estudo realizado por Kustyers e Heemstra \cite{kusters} mostram a dificuldade de atuais na manutenção de software em seis grandes organizações da Alemanha. Um dos resultados obtidos foi que existe um uma falta muito grande na percepção quanto ao tamanho e o custo das manutenções de software. Os autores relatam que os gastos com manutenção são altos e que das seis empresas apenas uma mantinha registrado os seus processos de manutenção e os usava para fazer um novo planejamento. 
-\\Normalmente tem se como verdade de que a manutenção de software está unicamente ligada ao conserto de \textit{bugs}, entretanto estudos e \textit{surveys} ao longo dos anos comprovam que mais de 80\% do esforço gasto na manutenção é utilizado em ações não corretivas segundo Pigosky \cite{pigosky}. O autor também afirma que entre 40\% a 60\% do esforço de manutenção está em entender o software que será modificado.
+
+Um estudo realizado por Kustyers e Heemstra \cite{kusters} mostra as dificuldades atuais na manutenção de software com base em seis grandes organizações da Alemanha. Um dos resultados obtidos foi que existe um uma falta muito grande na percepção quanto ao tamanho e ao custo das manutenções de software. Os autores relatam que os gastos com manutenção são altos, e que das seis empresas apenas uma mantinha registrado os seus processos de manutenção e os usava para fazer um novo planejamento. 
+
+Normalmente, tem se como verdade, de que a manutenção de software está unicamente ligada ao conserto de \textit{bugs}. Entretanto, estudos e \textit{surveys} ao longo dos anos comprovam que mais de 80\% do esforço gasto na manutenção é utilizado em ações não corretivas, segundo Pigosky \cite{pigosky}. O autor também afirma que entre 40\% a 60\% do esforço de manutenção está em entender o software que será modificado.
 
 \section{Métricas de Qualidade de Software}
-Uma métrica é uma função que pode ser medida, e métrica de qualidade de software é uma funcão na cuja entrada é uma informação de software e cuja saida é um único valor numérico que pode ser interpretado como nível que é dado a um software \cite{karner}. Segundo \cite{pressman} métricas podem ser definidas como sendo um pequeno subconjunto de informações que tem informações úteis acerca do software.
-Segundo Mills algumas características são inerentes a uma boa métrica, caracteristicas como, simplicidade,objetividade, fácil obtenção, validade, robustez, linearidade de escala. Diversos autores sugeriram conjunto de métricas que combinadas tratam de várias áreas de qualidade de software \cite{paulo_meirelles}.
+
+Uma métrica é uma função que pode ser medida. Métrica de qualidade de software é uma funcão; cuja entrada é uma informação de software, e cuja saida é um único valor numérico que pode ser interpretado como o nível que é dado a um software \cite{karner}. Segundo \cite{pressman}, métricas podem ser definidas como sendo um pequeno subconjunto de informações úteis acerca do software.
+
+Segundo Mills, algumas características são inerentes a uma boa métrica, tais como, simplicidade, objetividade, fácil obtenção, validade, robustez, linearidade de escala. Diversos autores sugeriram conjunto de métricas que combinadas tratam de várias áreas de qualidade de software \cite{paulo_meirelles}.
 
 \subsection{Suíte de Chidamber-Kemerer}
+
 Este conjunto de métricas foi proposto por Shyam R. Chidamber e por Chris F. Kemerer em 1994 tem como objetivo avaliar aspectos de qualidade interna dos artefatos produzidos sob a visão de uma linguagem orientada a objetos \cite{chidamber}. A suíte apresenta as seguintes métricas:
 \begin{itemize}
 
@@ -167,20 +183,20 @@ WMC = \sum_{i=1}^{n}Ci
 \end{equation}
 
 
-Essa métrica serve como indicador para o nível geral da modularização. Quanto maior o valor mais complexas estão a classe ou poucas classes possuem um indíce de complexidade muito alto.
+Essa métrica serve como indicador para o nível geral da modularização. Quanto maior o valor, mais complexa está a classe ou poucas classes a classe ou poucas classes possuem um indíce de complexidade muito alto.
 
 \item \textbf{DIT}: Tamanho do maior caminho entre a raiz da árvore de herança e a classe a qual está sendo analisada. Essa métrica permite ver o quanto uma mudança em uma determinada classe pode afetar todo o sistema.
 
-\item \textbf{NOC}: Quantidade de classes que se utilizam da classe em analise, seja por herança ou implementação. Essa métrica junto com outras ajuda a determinar quais classes são primordiais para o funcionamento do sistema.
+\item \textbf{NOC}: Quantidade de classes que se utilizam da classe em análise, seja por herança ou implementação. Essa métrica junto com outras ajuda a determinar quais classes são primordiais para o funcionamento do sistema.
 
-\item \textbf{CBO}: Está métrica é dada pela equação 2.2: 
+\item \textbf{CBO}: Esta métrica é dada pela equação 2.2: 
 
 \begin{equation}
 CBO = \frac{NumberOfDependencies}{NumberOfClassInPackage}
 \end{equation}
-Uma dependência pode ser definida como o uso de um método ou variável de outra classe porém do mesmo pacote.
+Uma dependência pode ser definida como o uso de um método ou variável de outra classe, porém, do mesmo pacote.
 
-\item \textbf{RFC}: Número de métodos e construtores distintos que são chamados por uma classe. Está medida é muito utilizada para cobertura de testes, em que é pode ser constatado a necessidade ou não de uma modularização de uma classe.
+\item \textbf{RFC}: Número de métodos e construtores distintos que são chamados por uma classe. Esta medida é muito utilizada para cobertura de testes, em que pode ser constatada a necessidade ou não de uma modularização de uma classe.
 
 \item \textbf{LCOM}: Sendo \textit{C} uma classe com \textit{n} métodos, seja \textit{In} o conjunto de variáveis de instância utilizadas pelo método \textit{n}, seja \textit{P} o conjunto tal que:
 \begin{equation}
@@ -190,7 +206,7 @@ e \textit{Q} o conjunto tal que:
 \begin{equation}
 Q = \{(Ii,Ij)|(Ii\bigcap Ij)= \o\}
 \end{equation}
-então LCOM é definida como sendo:
+então, LCOM é definida como sendo:
 \begin{equation}
 LCOM = |P| - |Q| se |P|>|Q|
 \end{equation}
@@ -198,7 +214,7 @@ ou zero caso contrário.
 \end{itemize}
 
 \subsection{Suíte MOOD}
-Outro conjunto de métricas que tem como objetivo de medir de maneira quantitativa é a suíte de métricas MOOD. Ela conta com oito métricas. Essas métricas visam atender as principais características da orientação a objeto, então principios como polimorfismo, baixo acoplamento, encapsulamento e outros princípios são altamente valorizados. As métricas são \cite{paulo_meirelles} \cite{moreira_avaliacao_2015}
+Outro conjunto de métricas que tem como objetivo de medir de maneira quantitativa é a suíte de métricas MOOD. Ela conta com oito métricas. Essas métricas visam atender as principais características da orientação a objeto. Dessa forma, principios como polimorfismo, baixo acoplamento, encapsulamento e outros são altamente valorizados. Com base em Meirelles \cite{paulo_meirelles} e Moreira \cite{moreira_avaliacao_2015}, as métricas são:
 \begin{itemize}
 \item \textbf{MHF}: Métrica que indica a razão entre a soma de todos os métodos que são invisíveis em relação ao total de métodos do sistema.
 \\Número de métodos Visíveis em uma classe C
@@ -232,26 +248,24 @@ MIF = \frac{TMh}{TMd}
 \begin{equation}
 MIF = \frac{TAh}{TAd}
 \end{equation}
-\item \textbf{CFA}:Razão entre o total de acomplamentos permitídos no sistema e o atual número de acoplamentos possíveis por herança. Para está metrica toma-se como base uma relação cliente servidor entre as classes. Sempre que existir uma referência a um método ou atributo da classe servidora, usa-se a seguinte equação para calcular o fator de acoplamento.
+\item \textbf{CFA}:Razão entre o total de acoplamentos permitídos no sistema e o atual número de acoplamentos possíveis por herança. Para está metrica, toma-se como base uma relação cliente-servidor entre as classes. Sempre que existir uma referência a um método ou atributo da classe servidora, usa-se a seguinte equação para calcular o fator de acoplamento.
 \begin{equation}
 COF = \frac{\sum_{TC}^{i=1}[\sum_{TC}^{i=1}isClient(Ci,Cj)]}{TC^2-TC}
 \end{equation}
 \item \textbf{PFA}: Razão entre o numéro atual de possibilidades de polimorfismo diferentes que podem ser utilizados em uma classe e o número máximo de polimorfismos diferentes que podem haver nesta mesma classe.
 \end{itemize}
 
-Uma vez que as métricas se encontram definidas, deve-se pensar na melhor maneira de exibir as métricas para o usúario. O papel da visualização das métricas de software é definir com base na natureza, e na escala de uma métrica qual a melhor maneira de imprimir na tela essas informações.
+Uma vez que as métricas se encontram definidas, deve-se pensar na melhor maneira de exibir as métricas para o usúario. O papel da visualização das métricas de software é definir, com base na natureza, e na escala de uma métrica, qual a melhor maneira de imprimir na tela essas informações.
 
 \section{Visualização da Informação}
-Computadores se tornaram peças fundamentais cotidiano do ser humano do século 21. Seja para lazer, estudo, comunicação, o computador revolucionou significamente em cada área que passou \cite{hasan_humancomputer_2014}.
-A visualização de software pode ser definida como uma disciplina que faz uso de várias formas de imagens que servem de insumo para compreender, entender e reduzir a complexidade dos sistemas de software existentes \cite{gracanin_software_2005}. Porém a visão que melhor se adapta ao contexto deste trabalho é dada por Gomes \cite{gomes_percepcao_2011} que diz que a visualização de uma forma generalizada é a construção de uma imagem visual na mente humana e está imagem vai além de representações gráficas ou conceitos.
-
-
+Computadores tornaram-se peças fundamentais do cotidiano do ser humano do século 21. Seja para lazer, estudo, comunicação, o computador revolucionou significamente em cada área que passou \cite{hasan_humancomputer_2014}.
+A visualização de software pode ser definida como uma disciplina que faz uso de várias formas de imagens que servem de insumo para compreender, entender e reduzir a complexidade dos sistemas de software existentes \cite{gracanin_software_2005}. Porém, a visão que melhor se adapta ao contexto deste trabalho é dada por Gomes \cite{gomes_percepcao_2011}, que diz que a visualização de uma forma generalizada é a construção de uma imagem visual na mente humana, e está imagem vai além de representações gráficas ou conceitos.
 
 \subsection{Visualização de Dados}
-Segundo Gomes \cite{gomes_percepcao_2011} algumas técnicas para visualização de dados são mais eficazes do que outras dependendo da natureza do dado a ser observado. Gomes destaca duas técnicas de visualização de dados.
+Segundo Gomes \cite{gomes_percepcao_2011}, algumas técnicas para visualização de dados são mais eficazes do que outras, dependendo da natureza do dado a ser observado. Gomes destaca duas técnicas de visualização de dados.
 
 \begin{itemize}
-\item \textbf{Visualização de Atributos}: Nesta técnica a natureza do dado é representado através de um gráfico ou um mapa. Também é possível representar através de ícones ou \textit{glifos}. ícones normalmente representam uma entidade ou um elemento que pertence a um contexto. O \textit{glifo} representa um objeto geométrico que representa uma entidade ou um elemento do todo. O \textit{glifo} tem uma forma que é definida pelo valor dos atributos da entidade como pode ser visto na figura \ref{img:glifo}.
+\item \textbf{Visualização de Atributos}: Nesta técnica, a natureza do dado é representado através de um gráfico ou um mapa. Também é possível representar através de ícones ou \textit{glifos}. Ícones normalmente representam uma entidade ou um elemento que pertence a um contexto. O \textit{glifo} representa um objeto geométrico que, por sua vez, representa uma entidade ou um elemento do todo. O \textit{glifo} tem uma forma que é definida pelo valor dos atributos da entidade conforme ilustrado na Figura \ref{img:glifo}.
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -260,7 +274,7 @@ Segundo Gomes \cite{gomes_percepcao_2011} algumas técnicas para visualização 
 \label{img:glifo}
 \end{figure}
 
-\item \textbf{Visualização de Estruturas e Relações}: está técnica utiliza do conjunto de dados ou elementos que podem ser distribuitos de maneira hierarquica. Dentro deste conceito existe uma ramificação para o uso da técnica aplicado de maneiras diferentes que possuem focos diferentes, algumas dessas técnicas são \textit{Bifocal Display} em que a informação é apresentada em três seções distintas da minha representação, sendo a central a que contêm informações mais relevantes. Outra técnica utilizada é a \textit{Perspective Wall} em que a informação é "projetada para uma parede". Uma comparação entre as duas técnicas pode ser observado na imagem \ref{img:comparativo}.
+\item \textbf{Visualização de Estruturas e Relações}: esta técnica utiliza-se do conjunto de dados ou elementos que podem ser distribuídos de maneira hierarquica. Dentro deste conceito, existe uma ramificação para o uso da técnica, aplicada com focos diferentes. Algumas dessas técnicas são \textit{Bifocal Display} em que a informação é apresentada em três seções distintas da minha representação, sendo a central a que contêm informações mais relevantes. Outra técnica utilizada é a \textit{Perspective Wall} em que a informação é "projetada para uma parede". Uma comparação entre as duas técnicas pode ser observado na Figura \ref{img:comparativo}.
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -271,19 +285,22 @@ Segundo Gomes \cite{gomes_percepcao_2011} algumas técnicas para visualização 
 %
 \end{itemize}
 Uma revisão sistemática feita com foco em visualização de software \cite{salameh_software_2016} apresenta alguns questionamentos levantados pelos autores referente ao objetivo de se utilizar a técnica. As respostas encontradas pelos autores estavam divididas em quatro categorias. 
-\\A primeira categoria encontrada baseava-se no artefato, a técnica era utilizada para acompanhar a evolução dos artefatos no repositório ao longo do tempo. A segunda categoria estava focada nas métricas, o objetivo estava em observar a alteração das métricas ao passar das entregas. A terceira categoria estava voltada para \textit{features}, o acompanhamento focava em analisar como e quais \textit{features} mudavam ao longo do tempo. A última categoria era centrada na arquitetura e em perceber as mudanças que estão envolvidas. Este trabalho tem seu objetivo focado na segunda categoria, acompanhar as métricas ao longo de um período de tempo e exibir para o usuário.
-\\Para que se possa acompanhar as métricas dos projetos é necessário que se mantenha um histórico das métricas coletadas em momentos diferentes do desenvolvimento do software para que seja possível fazer uma comparação \cite{da_silva_iavems:_2010}. Em seus estudos \cite{gracanin_software_2005} aponta três características que são necessárias para que se faça um bom acompanhamento histórico do software.
+
+A primeira categoria encontrada baseava-se no artefato. A técnica era utilizada para acompanhar a evolução dos artefatos no repositório ao longo do tempo. A segunda categoria estava focada nas métricas. O objetivo estava em observar a alteração das métricas ao passar das entregas. A terceira categoria estava voltada para \textit{features}. O acompanhamento focava em analisar como e quais \textit{features} mudavam ao longo do tempo. A última categoria era centrada na arquitetura e em perceber as mudanças que estão envolvidas. A presente proposta tem seu objetivo focado na segunda categoria, ou seja, em acompanhar as métricas ao longo de um período de tempo e exibir para o usuário.
+
+Para que se possa acompanhar as métricas dos projetos é necessário que se mantenha um histórico das métricas coletadas em momentos diferentes do desenvolvimento do software para que seja possível fazer uma comparação \cite{da_silva_iavems:_2010}. Em seus estudos \cite{gracanin_software_2005}, os autores apontam três características que são necessárias para que se faça um bom acompanhamento histórico do software.
 \begin{itemize}
-\item \textbf{Tempo}: A visualização deve ser agrupada através do número da release ou outro indicador que possua um tempo definido. Deve ser feito um \textit{snapshot} do sistema em que é possível ver claramente quais alterações foram realizadas.
-\item \textbf{Estrutura}: O sistema deve ser decomposto em sub-sistemas, cada sub-sistema decomposto em módulos e cada módulo responsável por uma parte do código.
+\item \textbf{Tempo}: A visualização deve ser agrupada através do número da \textit{release} ou outro indicador que possua um tempo definido. Deve ser feito um \textit{snapshot} do sistema em que é possível ver claramente quais alterações foram realizadas.
+\item \textbf{Estrutura}: O sistema deve ser decomposto em sub-sistemas; cada sub-sistema decomposto em módulos, e cada módulo responsável por uma parte do código.
 \item \textbf{Atributos}: Deve conter o número da versão, tamanho, alterações, complexidade.
 \end{itemize}
 
-Uma vez que é coletado os dados, eles ja estão categorizados de acordo com a sua natureza e ja podem ser exibidos ainda é necessário discutir qual a melhor forma de exibir todas essas informações na tela. Uma das formas de se agrupar toda a informação de maneira ordenada e com sentido lógico é através de \textit{dashboards}. O conceito será apresentado no tópico a seguir.
+Uma vez que são coletados os dados, esses ja estão categorizados de acordo com a sua natureza, e podem ser exibidos. Mas, ainda é necessário discutir qual a melhor forma de exibir  todas essas informações na tela. Uma das formas de se agrupar toda a informação de maneira ordenada e com sentido lógico é através de \textit{dashboards}. O conceito será apresentado no tópico a seguir.
 
 \subsection{Dashboard}
-O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que um \textit{dashboard} é um \textit{display} virtual das informações mais importantes para atingir um ou mais objetivos, ele deve ser construido e organizado para ser capaz de caber em uma única página para que a informação seja achada com facilidade. Esta seção visa apresentar alguns modelos de \textit{dashboards} e suas características.
-\\Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemática sobre dashboard para aprendizado. A pesquisa foi feita em 55 artigos, na figura \ref{img:tipo_visualizacao} pode-se ver que os três tipos de visualização mais utilizados são gráfico de barras (33 artigos), gráfico de linhas (24 artigos) e tabelas (21 artigos).
+O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que um \textit{dashboard} é um \textit{display} virtual das informações mais importantes para atingir um ou mais objetivos. Deve ser construído e organizado para ser capaz de caber em uma única página para que a informação seja achada com facilidade. Esta seção visa apresentar alguns modelos de \textit{dashboards} e suas características.
+
+Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemática sobre \textit{dashboard} para aprendizado. A pesquisa foi feita em 55 artigos. Na Figura \ref{img:tipo_visualizacao} pode-se ver que os três tipos de visualização mais utilizados são gráfico de barras (33 artigos), gráfico de linhas (24 artigos) e tabelas (21 artigos).
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -294,7 +311,7 @@ O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que u
 
 \begin{itemize}
 
-\item Gráfico de Barras: representação de quantidade ao longo de uma escala numérica (figura \ref{img:bar_graph}). Para que haja uma comparação significativa, deve ser feita sob a perspectiva de uma escala linear partindo de zero\cite{doumont_choosing_2002}
+\item Gráfico de Barras: representação de quantidade ao longo de uma escala numérica (Figura \ref{img:bar_graph}). Para que haja uma comparação significativa, deve ser feita sob a perspectiva de uma escala linear, partindo de zero\cite{doumont_choosing_2002}
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -303,7 +320,7 @@ O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que u
 \label{img:bar_graph}
 \end{figure}
 
-\item Gráfico de Linhas: muito utilizado quando se tem um conjunto de dados contínuos, também pode ser utilzado para determinar padrões ou uma tendência (figura \ref{img:line_graph}). Normalmente representam dados relacionados à tempo.
+\item Gráfico de Linhas: muito utilizado quando se tem um conjunto de dados contínuos. Pode ainda ser utilzado para determinar padrões ou uma tendência (Figura \ref{img:line_graph}). Normalmente, representam dados relacionados à tempo.
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -312,7 +329,7 @@ O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que u
 \label{img:line_graph}
 \end{figure}
 
-\item Gráfico de Pizza: é melhor usado quando se deseja comparar. O gráfico de pizza é um gráfico circular dividido em segmentos. Cada segmento representa uma categoria e o somatório dessas partes formam o todo (figura \ref{img:pie_chart}). Não se aconselha utilizar o gráfico de pizza quando se tem que representar mais de 7 categorias.
+\item Gráfico de Pizza: é melhor usado quando se deseja comparar um setor em relação ao total. O gráfico de pizza é um gráfico circular dividido em segmentos. Cada segmento representa uma categoria e o somatório dessas partes formam o todo (Figura \ref{img:pie_chart}). Não se aconselha utilizar o gráfico de pizza quando se tem que representar mais de sete categorias.
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -321,7 +338,7 @@ O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que u
 \label{img:pie_chart}
 \end{figure}
 
-\item \textit{Network Chart}: este tipo de visualização reforça relacionamentos entre entidades. As entidades são mostradas como nós e os relacionamentos como linhas (figura \ref{img:network_graph}).
+\item \textit{Network Chart}: este tipo de visualização reforça relacionamentos entre entidades. As entidades são mostradas como nós e os relacionamentos como linhas (Figura \ref{img:network_graph}).
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -331,11 +348,12 @@ O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que u
 \end{figure}
 \end{itemize}
 
-Outro ponto importante na criação do dashboard é o uso da paleta de cores. Ying Li e Anshul Sheopuri \cite{li_creative_2015} afirmam 
+Outro ponto importante na criação do \textit{dashboard} é o uso da paleta de cores. Ying Li e Anshul Sheopuri \cite{li_creative_2015} afirmam que:
 \begin{quote}
-" Uma cor carrega um significado específico, na qual é baseado no significado aprendido ou no significado biológico"
+" Uma cor carrega um significado específico, o qual é baseado no significado aprendido ou no significado biológico"
 \end{quote}
- A partir desta afirmativa os autores apresentam uma tabela \ref{table:cor_significado} que mapeia uma mensagem a uma determinada cor. Utiliazando da tabela percebe-se que uma combinação cores para um dashboard seria preto e azul por passar uma mensagem de calma, segurança e autoridade.
+
+ A partir desta afirmação, os autores apresentam uma Tabela \ref{table:cor_significado} que mapeia uma mensagem a uma determinada cor. Utiliazando-se a tabela, percebe-se que uma combinação de cores para um \textit{dashboard} seria preto e azul por passar uma mensagem de calma, segurança e autoridade.
 \begin{table}[h]
 \centering
 \caption{Mapeamento de Cores e seus Significados}
@@ -358,7 +376,7 @@ Saudável          & Verde Escuro, Marrom                 \\ \hline
 \end{tabular}
 \end{table}
 
-Em seu livro Stephen Few \cite{book_design} analisa uma variedade de \textit{dashboards} dos quais alguns valem ser mencionados. No \textit{dashboard} da figura \ref{img:dashboard1} o uso de \textit{radio buttons} permite que seja feita uma seleção em relação ao período em que se deseja analisar porém não permite que seja feito uma comparação entre os períodos. Outro ponto a ser destacado é o uso de uma fotografia no painel, Stephen Few chama isso de \textit{chartjunk} pois a imagem não tem funcionalidade nenhuma a não ser de decorar o painel, é desaconselhavel este tipo de prática.
+Em seu livro, Stephen Few \cite{book_design} analisa uma variedade de \textit{dashboards} dos quais alguns valem ser mencionados. No \textit{dashboard} da Figura \ref{img:dashboard1}, o uso de \textit{radio buttons} permite que seja feita uma seleção em relação ao período, em que se deseja analisar, porém não permite que seja feita uma comparação entre os períodos. Outro ponto a ser destacado é o uso de uma fotografia no painel. Stephen Few chama isso de \textit{chartjunk}, pois a imagem não tem funcionalidade alguma; a não ser a de decorar o painel. Caso contrário, não é adequado o uso dessa prática. 
 \graphicspath{{figuras/}}
 \begin{figure}[]
 \centering
@@ -366,7 +384,8 @@ Em seu livro Stephen Few \cite{book_design} analisa uma variedade de \textit{das
 \caption{Exemplo 1 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
 \label{img:dashboard1}
 \end{figure}
-O segundo \textit{dashboard} (figura \ref{img:dashboard2}) erra em mostrar as linhas das tabelas e dos gráficos, essas linhas tiram o foco da informação que se quer transmitir. O uso do gráfico de pizza neste caso poderia ser substituído por um gráfico de barras ordenado que comunicaria a informação de maneira mais eficiente. Um último ponto sobre este \textit{dashboard} é que ele possui muitas cores claras, o que poderia ser substitúido por outras tonalidades de cor que fizessem contraste com a informação mais importante.
+
+O segundo \textit{dashboard} (Figura \ref{img:dashboard2}) erra em mostrar as linhas das tabelas e dos gráficos. Essas linhas tiram o foco da informação que se quer transmitir. O uso do gráfico de pizza, neste caso, poderia ser substituído por um gráfico de barras ordenado, que comunicaria a informação de maneira mais eficiente. Um último ponto sobre este \textit{dashboard} é que ele possui muitas cores claras, o que poderia ser substitúido por outras tonalidades de cor que fizessem contraste com a informação mais importante.
 \graphicspath{{figuras/}}
 \begin{figure}[]
 \centering
@@ -374,7 +393,8 @@ O segundo \textit{dashboard} (figura \ref{img:dashboard2}) erra em mostrar as li
 \caption{Exemplo 2 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
 \label{img:dashboard2}
 \end{figure}
-Por último o \textit{dashboard} da figura \ref{img:dashboard3} apresenta ótimas soluções para mostrar a informação quando comparado aos outros dois \textit{dashboards}. O primeiro ponto positivo é o uso do espaço em branco para separar as seções que são apresentadas, o uso da paleta de cores também contribui para esse efeito, as únicas cores encontradas são tons de cinza, verde e dois tons de vermelho. Outro ponto positivo é que toda a informação importante se encontra em um único lugar que é no canto superior esquerdo onde o leitor começa a leitura.
+
+Por último, o \textit{dashboard} da Figura \ref{img:dashboard3} apresenta ótimas soluções para mostrar a informação quando comparado aos outros dois \textit{dashboards}. O primeiro ponto positivo é o uso do espaço em branco para separar as seções que são apresentadas, o uso da paleta de cores também contribui para esse efeito, as únicas cores encontradas são tons de cinza, verde e dois tons de vermelho. Outro ponto positivo é que toda a informação importante se encontra em um único lugar que é no canto superior esquerdo, onde o leitor começa a leitura.
 \graphicspath{{figuras/}}
 \begin{figure}[]
 \centering
@@ -384,4 +404,6 @@ Por último o \textit{dashboard} da figura \ref{img:dashboard3} apresenta ótima
 \end{figure}
 
 \section{Resumo do Capítulo}
-Para que se possa tercerizar o desenvolvimento de software dentro de órgãos públicos algumas regras são necessárias entre elas que a empresa que vença o pregão e irá dispor do direito de produzir o software entregue um software de qualidade. No edital de contratação são estabelecidos critérios de qualidade para que o software entregue seja aceito. Estes critérios de qualidade tem sua fundamentação baseada em príncipios estabelecidos pela Norma SQuaRE quanto a categoria de manutenabilidade. Essa categoria é fundamental na contratação de software pois é ela que vai dizer o quão manutenível é o software que está sendo contratado. O processo de manutenção de software está intimamente ligado a está métrica pois quanto maior a manutenabilidade do software menos esforço, tempo e dinheiro são gastos nesta etapa. Para definir o grau de manutenabilidade são apresentadas suítes de métricas que avaliam conceitos específicos do software para validar se o software entregue pela tercerizada é passível de manutenção ou não. Neste trabalho apresenta-se as suítes de Chidamber-Kemerer e MOOD. Para acompanhar a evolução da entrega e se todos os requisitos de analise estática do código estão sendo cumpridos, uma solução seria a utilização de um \textit{dashboard} para acompanhar o desenvolvimento do software a ser entregue. Para isso se faz necessário o aprendizado de técnicas de visualização da informação e os conceitos para criação de um \textit{dashboard} efetivo.
+Para que se possa tercerizar o desenvolvimento de software dentro de Órgãos Públicos, algumas regras são necessárias. Entre elas, a de que a empresa vencedora do pregão, a qual irá dispor do direito de produzir o software, entregue o mesmo com qualidade. No edital de contratação, são estabelecidos critérios de qualidade para que o software entregue seja aceito. Estes critérios de qualidade tem sua fundamentação baseada em príncipios estabelecidos pela Norma SQuaRE, quanto à categoria de manutenabilidade. Essa categoria é fundamental na contratação de software, pois permite saber o quão manutenível é o software que está sendo contratado. O processo de manutenção de software está intimamente ligado a esta métrica, uma vez que quanto maior a manutenibilidade do software, menos esforço, tempo e dinheiro são gastos nesta etapa.
+
+Para definir o grau de manutenibilidade, são apresentadas suítes de métricas que avaliam conceitos específicos do software para validar se o software entregue pela tercerizada é passível de manutenção ou não. Neste trabalho, são apresentadas as suítes de Chidamber-Kemerer e MOOD. Para acompanhar a evolução da entrega e se todos os requisitos de analise estática do código estão sendo cumpridos, uma solução seria a utilização de um \textit{dashboard} para acompanhar o desenvolvimento do software a ser entregue. Para isso, faz-se necessário o aprendizado de técnicas de visualização da informação e de conceitos para criação de um \textit{dashboard} efetivo.

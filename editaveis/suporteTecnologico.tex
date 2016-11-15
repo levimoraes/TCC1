@@ -1,10 +1,9 @@
 
 \chapter[Suporte Tecnológico]{Suporte Tecnológico}
 
-O objetivo desta seção é explicitar todo o aparato tecnológico a nível de software que foi utilizado durante o desenvolvimento deste trabalho.  Esta seção está dividida em Ferramentas para Programação e Ferramentas de Gerenciamento .
+O objetivo desta seção é explicitar todo o aparato tecnológico a nível de software que foi utilizado durante o desenvolvimento deste trabalho.  Esta seção está dividida em Ferramentas para Programação e Ferramentas de Gerenciamento. Dentre todas as ferramentas também é possível destacar que fora o SonarQube, Google Charts e Charts.js as demais ferramentas servem mais como suporte, podendo facilmente serem substituidas por outras ferramentas com a mesma funcionalidade.
 
 \section{Ferramentas de Programação} % (fold)
-
 \label{sec:engenharia_de_software}
 	Neste tópico, serão apresentadas ferramentas e tecnologias voltadas ao contexto da Engenharia de Software que são utilizadas durante este trabalho, como, por exemplo, ferramentas para gerência de configuração e versionamento dos artefatos gerados.
 
@@ -12,14 +11,15 @@ O objetivo desta seção é explicitar todo o aparato tecnológico a nível de s
 	\label{sub:git}
 	
 		A ferramenta GIT\footnote{https://git-scm.com/} foi desenvolvida por Linus Torvalds durante a criação do Kernel Linux, pois Linus percebeu que existia a necessidade de criar uma ferramenta \textit{open-source} que fizesse o controle de versão \cite{bento_alise_2013}. 
-		\\	O motivo para escolha da ferramenta se deve ao fato de que o Git contém o suporte para desenvolvimento linear o que garante um paralelismo de diversas áreas do desenvolvimento. Outro diferencial do Git está nos \textit{snapshots} dos objetos que são armazenados, isso significa que o Git não rearmazena arquivos que não foram alterados \cite{martinho_git_2013}.
+
+O motivo para escolha da ferramenta se deve ao fato de que o Git contém o suporte para desenvolvimento linear o que garante um paralelismo de diversas áreas do desenvolvimento. Outro diferencial do Git está nos \textit{snapshots} dos objetos que são armazenados, isso significa que o Git não rearmazena arquivos que não foram alterados \cite{martinho_git_2013}.
 	% subsection git (end)
 
 	\subsection{Github} % (fold)
 	\label{sub:github}
 		O Github\footnote{https://github.com} é um repositório \textit{online} que fornece a criação de projetos públicos gratuitos. A ferramenta também provê um sistema de gestão para acompanhamento do desenvolvimento envolvendo um sistema de \textit{logs}, gráficos de visualização e uma \textit{Wiki} integrada a cada projeto \cite{martinho_git_2013}.
 	
-	 O principal motivo pela escolha do Github é que deseja-se disponibilizar a solução futuramente para consulta e aprimoramento de pessoas interessadas. 		
+O principal motivo pela escolha do Github é que deseja-se disponibilizar a solução futuramente para consulta e aprimoramento de pessoas interessadas. 		
 	% subsection github (end)
 
 	\subsection{SonarQube}
@@ -51,6 +51,7 @@ A arquitetura do SonarQube é composta de quatro componentes como pode ser visto
 \caption{Arquitetura SonarQube composta de quatro componentes: \cite{sonar}}
 \label{img:arq_sonar}
 \end{figure}
+
 O SonarQube também é facilmente integrado com outras ferramentas utilizadas durante o ciclo de vida do software. O esquema da figura \ref{img:sonar_int} apresenta a implantação do SonarQube em diversos estágios do desenvolvimento de software \cite{sonar}.
 \graphicspath{{figuras/}}
 \begin{figure}[h]
@@ -75,9 +76,11 @@ A escolha do SonarQube como ferramenta de analise estática se deu pelo fato de 
 	\subsection{Google Charts e Charts.js}
 	\label{sub:google_charts_chartsjs}
 	O \textit{Google Charts} é uma API disponibilizada pelo Google, ela fornece uma maneira perfeita visualizar dados em um site. De gráficos de linha simples a complexa árvore hierárquica de mapas, o \textit{google charts} fornece um grande número de tipos de gráficos prontos para uso \cite{google_charts}. A forma mais comun de utilizar o \textit{google charts} é utilizando um JavaScript dentro do código HTML. Os gráficos são visualizados utilizando classes do JavaScript e são renderizados através de HTML5/SVG o que garante o funcionamento em diversos \textit{browsers}. 
-	\\Outra API utilizada é a Charts.js que é uma API open-source que também utiliza a ferramenta JavaScript e renderiza os gráficos com HTML5. O principal motivo para se utilizar o Charts.JS juntamente com o Google Charts é que a API da google não fornece o gráfico de Radar o qual é utilizado neste trabalho \cite{chartsjs}.
+
+Outra API utilizada é a Charts.js que é uma API open-source que também utiliza a ferramenta JavaScript e renderiza os gráficos com HTML5. O principal motivo para se utilizar o Charts.JS juntamente com o Google Charts é que a API da google não fornece o gráfico de Radar o qual é utilizado neste trabalho \cite{chartsjs}.
 	
 \section{Ferramentas de Gerenciamento}
+Neste tópico são apresentadas as ferramentas que possuem suas funcionalidades mais voltada para o bom desenvolvimento do projeto como um todo. São ferramentas de modelagem de processo, editores de texto e gerenciamento bibliográfico. 
 
 	\subsection{Bonita} % (fold)
 	\label{sub:Bonita}
@@ -106,4 +109,5 @@ A escolha do SonarQube como ferramenta de analise estática se deu pelo fato de 
 		
 		
 		
-	\section{Resumo do Capítulo}
+\section{Resumo do Capítulo}
+Para que seja possível construir a solução o uso de ferramentas que auxiliem no processo são mais do que necessárias. As ferramentas mais importantes são o SonarQube que é o software de analise estática que é utilizado em muitos órgãos do governo, possui código-aberto e uma grande comunidade trabalhando em evoluir o software. Outra ferramenta importante é o Google Charts e o Charts.js que são responsáveis por criar os gráficos que serão utilizados no \textit{dashbord}. As demais ferramentas funcionam muito mais como ferramentas de apoio do que ferramentas indispensáveis para a construção da solução e foram colocadas nessa seção muito mais como uma forma de documentação do material utilizado.

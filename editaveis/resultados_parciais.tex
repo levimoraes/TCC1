@@ -1,3 +1,42 @@
 \chapter[Resultados parciais]{Resultados Parciais}
 \label{sec:resultados_parciais}
+Neste capítulo estão descritos os resultados que foram obtidos até a apresentação do TCC1. Ele se divide em duas seções, a seção \ref{status} que apresenta o estado do projeto atual e a seção \ref{futuro} que aborda quais serão os próximos passos no desenvolvimento do trabalho.
 
+\subsection{\textit{Status} atual do Projeto}
+\label{status}
+
+Como havia sido definido no capítulo de introdução, este trabalho tem como objetivo principal desenvolver uma solução em software para monitoramento da qualidade de código. Tomando esse objetivo como linha guia para o desenvolvimento e elaboração deste projeto as primeiras atitudes tomadas foram aprofundar mais o conhecimento do assunto e garantir que será possível importar as métricas extraidas pelo SonarQube.
+
+A aquisição de conhecimento foi feita através de um levantamento bibliográfico em várias bases de pesquisa e que influenciaram na escrita do capítulo de Referências Bibliográficas e na tomada de algumas decisões acerca do trabalho, decisões como a escolha da suíte de métricas e as ferramentas para plotagem dos gráficos.
+
+Quanto à importação das métricas a forma a ser utilizada será de leitura da tela. Foi criado um script em python que faz a leitura das informações da tela e separa elas por métricas e por projeto. Esse script será responsável por coletar e identificar as métricas a serem escolhidas pelo gestor de projetos. 
+
+A tabela \ref{table_status} mostra a completude do trabalho desenvolvido até o momento, separando por atividades e os meses em que se estima que essas atividades ocorram. Pela tabela é possível perceber que todas as atividades que haviam sido planejadas para o TCC1 já foram concluidas e a atividade de Analisar Ambiente já foi iniciada devido a instalação do SonarQube. A atividade de Documentação se encontra em 50\% pois se refere à documentação entregue enquanto TCC1.
+
+\begin{table}[h]
+\centering
+\caption{\textit{Status} Completude do Trabalho}
+\label{table_status}
+\begin{tabular}{lc}
+\rowcolor[HTML]{9A0000} 
+{\color[HTML]{FFFFFF} \textbf{Atividade}} & \multicolumn{1}{l}{\cellcolor[HTML]{9A0000}{\color[HTML]{FFFFFF} \textbf{Status}}} \\ \hline
+Definir Tema                              & 100\%                                                                              \\ \hline
+Validar Escopo                            & 100\%                                                                              \\ \hline
+Elaborar Roteiro de Pesquisa              & 100\%                                                                              \\ \hline
+Pesquisar Referência                      & 100\%                                                                              \\ \hline
+Refinar Pesquisa                          & 100\%                                                                              \\ \hline
+Catalogar Material                        & 100\%                                                                              \\ \hline
+Documentar                                & 50\%                                                                               \\ \hline
+Analisar Ambiente                         & 20\%                                                                               \\ \hline
+Configurar Ambiente                       & 0\%                                                                                \\ \hline
+Implementar Solução de Software           & 0\%                                                                                \\ \hline
+Implantar Solução em Ambiente Simulado    & 0\%                                                                                \\ \hline
+Acompanhar Utilização do Software         & 0\%                                                                                \\ \hline
+Aplicar Questionário                      & 0\%                                                                                \\ \hline
+\end{tabular}
+\end{table}
+
+
+\subsection{Próximas Atividades}
+\label{futuro}
+Uma vez que já se consegue extrair as informações do SonarQube a próxima etapa é a de construir o \textit{dashboard}. Para isso será levantado todas as funcionalidades que o \textit{dashboard} deve apresentar. Este conjunto de atividades irá compor o \textit{product backlog}. Com o \textit{product backlog} definido, é necessário que se faça a divisão das sprints de acordo com o número funcionalidades. Todas essas atividades fazem parte das atividades necessárias para construção do software.
