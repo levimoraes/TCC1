@@ -14,7 +14,8 @@ Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
 Warning--entry type for "Lei_1993" isn't style-file defined
---line 385 of file bibliografia.bib
+--line 397 of file bibliografia.bib
+Warning--I didn't find a database entry for "ouza_sobrinho_uso_2014"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -32,7 +33,7 @@ Warning--campo year vazio ou faltando em sonar
 +---------------------------------------------------------+
 You've used 45 entries,
             6714 wiz_defined-function locations,
-            1428 strings with 17735 characters,
+            1429 strings with 17757 characters,
 and the built_in function-call counts, 60103 in all, are:
 = -- 7125
 > -- 968
@@ -71,4 +72,4 @@ warning$ -- 6
 while$ -- 295
 width$ -- 0
 write$ -- 684
-(There were 7 warnings)
+(There were 8 warnings)

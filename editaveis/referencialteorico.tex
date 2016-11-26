@@ -28,7 +28,7 @@ Tendo definido o que pode ser terceirizado dentro de um Órgão público, é nec
 \subsection{Avaliação da Qualidade Em Um Processo de Contratação }
 Uma vez que o software é produzido pela tercerizada, o mesmo passa por um processo de verificação de todos os artefatos que foram entregues, sejam eles em forma de documento, ou em código. São lançados dezenas de editais todos os anos com o intuito de suprir a necessidade dos Órgãos Públicos quanto à demanda de software. Cada Órgão é responsável por disponibilizar o seu edital contendo, entre vários assuntos, a forma como será inspecionado o código entregue pela tercerizada. Em um edital feito pelo Departamento Nacional de Produção Mineral \cite{edital}, um dos objetos de avaliação é a cobertura miníma de testes, como mostra a Tabela \ref{tabela1}. São avaliados tanto testes unitários, como de interface e de integração.
 
-\begin{table}[h]
+\begin{table}[h!]
 \centering
 \caption{Índice de Cobertura Por Tipo de Teste do Edital da DNPM. Fonte:\cite{edital}}
 \label{tabela1}
@@ -69,7 +69,7 @@ Linhas de código comentadas          & \begin{tabular}[c]{@{}l@{}}Igual ou meno
 
  A ISO 9126-1 proposta em 2001, também conhecida como Engenharia de Software - Qualidade do Produto, descreve o modelo de qualidade voltado para o produto de software como sendo composto por duas categorias, conforme ilustra a Figura \ref{img:relacao_iso}. A primeira categoria está relacionada a qualidade interna e a qualidade externa do software. A segunda categoria relaciona-se com a qualidade de uso do software \cite{_nbr_2016}
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.40]{ISO}
 \caption{Relação entre as NBR ISO/IEC 9126 e NBR ISO/IEC 14598 .Fonte:\cite{_nbr_2016}}
@@ -121,7 +121,7 @@ Assim como a ISO 9126, a ISO 25010 também apresenta categorias, estas categoria
 \item \textbf{Portabilidade}: Nível de efetividade e eficiência com o qual um sistema, produto ou componente pode ser transferido de um \textit{hardware}, software ou ambiente de uso para outro.
 \end{itemize}
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.40]{SQuaRE}
 \caption{Produto de Qualidade de Software.Fonte:\cite{Square}}
@@ -155,7 +155,7 @@ O modelo da Figura \ref{img:modelo_manutencao} apresenta as atividades propostas
 \end{itemize}
 
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.50]{Manutencao}
 \caption{Diagrama das Atividades de Manutenção de Software.Fonte:\cite{pfleeger_framework_1990}}
@@ -267,7 +267,7 @@ Segundo Gomes \cite{gomes_percepcao_2011}, algumas técnicas para visualização
 \begin{itemize}
 \item \textbf{Visualização de Atributos}: Nesta técnica, a natureza do dado é representado através de um gráfico ou um mapa. Também é possível representar através de ícones ou \textit{glifos}. Ícones normalmente representam uma entidade ou um elemento que pertence a um contexto. O \textit{glifo} representa um objeto geométrico que, por sua vez, representa uma entidade ou um elemento do todo. O \textit{glifo} tem uma forma que é definida pelo valor dos atributos da entidade conforme ilustrado na Figura \ref{img:glifo}.
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Glifo}
 \caption{Exemplo de glifo utilizado na visualização da variação das medidas relacionadas com o desenvolvimento computacional. Fonte: \cite{gomes_percepcao_2011}}
@@ -276,7 +276,7 @@ Segundo Gomes \cite{gomes_percepcao_2011}, algumas técnicas para visualização
 
 \item \textbf{Visualização de Estruturas e Relações}: esta técnica utiliza-se do conjunto de dados ou elementos que podem ser distribuídos de maneira hierarquica. Dentro deste conceito, existe uma ramificação para o uso da técnica, aplicada com focos diferentes. Algumas dessas técnicas são \textit{Bifocal Display} em que a informação é apresentada em três seções distintas da minha representação, sendo a central a que contêm informações mais relevantes. Outra técnica utilizada é a \textit{Perspective Wall} em que a informação é "projetada para uma parede". Uma comparação entre as duas técnicas pode ser observado na Figura \ref{img:comparativo}.
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Bifocal_Wall}
 \caption{Comparativo entre a)Bifocal Display e b) Perspective Wall}
@@ -302,7 +302,7 @@ O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que u
 
 Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemática sobre \textit{dashboard} para aprendizado. A pesquisa foi feita em 55 artigos. Na Figura \ref{img:tipo_visualizacao} pode-se ver que os três tipos de visualização mais utilizados são gráfico de barras (33 artigos), gráfico de linhas (24 artigos) e tabelas (21 artigos).
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.50]{grafico_pesquisa}
 \caption{Tipos de Visualização Mais Frequente. Fonte: \cite{schwendimann_perceiving_2016}}
@@ -313,7 +313,7 @@ Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemá
 
 \item Gráfico de Barras: representação de quantidade ao longo de uma escala numérica (Figura \ref{img:bar_graph}). Para que haja uma comparação significativa, deve ser feita sob a perspectiva de uma escala linear, partindo de zero\cite{doumont_choosing_2002}
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.40]{chart_bar}
 \caption{Exemplo de Gráfico de Barra Utilizando Google Charts}
@@ -322,7 +322,7 @@ Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemá
 
 \item Gráfico de Linhas: muito utilizado quando se tem um conjunto de dados contínuos. Pode ainda ser utilzado para determinar padrões ou uma tendência (Figura \ref{img:line_graph}). Normalmente, representam dados relacionados à tempo.
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.40]{line_chart}
 \caption{Exemplo de Gráfico de Linhas utilizando HiCharts}
@@ -331,7 +331,7 @@ Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemá
 
 \item Gráfico de Pizza: é melhor usado quando se deseja comparar um setor em relação ao total. O gráfico de pizza é um gráfico circular dividido em segmentos. Cada segmento representa uma categoria e o somatório dessas partes formam o todo (Figura \ref{img:pie_chart}). Não se aconselha utilizar o gráfico de pizza quando se tem que representar mais de sete categorias.
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.40]{pie_chart}
 \caption{Exemplo de Gráfico de Pizza utilizando Chart.js}
@@ -340,7 +340,7 @@ Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemá
 
 \item \textit{Network Chart}: este tipo de visualização reforça relacionamentos entre entidades. As entidades são mostradas como nós e os relacionamentos como linhas (Figura \ref{img:network_graph}).
 \graphicspath{{figuras/}}
-\begin{figure}[h]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.40]{network_graph}
 \caption{Exemplo de \textit{Network Graph} utilizando Google Charts}
@@ -354,7 +354,7 @@ Outro ponto importante na criação do \textit{dashboard} é o uso da paleta de 
 \end{quote}
 
  A partir desta afirmação, os autores apresentam uma Tabela \ref{table:cor_significado} que mapeia uma mensagem a uma determinada cor. Utiliazando-se a tabela, percebe-se que uma combinação de cores para um \textit{dashboard} seria preto e azul por passar uma mensagem de calma, segurança e autoridade.
-\begin{table}[h]
+\begin{table}[h!]
 \centering
 \caption{Mapeamento de Cores e seus Significados}
 \label{table:cor_significado}
@@ -378,7 +378,7 @@ Saudável          & Verde Escuro, Marrom                 \\ \hline
 
 Em seu livro, Stephen Few \cite{book_design} analisa uma variedade de \textit{dashboards} dos quais alguns valem ser mencionados. No \textit{dashboard} da Figura \ref{img:dashboard1}, o uso de \textit{radio buttons} permite que seja feita uma seleção em relação ao período, em que se deseja analisar, porém não permite que seja feita uma comparação entre os períodos. Outro ponto a ser destacado é o uso de uma fotografia no painel. Stephen Few chama isso de \textit{chartjunk}, pois a imagem não tem funcionalidade alguma; a não ser a de decorar o painel. Caso contrário, não é adequado o uso dessa prática. 
 \graphicspath{{figuras/}}
-\begin{figure}[]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.50]{dashboard1}
 \caption{Exemplo 1 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
@@ -387,7 +387,7 @@ Em seu livro, Stephen Few \cite{book_design} analisa uma variedade de \textit{da
 
 O segundo \textit{dashboard} (Figura \ref{img:dashboard2}) erra em mostrar as linhas das tabelas e dos gráficos. Essas linhas tiram o foco da informação que se quer transmitir. O uso do gráfico de pizza, neste caso, poderia ser substituído por um gráfico de barras ordenado, que comunicaria a informação de maneira mais eficiente. Um último ponto sobre este \textit{dashboard} é que ele possui muitas cores claras, o que poderia ser substitúido por outras tonalidades de cor que fizessem contraste com a informação mais importante.
 \graphicspath{{figuras/}}
-\begin{figure}[]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.50]{dashboard2}
 \caption{Exemplo 2 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
@@ -396,7 +396,7 @@ O segundo \textit{dashboard} (Figura \ref{img:dashboard2}) erra em mostrar as li
 
 Por último, o \textit{dashboard} da Figura \ref{img:dashboard3} apresenta ótimas soluções para mostrar a informação quando comparado aos outros dois \textit{dashboards}. O primeiro ponto positivo é o uso do espaço em branco para separar as seções que são apresentadas, o uso da paleta de cores também contribui para esse efeito, as únicas cores encontradas são tons de cinza, verde e dois tons de vermelho. Outro ponto positivo é que toda a informação importante se encontra em um único lugar que é no canto superior esquerdo, onde o leitor começa a leitura.
 \graphicspath{{figuras/}}
-\begin{figure}[]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.50]{dashboard3}
 \caption{Exemplo 3 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}

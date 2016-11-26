@@ -1,7 +1,7 @@
 
 \chapter[Suporte Tecnológico]{Suporte Tecnológico}
 
-O objetivo desta seção é explicitar todo o aparato tecnológico a nível de software que foi utilizado durante o desenvolvimento deste trabalho.  Esta seção está dividida em Ferramentas para Programação e Ferramentas de Gerenciamento. Dentre todas as ferramentas também é possível destacar que fora o SonarQube, Google Charts e Charts.js as demais ferramentas servem mais como suporte, podendo facilmente serem substituidas por outras ferramentas com a mesma funcionalidade.
+O objetivo desta seção é descrever as principais tecnologias que nortearam e nortearão o desenvolvimento deste trabalho.  Esta seção está dividida em Ferramentas para Programação e Ferramentas de Gerenciamento. Vale ressaltar que as ferramentas SonarQube, Google Charts e Charts.jsl orientam a presente proposta. As demais ferramentas poderiam ser facilmente substituídas por similares.
 
 \section{Ferramentas de Programação} % (fold)
 \label{sec:engenharia_de_software}
@@ -12,19 +12,19 @@ O objetivo desta seção é explicitar todo o aparato tecnológico a nível de s
 	
 		A ferramenta GIT\footnote{https://git-scm.com/} foi desenvolvida por Linus Torvalds durante a criação do Kernel Linux, pois Linus percebeu que existia a necessidade de criar uma ferramenta \textit{open-source} que fizesse o controle de versão \cite{bento_alise_2013}. 
 
-O motivo para escolha da ferramenta se deve ao fato de que o Git contém o suporte para desenvolvimento linear o que garante um paralelismo de diversas áreas do desenvolvimento. Outro diferencial do Git está nos \textit{snapshots} dos objetos que são armazenados, isso significa que o Git não rearmazena arquivos que não foram alterados \cite{martinho_git_2013}.
+O motivo para escolha da ferramenta se deve ao fato de que o Git contém o suporte para desenvolvimento linear, o que garante um paralelismo de diversas áreas do desenvolvimento. Outro diferencial do Git está nos \textit{snapshots} dos objetos que são armazenados. Isso significa que o Git não rearmazena arquivos que não foram alterados \cite{martinho_git_2013}.
 	% subsection git (end)
 
 	\subsection{Github} % (fold)
 	\label{sub:github}
 		O Github\footnote{https://github.com} é um repositório \textit{online} que fornece a criação de projetos públicos gratuitos. A ferramenta também provê um sistema de gestão para acompanhamento do desenvolvimento envolvendo um sistema de \textit{logs}, gráficos de visualização e uma \textit{Wiki} integrada a cada projeto \cite{martinho_git_2013}.
 	
-O principal motivo pela escolha do Github é que deseja-se disponibilizar a solução futuramente para consulta e aprimoramento de pessoas interessadas. 		
+O principal motivo pela escolha do Github é que se deseja disponibilizar a solução futuramente para consulta e aprimoramento por parte dos interessados. 		
 	% subsection github (end)
 
 	\subsection{SonarQube}
 	\label{sub:sonarqube}
-	O SonarQube é uma ferramenta \textit{open-source} de analise estática de código-fonte que foca em analisar sete ramos da qualidade de código como pode ser visto na figura \ref{img:sonar}. A ferramenta apresenta métricas quanto a duplicação de código, testes unitários, complexidade, \textit{bugs} em potencial, regras da linguagem, comentários e arquitetura e design \cite{sonar}. A ferramenta foi escrita em Java e seu foco está em lidar com defeitos de código, contudo existe uma diversidade de plugins enorme que extende as funcionalidades da ferramenta \cite{ferenc_source_2014}.
+	O SonarQube é uma ferramenta \textit{open-source} de análise estática de código-fonte que foca em analisar sete ramos da qualidade de código, como pode ser visto na Figura \ref{img:sonar}. A ferramenta apresenta métricas quanto a duplicação de código, testes unitários, complexidade, \textit{bugs} em potencial, regras da linguagem, comentários e arquitetura e \textit{design} \cite{sonar}. A ferramenta foi escrita em Java e seu foco está em lidar com defeitos de código. Contudo, existe uma diversidade de \textit{plugins} que estendem as funcionalidades da ferramenta \cite{ferenc_source_2014}.
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -32,16 +32,16 @@ O principal motivo pela escolha do Github é que deseja-se disponibilizar a solu
 \caption{Sete  aspectos de qualidade de código cobertos pelo SonarQube. Fonte: \cite{sonar}}
 \label{img:sonar}
 \end{figure}
-A arquitetura do SonarQube é composta de quatro componentes como pode ser visto na figura \ref{img:arq_sonar}\cite{sonar}.
+A arquitetura do SonarQube é composta de quatro componentes, como pode ser visto na Figura \ref{img:arq_sonar}\cite{sonar}.
 \begin{enumerate}
-\item \textbf{\textit{SonarQube Server}} composto de três atividade principais:
+\item Um\textbf{\textit{SonarQube Server}} composto de três atividade principais:
 	\begin{enumerate}
-	\item Um \textbf{\textit{Web Server}} para os desenvolvedores, gerentes que procuram \textit{snapshots} da qualidade do código, e configurar uma instancia do SonarQube.
+	\item Um \textbf{\textit{Web Server}} para os desenvolvedores, gerentes que procuram \textit{snapshots} da qualidade do código, e que pode ser usado para configurar uma instância do SonarQube.
 	\item Um \textbf{\textit{Search Server}} que se baseia no conceito de \textit{Elasticsearch} para devolver as buscas para a UI.
-	\item Um \textbf{\textit{Compute Engine Search}} responsável pelo processamento de relatórios de análise de código e  de salvá-los no banco de dados SonarQube.
+	\item Um \textbf{\textit{Compute Engine Search}} responsável pelo processamento de relatórios de análise de código bem como por salvá-los no banco de dados SonarQube.
 	\end{enumerate}
-\item Um \textbf{SonarQube Database} que armazena a configuração da instancia do SonarQube e os \textit{snapshots} de qualidade dos projetos.
-\item \textbf{Plugins} que são instalados no servidor, normalmente são plugins de linguagem, integração com outras ferramentas, autenticações entre outros.
+\item Um \textbf{SonarQube Database} que armazena a configuração da instância do SonarQube e os \textit{snapshots} de qualidade dos projetos.
+\item \textbf{Plugins} que são instalados no servidor. Normalmente, são \textit{plugins} de linguagem, integração com outras ferramentas, autenticações entre outros.
 \item Um ou mais \textbf{\textit{SonarQube Scanners}} que rodam na \textit{build} ou nos servidores de integração contínua para analisar projetos.
 \end{enumerate}
 \graphicspath{{figuras/}}
@@ -52,7 +52,7 @@ A arquitetura do SonarQube é composta de quatro componentes como pode ser visto
 \label{img:arq_sonar}
 \end{figure}
 
-O SonarQube também é facilmente integrado com outras ferramentas utilizadas durante o ciclo de vida do software. O esquema da figura \ref{img:sonar_int} apresenta a implantação do SonarQube em diversos estágios do desenvolvimento de software \cite{sonar}.
+O SonarQube também é facilmente integrado com outras ferramentas utilizadas durante o ciclo de vida do software. O esquema da Figura \ref{img:sonar_int} apresenta a implantação do SonarQube em diversos estágios do desenvolvimento de software \cite{sonar}.
 \graphicspath{{figuras/}}
 \begin{figure}[h]
 \centering
@@ -62,52 +62,52 @@ O SonarQube também é facilmente integrado com outras ferramentas utilizadas du
 \end{figure}
 \begin{enumerate}
 \item Os desenvolvedores podem utilizar uma instância do SonarQube (SonarLint) em suas próprias IDEs para rodar uma análise local.
-\item Desenvolvedores podem subir seus códigos para suas ferramentas de SCM favoritas (Git, SVN).
+\item Desenvolvedores podem subir seus códigos para suas ferramentas de \textit{Software Configuration Management} (SCM) favoritas (Git, SVN).
 \item O servidor de integração contínua desencadeia uma compilação automática, e a execução do SonarQube Scanner necessário para executar a análise de SonarQube.
 \item O relatório de análise é enviado para o servidor do SonarQube para processamento.
 \item SonarQube Server processa e armazena os resultados do relatório de análise do banco de dados SonarQube e exibe os resultados na interface do usuário.
 \item Os desenvolvedores analisam, comentam, arruman seus problemas para gerenciar e reduzir sua dívida técnica através do SonarQube UI.
-\item Gestores recebem um relatório da análise
+\item Gestores recebem um relatório da análise.
 \end{enumerate}
 
-A escolha do SonarQube como ferramenta de analise estática se deu pelo fato de que grande parte dos orgãos públicos utilizam esta ferramenta para fazer a avaliação da qualidade dos softwares entregues pelas tercerizadas. Muito dos editais encontrados neste trabalho utilizavam o SonarQube como uma das ferramentas de audição dos softwares entregues.
+A escolha do SonarQube como ferramenta de analise estática deu-se pelo fato de que grande parte dos Órgãos Públicos utiliza esta ferramenta para fazer a avaliação da qualidade dos produtos de software entregues pelas tercerizadas. Muito dos editais encontrados neste trabalho utilizavam o SonarQube como uma das ferramentas de audição dos produtos de software entregues.
 
 	
 	\subsection{Google Charts e Charts.js}
 	\label{sub:google_charts_chartsjs}
-	O \textit{Google Charts} é uma API disponibilizada pelo Google, ela fornece uma maneira perfeita visualizar dados em um site. De gráficos de linha simples a complexa árvore hierárquica de mapas, o \textit{google charts} fornece um grande número de tipos de gráficos prontos para uso \cite{google_charts}. A forma mais comun de utilizar o \textit{google charts} é utilizando um JavaScript dentro do código HTML. Os gráficos são visualizados utilizando classes do JavaScript e são renderizados através de HTML5/SVG o que garante o funcionamento em diversos \textit{browsers}. 
+	O \textit{Google Charts} é uma API disponibilizada pelo Google. Fornece uma maneira para visualizar dados em um site. De gráficos de linha simples à complexa árvore hierárquica de mapas, o \textit{google charts} fornece um grande número de tipos de gráficos prontos para uso \cite{google_charts}. A forma mais comun de utilizar o \textit{google charts} é através de um JavaScript dentro do código HTML. Os gráficos são visualizados utilizando classes do JavaScript, e são renderizados através de HTML5/SVG, garantindo o funcionamento em diversos \textit{browsers}. 
 
-Outra API utilizada é a Charts.js que é uma API open-source que também utiliza a ferramenta JavaScript e renderiza os gráficos com HTML5. O principal motivo para se utilizar o Charts.JS juntamente com o Google Charts é que a API da google não fornece o gráfico de Radar o qual é utilizado neste trabalho \cite{chartsjs}.
+Outra API utilizada é a Charts.js. Trata-se de uma API \textit{open-source} que também utiliza a ferramenta JavaScript e renderiza os gráficos com HTML5. O principal motivo para se utilizar o Charts.JS, juntamente com o Google Charts, é que a API da google não fornece alguns gráficos que serão utilizados na criação do \textit{dashboard} \cite{chartsjs}.
 	
 \section{Ferramentas de Gerenciamento}
-Neste tópico são apresentadas as ferramentas que possuem suas funcionalidades mais voltada para o bom desenvolvimento do projeto como um todo. São ferramentas de modelagem de processo, editores de texto e gerenciamento bibliográfico. 
+Neste tópico, são apresentadas as ferramentas que possuem suas funcionalidades mais voltada para o bom desenvolvimento do projeto como um todo. São ferramentas de modelagem de processo, editores de texto e revisão bibliográfica. 
 
 	\subsection{Bonita} % (fold)
 	\label{sub:Bonita}
-		 A ferramenta Bonita\footnote{http://www.bonitasoft.com/} foi escolhida graças a sua facilidade de utilização e portabilidade para o sistema operacional Mac OS X e o fato de ser gratuita. Esta ferramenta auxilia na modelagem de processos.
+		 A ferramenta Bonita\footnote{http://www.bonitasoft.com/} foi escolhida graças a sua facilidade de utilização e portabilidade para o sistema operacional Mac OS X bem como ao fato de ser gratuita. Esta ferramenta auxilia na modelagem de processos.
 	% subsection bizagi_process_modeler (end)
 
 	\subsection{Mac OS X} % (fold)
 	\label{sub:Mac OS X}
-		O sistema operacional Mac OS foi baseado no kernel Unix e fabricado e desenvolvido pela empresa Apple Inc. Utilizou-se a versão 10.11 do sistema também conhecida como "\textit{El Capitan}".
+		O sistema operacional Mac OS foi baseado no kernel Unix e fabricado e desenvolvido pela empresa Apple Inc. Utilizou-se a versão 10.11 do sistema, também conhecida como "\textit{El Capitan}".
 	% subsection linux_mint (end)
 
 	\subsection{LaTeX} % (fold)
 	\label{sub:latex}
 	
-	O LaTeX\footnote{https://www.latex-project.org/} foi desenvolvido na década de 80 cujo objetivo era simplificar a diagramação de textos científicos e matemáticos, onde atualmente dispõe de uma grande quantidade de macros para bibliografia, referencias, gráficos entre outros.
+	O LaTeX\footnote{https://www.latex-project.org/} foi desenvolvido na década de 80, cujo objetivo era simplificar a diagramação de textos científicos e matemáticos, onde atualmente dispõe de uma grande quantidade de macros para bibliografia, referências, gráficos entre outros.
 	% subsection latex (end)
 
 	\subsection{Sublime Text 3} % (fold)
 	\label{sub:sublime_text_3}
-		O Sublime Text 3\footnote{https://www.sublimetext.com/3} é um editor de texto bastante utilizado por programadores, por possuir apoio para diversas linguagens de programação, incluindo textos em LaTeX.
+		O Sublime Text 3\footnote{https://www.sublimetext.com/3} é um editor de texto bastante utilizado por programadores, por conferir apoio para diversas linguagens de programação, incluindo textos em LaTeX.
 	% subsection sublime_text_3 (end)
 
 	\subsection{Zotero} % (fold)
 	\label{sub:zotero}
-		Zotero \footnote{https://www.zotero.org} é um software para gerenciamento de referências bibliográficas. Ele possui integração com o \textit{browser}, sincronização online e criação de bibliografias estilizadas.
+		Zotero \footnote{https://www.zotero.org} é um software para gerenciamento de referências bibliográficas. Ele possui integração com o \textit{browser}, sincronização \textit{online} e criação de bibliografias estilizadas.
 		
 		
 		
 \section{Resumo do Capítulo}
-Para que seja possível construir a solução o uso de ferramentas que auxiliem no processo são mais do que necessárias. As ferramentas mais importantes são o SonarQube que é o software de analise estática que é utilizado em muitos órgãos do governo, possui código-aberto e uma grande comunidade trabalhando em evoluir o software. Outra ferramenta importante é o Google Charts e o Charts.js que são responsáveis por criar os gráficos que serão utilizados no \textit{dashbord}. As demais ferramentas funcionam muito mais como ferramentas de apoio do que ferramentas indispensáveis para a construção da solução e foram colocadas nessa seção muito mais como uma forma de documentação do material utilizado.
+Para que seja possível construir a solução, o uso de ferramentas que auxiliem no processo são mais do que necessárias. As ferramentas mais importantes são o SonarQube que é o software de análise estática utilizado em muitos Órgãos do Governo por possui código-aberto e uma grande comunidade trabalhando em sua evolução o software. Outras ferramentas importantes são o Google Charts e o Charts.js os quais são responsáveis por criar os gráficos que serão utilizados no \textit{dashbord}. As demais ferramentas funcionam muito mais como ferramentas de apoio do que como ferramentas indispensáveis para a construção da solução. Portanto, optou-se pela colocação dessas ferramentas nesse capítulo apenas para fins de documentação do material utilizado na solução.
