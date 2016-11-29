@@ -13,9 +13,9 @@
 Dispon{\'\i}vel em:
   \url{http://www.computacao.unitri.edu.br/erac/index.php/e-rac/article/view/122}.}
 
-\bibitem[BRASIL]{Lei_1993}
-\abntrefinfo{BRASIL}{BRASIL}{}
-{BRASIL. \emph{Lei n 8.666, de 21 de junho de 1993}.}
+\bibitem[BRASIL 1993]{Lei_1993}
+\abntrefinfo{BRASIL}{BRASIL}{1993}
+{BRASIL. \emph{Lei n 8.666, de 21 de junho de 1993}. 1993.}
 
 \bibitem[BRASIL 1997]{decreto_2271}
 \abntrefinfo{BRASIL}{BRASIL}{1997}
@@ -46,9 +46,15 @@ Accessed: 2016-10-10.}
 {CHIDAMBER, C. F.~K. S.~R. A metrics suite for object oriented design. In:
   \emph{IEEE Transactions On Software Engineering}. [S.l.: s.n.], 1994.}
 
-\bibitem[Doumont e Vandenbroeck 2002]{doumont_choosing_2002}
-\abntrefinfo{Doumont e Vandenbroeck}{DOUMONT; VANDENBROECK}{2002}
-{DOUMONT, J.-L.; VANDENBROECK, P. Choosing the right graph.
+\bibitem[Crosby 1980]{crosby}
+\abntrefinfo{Crosby}{CROSBY}{1980}
+{CROSBY, P.~B. \emph{Quality is free: {The} art of making quality certain}.
+  [S.l.]: Signet, 1980.}
+
+\bibitem[Doumont e {Vandenbroeck, Philippe} 2002]{doumont_choosing_2002}
+\abntrefinfo{Doumont e {Vandenbroeck, Philippe}}{DOUMONT; {Vandenbroeck,
+  Philippe}}{2002}
+{DOUMONT, J.-L.; {Vandenbroeck, Philippe}. Choosing the right graph.
 \emph{IEEE transactions on professional communication}, v.~45, n.~1, p.~1--6,
   2002.
 Dispon{\'\i}vel em:
@@ -69,10 +75,10 @@ Dispon{\'\i}vel em:
 {FILHO, C. F. \emph{Hist{\'o}ria da computa{\c{c}}{\~a}o: O Caminho do
   Pensamento e da Tecnologia}. [S.l.]: EDIPUCRS, 2007.}
 
-\bibitem[Gerhardt 2009]{tatiana_denise}
-\abntrefinfo{Gerhardt}{GERHARDT}{2009}
-{GERHARDT, D. T.~S. T.~E. \emph{M{\'e}todos de pesquisa}. [S.l.]: Universidade
-  Aberta do Brasil, 2009.}
+\bibitem[Gerhardt e {Silveira } 2009]{tatiana_denise}
+\abntrefinfo{Gerhardt e {Silveira }}{GERHARDT; {Silveira }}{2009}
+{GERHARDT, T.~E.; {Silveira }, D.~T. \emph{M{\'e}todos de pesquisa}. [S.l.]:
+  Universidade Aberta do Brasil, 2009.}
 
 \bibitem[Gil 2002]{gil_como_2002}
 \abntrefinfo{Gil}{GIL}{2002}
@@ -158,6 +164,11 @@ ISBN 978-1-5090-1074-5. Dispon{\'\i}vel em:
 \emph{Elektronika ir Elektrotechnika}, v.~111, n.~5, p. 123--128, 2011.
 Dispon{\'\i}vel em: \url{http://ecoman.ktu.lt/index.php/elt/article/view/372}.}
 
+\bibitem[Martin 2009]{martin2009clean}
+\abntrefinfo{Martin}{MARTIN}{2009}
+{MARTIN, R.~C. \emph{Clean code: a handbook of agile software craftsmanship}.
+  [S.l.]: Pearson Education, 2009.}
+
 \bibitem[MARTINHO e MUNIZ 2013]{martinho_git_2013}
 \abntrefinfo{MARTINHO e MUNIZ}{MARTINHO; MUNIZ}{2013}
 {MARTINHO, M.; MUNIZ, E. {GIT} {SCM}: {Sistema} de {Controle} de
@@ -165,6 +176,10 @@ Dispon{\'\i}vel em: \url{http://ecoman.ktu.lt/index.php/elt/article/view/372}.}
 \emph{GIT SCM: Sistema de Controle de Versionamento Distribu{\'\i}do}, 2013.
 Dispon{\'\i}vel em:
   \url{http://www.tjam.jus.br/index.php?option=com\_content&view=article&id=4032\%3Agit-scm-sistema-de-controle-de-versionamento-distribuido&catid=344\%3Asds-artigos-cientificos-e-tecnologicos&Itemid=455&showall=1}.}
+
+\bibitem[McConnell 2004]{mcconnell2004code}
+\abntrefinfo{McConnell}{MCCONNELL}{2004}
+{MCCONNELL, S. \emph{Code complete}. [S.l.]: Pearson Education, 2004.}
 
 \bibitem[Meirelles 2008]{paulo_meirelles}
 \abntrefinfo{Meirelles}{MEIRELLES}{2008}
@@ -186,9 +201,9 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de S{\~a}o Paulo, 2008.}
 2015.
 Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/10107}.}
 
-\bibitem[Moresi e {others} 2003]{moresi_metodologia_2003}
-\abntrefinfo{Moresi e {others}}{MORESI; {others}}{2003}
-{MORESI, E.; {others}. Metodologia da pesquisa.
+\bibitem[Moresi 2003]{moresi_metodologia_2003}
+\abntrefinfo{Moresi}{MORESI}{2003}
+{MORESI, E. Metodologia da pesquisa.
 \emph{Bras{\'\i}lia: Universidade Cat{\'o}lica de Bras{\'\i}lia}, v.~108, 2003.
 Dispon{\'\i}vel em:
   \url{http://ftp.unisc.br/portal/upload/com\_arquivo/1370886616.pdf}.}
@@ -198,6 +213,10 @@ Dispon{\'\i}vel em:
 {{NBR} {ISO}/{IEC} 9126-1.
 [S.l.], 2016. v.~5, n.~7, 088--108~p. Dispon{\'\i}vel em:
   \url{http://periodicos.udesc.br/index.php/reavi/article/view/2316419005072016088}.}
+
+\bibitem[Nielsen]{princ_usabilidade}
+\abntrefinfo{Nielsen}{NIELSEN}{}
+{NIELSEN, J. \emph{10 Usability Heuristics for User Interface Design}.}
 
 \bibitem[Paduelli 2007]{Paduelli}
 \abntrefinfo{Paduelli}{PADUELLI}{2007}
@@ -244,12 +263,18 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
   on}. IEEE, 2016. p.~1--6. Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/abstract/document/7549475/}.}
 
-\bibitem[Schaidt 2014]{luiza_yago}
-\abntrefinfo{Schaidt}{SCHAIDT}{2014}
-{SCHAIDT, Y.~R. L.
+\bibitem[Schaidt e {Regis} 2014]{luiza_yago}
+\abntrefinfo{Schaidt e {Regis}}{SCHAIDT; {Regis}}{2014}
+{SCHAIDT, L.; {Regis}, Y.
 \emph{Monitoramento de Qualidade de Software na Administra{\c c}{\~a}o
   P{\'u}blica Federal}.
 Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia, 2014.}
+
+\bibitem[Schnaider 2004]{schnaider_uma_2004}
+\abntrefinfo{Schnaider}{SCHNAIDER}{2004}
+{SCHNAIDER, L. Uma abordagem para {Medi{\c c}{\~a}o} e {An{\'a}lise} em
+  {Projetos} de {Desenvolvimento} de {Software}.
+\emph{Bras{\'\i}lia, SBQS}, 2004.}
 
 \bibitem[Schwendimann et al. 2016]{schwendimann_perceiving_2016}
 \abntrefinfo{Schwendimann et al.}{SCHWENDIMANN et al.}{2016}
@@ -258,6 +283,10 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia, 2014.}
 \emph{IEEE Transactions on Learning Technologies}, p.~1--1, 2016.
 ISSN 1939-1382.
 Dispon{\'\i}vel em: \url{http://ieeexplore.ieee.org/document/7542151/}.}
+
+\bibitem[Selvaraj]{pres_usabilidade}
+\abntrefinfo{Selvaraj}{SELVARAJ}{}
+{SELVARAJ, S. \emph{Ten Usability Heuristics With Example}.}
 
 \bibitem[Silva 2014]{silva_painel_2014}
 \abntrefinfo{Silva}{SILVA}{2014}
@@ -275,6 +304,14 @@ Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2010.
 Dispon{\'\i}vel em:
   \url{http://reuse.cos.ufrj.br/files/publicacoes/graduacao/PF\_Marlon\_IAVEMS.pdf}.}
 
+\bibitem[Sobrinho 2014]{souza_sobrinho_uso_2014}
+\abntrefinfo{Sobrinho}{SOBRINHO}{2014}
+{SOBRINHO, L. P.~d. S. Uso do {Scrum} em um processo de gest{\~a}o de demandas
+  de desenvolvimento de software por terceiros para um {\'o}rg{\~a}o
+  p{\'u}blico federal brasileiro.
+2014.
+Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/8216}.}
+
 \bibitem[Sommervile 2011]{sommervile}
 \abntrefinfo{Sommervile}{SOMMERVILE}{2011}
 {SOMMERVILE, I. \emph{Software Engineering}. 9. ed. [S.l.]: Pearson, 2011.}
@@ -285,10 +322,10 @@ Dispon{\'\i}vel em:
   \url{http://docs.sonarqube.org/display/SONAR/Architecture+and+Integration}.
 Accessed: 2016-10-10.}
 
-\bibitem[Uni{\~a}o 2012]{guia_boas_praticas}
-\abntrefinfo{Uni{\~a}o}{UNI{\~A}O}{2012}
-{UNI{\~A}O, T. de~Contas~da. \emph{Guia de boas pr{\'a}ticas em contrata{\c
-  c}{\~a}o de solu{\c c}{\~o}es de tecnologia da Informa{\c c}{\~a}o}.
+\bibitem[TCU 2012]{guia_boas_praticas}
+\abntrefinfo{TCU}{TCU}{2012}
+{TCU. \emph{Guia de boas pr{\'a}ticas em contrata{\c c}{\~a}o de solu{\c
+  c}{\~o}es de tecnologia da Informa{\c c}{\~a}o}.
 [S.l.], 2012.}
 
 \end{thebibliography}

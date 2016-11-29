@@ -13,63 +13,69 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: bibliografia.bib
+Warning--entry type for "pres_usabilidade" isn't style-file defined
+--line 56 of file bibliografia.bib
+Warning--entry type for "princ_usabilidade" isn't style-file defined
+--line 67 of file bibliografia.bib
 Warning--entry type for "Lei_1993" isn't style-file defined
---line 397 of file bibliografia.bib
-Warning--I didn't find a database entry for "ouza_sobrinho_uso_2014"
+--line 479 of file bibliografia.bib
+Warning--I didn't find a database entry for "brazil_2010"
+Warning--I didn't find a database entry for "fernandes_2005"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
 Reallocated glb_str_end (elt_size=4) to 20 items from 10.
-Warning--campo year vazio ou faltando em Lei_1993
 Warning--campo year vazio ou faltando em chartsjs
 Warning--campo year vazio ou faltando em google_charts
 Warning--campo year vazio ou faltando em Square
+Warning--campo year vazio ou faltando em princ_usabilidade
 Warning--faltando school em Paduelli
+Warning--campo year vazio ou faltando em pres_usabilidade
 Warning--campo year vazio ou faltando em sonar
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 45 entries,
+You've used 52 entries,
             6714 wiz_defined-function locations,
-            1429 strings with 17757 characters,
-and the built_in function-call counts, 60103 in all, are:
-= -- 7125
-> -- 968
-< -- 1477
-+ -- 1902
-- -- 300
-* -- 3645
-:= -- 7406
-add.period$ -- 178
-call.type$ -- 45
-change.case$ -- 387
-chr.to.int$ -- 78
-cite$ -- 50
-duplicate$ -- 5824
-empty$ -- 2633
-format.name$ -- 1421
-if$ -- 12318
+            1457 strings with 18526 characters,
+and the built_in function-call counts, 64924 in all, are:
+= -- 7508
+> -- 1090
+< -- 1513
++ -- 1980
+- -- 340
+* -- 3934
+:= -- 8078
+add.period$ -- 199
+call.type$ -- 52
+change.case$ -- 435
+chr.to.int$ -- 85
+cite$ -- 58
+duplicate$ -- 6155
+empty$ -- 3020
+format.name$ -- 1606
+if$ -- 13406
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 760
-newline$ -- 231
-num.names$ -- 195
-pop$ -- 1001
+missing$ -- 881
+newline$ -- 262
+num.names$ -- 230
+pop$ -- 1163
 preamble$ -- 1
-purify$ -- 159
+purify$ -- 181
 quote$ -- 0
-skip$ -- 6284
+skip$ -- 6638
 stack$ -- 1
-substring$ -- 2544
-swap$ -- 2086
-text.length$ -- 43
+substring$ -- 2687
+swap$ -- 2198
+text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 56
-warning$ -- 6
-while$ -- 295
+warning$ -- 7
+while$ -- 337
 width$ -- 0
-write$ -- 684
-(There were 8 warnings)
+write$ -- 779
+(There were 12 warnings)

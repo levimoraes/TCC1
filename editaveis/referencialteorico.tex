@@ -42,7 +42,7 @@ De Interface           & 20\%
 
 
 
-Este mesmo edital também apresenta outra tabela, Tabela \ref{tabela2}. Nessa, são mostrados outros detalhes que serão cobrados na entrega do software. Algumas características desta tabela devem ser salientadas, como por exemplo, algumas métricas (mais especificamente taxa de cobertura de código, complexidade por método e LCOM4), as quais não possuem valores definidos de cobrança, sendo, portanto, ajustados conforme o projeto.
+Este mesmo edital também apresenta outra tabela, Tabela \ref{tabela2}. Nessa, são mostrados outros detalhes que serão cobrados na entrega do software. Algumas características desta tabela devem ser salientadas, como por exemplo: taxa de cobertura de código, complexidade por método e LCOM4, as quais não possuem valores definidos de cobrança \cite{edital}, sendo portanto, ajustados conforme o projeto.
 \begin{table}[h]
 \centering
 \caption{Métricas de Qualidade de Código Exigidas pela DNPM. Fonte: \cite{edital}}
@@ -295,7 +295,7 @@ Para que se possa acompanhar as métricas dos projetos é necessário que se man
 \item \textbf{Atributos}: Deve conter o número da versão, tamanho, alterações, complexidade.
 \end{itemize}
 
-Uma vez que são coletados os dados, esses ja estão categorizados de acordo com a sua natureza, e podem ser exibidos. Mas, ainda é necessário discutir qual a melhor forma de exibir  todas essas informações na tela. Uma das formas de se agrupar toda a informação de maneira ordenada e com sentido lógico é através de \textit{dashboards}. O conceito será apresentado no tópico a seguir.
+Uma vez que são coletados os dados, esses ja estão categorizados de acordo com a sua natureza, e podem ser exibidos. Mas, ainda é necessário discutir qual a melhor forma de exibir  todas essas informações na tela. Uma das formas de se agrupar toda a informação de maneira ordenada e com sentido lógico é através de \textit{dashboards} \cite{book_design}. O conceito será apresentado no tópico a seguir.
 
 \subsection{Dashboard}
 O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que um \textit{dashboard} é um \textit{display} virtual das informações mais importantes para atingir um ou mais objetivos. Deve ser construído e organizado para ser capaz de caber em uma única página para que a informação seja achada com facilidade. Esta seção visa apresentar alguns modelos de \textit{dashboards} e suas características.
@@ -380,7 +380,7 @@ Em seu livro, Stephen Few \cite{book_design} analisa uma variedade de \textit{da
 \graphicspath{{figuras/}}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.50]{dashboard1}
+\includegraphics[scale=0.60]{dashboard1}
 \caption{Exemplo 1 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
 \label{img:dashboard1}
 \end{figure}
@@ -389,7 +389,7 @@ O segundo \textit{dashboard} (Figura \ref{img:dashboard2}) erra em mostrar as li
 \graphicspath{{figuras/}}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.50]{dashboard2}
+\includegraphics[scale=0.60]{dashboard2}
 \caption{Exemplo 2 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
 \label{img:dashboard2}
 \end{figure}
@@ -398,12 +398,106 @@ Por último, o \textit{dashboard} da Figura \ref{img:dashboard3} apresenta ótim
 \graphicspath{{figuras/}}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.50]{dashboard3}
+\includegraphics[scale=0.60]{dashboard3}
 \caption{Exemplo 3 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
 \label{img:dashboard3}
 \end{figure}
 
+O \textit{dashboard} é uma ferramenta muito útil na visualização de dados, quando utilizada da maneira correta. Nielsen apresenta um conjunto de dez práticas que, quando aplicadas de maneira correta, ajudam  na usabilidade de uma aplicação. O papel da       usabilidade é fazer com que a interação humano-computador ocorra de maneira amigável e eficiente.
+
+\section{Dez Heurísticas de Usabilidade Propostas por Nielsen}
+Segundo a ISO 25010, usabilidade é definido como sendo o grau em que um produto ou sistema pode ser usado por determinados grupo de usuários para atingir os objetivos especificados \cite{Square}. Jacob Nielsen afirma que existe um conjunto de dez boas práticas \cite{princ_usabilidade}. Este conjunto de práticas também conhecidas como Heurísticas de Nielsen (o termo heurística, se deve ao fato de que o objetivo é a natureza da regra e o que ela significa em um contexto geral, ao invés de regras específicas e imutáveis). As boas práticas são:
+
+\begin{enumerate}
+
+  \item\textbf{Visibilidade de \textit{Status} do Sistema}: o sistema deve sempre manter o usúario informado sobre o que está acontecendo, através de um \textit{feedback} e um tempo considerável. Um exemplo, na Figura \ref{img:princ1} é possível perceber que a cor do ícone do avião, indica se um voô está atrasado ou não. Na mesma Figura é possível ver um \textit{status} na barra superior indicando que uma mensagem está sendo enviada.
+\graphicspath{{figuras/}}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.40]{princ_1.png}
+  \caption{Aplicação de Visibilidade do Sistema. Fonte: \cite{pres_usabilidade}}
+  \label{img:princ1}
+  \end{figure}  
+  
+  \item\textbf{Mesclar Ações do Sistema Com o Mundo Real}: o sistema deve falar a linguagem do usuário. O uso de termos comuns, próximos a realidade do usuário é melhor aceito, do que termos mais técnicos. A Figura \ref{img:princ2} apresenta dois exemplos de uso desta técnica. No primeiro caso, o uso de termos comuns e mais informais, facilita o entendimento da ação que o usuário está tomando. No segundo caso, há uma aproximação com o mundo real, em que o termo FAQ (\textit{Frequently Asked Questions}) que não é um termo tão conhecido, foi subsituído por "How can we help you ?", que é um termo muito mais utilizado no cotidiano do usuário.
+  \graphicspath{{figuras/}}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.40]{princ_2.png}
+  \caption{Combinação de Termos do Mundo Real é Melhor Aceito do Que Termos Técnicos. Fonte: \cite{pres_usabilidade}}
+  \label{img:princ2}
+  \end{figure}
+  
+  \item\textbf{Controle do Usuário e Liberdade}: é comum que o usuário escolha uma função do sistema sem querer, é necessário que  o sistema tenha uma "saída de emergência". Está prática pode ser observada na Figura \ref{img:princ3} em que ao enviar uma mensagem o sistema exibe a opção de cancelar o envio.
+   \graphicspath{{figuras/}}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.70]{princ_3.png}
+  \caption{Liberdade ao Usuário Poder Interromper ou Alterar Uma Ação Feita no Sistema. Fonte: \cite{pres_usabilidade}}
+  \label{img:princ3}
+  \end{figure}
+  
+  \item\textbf{Consistências e Padrões}: o usuário não deve se preocupar se uma palavra, situação ou ação significam a mesma coisa.
+  É recomendável que se siga a convenção da plataforma. A Figura \ref{img:princ4} apresenta três cabeçalhos de \textit{websites} que utilizam a ação de realizar o \textit{login}, no canto superior direito da página, pois este é o local convencional. Quando um padrão é quebrado, pode causar um incômodo ao usuário.
+   \graphicspath{{figuras/}}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.40]{princ_4.png}
+  \caption{Seguir os Padrões é Melhor do Que Propor Algo Diferente. Fonte: \cite{pres_usabilidade}}
+  \label{img:princ4}
+  \end{figure}
+  
+  \item\textbf{Prevenção de Erros}: melhor do que mensangens de erro, é ter o cuidado e prevenir para que esses erros não ocorram. É recomendável que exista uma opção de confirmação para o usuário antes dele realizar a ação. A Figura \ref{img:princ5} apresenta um \textit{pop-up} que é apresentado ao usuário quando ele deseja realizar a exclusão de um arquivo. Esta prática previne o usuário de realizar ações críticas por acidente, ou por ingenuidade.
+   \graphicspath{{figuras/}}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.40]{princ_5.jpg}
+  \caption{Prevenir Erros Antes Que Eles Ocorram. Fonte: \cite{pres_usabilidade}}
+  \label{img:princ5}
+  \end{figure}
+
+\item\textbf{Reconhecer ao Invés de Lembrar}: instruções de uso do sistema devem ser visíveis e fáceis de se recuperar quando necessário. A Figura \ref{img:princ6} apresenta uma página em que facilmente o usuário reconhece a funcionalidade da página. A utilização de apenas um botão para realizar a ação, faz com que distrações sejam menos aparentes.
+ \graphicspath{{figuras/}}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.50]{princ_6.png}
+  \caption{Reconhecer é Melhor do Que Lembrar. Fonte: \cite{pres_usabilidade}}
+  \label{img:princ6}
+  \end{figure}
+  
+  \item\textbf{Flexibilidade e Eficiência de Uso}: utilização de "aceleradores", que são invisíveis para usuário inexperientes, mas que agilizam tarefas para os usuários mais experientes. O exemplo apresentado na Figura \ref{img:princ7}, mostra duas situações em que são colocados funcionalidades para um usuário mais experiente. Na primeira imagem existe a opção por filtros de busca, para se obter um categoria específica de imagem, já na segunda, existe um link em azul para opções mais avançadas, caso o usuário deseje outras opções além de simplesmente compartilhar
+   \graphicspath{{figuras/}}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.50]{princ_7.png}
+  \caption{Uso de "Aceleradores" Para Usúarios Mais Experientes. Fonte: \cite{pres_usabilidade}}
+  \label{img:princ7}
+  \end{figure}
+
+\item\textbf{Estética e \textit{Design} Minimalista}: os diálogos não precisam conter informações que não são utilizadas com frequência. Toda informação extra compete com uma informação relevante o que diminui a visibilidade do que realemente é importante.
+
+\textit{Ajude Usuários a Reconhecer, Diagnosticar e Se Recuperarem de Erros}: Mensagens de erro, devem ser expressas da maneira mais clara possível, indicando o precisamente qual o problema, e indicando uma possível solução. Na Figura \ref{img:princ9} as duas imagens apresentam exemplos de como lidar com o erro. Na primeira imagem existe um destaque para as possíveis soluções, já na segunda, não são apresentadas soluções, mas sim possíveis formas de se contornar o problema.
+ \graphicspath{{figuras/}}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.60]{princ_9.png}
+  \caption{Exemplo Mostrando Telas de Erro de Maneira a Tranquilizar o Usuário. Fonte: \cite{pres_usabilidade}}
+  \label{img:princ9}
+  \end{figure}  
+  
+  \item\textbf{Ajuda e Documentação}: Mesmo que a solução seja auto-explicativa, é necessário que exista uma documentação. Toda informação deve ser fácil de ser encontrada, e a lista de etapas para se concluir uma pesquisa à documentação não deve ser muito grande. Na primeira imagem da Figura \ref{img:princ10}, tem-se um manual simplificado que utiliza imagens para demonstrar um procedimento, ao invés de um longo manual. Na segunda imagem o uso de um ícone "?"  apresenta uma breve descrição sobre as opções que estão disponíveis para o usuário.
+   \graphicspath{{figuras/}}
+  \begin{figure}[h!]
+  \centering
+  \includegraphics[scale=0.50]{princ_10.png}
+  \caption{Uso de Documentação Mesmo Para Pequenas Tarefas. Fonte: \cite{pres_usabilidade}}
+  \label{img:princ10}
+  \end{figure}
+  
+  \end{enumerate}  
+
+
 \section{Resumo do Capítulo}
 Para que se possa tercerizar o desenvolvimento de software dentro de Órgãos Públicos, algumas regras são necessárias. Entre elas, a de que a empresa vencedora do pregão, a qual irá dispor do direito de produzir o software, entregue o mesmo com qualidade. No edital de contratação, são estabelecidos critérios de qualidade para que o software entregue seja aceito. Estes critérios de qualidade tem sua fundamentação baseada em príncipios estabelecidos pela Norma SQuaRE, quanto à categoria de manutenabilidade. Essa categoria é fundamental na contratação de software, pois permite saber o quão manutenível é o software que está sendo contratado. O processo de manutenção de software está intimamente ligado a esta métrica, uma vez que quanto maior a manutenibilidade do software, menos esforço, tempo e dinheiro são gastos nesta etapa.
 
-Para definir o grau de manutenibilidade, são apresentadas suítes de métricas que avaliam conceitos específicos do software para validar se o software entregue pela tercerizada é passível de manutenção ou não. Neste trabalho, são apresentadas as suítes de Chidamber-Kemerer e MOOD. Para acompanhar a evolução da entrega e se todos os requisitos de analise estática do código estão sendo cumpridos, uma solução seria a utilização de um \textit{dashboard} para acompanhar o desenvolvimento do software a ser entregue. Para isso, faz-se necessário o aprendizado de técnicas de visualização da informação e de conceitos para criação de um \textit{dashboard} efetivo.
+Para definir o grau de manutenibilidade, são apresentadas suítes de métricas que avaliam conceitos específicos do software para validar se o software entregue pela tercerizada é passível de manutenção ou não. Neste trabalho, são apresentadas as suítes de Chidamber-Kemerer e MOOD. Para acompanhar a evolução da entrega e se todos os requisitos de analise estática do código estão sendo cumpridos, uma solução seria a utilização de um \textit{dashboard} para acompanhar o desenvolvimento do software a ser entregue. Para isso, faz-se necessário o aprendizado de técnicas de visualização da informação e de conceitos para criação de um \textit{dashboard} efetivo. São apresentados dez heurísticas propostas por Nielsen, que servem como princípios fundamentais na criação de uma solução.
