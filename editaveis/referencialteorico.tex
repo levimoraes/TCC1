@@ -1,10 +1,10 @@
 %\part{Aspectos Gerais}
 
 \chapter[Referencial Teórico]{Referencial Teórico}	
-Este capítulo tem como principal objetivo conferir detalhes sobre o referencial teórico, o qual embasa a presente proposta.    Inicialmente, o capítulo apresenta uma visão geral sobre o processo de contratação de software na Administração Pública Federal (APF), onde são destacadas algumas leis que fundamentam o tópico de contratação no âmbito das terceirizadas bem como estabelecem o nível de qualidade exigido por parte dos Órgãos Públicos Brasileiros. Em seguida discute-se sobre o conceito de qualidade de software na visão de alguns atores com destaque para o que é qualidade de acordo com a ISO 9126. Essa serviu como base para a norma SQUARE também discutida neste trabalho. Após a definição de qualidade pela norma SQUARE, sendo apresentados conceitos fundamentais de manutenção de software, os quais servem como guias para o desenvolvimento desta proposta. Tendo definido manutenabilidade, alguns conjuntos de métricas, que visam identificar possíveis lacunas de manutenabilidade no código, são apresentados. Com as métricas definidas, é necessário que se faça a devida visualização das métricas, tópico final deste capítulo.
+Este capítulo tem como principal objetivo conferir detalhes sobre o referencial teórico, o qual embasa a presente proposta.    Inicialmente, o capítulo apresenta uma visão geral sobre o processo de contratação de software na Administração Pública Federal (APF), onde são destacadas algumas leis que fundamentam o tópico de contratação no âmbito das terceirizadas bem como, estabelecem o nível de qualidade exigido por parte dos Órgãos Públicos Brasileiros. Em seguida discute-se sobre o conceito de qualidade de software na visão de alguns atores com destaque para o que é qualidade de acordo com a ISO 9126. Essa serviu como base para a norma SQUARE também discutida neste trabalho. Após a definição de qualidade pela norma SQUARE, sendo apresentados conceitos fundamentais de manutenção de software, os quais servem como guias para o desenvolvimento desta proposta. Tendo definido manutenabilidade, alguns conjuntos de métricas, que visam identificar possíveis lacunas de manutenabilidade no código, são apresentados. Com as métricas definidas, é necessário que se faça a devida visualização das métricas, tópico final deste capítulo.
 	
 \section{Processo de Contratação de Software na APF}
-O Decreto n\c 2.271 de 1997 \cite{decreto_2271} dispõe sobre a contratação de serviços pela APF. Segundo o Decreto, todos os produtos ou serviços que não apresentam relação direta com o propósito da Instituição do Governo Federal devem ser tercerizados. O Decreto coloca como exemplo algumas atividades, tais como: conservação, limpeza, segurança, vigilância, transporte, informática, copeiragem, recepção, reprografia, telecomunicações. Essas atividades são livres para tercerização.
+O Decreto n 2.271 de 1997 \cite{decreto_2271} dispõe sobre a contratação de serviços pela APF. Segundo o Decreto, todos os produtos ou serviços que não apresentam relação direta com o propósito da Instituição do Governo Federal devem ser tercerizados. O Decreto coloca como exemplo algumas atividades, tais como: conservação, limpeza, segurança, vigilância, transporte, informática, copeiragem, recepção, reprografia, telecomunicações. Essas atividades são livres para tercerização.
 
 A licitação é um conjunto de processos administrativos de caráter formal para as compras de bens ou serviços nos governos federais, estaduais ou municipais. Segundo a Lei  n 8.666 de 1993, o Governo Brasileiro para garantir a isonomia (princípio geral do direito segundo o qual todos são iguais perante a lei), diz que para contratações de bens ou serviços deve-se dar prioridade para licitação \cite{Lei_1993}. A licitação pode ocorrer de acordo com quatro categorias: concorrência, tomada de preços, convite e pregão \cite{brazil_licitacoes_2010}.
 
@@ -23,10 +23,10 @@ Uma vez que uma empresa ganha a licitação para um serviço, a empresa ganha o 
 \item o serviço contínuo de manutenção do sistema (e.g. implantação de manutenções corretivas e evolutivas).
 \end{itemize} 
 
-Tendo definido o que pode ser terceirizado dentro de um Órgão público, é necessário que o produto entregue tenha qualidade aceitável para que seja fechado o acordo por parte da tercerizada e da contratante (neste caso APF). Contudo, é necessário estipular o que é avaliado durante a contratação de um software.
+Tendo definido o que pode ser terceirizado dentro de um Órgão Público, é necessário que o produto entregue tenha qualidade aceitável para que seja fechado o acordo por parte da tercerizada e da contratante (neste caso APF). Contudo, é necessário estipular o que é avaliado durante a contratação de um software.
 
 \subsection{Avaliação da Qualidade Em Um Processo de Contratação }
-Uma vez que o software é produzido pela tercerizada, o mesmo passa por um processo de verificação de todos os artefatos que foram entregues, sejam eles em forma de documento, ou em código. São lançados dezenas de editais todos os anos com o intuito de suprir a necessidade dos Órgãos Públicos quanto à demanda de software. Cada Órgão é responsável por disponibilizar o seu edital contendo, entre vários assuntos, a forma como será inspecionado o código entregue pela tercerizada. Em um edital feito pelo Departamento Nacional de Produção Mineral \cite{edital}, um dos objetos de avaliação é a cobertura miníma de testes, como mostra a Tabela \ref{tabela1}. São avaliados tanto testes unitários, como de interface e de integração.
+Uma vez que o software é produzido pela tercerizada, o mesmo passa por um processo de verificação de todos os artefatos que foram entregues, sejam eles em forma de documento, ou em código. São lançados dezenas de editais todos os anos com o intuito de suprir a necessidade dos Órgãos Públicos. Cada Órgão é responsável por disponibilizar o seu edital contendo, entre vários assuntos, a forma como será inspecionado o código entregue pela tercerizada. Em um edital feito pelo Departamento Nacional de Produção Mineral (DNPM)\cite{edital}, um dos objetos de avaliação é a cobertura miníma de testes, como mostra a Tabela \ref{tabela1}. São avaliados tanto testes unitários, como de interface e de integração.
 
 \begin{table}[h!]
 \centering
@@ -132,7 +132,7 @@ Este trabalho tem seu desenvolvimento focado no modelo de Qualidade de Uso
 o qual apresenta características externas ao software, e os resultados sendo coletados através de atributos estáticos \cite{Square}. O foco deste trabalho está em medir indicadores quanto à manutenabilidade do software. Essa característica está diretamente ligada ao processo de Manutenção do Software.  
 
 \subsection{Manutenção de Software}
-Segundo Sommervile \cite{sommervile}, manutenção de software é o processo de alterar o sistema depois que ele foi publicado. As alterações feitas no software podem ser simples correções de erro, até mudanças significativamente grandes para correção falhas arquiteturais, ou mesmo melhorias para acomodar novos requisitos.
+Segundo Sommervile \cite{sommervile}, manutenção de software é o processo de alterar o sistema depois que ele foi publicado. As alterações feitas no software podem ser simples correções de erro, até mudanças significativamente grandes, falhas arquiteturais, ou mesmo melhorias para acomodar novos requisitos.
 
 Outra visão sobre manutenção de software é dada por Pressman \cite{pressman}, em que o autor conceitua o termo como sendo a correção de defeitos, e adaptação do software para lidar com uma mudança do ambiente e aperfeiçoar as funcionalidades em atendimento às necessidades dos usuários. Outra característica do processo de manutenção é a sua composição por um conjunto de sub processos, atividades e tarefas que podem ser utilizados durante a fase de manutenção para alterar um produto de software, contanto que seja mantido o seu funcionamento \cite{calazans_avaliacao_2005}.
 
@@ -274,12 +274,12 @@ Segundo Gomes \cite{gomes_percepcao_2011}, algumas técnicas para visualização
 \label{img:glifo}
 \end{figure}
 
-\item \textbf{Visualização de Estruturas e Relações}: esta técnica utiliza-se do conjunto de dados ou elementos que podem ser distribuídos de maneira hierarquica. Dentro deste conceito, existe uma ramificação para o uso da técnica, aplicada com focos diferentes. Algumas dessas técnicas são \textit{Bifocal Display} em que a informação é apresentada em três seções distintas da minha representação, sendo a central a que contêm informações mais relevantes. Outra técnica utilizada é a \textit{Perspective Wall} em que a informação é "projetada para uma parede". Uma comparação entre as duas técnicas pode ser observado na Figura \ref{img:comparativo}.
+\item \textbf{Visualização de Estruturas e Relações}: esta técnica utiliza-se do conjunto de dados ou elementos que podem ser distribuídos de maneira hierarquica. Dentro deste conceito, existe uma ramificação para o uso da técnica, aplicada com focos diferentes. Algumas dessas técnicas são \textit{Bifocal Display} em que a informação é apresentada em três seções distintas da representação, sendo a central a que contêm informações mais relevantes. Outra técnica utilizada é a \textit{Perspective Wall} em que a informação é "projetada para uma parede". Uma comparação entre as duas técnicas pode ser observado na Figura \ref{img:comparativo}.
 \graphicspath{{figuras/}}
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.5]{Bifocal_Wall}
-\caption{Comparativo entre a)Bifocal Display e b) Perspective Wall}
+\caption{Comparativo entre Bifocal Display (a) e Perspective Wall (b)}
 \label{img:comparativo}
 \end{figure}
 %
@@ -298,13 +298,13 @@ Para que se possa acompanhar as métricas dos projetos é necessário que se man
 Uma vez que são coletados os dados, esses ja estão categorizados de acordo com a sua natureza, e podem ser exibidos. Mas, ainda é necessário discutir qual a melhor forma de exibir  todas essas informações na tela. Uma das formas de se agrupar toda a informação de maneira ordenada e com sentido lógico é através de \textit{dashboards} \cite{book_design}. O conceito será apresentado no tópico a seguir.
 
 \subsection{Dashboard}
-O conceito apresentado por Stephen Few em seu livro \cite{book_design} diz que um \textit{dashboard} é um \textit{display} virtual das informações mais importantes para atingir um ou mais objetivos. Deve ser construído e organizado para ser capaz de caber em uma única página para que a informação seja achada com facilidade. Esta seção visa apresentar alguns modelos de \textit{dashboards} e suas características.
+O conceito apresentado por Stephen Few em seu livro \cite{book_design}, diz que um \textit{dashboard} é um \textit{display} virtual das informações mais importantes para atingir um ou mais objetivos. Deve ser construído e organizado para ser capaz de caber em uma única página para que a informação seja achada com facilidade. Esta seção visa apresentar alguns modelos de \textit{dashboards} e suas características.
 
 Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemática sobre \textit{dashboard} para aprendizado. A pesquisa foi feita em 55 artigos. Na Figura \ref{img:tipo_visualizacao} pode-se ver que os três tipos de visualização mais utilizados são gráfico de barras (33 artigos), gráfico de linhas (24 artigos) e tabelas (21 artigos).
 \graphicspath{{figuras/}}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.50]{grafico_pesquisa}
+\includegraphics[scale=0.60]{grafico_pesquisa}
 \caption{Tipos de Visualização Mais Frequente. Fonte: \cite{schwendimann_perceiving_2016}}
 \label{img:tipo_visualizacao}
 \end{figure}
@@ -313,7 +313,7 @@ Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemá
 
 \item Gráfico de Barras: representação de quantidade ao longo de uma escala numérica (Figura \ref{img:bar_graph}). Para que haja uma comparação significativa, deve ser feita sob a perspectiva de uma escala linear, partindo de zero\cite{doumont_choosing_2002}
 \graphicspath{{figuras/}}
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.40]{chart_bar}
 \caption{Exemplo de Gráfico de Barra Utilizando Google Charts}
@@ -322,7 +322,7 @@ Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemá
 
 \item Gráfico de Linhas: muito utilizado quando se tem um conjunto de dados contínuos. Pode ainda ser utilzado para determinar padrões ou uma tendência (Figura \ref{img:line_graph}). Normalmente, representam dados relacionados à tempo.
 \graphicspath{{figuras/}}
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.40]{line_chart}
 \caption{Exemplo de Gráfico de Linhas utilizando HiCharts}
@@ -331,7 +331,7 @@ Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemá
 
 \item Gráfico de Pizza: é melhor usado quando se deseja comparar um setor em relação ao total. O gráfico de pizza é um gráfico circular dividido em segmentos. Cada segmento representa uma categoria e o somatório dessas partes formam o todo (Figura \ref{img:pie_chart}). Não se aconselha utilizar o gráfico de pizza quando se tem que representar mais de sete categorias.
 \graphicspath{{figuras/}}
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.40]{pie_chart}
 \caption{Exemplo de Gráfico de Pizza utilizando Chart.js}
@@ -340,7 +340,7 @@ Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemá
 
 \item \textit{Network Chart}: este tipo de visualização reforça relacionamentos entre entidades. As entidades são mostradas como nós e os relacionamentos como linhas (Figura \ref{img:network_graph}).
 \graphicspath{{figuras/}}
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
 \includegraphics[scale=0.40]{network_graph}
 \caption{Exemplo de \textit{Network Graph} utilizando Google Charts}
@@ -354,7 +354,7 @@ Outro ponto importante na criação do \textit{dashboard} é o uso da paleta de 
 \end{quote}
 
  A partir desta afirmação, os autores apresentam uma Tabela \ref{table:cor_significado} que mapeia uma mensagem a uma determinada cor. Utiliazando-se a tabela, percebe-se que uma combinação de cores para um \textit{dashboard} seria preto e azul por passar uma mensagem de calma, segurança e autoridade.
-\begin{table}[h!]
+\begin{table}[H]
 \centering
 \caption{Mapeamento de Cores e seus Significados}
 \label{table:cor_significado}
@@ -378,27 +378,27 @@ Saudável          & Verde Escuro, Marrom                 \\ \hline
 
 Em seu livro, Stephen Few \cite{book_design} analisa uma variedade de \textit{dashboards} dos quais alguns valem ser mencionados. No \textit{dashboard} da Figura \ref{img:dashboard1}, o uso de \textit{radio buttons} permite que seja feita uma seleção em relação ao período, em que se deseja analisar, porém não permite que seja feita uma comparação entre os períodos. Outro ponto a ser destacado é o uso de uma fotografia no painel. Stephen Few chama isso de \textit{chartjunk}, pois a imagem não tem funcionalidade alguma; a não ser a de decorar o painel. Caso contrário, não é adequado o uso dessa prática. 
 \graphicspath{{figuras/}}
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[scale=0.60]{dashboard1}
+\includegraphics[scale=0.50]{dashboard1}
 \caption{Exemplo 1 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
 \label{img:dashboard1}
 \end{figure}
 
 O segundo \textit{dashboard} (Figura \ref{img:dashboard2}) erra em mostrar as linhas das tabelas e dos gráficos. Essas linhas tiram o foco da informação que se quer transmitir. O uso do gráfico de pizza, neste caso, poderia ser substituído por um gráfico de barras ordenado, que comunicaria a informação de maneira mais eficiente. Um último ponto sobre este \textit{dashboard} é que ele possui muitas cores claras, o que poderia ser substitúido por outras tonalidades de cor que fizessem contraste com a informação mais importante.
 \graphicspath{{figuras/}}
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[scale=0.60]{dashboard2}
+\includegraphics[scale=0.50]{dashboard2}
 \caption{Exemplo 2 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
 \label{img:dashboard2}
 \end{figure}
 
 Por último, o \textit{dashboard} da Figura \ref{img:dashboard3} apresenta ótimas soluções para mostrar a informação quando comparado aos outros dois \textit{dashboards}. O primeiro ponto positivo é o uso do espaço em branco para separar as seções que são apresentadas, o uso da paleta de cores também contribui para esse efeito, as únicas cores encontradas são tons de cinza, verde e dois tons de vermelho. Outro ponto positivo é que toda a informação importante se encontra em um único lugar que é no canto superior esquerdo, onde o leitor começa a leitura.
 \graphicspath{{figuras/}}
-\begin{figure}[h!]
+\begin{figure}[H]
 \centering
-\includegraphics[scale=0.60]{dashboard3}
+\includegraphics[scale=0.50]{dashboard3}
 \caption{Exemplo 3 de \textit{Dashboard} apresentado por Stephen Few. Fonte: \cite{book_design}}
 \label{img:dashboard3}
 \end{figure}
@@ -412,7 +412,7 @@ Segundo a ISO 25010, usabilidade é definido como sendo o grau em que um produto
 
   \item\textbf{Visibilidade de \textit{Status} do Sistema}: o sistema deve sempre manter o usúario informado sobre o que está acontecendo, através de um \textit{feedback} e um tempo considerável. Um exemplo, na Figura \ref{img:princ1} é possível perceber que a cor do ícone do avião, indica se um voô está atrasado ou não. Na mesma Figura é possível ver um \textit{status} na barra superior indicando que uma mensagem está sendo enviada.
 \graphicspath{{figuras/}}
-  \begin{figure}[h!]
+  \begin{figure}[H]
   \centering
   \includegraphics[scale=0.40]{princ_1.png}
   \caption{Aplicação de Visibilidade do Sistema. Fonte: \cite{pres_usabilidade}}
@@ -421,7 +421,7 @@ Segundo a ISO 25010, usabilidade é definido como sendo o grau em que um produto
   
   \item\textbf{Mesclar Ações do Sistema Com o Mundo Real}: o sistema deve falar a linguagem do usuário. O uso de termos comuns, próximos a realidade do usuário é melhor aceito, do que termos mais técnicos. A Figura \ref{img:princ2} apresenta dois exemplos de uso desta técnica. No primeiro caso, o uso de termos comuns e mais informais, facilita o entendimento da ação que o usuário está tomando. No segundo caso, há uma aproximação com o mundo real, em que o termo FAQ (\textit{Frequently Asked Questions}) que não é um termo tão conhecido, foi subsituído por "How can we help you ?", que é um termo muito mais utilizado no cotidiano do usuário.
   \graphicspath{{figuras/}}
-  \begin{figure}[h!]
+  \begin{figure}[H]
   \centering
   \includegraphics[scale=0.40]{princ_2.png}
   \caption{Combinação de Termos do Mundo Real é Melhor Aceito do Que Termos Técnicos. Fonte: \cite{pres_usabilidade}}
@@ -430,7 +430,7 @@ Segundo a ISO 25010, usabilidade é definido como sendo o grau em que um produto
   
   \item\textbf{Controle do Usuário e Liberdade}: é comum que o usuário escolha uma função do sistema sem querer, é necessário que  o sistema tenha uma "saída de emergência". Está prática pode ser observada na Figura \ref{img:princ3} em que ao enviar uma mensagem o sistema exibe a opção de cancelar o envio.
    \graphicspath{{figuras/}}
-  \begin{figure}[h!]
+  \begin{figure}[H]
   \centering
   \includegraphics[scale=0.70]{princ_3.png}
   \caption{Liberdade ao Usuário Poder Interromper ou Alterar Uma Ação Feita no Sistema. Fonte: \cite{pres_usabilidade}}
@@ -440,7 +440,7 @@ Segundo a ISO 25010, usabilidade é definido como sendo o grau em que um produto
   \item\textbf{Consistências e Padrões}: o usuário não deve se preocupar se uma palavra, situação ou ação significam a mesma coisa.
   É recomendável que se siga a convenção da plataforma. A Figura \ref{img:princ4} apresenta três cabeçalhos de \textit{websites} que utilizam a ação de realizar o \textit{login}, no canto superior direito da página, pois este é o local convencional. Quando um padrão é quebrado, pode causar um incômodo ao usuário.
    \graphicspath{{figuras/}}
-  \begin{figure}[h!]
+  \begin{figure}[H]
   \centering
   \includegraphics[scale=0.40]{princ_4.png}
   \caption{Seguir os Padrões é Melhor do Que Propor Algo Diferente. Fonte: \cite{pres_usabilidade}}
@@ -449,7 +449,7 @@ Segundo a ISO 25010, usabilidade é definido como sendo o grau em que um produto
   
   \item\textbf{Prevenção de Erros}: melhor do que mensangens de erro, é ter o cuidado e prevenir para que esses erros não ocorram. É recomendável que exista uma opção de confirmação para o usuário antes dele realizar a ação. A Figura \ref{img:princ5} apresenta um \textit{pop-up} que é apresentado ao usuário quando ele deseja realizar a exclusão de um arquivo. Esta prática previne o usuário de realizar ações críticas por acidente, ou por ingenuidade.
    \graphicspath{{figuras/}}
-  \begin{figure}[h!]
+  \begin{figure}[H]
   \centering
   \includegraphics[scale=0.40]{princ_5.jpg}
   \caption{Prevenir Erros Antes Que Eles Ocorram. Fonte: \cite{pres_usabilidade}}
@@ -458,38 +458,38 @@ Segundo a ISO 25010, usabilidade é definido como sendo o grau em que um produto
 
 \item\textbf{Reconhecer ao Invés de Lembrar}: instruções de uso do sistema devem ser visíveis e fáceis de se recuperar quando necessário. A Figura \ref{img:princ6} apresenta uma página em que facilmente o usuário reconhece a funcionalidade da página. A utilização de apenas um botão para realizar a ação, faz com que distrações sejam menos aparentes.
  \graphicspath{{figuras/}}
-  \begin{figure}[h!]
+  \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.50]{princ_6.png}
+  \includegraphics[scale=0.40]{princ_6.png}
   \caption{Reconhecer é Melhor do Que Lembrar. Fonte: \cite{pres_usabilidade}}
   \label{img:princ6}
   \end{figure}
   
   \item\textbf{Flexibilidade e Eficiência de Uso}: utilização de "aceleradores", que são invisíveis para usuário inexperientes, mas que agilizam tarefas para os usuários mais experientes. O exemplo apresentado na Figura \ref{img:princ7}, mostra duas situações em que são colocados funcionalidades para um usuário mais experiente. Na primeira imagem existe a opção por filtros de busca, para se obter um categoria específica de imagem, já na segunda, existe um link em azul para opções mais avançadas, caso o usuário deseje outras opções além de simplesmente compartilhar
    \graphicspath{{figuras/}}
-  \begin{figure}[h!]
+  \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.50]{princ_7.png}
+  \includegraphics[scale=0.40]{princ_7.png}
   \caption{Uso de "Aceleradores" Para Usúarios Mais Experientes. Fonte: \cite{pres_usabilidade}}
   \label{img:princ7}
   \end{figure}
 
-\item\textbf{Estética e \textit{Design} Minimalista}: os diálogos não precisam conter informações que não são utilizadas com frequência. Toda informação extra compete com uma informação relevante o que diminui a visibilidade do que realemente é importante.
+\item\textbf{Estética e \textit{Design} Minimalista}: os diálogos não precisam conter informações que não são utilizadas com frequência. Toda informação extra, compete com uma informação relevante, o que diminui a visibilidade do que realemente é importante.
 
-\textit{Ajude Usuários a Reconhecer, Diagnosticar e Se Recuperarem de Erros}: Mensagens de erro, devem ser expressas da maneira mais clara possível, indicando o precisamente qual o problema, e indicando uma possível solução. Na Figura \ref{img:princ9} as duas imagens apresentam exemplos de como lidar com o erro. Na primeira imagem existe um destaque para as possíveis soluções, já na segunda, não são apresentadas soluções, mas sim possíveis formas de se contornar o problema.
+\item\textbf{Ajude Usuários a Reconhecer, Diagnosticar e Se Recuperarem de Erros}: Mensagens de erro, devem ser expressas da maneira mais clara possível, indicando o precisamente qual o problema, e indicando uma possível solução. Na Figura \ref{img:princ9} as duas imagens apresentam exemplos de como lidar com o erro. Na primeira imagem existe um destaque para as possíveis soluções, já na segunda, não são apresentadas soluções, mas sim possíveis formas de se contornar o problema.
  \graphicspath{{figuras/}}
-  \begin{figure}[h!]
+  \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.60]{princ_9.png}
+  \includegraphics[scale=0.40]{princ_9.png}
   \caption{Exemplo Mostrando Telas de Erro de Maneira a Tranquilizar o Usuário. Fonte: \cite{pres_usabilidade}}
   \label{img:princ9}
   \end{figure}  
   
   \item\textbf{Ajuda e Documentação}: Mesmo que a solução seja auto-explicativa, é necessário que exista uma documentação. Toda informação deve ser fácil de ser encontrada, e a lista de etapas para se concluir uma pesquisa à documentação não deve ser muito grande. Na primeira imagem da Figura \ref{img:princ10}, tem-se um manual simplificado que utiliza imagens para demonstrar um procedimento, ao invés de um longo manual. Na segunda imagem o uso de um ícone "?"  apresenta uma breve descrição sobre as opções que estão disponíveis para o usuário.
    \graphicspath{{figuras/}}
-  \begin{figure}[h!]
+  \begin{figure}[H]
   \centering
-  \includegraphics[scale=0.50]{princ_10.png}
+  \includegraphics[scale=0.40]{princ_10.png}
   \caption{Uso de Documentação Mesmo Para Pequenas Tarefas. Fonte: \cite{pres_usabilidade}}
   \label{img:princ10}
   \end{figure}

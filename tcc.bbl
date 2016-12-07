@@ -5,9 +5,9 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[BENTO et al. 2013]{bento_alise_2013}
-\abntrefinfo{BENTO et al.}{BENTO et al.}{2013}
-{BENTO, G.~V. et al. An{\'a}lise {Comparativa} de {Sistemas} de {Controle} de
+\bibitem[Bento 2013]{bento_alise_2013}
+\abntrefinfo{Bento}{BENTO}{2013}
+{BENTO, G.~V. An{\'a}lise {Comparativa} de {Sistemas} de {Controle} de
   {Vers{\~o}es} com foco em {Versionamento} de {Banco} de {Dados} {Oracle}.
 \emph{e-RAC}, v.~3, n.~1, 2013.
 Dispon{\'\i}vel em:
@@ -22,10 +22,10 @@ Dispon{\'\i}vel em:
 {BRASIL. \emph{DECRETO No 2.271, DE 7 DE JULHO DE 1997}.
 [S.l.], 1997.}
 
-\bibitem[{Brazil} 2010]{brazil_licitacoes_2010}
-\abntrefinfo{{Brazil}}{{Brazil}}{2010}
-{{Brazil} (Ed.). \emph{Licita{\c c}{\~o}es \& contratos: orienta{\c c}{\~o}es e
-  jurisprud{\^e}ncia do {TCU}}. 4a edi{\c c}{\~a}o revista, ampliada e
+\bibitem[{BRASILl} 2010]{brazil_licitacoes_2010}
+\abntrefinfo{{BRASILl}}{{BRASILl}}{2010}
+{{BRASILl} (Ed.). \emph{Licita{\c c}{\~o}es \& contratos: orienta{\c c}{\~o}es
+  e jurisprud{\^e}ncia do {TCU}}. 4a edi{\c c}{\~a}o revista, ampliada e
   atualizada. ed. Bras{\'\i}lia: TCU, Tribunal de Contas da Uni{\~a}o, 2010.
 ISBN 978-85-7018-319-4.}
 
@@ -60,10 +60,19 @@ Accessed: 2016-10-10.}
 Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=988358}.}
 
-\bibitem[Ferenc et al. 2014]{ferenc_source_2014}
-\abntrefinfo{Ferenc et al.}{FERENC et al.}{2014}
-{FERENC, R. et al. Source {Meter} {Sonar} {Qube} {Plug}-in. In:  . [S.l.]:
-  IEEE, 2014. p. 77--82.}
+\bibitem[Ferenc 2014]{ferenc_source_2014}
+\abntrefinfo{Ferenc}{FERENC}{2014}
+{FERENC, R. Source {Meter} {Sonar} {Qube} {Plug}-in. In:  . [S.l.]: IEEE, 2014.
+  p. 77--82.}
+
+\bibitem[Fernandes 2005]{fernandes_licitacao_2005}
+\abntrefinfo{Fernandes}{FERNANDES}{2005}
+{FERNANDES, J. U.~J. Licita{\c c}{\~a}o na modalidade preg{\~a}o, na forma
+  eletr{\^o}nica-{Regulamenta{\c c}{\~a}o}: {Decreto} n. 5.450, de 31 de maio
+  de 2005.
+\emph{F{\'o}rum de Contrata{\c c}{\~a}o e Gest{\~a}o P{\'u}blica [recurso
+  eletr{\^o}nico]}, 2005.
+Dispon{\'\i}vel em: \url{https://dspace.almg.gov.br/handle/11037/6020}.}
 
 \bibitem[Few 2006]{book_design}
 \abntrefinfo{Few}{FEW}{2006}
@@ -124,6 +133,14 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s00521-013-1481-0}.}
   models.}
 2011. ed. [S.l.].}
 
+\bibitem[J{\'u}nior e {Jos{\'e} Roberto} 2010]{tiossi_junior_adesao_2010}
+\abntrefinfo{J{\'u}nior e {Jos{\'e} Roberto}}{J{\'U}NIOR; {Jos{\'e}
+  Roberto}}{2010}
+{J{\'U}NIOR, T.; {Jos{\'e} Roberto}. Ades{\~a}o {\`a} ata de registro de pre{\c
+  c}os: o carona que virou inexigibilidade.
+\emph{F{\'o}rum de contrata{\c c}{\~a}o e gest{\~a}o p{\'u}blica}, 2010.
+Dispon{\'\i}vel em: \url{http://bdjur.stj.jus.br/dspace/handle/2011/32413}.}
+
 \bibitem[Kaner 2004]{karner}
 \abntrefinfo{Kaner}{KANER}{2004}
 {KANER, C. Software engineering metrics: What do they measure and how do we
@@ -144,9 +161,9 @@ ISSN 1063-6773.}
   {Expo} ({ICME})}. IEEE, 2015. p.~1--6. Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/xpls/abs\_all.jsp?arnumber=7177443}.}
 
-\bibitem[Lopez-Martinez et al. 2016]{lopez-martinez_problems_2016}
-\abntrefinfo{Lopez-Martinez et al.}{LOPEZ-MARTINEZ et al.}{2016}
-{LOPEZ-MARTINEZ, J. et al. Problems in the {Adoption} of {Agile}-{Scrum}
+\bibitem[Lopez-Martinez 2016]{lopez-martinez_problems_2016}
+\abntrefinfo{Lopez-Martinez}{LOPEZ-MARTINEZ}{2016}
+{LOPEZ-MARTINEZ, J. Problems in the {Adoption} of {Agile}-{Scrum}
   {Methodologies}: {A} {Systematic} {Literature} {Review}. In:  . IEEE, 2016.
   p. 141--148.
 ISBN 978-1-5090-1074-5. Dispon{\'\i}vel em:
@@ -225,11 +242,11 @@ Dispon{\'\i}vel em:
   uma disciplina espec{\'\i}fica}.
 Disserta\c{c}\~{a}o (Mestrado), 2007.}
 
-\bibitem[Pagotto et al. 2016]{pagotto_scrum_2016}
-\abntrefinfo{Pagotto et al.}{PAGOTTO et al.}{2016}
-{PAGOTTO, T. et al. Scrum solo: {Software} process for individual development.
-  In:  \emph{Information {Systems} and {Technologies} ({CISTI}), 2016 11th
-  {Iberian} {Conference} on}. AISTI, 2016. p.~1--6. Dispon{\'\i}vel em:
+\bibitem[Pagotto 2016]{pagotto_scrum_2016}
+\abntrefinfo{Pagotto}{PAGOTTO}{2016}
+{PAGOTTO, T. Scrum solo: {Software} process for individual development. In:
+  \emph{Information {Systems} and {Technologies} ({CISTI}), 2016 11th {Iberian}
+  {Conference} on}. AISTI, 2016. p.~1--6. Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/abstract/document/7521555/}.}
 
 \bibitem[Pfleeger e Bohner 1990]{pfleeger_framework_1990}
@@ -276,10 +293,10 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia, 2014.}
   {Projetos} de {Desenvolvimento} de {Software}.
 \emph{Bras{\'\i}lia, SBQS}, 2004.}
 
-\bibitem[Schwendimann et al. 2016]{schwendimann_perceiving_2016}
-\abntrefinfo{Schwendimann et al.}{SCHWENDIMANN et al.}{2016}
-{SCHWENDIMANN, B. et al. Perceiving learning at a glance: {A} systematic
-  literature review of learning dashboard research.
+\bibitem[Schwendimann 2016]{schwendimann_perceiving_2016}
+\abntrefinfo{Schwendimann}{SCHWENDIMANN}{2016}
+{SCHWENDIMANN, B. Perceiving learning at a glance: {A} systematic literature
+  review of learning dashboard research.
 \emph{IEEE Transactions on Learning Technologies}, p.~1--1, 2016.
 ISSN 1939-1382.
 Dispon{\'\i}vel em: \url{http://ieeexplore.ieee.org/document/7542151/}.}

@@ -1,0 +1,41 @@
+<html>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Version', 'LOC'],
+          ['1.0',  10],
+          ['1.1',  15],
+          ['1.2',  25],
+          ['1.3',  {{ ncloc }}]
+        ]);
+
+        var options = {
+          title: 'LOC',
+          curveType: 'function',
+          animation: {
+            duration: 4000,
+            easing: 'linear',
+            startup: true
+          },
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body id="new_main">
+  <h1> LOC <a href="" title="LOC = Lines of Code, mede a quantidade de linhas de código do projeto">? </a></h1>
+    <div id="curve_chart"></div>
+  </body>
+</html>

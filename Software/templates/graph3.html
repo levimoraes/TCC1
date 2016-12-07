@@ -1,0 +1,41 @@
+<html>
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Version', 'Complexity'],
+          ['1.0', 4],
+          ['1.1', 7],
+          ['1.2',7],
+          ['1.3', {{complexity}}]
+        ]);
+
+        var options = {
+          title: 'complexity',
+          curveType: 'function',
+          legend: { position: 'bottom' },
+          animation: {
+            duration: 4000,
+            easing: 'linear',
+            startup: true
+          }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body id="new_main">
+  <h1> Complexity <a href="" title="Mede a complexidade do código">? </a></h1>
+    <div id="curve_chart"></div>
+  </body>
+</html>

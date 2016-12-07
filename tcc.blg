@@ -19,8 +19,6 @@ Warning--entry type for "princ_usabilidade" isn't style-file defined
 --line 67 of file bibliografia.bib
 Warning--entry type for "Lei_1993" isn't style-file defined
 --line 479 of file bibliografia.bib
-Warning--I didn't find a database entry for "brazil_2010"
-Warning--I didn't find a database entry for "fernandes_2005"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -37,45 +35,45 @@ Warning--campo year vazio ou faltando em sonar
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 52 entries,
+You've used 54 entries,
             6714 wiz_defined-function locations,
-            1457 strings with 18526 characters,
-and the built_in function-call counts, 64924 in all, are:
-= -- 7508
-> -- 1090
-< -- 1513
-+ -- 1980
-- -- 340
-* -- 3934
-:= -- 8078
-add.period$ -- 199
-call.type$ -- 52
-change.case$ -- 435
-chr.to.int$ -- 85
-cite$ -- 58
-duplicate$ -- 6155
-empty$ -- 3020
-format.name$ -- 1606
-if$ -- 13406
+            1465 strings with 18599 characters,
+and the built_in function-call counts, 66685 in all, are:
+= -- 7778
+> -- 1007
+< -- 1607
++ -- 2036
+- -- 320
+* -- 3969
+:= -- 8295
+add.period$ -- 207
+call.type$ -- 54
+change.case$ -- 418
+chr.to.int$ -- 87
+cite$ -- 60
+duplicate$ -- 6479
+empty$ -- 3108
+format.name$ -- 1486
+if$ -- 13665
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 881
-newline$ -- 262
-num.names$ -- 230
-pop$ -- 1163
+missing$ -- 909
+newline$ -- 274
+num.names$ -- 240
+pop$ -- 1188
 preamble$ -- 1
-purify$ -- 181
+purify$ -- 178
 quote$ -- 0
-skip$ -- 6638
+skip$ -- 6935
 stack$ -- 1
-substring$ -- 2687
-swap$ -- 2198
-text.length$ -- 44
+substring$ -- 2816
+swap$ -- 2298
+text.length$ -- 46
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 56
 warning$ -- 7
-while$ -- 337
+while$ -- 351
 width$ -- 0
-write$ -- 779
-(There were 12 warnings)
+write$ -- 809
+(There were 10 warnings)

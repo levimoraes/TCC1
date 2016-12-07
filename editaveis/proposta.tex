@@ -2,17 +2,17 @@
 O objetivo deste capítulo é apresentar uma possível proposta de solução, a qual deve atender às necessidades colocadas no primeiro capítulo referente à problemática deste trabalho. A apresentação da proposta está concentrada em duas partes. A primeira parte está relacionada à coleta das métricas utilizando a ferramenta SonarQube, e a segunda parte está relacionada à criação do \textit{dashboard} e à visualização das informações. Para analise da presente proposta, foram escolhidos dois projetos, sendo ambos os projetos de código aberto extraídos do portal do software público brasileiro. A terceira e última parte do trabalho consiste em analisar os resultados obtidos através de uma avaliação qualitativa com possíveis usuários.
 
 \section{Ambiente Simulado}
-Para se simular um ambiente de produção, será utilizado como modelo de referência o ambiente apresentado por Luiza e Yago \cite{luiza_yago}. No trabalho descrito, os autores caracterizam o órgão pertencente à APF como Órgão X. Uma das características referentes ao Órgão X que podem ser citadas diz respeito a sua área de jurisdição que abrange serviços de radiodifusão, postais e de telecomunicações. O Órgão X atualmente implanta o GeDDAS (Gestão de Demandas de Desenvolvimento Ágil de Software) proposto por Souza \cite{souza_sobrinho_uso_2014}. A Figura \ref{img:proc_des} apresenta o processo de desenvolvimento adotado pelo Órgão X.
+Para se simular um ambiente de produção, será utilizado como modelo de referência o ambiente apresentado por Luiza e Yago \cite{luiza_yago}. No trabalho descrito, os autores caracterizam o Órgão pertencente à APF como Órgão X. Uma das características referentes ao Órgão X que podem ser citadas diz respeito a sua área de jurisdição que abrange serviços de radiodifusão, postais e de telecomunicações. O Órgão X atualmente implanta o GeDDAS (Gestão de Demandas de Desenvolvimento Ágil de Software) proposto por Souza \cite{souza_sobrinho_uso_2014}. A Figura \ref{img:proc_des} apresenta o processo de desenvolvimento adotado pelo Órgão X.
 
 \graphicspath{{figuras/}}
-\begin{figure}[H]
+\begin{figure}[h!]
 \centering
 \includegraphics[scale=0.60]{Proc_des.pdf}
 \caption{Processo de Desenvolvimento Adotado Pelo Órgão X. Fonte: \cite{luiza_yago}}
 \label{img:proc_des}
 \end{figure}
 
-A solução proposta tem o objetivo de atuar tanto do lado do Órgão Público, onde o Gestor acompanha o desenvolvimento do projeto, quanto da empresa contratada em que a ferramenta é integrada ào processo de desenvolvimento do software. A Figura \ref{img:ciclo_ver} apresenta um diagrama que demonstra o ciclo de verificação juntamente com a solução apresentada. Na Figura é possível ver que o time de desenvolvimento da empresa contratada desenvolve o código que é submetido para uma análise onde é feita a verificação das métricas que foram estipuladas. Após essa análise o resultado é submetido para o \textit{dashboard} onde o Gestor de TI e a equipe de qualidade do Órgão X podem acompanhar o projeto.
+A solução proposta tem o objetivo de atuar tanto do lado do Órgão Público, onde o Gestor acompanha o desenvolvimento do projeto, quanto da empresa contratada em que a ferramenta é integrada ào processo de desenvolvimento do software. A Figura \ref{img:ciclo_ver} apresenta um diagrama que demonstra o ciclo de verificação juntamente com a solução apresentada. Na Figura é possível ver que o time de desenvolvimento da empresa contratada desenvolve o código que é submetido para uma análise, onde é feita a verificação das métricas que foram estipuladas. Após essa análise o resultado é submetido para o \textit{dashboard},  o Gestor de TI e a equipe de qualidade do Órgão, podem acompanhar o projeto.
 
 \graphicspath{{figuras/}}
 \begin{figure}[h!]
@@ -32,23 +32,35 @@ As métricas "Violações do tipo Blocker", "Violações do tipo Major" e "Viola
 
 O objetivo deste trabalho é criar uma ferramenta que auxilie na auditoria de produtos de software entregues por empresas tercerizadas. Entretanto percebe-se que ainda que o trabalho possua grande aprovação, dificilmente o mesmo irá substituir o fator humano da auditoria. Portanto, o software compreende apenas um suporte que visa facilitar a avaliação geral do software entregue sob o ponto de vista da qualidade de código. Recomenda-se, uma vez que o software seja submetido à ferramenta e seja aceito, a realização de uma auditoria em cima de uma amostragem do software entregue, sob o olhar de um analista especializado para tal atividade.
 
+Foi elaborado uma prova de conceito, para que se pudesse testar a funcionalidade relacionada à coleta de métricas. Está prova, consistia em, elaborar um software que fosse capaz de extrair métricas do relatório do SonarQube. Inicialmente foi necessário criar uma instância do SonarQube e fazer a análise de um projeto. O projeto escolhido foi um projeto em Java, que o próprio SonarQube disponibiliza para download, com o intuito de ser utilizado como exemplo. Com o ambiente configurado, implementou-se uma solução em Python que atendesse aos requisitos estabelecidos para a prova de conceito. A Figura \ref{img:terminal} apresenta a saída do console, ao se rodar a solução.
+
+\graphicspath{{figuras/}}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.60]{terminal.png}
+\caption{Métricas Extraídas do SonarQube}
+\label{img:terminal}
+\end{figure}
+
+Na primeira linha da Figura \ref{img:terminal}, é executada a chamada do código. As linhas sequentes apresentam as métricas coletadas pela solução. As métricas que são apresentadas no console, foram definidas no código, por este motivo, ainda não é possível definir outras métricas durante a execução da aplicação, esta funcionalidade será implementada na segunda fase do projeto.  
+
 \section{Criação do \textit{Dashboard}}
-Com as informações \textit{obtidas}, o dashboard funcionará como uma tela para visualização dessas métricas. A solução é composta por duas telas. Uma mostrando uma visão geral dos projetos, com indicadores quanto à aprovação ou reprovação de cada projeto seguindo os limites estabelecidos pelo edital \cite{edital}. A segunda tela consiste em uma visão mais detalhada sobre cada projeto, mostrando a evolução do projeto em cada métrica e com um \textit{link} para o Sonar de cada métrica para um aprofundamento.
+Com as informações obtidas, o dashboard funcionará como uma tela para visualização dessas métricas. A solução é composta por duas telas. Uma mostrando uma visão geral dos projetos, com indicadores quanto à aprovação ou reprovação de cada projeto seguindo os limites estabelecidos pelo edital \cite{edital}. A segunda tela consiste em uma visão mais detalhada sobre cada projeto, mostrando a evolução do projeto em cada métrica e com um \textit{link} para o Sonar de cada métrica para um aprofundamento.
 
 Para melhor compreensão da proposta, foram elaborados protótipos das possíveis telas que farão parte da solução final. A Figura \ref{img:telaLogin} apresenta a tela inicial da solução, por onde o Gestor fará o acesso colocando seu \textit{username} e seu \textit{password}. Ainda nesta tela, existe um \textit{link} para caso o Gestor não se lembre do seu \textit{password}, onde o sistema enviará uma mensagem, para o \textit{email} cadastrado, solicitando a alteração.
 
 \graphicspath{{figuras/}}
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics[scale=0.60]{telaLogin.png}
 \caption{Tela Login}
 \label{img:telaLogin}
 \end{figure}
 
-A página de inicial do projeto, também chamada de \textit{home page}, aqui apresentada na Figura \ref{img:telaHome}. Nesta página, o Gestor tem uma visão de todos os projetos, que ele cadastrou para serem acompanhados. Cada projeto é representado por um retângulo de uma cor , e neste retângulo estão algumas informações referentes ao projeto, que podem ser visualizadas, sem a necessidade de se abrir o projeto. Tanto as cores dos retângulos, como as informações dos projetos podem ser customizadas de acordo com o Gestor. Nesta página, ainda existe um botão que direciona o usuário para a tela de "adicionar projetos". Esta tela é somente para o gestor.
+A página inicial da solução, também chamada de \textit{home page}, aqui apresentada na Figura \ref{img:telaHome}. Nesta página, o Gestor tem uma visão de todos os projetos, que ele cadastrou para serem acompanhados. Cada projeto é representado por um retângulo de uma cor , e neste retângulo estão algumas informações referentes ao projeto, que podem ser visualizadas, sem a necessidade de se abrir o projeto. Tanto as cores dos retângulos, como as informações dos projetos podem ser customizadas de acordo com o Gestor. Nesta página, ainda existe um botão que direciona o usuário para a tela de "adicionar projetos". Esta tela é somente para o gestor.
  
 \graphicspath{{figuras/}}
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics[scale=0.60]{telaHome2.png}
 \caption{Tela Home}
@@ -75,6 +87,15 @@ Para se fazer a adição de um novo projeto, é necessário que o projeto a ser 
 \label{img:telaAdicionar}
 \end{figure} 
 
+Assim como a coleta de métricas, também foi elaborada uma prova de conceito, para testar a exibição dos gráficos que seriam mostrados no \textit{dashboard}. Esta era uma continuação da prova de conceito da coleta de métricas, em que, feita a coleta, deveria-se exibir as métricas em um gráfico. A Figura \ref{img:dashboard} apresenta a tela relacionada à esta prova de conceito.
+
+\graphicspath{{figuras/}}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.35]{dashboard_conceito.png}
+\caption{Página do \textit{Dashboard} da Prova de Conceito}
+\label{img:dashboard}
+\end{figure}
 
 \section{Avaliação}
 A avaliação do \textit{dashboard} será feita por parte de um gestor de tecnologia de um Órgão Público. Ele avaliará aspectos de usabilidade da ferramenta e se a ferramenta possuiria condições mínimas de ser implantada. Caso não seja possível essa avaliação com um profissional da área, a avaliação será feita através de professores que possuem tal experiência com contratação de software para Órgãos Públicos, novamente avaliando aspectos como usabilidade e melhorias necessárias para implantação em um Órgão.

@@ -1,0 +1,40 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        
+
+        var data = google.visualization.arrayToDataTable([
+          ['Issues', 'Numbers'],
+          ['Blocker',     {{blocker_violations}}],
+          ['Critical',      {{critical_violations}}],
+          ['Major',  {{major_violations}}],
+          ['Minor', {{minor_violations}}]
+        ]);
+
+        var options = {
+          title: 'Issues',
+          animation: {
+            duration: 4000,
+            easing: 'linear',
+            startup: true
+          }
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+</head>
+<body id="new_main">
+<h1> Issues <a href="" title="Apresenta a quantidade de defeitos no código divididos por Bloquer, Critical, Major e Minor">? </a></h1>
+
+<div id="piechart"></div>
+</body>
+</html>
