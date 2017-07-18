@@ -29,6 +29,12 @@ Dispon{\'\i}vel em:
   atualizada. ed. Bras{\'\i}lia: TCU, Tribunal de Contas da Uni{\~a}o, 2010.
 ISBN 978-85-7018-319-4.}
 
+\bibitem[Brooke et al. 1996]{brooke1996sus}
+\abntrefinfo{Brooke et al.}{BROOKE et al.}{1996}
+{BROOKE, J. et al. Sus-a quick and dirty usability scale.
+\emph{Usability evaluation in industry}, London, United kingdom, v.~189,
+  n.~194, p.~4--7, 1996.}
+
 \bibitem[Calazans e Oliveira 2005]{calazans_avaliacao_2005}
 \abntrefinfo{Calazans e Oliveira}{CALAZANS; OLIVEIRA}{2005}
 {CALAZANS, A. T.~S.; OLIVEIRA, M. A.~L. Avalia{\c c}{\~a}o de {Estimativa} de
@@ -231,9 +237,10 @@ Dispon{\'\i}vel em:
 [S.l.], 2016. v.~5, n.~7, 088--108~p. Dispon{\'\i}vel em:
   \url{http://periodicos.udesc.br/index.php/reavi/article/view/2316419005072016088}.}
 
-\bibitem[Nielsen]{princ_usabilidade}
-\abntrefinfo{Nielsen}{NIELSEN}{}
-{NIELSEN, J. \emph{10 Usability Heuristics for User Interface Design}.}
+\bibitem[Nunnally 1978]{nunnally1978c}
+\abntrefinfo{Nunnally}{NUNNALLY}{1978}
+{NUNNALLY, J. C.(1978).
+\emph{Psychometric theory}, v.~2, 1978.}
 
 \bibitem[Paduelli 2007]{Paduelli}
 \abntrefinfo{Paduelli}{PADUELLI}{2007}
@@ -272,13 +279,10 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
   Editora Casa do C{\'o}digo, 2014. Dispon{\'\i}vel em:
   \url{https://books.google.com/books?hl=en&lr=&id=pG-CCwAAQBAJ&oi=fnd&pg=PT9&dq=\%22Agilidade+em+diferentes+organiza\%C3\%A7\%C3\%B5es.+Hoje+\%C3\%A9+poss\%C3\%ADvel+ver+os+assuntos+ligados\%22+\%22Mas,+segundo+o+pr\%C3\%B3prio+Rafael\%22+\%22que+n\%C3\%A3o+\%C3\%A9+necess\%C3\%A1rio+ter+uma+ampla+compreens\%C3\%A3o+do+Scrum+para\%22+&ots=ERSywNIEAd&sig=rvmJD\_BXcQY-P0MYZBqQJOaOcOA}.}
 
-\bibitem[Salameh, Ahmad e Aljammal 2016]{salameh_software_2016}
-\abntrefinfo{Salameh, Ahmad e Aljammal}{SALAMEH; AHMAD; ALJAMMAL}{2016}
-{SALAMEH, H.~B.; AHMAD, A.; ALJAMMAL, A. Software evolution visualization
-  techniques and methods-a systematic review. In:  \emph{Computer {Science} and
-  {Information} {Technology} ({CSIT}), 2016 7th {International} {Conference}
-  on}. IEEE, 2016. p.~1--6. Dispon{\'\i}vel em:
-  \url{http://ieeexplore.ieee.org/abstract/document/7549475/}.}
+\bibitem[Sauro e Lewis 2016]{sauro2016quantifying}
+\abntrefinfo{Sauro e Lewis}{SAURO; LEWIS}{2016}
+{SAURO, J.; LEWIS, J.~R. \emph{Quantifying the user experience: Practical
+  statistics for user research}. [S.l.]: Morgan Kaufmann, 2016.}
 
 \bibitem[Schaidt e {Regis} 2014]{luiza_yago}
 \abntrefinfo{Schaidt e {Regis}}{SCHAIDT; {Regis}}{2014}
@@ -300,26 +304,6 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de Bras{\'\i}lia, 2014.}
 \emph{IEEE Transactions on Learning Technologies}, p.~1--1, 2016.
 ISSN 1939-1382.
 Dispon{\'\i}vel em: \url{http://ieeexplore.ieee.org/document/7542151/}.}
-
-\bibitem[Selvaraj]{pres_usabilidade}
-\abntrefinfo{Selvaraj}{SELVARAJ}{}
-{SELVARAJ, S. \emph{Ten Usability Heuristics With Example}.}
-
-\bibitem[Silva 2014]{silva_painel_2014}
-\abntrefinfo{Silva}{SILVA}{2014}
-{SILVA, A.~B. Painel de acompanhamento de medidas e indicadores para
-  monitoramento da qualidade de software.
-2014.
-Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/6979}.}
-
-\bibitem[Silva 2010]{da_silva_iavems:_2010}
-\abntrefinfo{Silva}{SILVA}{2010}
-{SILVA, M.~A. da.
-\emph{{IAVEMS}: {Infraestrutura} de {Apoio} {\`a} {Visualiza{\c c}{\~a}o} da
-  {Evolu{\c c}{\~a}o} de {M{\'e}tricas} de {Software}}.
-Tese (Doutorado) --- Universidade Federal do Rio de Janeiro, 2010.
-Dispon{\'\i}vel em:
-  \url{http://reuse.cos.ufrj.br/files/publicacoes/graduacao/PF\_Marlon\_IAVEMS.pdf}.}
 
 \bibitem[Sobrinho 2014]{souza_sobrinho_uso_2014}
 \abntrefinfo{Sobrinho}{SOBRINHO}{2014}

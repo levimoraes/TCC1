@@ -3,42 +3,32 @@
 \contentsline {figure}{\numberline {2}{\ignorespaces Modelo de Qualidade para Qualidade Interna e Externa .Fonte:\cite {_nbr_2016}}}{27}{figure.2.2}
 \contentsline {figure}{\numberline {3}{\ignorespaces Produto de Qualidade de Software.Fonte:\cite {Square}}}{29}{figure.2.3}
 \contentsline {figure}{\numberline {4}{\ignorespaces Diagrama das Atividades de Manuten\IeC {\c c}\IeC {\~a}o de Software.Fonte:\cite {pfleeger_framework_1990}}}{31}{figure.2.4}
-\contentsline {figure}{\numberline {5}{\ignorespaces Exemplo de glifo utilizado na visualiza\IeC {\c c}\IeC {\~a}o da varia\IeC {\c c}\IeC {\~a}o das medidas relacionadas com o desenvolvimento computacional. Fonte: \cite {gomes_percepcao_2011}}}{35}{figure.2.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces Comparativo entre Bifocal Display (a) e Perspective Wall (b)}}{35}{figure.2.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Tipos de Visualiza\IeC {\c c}\IeC {\~a}o Mais Frequente. Fonte: \cite {schwendimann_perceiving_2016}}}{37}{figure.2.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Barra Utilizando Google Charts}}{37}{figure.2.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Linhas utilizando HiCharts}}{37}{figure.2.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Pizza utilizando Chart.js}}{38}{figure.2.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de \textit {Network Graph} utilizando Google Charts}}{38}{figure.2.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo 1 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{39}{figure.2.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Exemplo 2 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{40}{figure.2.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Exemplo 3 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{41}{figure.2.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o de Visibilidade do Sistema. Fonte: \cite {pres_usabilidade}}}{42}{figure.2.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Combina\IeC {\c c}\IeC {\~a}o de Termos do Mundo Real \IeC {\'e} Melhor Aceito do Que Termos T\IeC {\'e}cnicos. Fonte: \cite {pres_usabilidade}}}{42}{figure.2.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Liberdade ao Usu\IeC {\'a}rio Poder Interromper ou Alterar Uma A\IeC {\c c}\IeC {\~a}o Feita no Sistema. Fonte: \cite {pres_usabilidade}}}{43}{figure.2.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Seguir os Padr\IeC {\~o}es \IeC {\'e} Melhor do Que Propor Algo Diferente. Fonte: \cite {pres_usabilidade}}}{43}{figure.2.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Prevenir Erros Antes Que Eles Ocorram. Fonte: \cite {pres_usabilidade}}}{44}{figure.2.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Reconhecer \IeC {\'e} Melhor do Que Lembrar. Fonte: \cite {pres_usabilidade}}}{44}{figure.2.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Uso de "Aceleradores" Para Us\IeC {\'u}arios Mais Experientes. Fonte: \cite {pres_usabilidade}}}{45}{figure.2.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces Exemplo Mostrando Telas de Erro de Maneira a Tranquilizar o Usu\IeC {\'a}rio. Fonte: \cite {pres_usabilidade}}}{45}{figure.2.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Uso de Documenta\IeC {\c c}\IeC {\~a}o Mesmo Para Pequenas Tarefas. Fonte: \cite {pres_usabilidade}}}{46}{figure.2.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Sete aspectos de qualidade de c\IeC {\'o}digo cobertos pelo SonarQube. Fonte: \cite {sonar}}}{48}{figure.3.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Arquitetura SonarQube composta de quatro componentes: \cite {sonar}}}{49}{figure.3.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Integra\IeC {\c c}\IeC {\~a}o SonarQube em Diversas \IeC {\'A}reas de Desenvolvimento de Software: \cite {sonar}}}{49}{figure.3.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces Processo de Desenvolvimento Adotado Pelo \IeC {\'O}rg\IeC {\~a}o X. Fonte: \cite {luiza_yago}}}{54}{figure.4.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Ciclo de Verifica\IeC {\c c}\IeC {\~a}o Utilizando a Solu\IeC {\c c}\IeC {\~a}o Compartilhada Entre \IeC {\'O}rg\IeC {\~a}o Contratante e Empresa Contratada}}{54}{figure.4.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces M\IeC {\'e}tricas Extra\IeC {\'\i }das do SonarQube}}{55}{figure.4.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces Tela Login}}{56}{figure.4.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Tela Home}}{57}{figure.4.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Tela Dashboard}}{58}{figure.4.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Tela Adicionar}}{58}{figure.4.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces P\IeC {\'a}gina do \textit {Dashboard} da Prova de Conceito}}{59}{figure.4.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Question\IeC {\'a}rio a ser aplicado ao fim do per\IeC {\'\i }odo de teste}}{60}{figure.4.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o das Caracter\IeC {\'\i }sticas Metodol\IeC {\'o}gicas. Fonte: \cite {moresi_metodologia_2003}}}{63}{figure.5.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Modelagem da Fase de Inicia\IeC {\c c}\IeC {\~a}o}}{65}{figure.5.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces \textit {Screenshot} do Zotero contendo as categorias dos materiais pesquisados, suas \textit {tags} e anota\IeC {\c c}\IeC {\~o}es}}{66}{figure.5.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces Modelagem da Fase de Execu\IeC {\c c}\IeC {\~a}o}}{67}{figure.5.39}
-\contentsline {figure}{\numberline {40}{\ignorespaces Plano de Pesquisa}}{68}{figure.5.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces Ciclo de Desenvolvimento do Scrum}}{69}{figure.5.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces Exemplo de Hist\IeC {\'o}ria de Usu\IeC {\'a}rio. Fonte: \cite {sabbagh_scrum:_2014}}}{70}{figure.5.42}
-\contentsline {figure}{\numberline {43}{\ignorespaces Exemplo de \textit {Kanban}}}{70}{figure.5.43}
+\contentsline {figure}{\numberline {5}{\ignorespaces Tipos de Visualiza\IeC {\c c}\IeC {\~a}o Mais Frequente. Fonte: \cite {schwendimann_perceiving_2016}}}{35}{figure.2.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Barra Utilizando Google Charts}}{35}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Linhas utilizando HiCharts}}{36}{figure.2.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Pizza utilizando Chart.js}}{36}{figure.2.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de \textit {Network Graph} utilizando Google Charts}}{36}{figure.2.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo 1 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{38}{figure.2.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo 2 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{39}{figure.2.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo 3 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{40}{figure.2.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Sete aspectos de qualidade de c\IeC {\'o}digo cobertos pelo SonarQube. Fonte: \cite {sonar}}}{44}{figure.3.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Arquitetura SonarQube composta de quatro componentes: \cite {sonar}}}{45}{figure.3.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Integra\IeC {\c c}\IeC {\~a}o SonarQube em Diversas \IeC {\'A}reas de Desenvolvimento de Software: \cite {sonar}}}{45}{figure.3.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Processo de Desenvolvimento Adotado Pelo \IeC {\'O}rg\IeC {\~a}o X. Fonte: \cite {luiza_yago}}}{50}{figure.4.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Ciclo de Verifica\IeC {\c c}\IeC {\~a}o Utilizando a Solu\IeC {\c c}\IeC {\~a}o Compartilhada Entre \IeC {\'O}rg\IeC {\~a}o Contratante e Empresa Contratada}}{50}{figure.4.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces M\IeC {\'e}tricas Extra\IeC {\'\i }das do SonarQube}}{51}{figure.4.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Tela Login}}{52}{figure.4.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Tela Home}}{53}{figure.4.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Tela Dashboard}}{54}{figure.4.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Tela Adicionar}}{54}{figure.4.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces P\IeC {\'a}gina do \textit {Dashboard} da Prova de Conceito}}{55}{figure.4.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Question\IeC {\'a}rio a ser aplicado ao fim do per\IeC {\'\i }odo de teste}}{56}{figure.4.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o das Caracter\IeC {\'\i }sticas Metodol\IeC {\'o}gicas. Fonte: \cite {moresi_metodologia_2003}}}{59}{figure.5.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Modelagem da Fase de Inicia\IeC {\c c}\IeC {\~a}o}}{61}{figure.5.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces \textit {Screenshot} do Zotero contendo as categorias dos materiais pesquisados, suas \textit {tags} e anota\IeC {\c c}\IeC {\~o}es}}{62}{figure.5.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Modelagem da Fase de Execu\IeC {\c c}\IeC {\~a}o}}{63}{figure.5.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Plano de Pesquisa}}{64}{figure.5.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Ciclo de Desenvolvimento do Scrum}}{65}{figure.5.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Exemplo de Hist\IeC {\'o}ria de Usu\IeC {\'a}rio. Fonte: \cite {sabbagh_scrum:_2014}}}{66}{figure.5.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Exemplo de \textit {Kanban}}}{66}{figure.5.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Formul\IeC {\'a}rio de Consentimento }}{77}{figure.A.33}

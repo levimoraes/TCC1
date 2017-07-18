@@ -261,41 +261,8 @@ Uma vez que as métricas se encontram definidas, deve-se pensar na melhor maneir
 Computadores tornaram-se peças fundamentais do cotidiano do ser humano do século 21. Seja para lazer, estudo, comunicação, o computador revolucionou significamente em cada área que passou \cite{hasan_humancomputer_2014}.
 A visualização de software pode ser definida como uma disciplina que faz uso de várias formas de imagens que servem de insumo para compreender, entender e reduzir a complexidade dos sistemas de software existentes \cite{gracanin_software_2005}. Porém, a visão que melhor se adapta ao contexto deste trabalho é dada por Gomes \cite{gomes_percepcao_2011}, que diz que a visualização de uma forma generalizada é a construção de uma imagem visual na mente humana, e está imagem vai além de representações gráficas ou conceitos.
 
-\subsection{Visualização de Dados}
-Segundo Gomes \cite{gomes_percepcao_2011}, algumas técnicas para visualização de dados são mais eficazes do que outras, dependendo da natureza do dado a ser observado. Gomes destaca duas técnicas de visualização de dados.
-
-\begin{itemize}
-\item \textbf{Visualização de Atributos}: Nesta técnica, a natureza do dado é representado através de um gráfico ou um mapa. Também é possível representar através de ícones ou \textit{glifos}. Ícones normalmente representam uma entidade ou um elemento que pertence a um contexto. O \textit{glifo} representa um objeto geométrico que, por sua vez, representa uma entidade ou um elemento do todo. O \textit{glifo} tem uma forma que é definida pelo valor dos atributos da entidade conforme ilustrado na Figura \ref{img:glifo}.
-\graphicspath{{figuras/}}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.5]{Glifo}
-\caption{Exemplo de glifo utilizado na visualização da variação das medidas relacionadas com o desenvolvimento computacional. Fonte: \cite{gomes_percepcao_2011}}
-\label{img:glifo}
-\end{figure}
-
-\item \textbf{Visualização de Estruturas e Relações}: esta técnica utiliza-se do conjunto de dados ou elementos que podem ser distribuídos de maneira hierarquica. Dentro deste conceito, existe uma ramificação para o uso da técnica, aplicada com focos diferentes. Algumas dessas técnicas são \textit{Bifocal Display} em que a informação é apresentada em três seções distintas da representação, sendo a central a que contêm informações mais relevantes. Outra técnica utilizada é a \textit{Perspective Wall} em que a informação é "projetada para uma parede". Uma comparação entre as duas técnicas pode ser observado na Figura \ref{img:comparativo}.
-\graphicspath{{figuras/}}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.5]{Bifocal_Wall}
-\caption{Comparativo entre Bifocal Display (a) e Perspective Wall (b)}
-\label{img:comparativo}
-\end{figure}
-%
-\end{itemize}
-Uma revisão sistemática feita com foco em visualização de software \cite{salameh_software_2016} apresenta alguns questionamentos levantados pelos autores referente ao objetivo de se utilizar a técnica. As respostas encontradas pelos autores estavam divididas em quatro categorias. 
-
-A primeira categoria encontrada baseava-se no artefato. A técnica era utilizada para acompanhar a evolução dos artefatos no repositório ao longo do tempo. A segunda categoria estava focada nas métricas. O objetivo estava em observar a alteração das métricas ao passar das entregas. A terceira categoria estava voltada para \textit{features}. O acompanhamento focava em analisar como e quais \textit{features} mudavam ao longo do tempo. A última categoria era centrada na arquitetura e em perceber as mudanças que estão envolvidas. A presente proposta tem seu objetivo focado na segunda categoria, ou seja, em acompanhar as métricas ao longo de um período de tempo e exibir para o usuário.
-
-Para que se possa acompanhar as métricas dos projetos é necessário que se mantenha um histórico das métricas coletadas em momentos diferentes do desenvolvimento do software para que seja possível fazer uma comparação \cite{da_silva_iavems:_2010}. Em seus estudos \cite{gracanin_software_2005}, os autores apontam três características que são necessárias para que se faça um bom acompanhamento histórico do software.
-\begin{itemize}
-\item \textbf{Tempo}: A visualização deve ser agrupada através do número da \textit{release} ou outro indicador que possua um tempo definido. Deve ser feito um \textit{snapshot} do sistema em que é possível ver claramente quais alterações foram realizadas.
-\item \textbf{Estrutura}: O sistema deve ser decomposto em sub-sistemas; cada sub-sistema decomposto em módulos, e cada módulo responsável por uma parte do código.
-\item \textbf{Atributos}: Deve conter o número da versão, tamanho, alterações, complexidade.
-\end{itemize}
-
 Uma vez que são coletados os dados, esses ja estão categorizados de acordo com a sua natureza, e podem ser exibidos. Mas, ainda é necessário discutir qual a melhor forma de exibir  todas essas informações na tela. Uma das formas de se agrupar toda a informação de maneira ordenada e com sentido lógico é através de \textit{dashboards} \cite{book_design}. O conceito será apresentado no tópico a seguir.
+
 
 \subsection{Dashboard}
 O conceito apresentado por Stephen Few em seu livro \cite{book_design}, diz que um \textit{dashboard} é um \textit{display} virtual das informações mais importantes para atingir um ou mais objetivos. Deve ser construído e organizado para ser capaz de caber em uma única página para que a informação seja achada com facilidade. Esta seção visa apresentar alguns modelos de \textit{dashboards} e suas características.
@@ -403,101 +370,43 @@ Por último, o \textit{dashboard} da Figura \ref{img:dashboard3} apresenta ótim
 \label{img:dashboard3}
 \end{figure}
 
-O \textit{dashboard} é uma ferramenta muito útil na visualização de dados, quando utilizada da maneira correta. Nielsen apresenta um conjunto de dez práticas que, quando aplicadas de maneira correta, ajudam  na usabilidade de uma aplicação. O papel da       usabilidade é fazer com que a interação humano-computador ocorra de maneira amigável e eficiente.
+\section{Questionarios de Avaliação}
+Segundo Nunnally \cite{nunnally1978c}, a padronização da medição de indicadores em questionários na área de usabilidade tem como principais vantagens:
+\begin{itemize}
+\item \textbf{Objetividade:} permite que diferentes pesquisadores tomem como base os mesmos indicadores.
+\item \textbf{Replicabilidade:} garante que seja fácil a replicação de estudos feitos por outros pesquisadores, ou até mesmo seus próprios estudos.
+\item \textbf{Quantificação:} medições padronizadas permitem que o pesquisador relate resultados com um grau de especificidade maior do que se fossem coletados baseados nos seus próprios julgamentos.
+\item \textbf{Economia:} desenvolver medições padronizadas requer um esforço muito grande. Entretanto uma vez que este já foi desenvolvido, o reuso se torna muito mais fácil.
+\item \textbf{Comunicação:} se torna fácil a comunicação entre pesquisadores quando se tem um processo de medição  padronizado.
+ \item \textbf{Generalização Científica:} é o coração do trabalho científico. Padronização é essencial para garantir a generalização dos resultados.
 
-\section{Dez Heurísticas de Usabilidade Propostas por Nielsen}
-Segundo a ISO 25010, usabilidade é definido como sendo o grau em que um produto ou sistema pode ser usado por determinados grupo de usuários para atingir os objetivos especificados \cite{Square}. Jacob Nielsen afirma que existe um conjunto de dez boas práticas \cite{princ_usabilidade}. Este conjunto de práticas também conhecidas como Heurísticas de Nielsen (o termo heurística, se deve ao fato de que o objetivo é a natureza da regra e o que ela significa em um contexto geral, ao invés de regras específicas e imutáveis). As boas práticas são:
+\end{itemize}
+ 
+Sauro \cite{sauro2016quantifying} estabelece quatro questionários de avaliação de usabilidade. A tabela \ref{table:questionarios} apresenta um comparativo entre diferentes questionários. Dentre os questionários abordados escolheu-se o questionário SUS (\textit{Software Usability Scale}) para se realizar a avaliação do projeto. Dois fatores foram levados em consideração para a escolha do questionário, preço e número de perguntas. 
 
-\begin{enumerate}
+\begin{table}[]
+\centering
+\caption{Principais Características de Quatro Questionários de Avaliação. Fonte: Adaptado de \cite{sauro2016quantifying}}
+\label{table:questionarios}
+\begin{tabular}{|ccccc|}
+\hline
+\multicolumn{1}{|l}{\textbf{Questionário}} & \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}Valor da \\ Licença\end{tabular}}} & \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}Número de\\  Itens\end{tabular}}} & \multicolumn{1}{l}{\textbf{\begin{tabular}[c]{@{}l@{}}Número de\\  Subescalas\end{tabular}}} & \multicolumn{1}{l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Confiabilidade\\  Global\end{tabular}}} \\ \hline
+QUIS                                       & \$50 - 750                                                                               & 27                                                                                      & 5                                                                                            & 0.94                                                                                           \\ \hline
+SUMI                                       & 0 - 1000                                                                                & 50                                                                                      & 5                                                                                            & 0.92                                                                                           \\ \hline
+PSSUQ                                      & Gratuito                                                                                 & 16                                                                                      & 3                                                                                            & 0.94                                                                                           \\ \hline
+SUS                                        & Gratuito                                                                                 & 10                                                                                      & 2                                                                                            & 0.92                                                                                           \\ \hline
+\end{tabular}
+\end{table}
 
-  \item\textbf{Visibilidade de \textit{Status} do Sistema}: o sistema deve sempre manter o usúario informado sobre o que está acontecendo, através de um \textit{feedback} e um tempo considerável. Um exemplo, na Figura \ref{img:princ1} é possível perceber que a cor do ícone do avião, indica se um voô está atrasado ou não. Na mesma Figura é possível ver um \textit{status} na barra superior indicando que uma mensagem está sendo enviada.
-\graphicspath{{figuras/}}
-  \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.40]{princ_1.png}
-  \caption{Aplicação de Visibilidade do Sistema. Fonte: \cite{pres_usabilidade}}
-  \label{img:princ1}
-  \end{figure}  
-  
-  \item\textbf{Mesclar Ações do Sistema Com o Mundo Real}: o sistema deve falar a linguagem do usuário. O uso de termos comuns, próximos a realidade do usuário é melhor aceito, do que termos mais técnicos. A Figura \ref{img:princ2} apresenta dois exemplos de uso desta técnica. No primeiro caso, o uso de termos comuns e mais informais, facilita o entendimento da ação que o usuário está tomando. No segundo caso, há uma aproximação com o mundo real, em que o termo FAQ (\textit{Frequently Asked Questions}) que não é um termo tão conhecido, foi subsituído por "How can we help you ?", que é um termo muito mais utilizado no cotidiano do usuário.
-  \graphicspath{{figuras/}}
-  \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.40]{princ_2.png}
-  \caption{Combinação de Termos do Mundo Real é Melhor Aceito do Que Termos Técnicos. Fonte: \cite{pres_usabilidade}}
-  \label{img:princ2}
-  \end{figure}
-  
-  \item\textbf{Controle do Usuário e Liberdade}: é comum que o usuário escolha uma função do sistema sem querer, é necessário que  o sistema tenha uma "saída de emergência". Está prática pode ser observada na Figura \ref{img:princ3} em que ao enviar uma mensagem o sistema exibe a opção de cancelar o envio.
-   \graphicspath{{figuras/}}
-  \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.70]{princ_3.png}
-  \caption{Liberdade ao Usuário Poder Interromper ou Alterar Uma Ação Feita no Sistema. Fonte: \cite{pres_usabilidade}}
-  \label{img:princ3}
-  \end{figure}
-  
-  \item\textbf{Consistências e Padrões}: o usuário não deve se preocupar se uma palavra, situação ou ação significam a mesma coisa.
-  É recomendável que se siga a convenção da plataforma. A Figura \ref{img:princ4} apresenta três cabeçalhos de \textit{websites} que utilizam a ação de realizar o \textit{login}, no canto superior direito da página, pois este é o local convencional. Quando um padrão é quebrado, pode causar um incômodo ao usuário.
-   \graphicspath{{figuras/}}
-  \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.40]{princ_4.png}
-  \caption{Seguir os Padrões é Melhor do Que Propor Algo Diferente. Fonte: \cite{pres_usabilidade}}
-  \label{img:princ4}
-  \end{figure}
-  
-  \item\textbf{Prevenção de Erros}: melhor do que mensangens de erro, é ter o cuidado e prevenir para que esses erros não ocorram. É recomendável que exista uma opção de confirmação para o usuário antes dele realizar a ação. A Figura \ref{img:princ5} apresenta um \textit{pop-up} que é apresentado ao usuário quando ele deseja realizar a exclusão de um arquivo. Esta prática previne o usuário de realizar ações críticas por acidente, ou por ingenuidade.
-   \graphicspath{{figuras/}}
-  \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.40]{princ_5.jpg}
-  \caption{Prevenir Erros Antes Que Eles Ocorram. Fonte: \cite{pres_usabilidade}}
-  \label{img:princ5}
-  \end{figure}
+Brooke \cite{brooke1996sus} define o questionário SUS como sendo uma escala de usabilidade "rapida e suja". O SUS se baseia em um questionário do tipo \textit{"Likert Scale"}, questionários desse tipo apresentam afirmações em que o entrevistado deve julgar o quanto concorda ou discorda da afirmação (no caso do questionário SUS, essa escala varia de 1 a 5). 
 
-\item\textbf{Reconhecer ao Invés de Lembrar}: instruções de uso do sistema devem ser visíveis e fáceis de se recuperar quando necessário. A Figura \ref{img:princ6} apresenta uma página em que facilmente o usuário reconhece a funcionalidade da página. A utilização de apenas um botão para realizar a ação, faz com que distrações sejam menos aparentes.
- \graphicspath{{figuras/}}
-  \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.40]{princ_6.png}
-  \caption{Reconhecer é Melhor do Que Lembrar. Fonte: \cite{pres_usabilidade}}
-  \label{img:princ6}
-  \end{figure}
-  
-  \item\textbf{Flexibilidade e Eficiência de Uso}: utilização de "aceleradores", que são invisíveis para usuário inexperientes, mas que agilizam tarefas para os usuários mais experientes. O exemplo apresentado na Figura \ref{img:princ7}, mostra duas situações em que são colocados funcionalidades para um usuário mais experiente. Na primeira imagem existe a opção por filtros de busca, para se obter um categoria específica de imagem, já na segunda, existe um link em azul para opções mais avançadas, caso o usuário deseje outras opções além de simplesmente compartilhar
-   \graphicspath{{figuras/}}
-  \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.40]{princ_7.png}
-  \caption{Uso de "Aceleradores" Para Usúarios Mais Experientes. Fonte: \cite{pres_usabilidade}}
-  \label{img:princ7}
-  \end{figure}
+A escala SU é geralmente utilizada depois que o entrevistado teve a oportunidade de usar o sistema que será avaliado. Deve ser instruído ao entrevistado que se responda imediatamente após ler a pergunta, não se deve pensar muito na resposta pois acaba induzindo o resultado. Todos os itens devem ser marcados e caso o entrevistado não saiba responder um item em particular deve-se marcar o ponto ao centro da escala.
 
-\item\textbf{Estética e \textit{Design} Minimalista}: os diálogos não precisam conter informações que não são utilizadas com frequência. Toda informação extra, compete com uma informação relevante, o que diminui a visibilidade do que realemente é importante.
+Para calcular o resultado do questionário SUS deve-se somar os valores atribuidos em cada item, sendo que os itens 1,3,5,7 e 9 devem ser subtraidos 1 do valor aferido no questionário (X-1), e nos itens 2,4,6,8 e 10 deve ser subtraido de 5 o valor aferido no questionário (5-X). Feito a soma deve-se multiplicar o resultado obtido 2,5. A escala do Questionário SUS vária de 0 até 100.
 
-\item\textbf{Ajude Usuários a Reconhecer, Diagnosticar e Se Recuperarem de Erros}: Mensagens de erro, devem ser expressas da maneira mais clara possível, indicando o precisamente qual o problema, e indicando uma possível solução. Na Figura \ref{img:princ9} as duas imagens apresentam exemplos de como lidar com o erro. Na primeira imagem existe um destaque para as possíveis soluções, já na segunda, não são apresentadas soluções, mas sim possíveis formas de se contornar o problema.
- \graphicspath{{figuras/}}
-  \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.40]{princ_9.png}
-  \caption{Exemplo Mostrando Telas de Erro de Maneira a Tranquilizar o Usuário. Fonte: \cite{pres_usabilidade}}
-  \label{img:princ9}
-  \end{figure}  
-  
-  \item\textbf{Ajuda e Documentação}: Mesmo que a solução seja auto-explicativa, é necessário que exista uma documentação. Toda informação deve ser fácil de ser encontrada, e a lista de etapas para se concluir uma pesquisa à documentação não deve ser muito grande. Na primeira imagem da Figura \ref{img:princ10}, tem-se um manual simplificado que utiliza imagens para demonstrar um procedimento, ao invés de um longo manual. Na segunda imagem o uso de um ícone "?"  apresenta uma breve descrição sobre as opções que estão disponíveis para o usuário.
-   \graphicspath{{figuras/}}
-  \begin{figure}[H]
-  \centering
-  \includegraphics[scale=0.40]{princ_10.png}
-  \caption{Uso de Documentação Mesmo Para Pequenas Tarefas. Fonte: \cite{pres_usabilidade}}
-  \label{img:princ10}
-  \end{figure}
-  
-  \end{enumerate}  
 
 
 \section{Resumo do Capítulo}
 Para que se possa tercerizar o desenvolvimento de software dentro de Órgãos Públicos, algumas regras são necessárias. Entre elas, a de que a empresa vencedora do pregão, a qual irá dispor do direito de produzir o software, entregue o mesmo com qualidade. No edital de contratação, são estabelecidos critérios de qualidade para que o software entregue seja aceito. Estes critérios de qualidade tem sua fundamentação baseada em príncipios estabelecidos pela Norma SQuaRE, quanto à categoria de manutenabilidade. Essa categoria é fundamental na contratação de software, pois permite saber o quão manutenível é o software que está sendo contratado. O processo de manutenção de software está intimamente ligado a esta métrica, uma vez que quanto maior a manutenibilidade do software, menos esforço, tempo e dinheiro são gastos nesta etapa.
 
-Para definir o grau de manutenibilidade, são apresentadas suítes de métricas que avaliam conceitos específicos do software para validar se o software entregue pela tercerizada é passível de manutenção ou não. Neste trabalho, são apresentadas as suítes de Chidamber-Kemerer e MOOD. Para acompanhar a evolução da entrega e se todos os requisitos de analise estática do código estão sendo cumpridos, uma solução seria a utilização de um \textit{dashboard} para acompanhar o desenvolvimento do software a ser entregue. Para isso, faz-se necessário o aprendizado de técnicas de visualização da informação e de conceitos para criação de um \textit{dashboard} efetivo. São apresentados dez heurísticas propostas por Nielsen, que servem como princípios fundamentais na criação de uma solução.
+Para definir o grau de manutenibilidade, são apresentadas suítes de métricas que avaliam conceitos específicos do software para validar se o software entregue pela tercerizada é passível de manutenção ou não. Neste trabalho, são apresentadas as suítes de Chidamber-Kemerer e MOOD. Para acompanhar a evolução da entrega e se todos os requisitos de analise estática do código estão sendo cumpridos, uma solução seria a utilização de um \textit{dashboard} para acompanhar o desenvolvimento do software a ser entregue. Para isso, faz-se necessário o aprendizado de técnicas de visualização da informação e de conceitos para criação de um \textit{dashboard} efetivo. Ao fim do capítulo é apresentado o SUS que é um questionário de avaliação para avaliar o grau de usabilidade de um sistema.
