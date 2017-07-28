@@ -35,6 +35,14 @@ ISBN 978-85-7018-319-4.}
 \emph{Usability evaluation in industry}, London, United kingdom, v.~189,
   n.~194, p.~4--7, 1996.}
 
+\bibitem[Brunialti et al. 2015]{brunialti2015aprendizado}
+\abntrefinfo{Brunialti et al.}{BRUNIALTI et al.}{2015}
+{BRUNIALTI, L.~F. et al. aprendizado de m{\'a}quina em sistemas de
+  recomenda{\c{c}}{\~a}o baseados em conteudo textual uma revisao sistematica.
+  In:  \emph{XI Brazilian Symposium on Information System. Goiania, GO:
+  2015Dispon{\'\i}vel em:< http://www. lbd. dcc. ufmg.
+  br/colecoes/sbsi/2015/029. pdf>. Acesso em}. [S.l.: s.n.], 2015. v.~5.}
+
 \bibitem[Calazans e Oliveira 2005]{calazans_avaliacao_2005}
 \abntrefinfo{Calazans e Oliveira}{CALAZANS; OLIVEIRA}{2005}
 {CALAZANS, A. T.~S.; OLIVEIRA, M. A.~L. Avalia{\c c}{\~a}o de {Estimativa} de
@@ -139,6 +147,11 @@ Dispon{\'\i}vel em: \url{http://link.springer.com/10.1007/s00521-013-1481-0}.}
   models.}
 2011. ed. [S.l.].}
 
+\bibitem[Jannach et al. 2010]{jannach2010recommender}
+\abntrefinfo{Jannach et al.}{JANNACH et al.}{2010}
+{JANNACH, D. et al. \emph{Recommender systems: an introduction}. [S.l.]:
+  Cambridge University Press, 2010.}
+
 \bibitem[J{\'u}nior e {Jos{\'e} Roberto} 2010]{tiossi_junior_adesao_2010}
 \abntrefinfo{J{\'u}nior e {Jos{\'e} Roberto}}{J{\'U}NIOR; {Jos{\'e}
   Roberto}}{2010}
@@ -187,6 +200,17 @@ ISBN 978-1-5090-1074-5. Dispon{\'\i}vel em:
 \emph{Elektronika ir Elektrotechnika}, v.~111, n.~5, p. 123--128, 2011.
 Dispon{\'\i}vel em: \url{http://ecoman.ktu.lt/index.php/elt/article/view/372}.}
 
+\bibitem[Maness, Miaskiewicz e Sumner 2008]{maness2008using}
+\abntrefinfo{Maness, Miaskiewicz e Sumner}{MANESS; MIASKIEWICZ; SUMNER}{2008}
+{MANESS, J.~M.; MIASKIEWICZ, T.; SUMNER, T. Using personas to understand the
+  needs and goals of institutional repository users.
+\emph{D-Lib Magazine}, v.~14, n.~9, p.~10, 2008.}
+
+\bibitem[Manning, Temkin e Belanger 2003]{manning2003power}
+\abntrefinfo{Manning, Temkin e Belanger}{MANNING; TEMKIN; BELANGER}{2003}
+{MANNING, H.; TEMKIN, B.; BELANGER, N. The power of design personas.
+\emph{Cambridge, MA: Forrester Research}, 2003.}
+
 \bibitem[Martin 2009]{martin2009clean}
 \abntrefinfo{Martin}{MARTIN}{2009}
 {MARTIN, R.~C. \emph{Clean code: a handbook of agile software craftsmanship}.
@@ -215,6 +239,17 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de S{\~a}o Paulo, 2008.}
 \abntrefinfo{Mineral}{MINERAL}{2015}
 {MINERAL, D.~N. de P. \emph{Edital Preg{\~a}o Eletronico No 14/2015}.
 [S.l.], 2015.}
+
+\bibitem[Mitchell e Learning 1997]{mitchell1997mcgraw}
+\abntrefinfo{Mitchell e Learning}{MITCHELL; LEARNING}{1997}
+{MITCHELL, T.~M.; LEARNING, M. Mcgraw-hill science.
+\emph{Engineering/Math}, v.~1, 1997.}
+
+\bibitem[Monard e Baranauskas 2003]{monard2003conceitos}
+\abntrefinfo{Monard e Baranauskas}{MONARD; BARANAUSKAS}{2003}
+{MONARD, M.~C.; BARANAUSKAS, J.~A. Conceitos sobre aprendizado de m{\'a}quina.
+\emph{Sistemas Inteligentes-Fundamentos e Aplica{\c{c}}{\~o}es}, v.~1, n.~1,
+  2003.}
 
 \bibitem[Moreira 2015]{moreira_avaliacao_2015}
 \abntrefinfo{Moreira}{MOREIRA}{2015}
@@ -256,6 +291,14 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
   {Conference} on}. AISTI, 2016. p.~1--6. Dispon{\'\i}vel em:
   \url{http://ieeexplore.ieee.org/abstract/document/7521555/}.}
 
+\bibitem[Peres et al. 2012]{peres2012tutorial}
+\abntrefinfo{Peres et al.}{PERES et al.}{2012}
+{PERES, S.~M. et al. Tutorial sobre fuzzy-c-means e fuzzy learning vector
+  quantization: Abordagens h{\'\i}bridas para tarefas de agrupamento e
+  classifica{\c{c}}{\~a}o.
+\emph{Revista de Inform{\'a}tica Te{\'o}rica e Aplicada}, v.~19, n.~1, p.
+  120--163, 2012.}
+
 \bibitem[Pfleeger e Bohner 1990]{pfleeger_framework_1990}
 \abntrefinfo{Pfleeger e Bohner}{PFLEEGER; BOHNER}{1990}
 {PFLEEGER, S.~L.; BOHNER, S.~A. A framework for software maintenance metrics.
@@ -272,6 +315,11 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
 \abntrefinfo{Pressman}{PRESSMAN}{2010}
 {PRESSMAN, R.~S. \emph{Software Engineering - A Practioner's Approach}. 7. ed.
   [S.l.]: Higher Education, 2010.}
+
+\bibitem[Pruitt e Adlin 2010]{pruitt2010persona}
+\abntrefinfo{Pruitt e Adlin}{PRUITT; ADLIN}{2010}
+{PRUITT, J.; ADLIN, T. \emph{The persona lifecycle: keeping people in mind
+  throughout product design}. [S.l.]: Morgan Kaufmann, 2010.}
 
 \bibitem[Sabbagh 2014]{sabbagh_scrum:_2014}
 \abntrefinfo{Sabbagh}{SABBAGH}{2014}

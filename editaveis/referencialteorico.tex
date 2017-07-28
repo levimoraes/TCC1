@@ -257,6 +257,14 @@ COF = \frac{\sum_{TC}^{i=1}[\sum_{TC}^{i=1}isClient(Ci,Cj)]}{TC^2-TC}
 
 Uma vez que as métricas se encontram definidas, deve-se pensar na melhor maneira de exibir as métricas para o usúario. O papel da visualização das métricas de software é definir, com base na natureza, e na escala de uma métrica, qual a melhor maneira de imprimir na tela essas informações.
 
+\section{Aprendizado de Máquina e Sistemas de Recomendação}
+Aprendizado de Máquina se caracteriza pela implementação de técnicas que ajudam a melhorar o desempenho de um software aprendendendo através de conhecimento indutivo \cite{mitchell1997mcgraw}. Maria Carolina \cite{monard2003conceitos} diz "A indução é a forma de inferência lógica que permite obter conclusões genéricas sobre um conjunto particular de exemplos. Ela é caracterizada como o raciocínio que se origina em um conceito específico e o generaliza, ou seja, da parte para o todo. Na indução, um conceito é aprendido efetuando-se inferência indutiva sobre os exemplos apresentado". Esse conhecimento se baseia no conceito que modelos são obtidos através de um conjunto de dados ou representações de experiências \cite{peres2012tutorial}.
+
+Segundo Lucas F \cite{brunialti2015aprendizado} um Sistema de Recomendação (SR)tem por objetivo principal sugerir itens que possam satisfazer a necessidade de um usuário sob um determinado aspecto. No livro \textit{"Recommender systems: an introduction"} \cite{jannach2010recommender} são apresentados modelos de SR que se caracterizam pela forma como o SR é implementado. O primeiro modelo é o colaborativo, neste modelo as recomendações são feitas através de itens que os usuários interagiram no passado e relacionando essas informações. O segundo modelo é o com base no conteúdo, onde as recomendações são obtidas através das características dos itens e no perfil do usuário. Existe ainda um terceiro modelo que se baseia no conhecimento em que as recomendações são feitas apartir de uma dedução da necessidade ou preferência de um usuário.
+
+\subsection*{Sistema de Recomendação Baseado em Conteúdo}
+
+
 \section{Visualização da Informação}
 Computadores tornaram-se peças fundamentais do cotidiano do ser humano do século 21. Seja para lazer, estudo, comunicação, o computador revolucionou significamente em cada área que passou \cite{hasan_humancomputer_2014}.
 A visualização de software pode ser definida como uma disciplina que faz uso de várias formas de imagens que servem de insumo para compreender, entender e reduzir a complexidade dos sistemas de software existentes \cite{gracanin_software_2005}. Porém, a visão que melhor se adapta ao contexto deste trabalho é dada por Gomes \cite{gomes_percepcao_2011}, que diz que a visualização de uma forma generalizada é a construção de uma imagem visual na mente humana, e está imagem vai além de representações gráficas ou conceitos.
@@ -375,10 +383,10 @@ Segundo Nunnally \cite{nunnally1978c}, a padronização da medição de indicado
 \begin{itemize}
 \item \textbf{Objetividade:} permite que diferentes pesquisadores tomem como base os mesmos indicadores.
 \item \textbf{Replicabilidade:} garante que seja fácil a replicação de estudos feitos por outros pesquisadores, ou até mesmo seus próprios estudos.
-\item \textbf{Quantificação:} medições padronizadas permitem que o pesquisador relate resultados com um grau de especificidade maior do que se fossem coletados baseados nos seus próprios julgamentos.
+\item \textbf{Quantificação:} medições padronizadas permitem que o pesquisador colete resultados com um grau de especificidade maior do que se fossem coletados baseados nos seus próprios julgamentos.
 \item \textbf{Economia:} desenvolver medições padronizadas requer um esforço muito grande. Entretanto uma vez que este já foi desenvolvido, o reuso se torna muito mais fácil.
 \item \textbf{Comunicação:} se torna fácil a comunicação entre pesquisadores quando se tem um processo de medição  padronizado.
- \item \textbf{Generalização Científica:} é o coração do trabalho científico. Padronização é essencial para garantir a generalização dos resultados.
+\item \textbf{Generalização Científica:} é o coração do trabalho científico. Padronização é essencial para garantir a generalização dos resultados.
 
 \end{itemize}
  
@@ -398,12 +406,23 @@ SUS                                        & Gratuito                           
 \end{tabular}
 \end{table}
 
-Brooke \cite{brooke1996sus} define o questionário SUS como sendo uma escala de usabilidade "rapida e suja". O SUS se baseia em um questionário do tipo \textit{"Likert Scale"}, questionários desse tipo apresentam afirmações em que o entrevistado deve julgar o quanto concorda ou discorda da afirmação (no caso do questionário SUS, essa escala varia de 1 a 5). 
+Brooke \cite{brooke1996sus} define o questionário SUS como sendo uma escala de usabilidade "rápida e suja". O SUS se baseia em um questionário do tipo \textit{"Likert Scale"}, questionários deste tipo apresentam afirmações em que o entrevistado deve julgar o quanto concorda ou discorda da afirmação (no caso do questionário SUS, essa escala varia de 1 a 5).
 
 A escala SU é geralmente utilizada depois que o entrevistado teve a oportunidade de usar o sistema que será avaliado. Deve ser instruído ao entrevistado que se responda imediatamente após ler a pergunta, não se deve pensar muito na resposta pois acaba induzindo o resultado. Todos os itens devem ser marcados e caso o entrevistado não saiba responder um item em particular deve-se marcar o ponto ao centro da escala.
 
-Para calcular o resultado do questionário SUS deve-se somar os valores atribuidos em cada item, sendo que os itens 1,3,5,7 e 9 devem ser subtraidos 1 do valor aferido no questionário (X-1), e nos itens 2,4,6,8 e 10 deve ser subtraido de 5 o valor aferido no questionário (5-X). Feito a soma deve-se multiplicar o resultado obtido 2,5. A escala do Questionário SUS vária de 0 até 100.
+Para calcular o resultado do questionário SUS deve-se somar os valores atribuídos em cada item, sendo que os itens 1,3,5,7 e 9 devem ser subtraídos 1 do valor aferido no questionário (X-1), e nos itens 2,4,6,8 e 10 deve ser subtraído de 5 o valor aferido no questionário (5-X). Feito a soma deve-se multiplicar o resultado obtido 2,5. A escala do Questionário SUS varia de 0 até 100.
 
+
+\section{Personas}
+O método Personas foi criado para ser utilizado no desenvolvimento de soluções de TI, contudo a técnica se tornou comum em outras áreas como desenvolvimento de produtos e na área de \textit{marketing}. Personas são abstrações de um grupo de consumidores reais que dividem um conjunto de características e necessidades em comum \cite{pruitt2010persona}. Personas não podem ser confundidas com estereótipos de uma pessoa. O principal aspecto da descrição de uma persona é que não se deve olhar para toda as características da pessoa em destaque, mas somente para as características relevantes ao contexto.
+
+Uma persona deve ser descrita em forma de narrativa. Segundo Cooper \cite{maness2008using} a descrição em forma de narrativa tem dois objetivos principais, fazer com que a persona se parece com uma pessoa real e prover uma história que expresse as necessidades da persona no contexto do produto que está sendo criado. A narrativa de uma persona começa com a descrição do tipo de indivíduo que aquela persona representa, são detalhados, gostos, costumes, profissão, características físicas. Feito isso, são detalhadas as necessidades específicas daquela persona, são especificados quais são seus objetivos e metas relacionados com o contexto. Estas são as mesmas necessidades que seriam encontradas em um documento de requisitos, contudo estão escritas em forma de narrativa e associadas a uma persona específica \cite{manning2003power}.
+
+Supondo que se queira criar um site de compra de passagens, um exemplo de persona seria. 
+
+Bruce Wayne tem 50 anos, é casado com Diana Prince. Bruce é  um bibliotecário que trabalha na Biblioteca de Gotham City. Uma vez por ano Bruce tira férias de 30 dias para viajar com Diana. Todas as vezes que Bruce viaja ele compra as passagens e reserva o hotel em agências de viajem especializadas. Bruce tem preferencia por viajar para lugares com clima frio e que não sejam muito procurados por turistas. Em sua última viajem, Bruce teve um desentendimento com o seu gerente de viajens e por isso quer comprar as passagens e reservar o hotél de maneira \textit{online}. Bruce vai comprar as passagens e reservar o hotel através de um notebook antigo que tem guardado e que quase nunca usa.
+
+Através do exemplo acima é possível deduzir um dos públicos alvos do site seriam adultos com idade próxima aos 50 anos e que são casados. Sabe-se que algum dos requisitos do site sejam, ter uma área para compra de passagens e outra para reserva em hotéis, e que todo o site deve ser rodado em um notebook simples e antigos.
 
 
 \section{Resumo do Capítulo}

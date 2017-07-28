@@ -12,27 +12,38 @@ Para se simular um ambiente de produção, será utilizado como modelo de refer�
 \label{img:proc_des}
 \end{figure}
 
-A solução proposta tem o objetivo de atuar tanto do lado do Órgão Público, onde o Gestor acompanha o desenvolvimento do projeto, quanto da empresa contratada em que a ferramenta é integrada ào processo de desenvolvimento do software. A Figura \ref{img:ciclo_ver} apresenta um diagrama que demonstra o ciclo de verificação juntamente com a solução apresentada. Na Figura é possível ver que o time de desenvolvimento da empresa contratada desenvolve o código que é submetido para uma análise, onde é feita a verificação das métricas que foram estipuladas. Após essa análise o resultado é submetido para o \textit{dashboard},  o Gestor de TI e a equipe de qualidade do Órgão, podem acompanhar o projeto.
+A solução proposta tem o objetivo de atuar tanto do lado do Órgão Público, onde o Gestor acompanha o desenvolvimento do projeto, quanto da empresa contratada em que a ferramenta é integrada ao processo de desenvolvimento do software. A Figura \ref{img:ciclo_ver} apresenta um diagrama que demonstra o ciclo de verificação juntamente com a solução apresentada. Na Figura é possível ver que o time de desenvolvimento da empresa contratada desenvolve o código que é submetido para uma análise, onde é feita a verificação das métricas que foram estipuladas. Após essa análise o resultado é submetido para o \textit{dashboard},  o Gestor de TI e a equipe de qualidade do Órgão, podem acompanhar o projeto. A figura \ref{img:diagram_implantacao} apresenta outra visão da integração entre a proposta e o ambiente de configuração do Órgão X.
 
 \graphicspath{{figuras/}}
-\begin{figure}[h!]
+\begin{figure}[!]
 \centering
 \includegraphics[scale=0.30]{proc_ver.png}
 \caption{Ciclo de Verificação Utilizando a Solução Compartilhada Entre Órgão Contratante e Empresa Contratada}
 \label{img:ciclo_ver}
 \end{figure}
 
+\graphicspath{{figuras/}}
+\begin{figure}[!]
+\centering
+\includegraphics[scale=0.60]{diagrama_implantacao}
+\caption{Diagrama de Implantação da Solução no Órgão X} 
+\label{img:diagram_implantacao}
+\end{figure}
+
+
 
 \section{Coleta das Métricas}
-Para fazer a coleta das métricas, será utilizada a ferramenta SonarQube. Como já informado na capítulo de Suporte Tecnológico, esse suporte é muito utilizado em Órgãos Públicos e em editais por ser uma ferramenta \textit{open-source}. Nesse contexto, a coleta das métricas é feita de maneira dinamica, onde o que usuario decide qual suíte de metricas vai utilizar, podendo utilizar uma customizada ou utilizar uma como base. A presente proposta irá utilizar as suítes de métricas estabelecidas no edital do DNPM \cite{edital}). Portanto, serão utilizadas as suítes de métricas de Chidamber-Kemerer e a Suíte MOOD.
+Para fazer a coleta das métricas, será utilizada a ferramenta SonarQube. Como já informado na capítulo de Suporte Tecnológico, esse suporte é muito utilizado em Órgãos Públicos e em editais por ser uma ferramenta \textit{open-source}. Nesse contexto, a coleta das métricas é feita de maneira dinâmica, onde o que usuário decide qual suíte de métricas vai utilizar, podendo utilizar uma customizada ou utilizar uma como base. A presente proposta irá utilizar as suítes de métricas estabelecidas no edital do DNPM \cite{edital}). Portanto, serão utilizadas as suítes de métricas de Chidamber-Kemerer e a Suíte MOOD.
 
-O \textit{dashboard} será customizável de acordo com a necessidade do Órgão. O Ógão poderá escolher quais métricas deseja usar e qual a faixa de valores aceitáveis para as métricas, caso ele queira. Será possível ainda, utilizar uma suíte de métricas já customizada e com valores definidos. 
+Essas métricas serão atribuídas ao longo do desenvolvimento do projeto, sendo assim, durante as primeiras \textit{sprints} do projeto serão utilizadas métricas diferentes e mais relevantes ao andamento do projeto, dos que as métricas que serão coletadas ao fim do projeto. A escolha das métricas a serem utilizadas em cada momento do desenvolvimento será feita através de um questionário com até quatro gerentes de projeto e uma persona criada para simular um gestor "ideal".
 
 As métricas "Violações do tipo Blocker", "Violações do tipo Major" e "Violações do tipo Minor" são estipuladas de acordo com o próprio perfil do Sonar, chamado Sonar Way. Contudo, a melhor maneira seria criar um perfil com as regras da própria organização garantindo uma avaliação mais focada no objetivo do Órgão.
 
-O objetivo deste trabalho é criar uma ferramenta que auxilie na auditoria de produtos de software entregues por empresas tercerizadas. Entretanto percebe-se que ainda que o trabalho possua grande aprovação, dificilmente o mesmo irá substituir o fator humano da auditoria. Portanto, o software compreende apenas um suporte que visa facilitar a avaliação geral do software entregue sob o ponto de vista da qualidade de código. Recomenda-se, uma vez que o software seja submetido à ferramenta e seja aceito, a realização de uma auditoria em cima de uma amostragem do software entregue, sob o olhar de um analista especializado para tal atividade.
 
-Foi elaborado uma prova de conceito, para que se pudesse testar a funcionalidade relacionada à coleta de métricas. Está prova, consistia em, elaborar um software que fosse capaz de extrair métricas do relatório do SonarQube. Inicialmente foi necessário criar uma instância do SonarQube e fazer a análise de um projeto. O projeto escolhido foi um projeto em Java, que o próprio SonarQube disponibiliza para download, com o intuito de ser utilizado como exemplo. Com o ambiente configurado, implementou-se uma solução em Python que atendesse aos requisitos estabelecidos para a prova de conceito. A Figura \ref{img:terminal} apresenta a saída do console, ao se rodar a solução.
+O objetivo deste trabalho é criar uma ferramenta que auxilie na auditoria de produtos de software entregues por empresas terceirizadas. Entretanto percebe-se que ainda que o trabalho possua grande aprovação, dificilmente o mesmo irá substituir o fator humano da auditoria. Portanto, o software compreende apenas um suporte que visa facilitar a avaliação geral do software entregue sob o ponto de vista da qualidade de código. Recomenda-se, uma vez que o software seja submetido à ferramenta e seja aceito, a realização de uma auditoria em cima de uma amostragem do software entregue, sob o olhar de um analista especializado para tal atividade.
+
+Foi elaborado uma prova de conceito, para que se pudesse testar a funcionalidade relacionada à coleta de métricas. Está prova, consiste em, elaborar um software que fosse capaz de extrair métricas do relatório do SonarQube. Inicialmente foi necessário criar uma instância do SonarQube e fazer a análise de um projeto. O projeto escolhido foi um projeto em Java, que o próprio SonarQube disponibiliza para download, com o intuito de ser utilizado como exemplo. Com o ambiente configurado, implementou-se uma solução em Python que atendesse aos requisitos estabelecidos para a prova de conceito. A Figura \ref{img:terminal} apresenta a saída do console, ao se rodar a solução.
+
 
 \graphicspath{{figuras/}}
 \begin{figure}[H]
@@ -42,7 +53,7 @@ Foi elaborado uma prova de conceito, para que se pudesse testar a funcionalidade
 \label{img:terminal}
 \end{figure}
 
-Na primeira linha da Figura \ref{img:terminal}, é executada a chamada do código. As linhas sequentes apresentam as métricas coletadas pela solução. As métricas que são apresentadas no console, foram definidas no código, por este motivo, ainda não é possível definir outras métricas durante a execução da aplicação, esta funcionalidade será implementada na segunda fase do projeto.  
+Na primeira linha da Figura \ref{img:terminal}, é executada a chamada do código. As linhas seguintes apresentam as métricas coletadas pela solução. As métricas que são apresentadas no console, foram definidas no código, por este motivo, ainda não é possível definir outras métricas durante a execução da aplicação, esta funcionalidade será implementada na segunda fase do projeto. 
 
 \section{Criação do \textit{Dashboard}}
 Com as informações obtidas, o dashboard funcionará como uma tela para visualização dessas métricas. A solução é composta por duas telas. Uma mostrando uma visão geral dos projetos, com indicadores quanto à aprovação ou reprovação de cada projeto seguindo os limites estabelecidos pelo edital \cite{edital}. A segunda tela consiste em uma visão mais detalhada sobre cada projeto, mostrando a evolução do projeto em cada métrica e com um \textit{link} para o Sonar de cada métrica para um aprofundamento.
@@ -101,13 +112,7 @@ Assim como a coleta de métricas, também foi elaborada uma prova de conceito, p
 A avaliação do \textit{dashboard} será feita por parte de um gestor de tecnologia de um Órgão Público. Ele avaliará aspectos de usabilidade da ferramenta e se a ferramenta possuiria condições mínimas de ser implantada. Caso não seja possível essa avaliação com um profissional da área, a avaliação será feita através de professores que possuem tal experiência com contratação de software para Órgãos Públicos, novamente avaliando aspectos como usabilidade e melhorias necessárias para implantação em um Órgão.
 Para fazer esta avaliação, o gestor responderá a um questionário contendo, inicialmente, cinco perguntas, referentes ao uso e às funcionalidades do software produzido. Uma primeira versão do questionário consta na Figura \ref{img:questionario}
 
-\graphicspath{{figuras/}}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=1.00]{questionario}
-\caption{Questionário a ser aplicado ao fim do período de teste}
-\label{img:questionario}
-\end{figure}
+Uma segunda parte da avaliação se refere a usabilidade do software desenvolvido. Para fazer esta avaliação será utilizado o modelo de questionário SUS
 
 \section{Resumo do Capítulo}
-A proposta deste trabalho é criar uma maneira facilitada de acompanhar a qualidade de código estático dos produtos de software entregues pelas tercerizadas. Para fazer esta análise, a solução orienta-se por uma ferramenta de análise estática SonarQube e por um conjunto de métricas relacionadas às boas práticas de programação, algumas dessas métricas, foram retiradas dos livros Clean Code \cite{martin2009clean} e Code Complete \cite{mcconnell2004code}. A solução encontrada é a utilização de um \textit{dashboard} que mostre o real estado de um projeto, e que através de indicadores, seja possível determinar a qualidade do código. A última etapa deste trabalho consiste na avaliação do trabalho produzido, a qual será feita juntamente com um gestor de projeto de um Órgão Público ou um professor da insituição de ensino que responderá a um questionário quanto ao software produzido.
+A proposta deste trabalho é criar uma maneira facilitada de acompanhar a qualidade de código estático dos produtos de software entregues pelas tercerizadas. Para fazer esta análise, a solução orienta-se por uma ferramenta de análise estática SonarQube e por um conjunto de métricas relacionadas às boas práticas de programação, algumas dessas métricas, foram retiradas dos livros Clean Code \cite{martin2009clean} e Code Complete \cite{mcconnell2004code}. A solução encontrada é a utilização de um \textit{dashboard} que mostre o real estado de um projeto, e que através de indicadores, seja possível determinar a qualidade do código. A última etapa deste trabalho consiste na avaliação do trabalho produzido, a qual será feita juntamente com um gestor de projeto de um Órgão Público ou um professor da instituição de ensino que responderá a um questionário quanto ao software produzido.
