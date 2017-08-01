@@ -321,11 +321,29 @@ Disserta\c{c}\~{a}o (Mestrado), 2007.}
 {PRUITT, J.; ADLIN, T. \emph{The persona lifecycle: keeping people in mind
   throughout product design}. [S.l.]: Morgan Kaufmann, 2010.}
 
+\bibitem[Recommender systems-How they works and their impacts 2006]{sr2}
+\abntrefinfo{Recommender\ldots}{RECOMMENDER\ldots}{2006}
+{RECOMMENDER systems-How they works and their impacts. 2006.
+Dispon{\'\i}vel em:
+  \url{http://findoutyourfavorite.blogspot.com.br/2012/04/content-based-filtering.html}.}
+
+\bibitem[Russell 2009]{russell2009artificial}
+\abntrefinfo{Russell}{RUSSELL}{2009}
+{RUSSELL, S. Artificial intelligence: A modern approach author: Stuart russell,
+  peter norvig, publisher: Prentice hall pa.
+2009.}
+
 \bibitem[Sabbagh 2014]{sabbagh_scrum:_2014}
 \abntrefinfo{Sabbagh}{SABBAGH}{2014}
 {SABBAGH, R. \emph{Scrum: {Gest{\~a}o} {\'a}gil para projetos de sucesso}.
   Editora Casa do C{\'o}digo, 2014. Dispon{\'\i}vel em:
   \url{https://books.google.com/books?hl=en&lr=&id=pG-CCwAAQBAJ&oi=fnd&pg=PT9&dq=\%22Agilidade+em+diferentes+organiza\%C3\%A7\%C3\%B5es.+Hoje+\%C3\%A9+poss\%C3\%ADvel+ver+os+assuntos+ligados\%22+\%22Mas,+segundo+o+pr\%C3\%B3prio+Rafael\%22+\%22que+n\%C3\%A3o+\%C3\%A9+necess\%C3\%A1rio+ter+uma+ampla+compreens\%C3\%A3o+do+Scrum+para\%22+&ots=ERSywNIEAd&sig=rvmJD\_BXcQY-P0MYZBqQJOaOcOA}.}
+
+\bibitem[Sarwar et al. 2001]{sarwar2001item}
+\abntrefinfo{Sarwar et al.}{SARWAR et al.}{2001}
+{SARWAR, B. et al. Item-based collaborative filtering recommendation
+  algorithms. In:  ACM. \emph{Proceedings of the 10th international conference
+  on World Wide Web}. [S.l.], 2001. p. 285--295.}
 
 \bibitem[Sauro e Lewis 2016]{sauro2016quantifying}
 \abntrefinfo{Sauro e Lewis}{SAURO; LEWIS}{2016}

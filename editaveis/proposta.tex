@@ -31,11 +31,18 @@ A solução proposta tem o objetivo de atuar tanto do lado do Órgão Público, 
 \end{figure}
 
 
-
 \section{Coleta das Métricas}
 Para fazer a coleta das métricas, será utilizada a ferramenta SonarQube. Como já informado na capítulo de Suporte Tecnológico, esse suporte é muito utilizado em Órgãos Públicos e em editais por ser uma ferramenta \textit{open-source}. Nesse contexto, a coleta das métricas é feita de maneira dinâmica, onde o que usuário decide qual suíte de métricas vai utilizar, podendo utilizar uma customizada ou utilizar uma como base. A presente proposta irá utilizar as suítes de métricas estabelecidas no edital do DNPM \cite{edital}). Portanto, serão utilizadas as suítes de métricas de Chidamber-Kemerer e a Suíte MOOD.
 
-Essas métricas serão atribuídas ao longo do desenvolvimento do projeto, sendo assim, durante as primeiras \textit{sprints} do projeto serão utilizadas métricas diferentes e mais relevantes ao andamento do projeto, dos que as métricas que serão coletadas ao fim do projeto. A escolha das métricas a serem utilizadas em cada momento do desenvolvimento será feita através de um questionário com até quatro gerentes de projeto e uma persona criada para simular um gestor "ideal".
+Essas métricas serão atribuídas ao longo do desenvolvimento do projeto, sendo assim, durante as primeiras \textit{sprints} do projeto serão utilizadas métricas diferentes e mais relevantes ao andamento do projeto, dos que as métricas que serão coletadas ao fim do projeto. A escolha das métricas a serem utilizadas em cada momento do desenvolvimento será feita através de um questionário com até quatro gerentes de projeto e uma persona criada para simular um gestor "ideal". As respostas coletadas no questionário serão utilizadas como base na criação de perfis. Esse perfil servirá como um indicador para as métricas que serão sugeridas à futuros gestores. A figura \ref{img:perfis} apresenta um exemplo com três possíveis perfis que podem ser coletados através das respostas dos gestores. Na figura percebe-se que o primeiro perfil prefere um conjunto de métricas na primeira \textit{sprint} e ao longo do desenvolvimento do projeto ir acrescentando mais métricas para serem acompanhadas. Já o segundo perfil coleta determinadas métricas no início e nas \textit{sprints} seguintes ele acompanha somente uma métrica específica. O terceiro perfil avalia um conjunto de métricas nas \textit{sprints} ímpares e outro conjunto nas \textit{sprints} pares.
+
+\graphicspath{{figuras/}}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.70]{perfis_exemplo.png}
+\caption{Exemplo de Perfis Coletados Após Questionário}
+\label{img:perfis}
+\end{figure}
 
 As métricas "Violações do tipo Blocker", "Violações do tipo Major" e "Violações do tipo Minor" são estipuladas de acordo com o próprio perfil do Sonar, chamado Sonar Way. Contudo, a melhor maneira seria criar um perfil com as regras da própria organização garantindo uma avaliação mais focada no objetivo do Órgão.
 
