@@ -1,18 +1,92 @@
-\chapter[Resultados parciais]{Resultados Parciais}
-\label{sec:resultados_parciais}
-Neste capítulo, estão descritos os resultados que foram obtidos até o momento. No caso, tem-se duas seções: a seção \ref{status} que apresenta o estado do projeto atual, e a seção \ref{futuro} que aborda quais serão os próximos passos no desenvolvimento do trabalho.
+\chapter[Resultados]{Resultados}
+\label{sec:resultados}
+Neste capítulo, estão descritos os resultados que foram obtidos até o momento de publicação deste trabalho. O capítulo apresenta duas seções: a seção \ref{resultados_obtidos} que apresenta os resultados que se obteve ao fim deste trabalho, e a seção \ref{futuro} que aborda possíveis trabalhos que podem dar prosseguimento a este.
 
-\subsection{\textit{Status} Atual do Projeto}
-\label{status}
+\subsection{Resultados Obtidos}
+\label{resultados_obtidos}
 
-Como havia sido definido no capítulo de Introdução, este trabalho tem como objetivo principal desenvolver uma solução em software para monitoramento da qualidade de código. Tomando esse objetivo como linha guia para a elaborações e o desenvolvimento desse projeto, as primeiras atitudes tomadas foram aprofundar mais o conhecimento no assunto e garantir que será possível importar as métricas extraídas pelo SonarQube.
+Após feito o levantamento bibliográfico começou-se a primeira \textit{sprint} do desenvolvimento da solução, que consistia em implementar a funcionalidades: cadastrar um gestor (sendo que este tivesse como realizar um \textit{login} na aplicação) e cadastrar projetos. Com a implementação feita, realizava-se um teste de usabilidade com um grupo de pessoas. Esse grupo de pessoas consistia em quatro alunos de Engenharia de Software da Universidade de Brasília, sendo dois alunos no último semestre do curso, 1 aluno no quinto período e outro do sétimo período. O teste de usabilidade consistia em uma lista de sete atividades que deveriam ser executadas pelo examinado. Nesse primeiro teste foram pedidos que os examinados realizassem atividades mais simples para se contextualizar com o software e com a finalidade do software. Através do gráfico da Figura \ref{img:grafico_iteracao1}, fica possível perceber que os entrevistados tiveram problema para realizar a ativdade 5. Maiores detalhes quanto ao tempo de cada entrevistado se encontram na Tabela \ref{tabela_iteracao1}.
 
-A aquisição de conhecimento foi feita através de um levantamento bibliográfico em várias bases de pesquisa e que influenciaram na escrita do capítulo de Referências Bibliográficas e na tomada de algumas decisões acerca do trabalho, decisões como a escolha da suíte de métricas e as ferramentas para plotagem dos gráficos.
+\graphicspath{{figuras/}}
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.75]{iteracao1_grafico}
+\caption{Gráfico Comparativo das Atividades Realizadas na Iteração 1}
+\label{img:grafico_iteracao1}
+\end{figure}
 
-Quanto à importação das métricas, a forma a ser utilizada será de leitura da tela. Foi criado um \textit{script} em \textit{python} que faz a leitura das informações da tela e separa as mesmas por métricas e por projeto. Esse \textit{script} será responsável por coletar e identificar as métricas a serem escolhidas pelo gestor de projetos. 
+\begin{table}[h!]
+\centering
+\caption{Tempo de Execução de Cada Atividade em Segundos 1a Iteração}
+\label{tabela_iteracao1}
+\begin{tabular}{|llllll|}
+\hline
+\multicolumn{6}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{1a Iteracão}}                     \\ \hline
+                   & \textbf{T1} & \textbf{T2} & \textbf{T3} & \textbf{T4} & \textbf{T5} \\ \hline
+\textbf{Usuário 1} & 0.3         & 0.31        & 1.41        & 0.5         & 1           \\ \hline
+\textbf{Usuário 2} & 0.2         & 0.1         & 1.2         & 0.5         & 1           \\ \hline
+\textbf{Usuário 3} & 0.12        & 0.7         & 1.3         & 0.3         & 1           \\ \hline
+\textbf{Usuário 4} & 0.12        & 0.3         & 1.2         & 0.4         & 1           \\ \hline
+\textbf{Usuário 5} & 0.2         & 0.22        & 1.26        & 0.3         & 1           \\ \hline
+\textbf{Usuário 6} & 0.2         & 0.15        & 1.2         & 0.3         & 1           \\ \hline
+\textbf{Usuário 7} & 0.2         & 0.18        & 1.34        & 0.3         & 1           \\ \hline
+\end{tabular}
+\end{table}
 
-A Tabela \ref{table_status} mostra a completude do trabalho desenvolvido até o momento, separando por atividades e os meses em que se estima que essas atividades ocorram. Pela tabela é possível perceber que todas as atividades que haviam sido planejadas para o TCC1 já foram concluídas, e a atividade de Analisar Ambiente já foi iniciada devido a instalação do SonarQube. A atividade de Documentação encontra-se em 50\%, pois se refere à documentação entregue enquanto TCC1.
 
+Após as atividades propostas pelo entrevistador, perguntava-se aos entrevistados quanto à experiencia que eles haviam tido ao utilizar o software. Um dos pontos ressaltados pelos entrevistados foi quanto ao uso de não haver uma descrição quanto a funcionalidade de voltar ao menu utilizando o canto esquerdo superior da tela como pode ser observado na Figura \ref{img:alteracao_menu}. 
+
+\graphicspath{{figuras/}}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.80]{comparacao_versoes_menu}
+\caption{Alterações feitas no \textit{link} de menu}
+\label{img:alteracao_menu}
+\end{figure}
+
+Para a segunda \textit{sprint} decidiu-se elaborar as funcionalidades de acompanhar projeto e exibir métricas. Foram entrevistadas as mesmas pessoas da primeira Iteração e seguiu-se as mesmas atividades da Iteração anterior. Os resultados obtidos estão na Tabela \ref{tabela_iteracao2}. A partir do gráfico presente na Figura \ref{img:grafico_iteracao2} percebe-se que o Usuário 1 apresentou um comportamento fora do esperado, isso se deve ao fato de que o examinado havia se confundido quanto ao enunciado da Tarefa 5.
+
+
+\begin{table}[h!]
+\centering
+\caption{Tempo de Execução de Cada Atividade em Segundos 2a Iteração}
+\label{tabela_iteracao2}
+\begin{tabular}{|llllllll|}
+\hline
+\multicolumn{8}{|c|}{\cellcolor[HTML]{C0C0C0}\textbf{2a Iteração}}                                                   \\ \hline
+                   & \textbf{T1} & \textbf{T2} & \textbf{T3} & \textbf{T4} & \textbf{T5} & \textbf{T6} & \textbf{T7} \\ \hline
+\textbf{Usuário 1} & 0.04        & 0.32        & 0.11        & 0.19        & 0.37        & 0.07        & 0.07        \\ \hline
+\textbf{Usuário 2} & 0.05        & 0.2         & 0.07        & 0.16        & 0.07        & 0.32        & 0.05        \\ \hline
+\textbf{Usuário 3} & 0.05        & 0.17        & 0.05        & 0.14        & 0.08        & 0.27        & 0.02        \\ \hline
+\textbf{Usuário 4} & 0.04        & 0.2         & 0.02        & 0.13        & 0.08        & 0.3         & 0.04        \\ \hline
+\textbf{Usuário 5} & 0.05        & 0.22        & 0.12        & 0.15        & 0.07        & 0.35        & 0.05        \\ \hline
+\textbf{Usuário 6} & 0.05        & 0.24        & 0.16        & 0.16        & 0.07        & 0.26        & 0.05        \\ \hline
+\textbf{Usuário 7} & 0.06        & 0.2         & 0.16        & 0.18        & 0.07        & 0.05        & 0.06        \\ \hline
+\end{tabular}
+\end{table}
+
+\graphicspath{{figuras/}}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.75]{grafico_2a_iteracao}
+\caption{Gráfico Comparativo das Atividades Realizadas na Iteração 2}
+\label{img:grafico_iteracao2}
+\end{figure}
+
+ Uma das mudanças implementadas nessa segunda iteração se deve ao acréscimo de um botão para adicionar projeto na própria pagina inicial da aplicação. Este pedido havia sido feito na 1a Iteração por um dos entrevistados. Está alteração pode ser vista na Figura \ref{img:compara_botao}.
+ 
+ 
+ \graphicspath{{figuras/}}
+ \begin{figure}[h!]
+ \centering
+ \includegraphics[scale=0.60]{compara_adicao_botao}
+ \caption{Acréscimo do Botão de Adicionar Projeto na Página Inicial}
+ \label{img:compara_botao}
+ \end{figure}
+ 
+ 
+ 
+ 
 \begin{table}[h!]
 \centering
 \caption{\textit{Status} Completude do Trabalho}
@@ -26,17 +100,12 @@ Elaborar Roteiro de Pesquisa              & 100\%                               
 Pesquisar Referência                      & 100\%                                                                              \\ \hline
 Refinar Pesquisa                          & 100\%                                                                              \\ \hline
 Catalogar Material                        & 100\%                                                                              \\ \hline
-Documentar                                & 50\%                                                                               \\ \hline
-Analisar Ambiente                         & 20\%                                                                               \\ \hline
-Configurar Ambiente                       & 0\%                                                                                \\ \hline
-Implementar Solução de Software           & 0\%                                                                                \\ \hline
-Implantar Solução em Ambiente Simulado    & 0\%                                                                                \\ \hline
+Documentar                                & 100\%                                                                               \\ \hline
+Analisar Ambiente                         & 100\%                                                                               \\ \hline
+Configurar Ambiente                       & 100\%                                                                                \\ \hline
+Implementar Solução de Software           & 100\%                                                                                \\ \hline
+Implantar Solução em Ambiente Simulado    & 100\%                                                                                \\ \hline
 Acompanhar Utilização do Software         & 0\%                                                                                \\ \hline
 Aplicar Questionário                      & 0\%                                                                                \\ \hline
 \end{tabular}
 \end{table}
-
-
-\subsection{Próximas Atividades}
-\label{futuro}
-Uma vez que já se consegue extrair as informações do SonarQube, a próxima etapa é a de construir o \textit{dashboard}. Para isso serão levantadas todas as funcionalidades que o \textit{dashboard} deve apresentar. Este conjunto de atividades irá compor o \textit{product backlog}. Com o \textit{product backlog} definido, é necessário que se faça a divisão das \textit{sprints} de acordo com o número de funcionalidades. Todas essas atividades fazem parte das atividades necessárias para construção do software.

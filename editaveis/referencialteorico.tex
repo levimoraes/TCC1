@@ -172,93 +172,66 @@ Uma métrica é uma função que pode ser medida. Métrica de qualidade de softw
 
 Segundo Mills, algumas características são inerentes a uma boa métrica, tais como, simplicidade, objetividade, fácil obtenção, validade, robustez, linearidade de escala. Diversos autores sugeriram conjunto de métricas que combinadas tratam de várias áreas de qualidade de software \cite{paulo_meirelles}.
 
-\subsection{Suíte de Chidamber-Kemerer}
+A ferramenta SonarQube apresenta algumas métricas dentre as quais ressalta-se:
 
-Este conjunto de métricas foi proposto por Shyam R. Chidamber e por Chris F. Kemerer em 1994 tem como objetivo avaliar aspectos de qualidade interna dos artefatos produzidos sob a visão de uma linguagem orientada a objetos \cite{chidamber}. A suíte apresenta as seguintes métricas:
 \begin{itemize}
+\item\textbf{Complexidade} = é a complexidade baseada no número de caminhos pelo código. Sempre que o fluxo de um caminho se divide, o contador da complexidade é incrementado em 1. Toda função tem no minímo complexidade igual a 1.
+\item\textbf{Complexidade por Classe} = média aritmética da complexidade em todas as classes.
+\item\textbf{Linhas Comentadas} = número de linhas que contém comentários fazem parte de um bloco de comentários. Linhas de comentário não significativas (linhas vazias ou que possuam apenas caracteres especiais), não incrementam o número de linhas comentadas.
+\item\textbf{\% Comentários} = Definido como sendo a densidade de linhas de código comentadas, é calculada como sendo o número de linhas comentadas / número de linhas totais.
 
-\item \textbf{WMC}: Em uma classe com \textit{n} métodos, a complexidade é dada como sendo a complexidade dos \textit{n} métodos. 
- \begin{equation}
-WMC = \sum_{i=1}^{n}Ci
-\end{equation}
+%( \frac{Linhas Comentadas}{Total de Linhas} ) * 100
 
+\item\textbf{Linhas Duplicadas \%} = densidade do número de blocos de linhas duplicados.
 
-Essa métrica serve como indicador para o nível geral da modularização. Quanto maior o valor, mais complexa está a classe ou poucas classes a classe ou poucas classes possuem um índice de complexidade muito alto.
+%( \frac{Linhas Duplicadas}{Total de Linhas} ) * 100
 
-\item \textbf{DIT}: Tamanho do maior caminho entre a raiz da árvore de herança e a classe a qual está sendo analisada. Essa métrica permite ver o quanto uma mudança em uma determinada classe pode afetar todo o sistema.
-
-\item \textbf{NOC}: Quantidade de classes que se utilizam da classe em análise, seja por herança ou implementação. Essa métrica junto com outras ajuda a determinar quais classes são primordiais para o funcionamento do sistema.
-
-\item \textbf{CBO}: Esta métrica é dada pela equação 2.2: 
-
-\begin{equation}
-CBO = \frac{NumberOfDependencies}{NumberOfClassInPackage}
-\end{equation}
-Uma dependência pode ser definida como o uso de um método ou variável de outra classe, porém, do mesmo pacote.
-
-\item \textbf{RFC}: Número de métodos e construtores distintos que são chamados por uma classe. Esta medida é muito utilizada para cobertura de testes, em que pode ser constatada a necessidade ou não de uma modularização de uma classe.
-
-\item \textbf{LCOM}: Sendo \textit{C} uma classe com \textit{n} métodos, seja \textit{In} o conjunto de variáveis de instância utilizadas pelo método \textit{n}, seja \textit{P} o conjunto tal que:
-\begin{equation}
-P = \{(Ii,Ij)|(Ii\bigcap Ij)= \o\}
-\end{equation}
-e \textit{Q} o conjunto tal que:
-\begin{equation}
-Q = \{(Ii,Ij)|(Ii\bigcap Ij)= \o\}
-\end{equation}
-então, LCOM é definida como sendo:
-\begin{equation}
-LCOM = |P| - |Q| se |P|>|Q|
-\end{equation}
-ou zero caso contrário.
+\item\textbf{\textit{Issues}} = Erros de código. Podem ser classificados quanto a sua severidade como sendo:
+\begin{itemize}
+\item\textbf{Blocker} = risco operacional ou de segurança. Este tipo de \textit{issue} pode tornar toda a aplicação instável quando estiver no ambiente de produção. Ex: calling garbage collector, not closing a socket, etc.
+\item\textbf{Critical} = risco operacional ou de segurança. Este tipo de \textit{issue} pode levar a um comportamento inesperado quando em produção, sem impactar a integridade de toda a aplicação. Ex: NullPointerException, badly caught exceptions, lack of unit tests, etc.
+\item\textbf{Major} = este tipo de \textit{issue} pode ter um impacto substancial na aplicação. Ex: too complex methods, package cycles, etc.
+\item\textbf{Minor} = esta \textit{issue} pode impactar de maneira mínima ou substancial a aplicação. Ex: naming conventions, Finalizer does nothing but call superclass finalizer, etc.
+\item\textbf{Info} = não conhecidos ou não foram definidos impactos na aplicação.
 \end{itemize}
 
-\subsection{Suíte MOOD}
-Outro conjunto de métricas que tem como objetivo de medir de maneira quantitativa é a suíte de métricas MOOD. Ela conta com oito métricas. Essas métricas visam atender as principais características da orientação a objeto. Dessa forma, princípios como polimorfismo, baixo acoplamento, encapsulamento e outros são altamente valorizados. Com base em Meirelles \cite{paulo_meirelles} e Moreira \cite{moreira_avaliacao_2015}, as métricas são:
+\item\textbf{Débito Técnico} = esforço gasto para consertar todas as \textit{issues}. A medida é feita de forma que um dia possua 8 horas. Logo, caso o valor encontrado seja maior do que 8 horas, o sistema irá mostrar o resultado em dias.
+
+\item\textbf{Relação do Débito Técnico Com O Custo} = (\textit{Technical Debt Ratio} ou TDR) relação entre o custo de desenvolvimento do software e o custo para conserta-lo. O custo de produção é definido como sendo 1 linha de código para 0.06 dias.
+
+\[\frac{Custo de Conserto}{Custo de Produção}\]
+
+\item\textbf{Índice de Manutenabilidade} = também conhecido como Índice SQALE, é dado a um projeto relacionando-o com o valor do TDR. A escala  padrão do Índice de Manutenabilidade é: 
 \begin{itemize}
-\item \textbf{MHF}: Métrica que indica a razão entre a soma de todos os métodos que são invisíveis em relação ao total de métodos do sistema.
-\\Número de métodos Visíveis em uma classe C
-\begin{equation}
-Mv(C)
-\end{equation}
-\\Número de métodos encapsulados em uma classe C
-\begin{equation}
-Me(C)
-\end{equation}
-\\O total de métodos é dado por
-\begin{equation}
-Mt(C) = Mv(C)+Me(C)
-\end{equation}
-\\A equação que representa esta métrica é dada por:
-\begin{equation}
-MHF =\frac{\sum_{TC}^{i=1}Mh(Ci)}{\sum_{TC}^{i=1}Mt(Ci)}
-\end{equation}
-Onde TC é o total de classes analisadas.
-
-\item \textbf{AHF}: Razão do somatório de todas os atributos que são herdados de todas as classes em relação ao número total de atributos. A equação que descreve este método é semelhante a dada por MHF
-\begin{equation}
-AHF =\frac{\sum_{TC}^{i=1}Ah(Ci)}{\sum_{TC}^{i=1}At(Ci)}
-\end{equation}
-
-\item \textbf{MIF}: Razão entre o somatório dos métodos herdados nas classes e o número total de métodos presentes no sistema.
-\begin{equation}
-MIF = \frac{TMh}{TMd}
-\end{equation}
-\item \textbf{AIF}: Razão entre a soma dos atributos herdados em todas as classes do sistema e o total de atributos da classe.
-\begin{equation}
-MIF = \frac{TAh}{TAd}
-\end{equation}
-\item \textbf{CFA}:Razão entre o total de acoplamentos permitidos no sistema e o atual número de acoplamentos possíveis por herança. Para está métrica, toma-se como base uma relação cliente-servidor entre as classes. Sempre que existir uma referência a um método ou atributo da classe servidora, usa-se a seguinte equação para calcular o fator de acoplamento.
-
-\begin{equation}
-COF = \frac{\sum_{TC}^{i=1}[\sum_{TC}^{i=1}isClient(Ci,Cj)]}{TC^2-TC}
-\end{equation}
-\item \textbf{PFA}: Razão entre o número atual de possibilidades de polimorfismo diferentes que podem ser utilizados em uma classe e o número máximo de polimorfismos diferentes que podem haver nesta mesma classe.
+\item[A] 0-0.5
+\item[B] 0.06-0.1
+\item[C] 0.11-0.20
+\item[D] 0.21-0.5
+\item[E] 0.5-1
 \end{itemize}
 
-Uma vez que as métricas se encontram definidas, deve-se pensar na melhor maneira de exibir as métricas para o usuário. O papel da visualização das métricas de software é definir, com base na natureza, e na escala de uma métrica, qual a melhor maneira de imprimir na tela essas informações.
+\item\textbf{Número de Linhas} = número de linhas que contém pelo menos um carácter que não seja espaço em branco, tabulação ou parte de um comentário.
+
+\end{itemize}
+
+Outra ferramenta muito utilizada para fazer análise estática de código é o Codacy. O codacy diferencia-se do Sonarqube devido ao fato de ele não ser Open Source e ser totalmente \textit{online}, enquanto o Sonarqube é Open Source e funciona de maneira offline. Algumas das métricas apresentadas pelo Codacy são: 
+
+\begin{itemize}
+\item\textbf{Estilo de Código} =  formatação de código e problemas de sintaxe. Ex: estilo de nome de variáveis, uso de chaves e aspas para marcação.
+\item\textbf{\textit{Error Prone}} = código que pode esconder \textit{bugs} e palavras chaves da linguagem que deveriam ser usadas com cuidado. Ex: == em Java ou Option.get em Scala.
+\item\textbf{\textit{Performance}} = código que pode afetar a performance da aplicação.
+\item\textbf{Compatibilidade} = usado primariamente para código \textit{front-end}, detecta problemas de compatibilidade de versão entre diferentes versões de \textit{browsers}.
+\item\textbf{Código não Utilizado} = variáveis e métodos não utilizados.
+\item\textbf{Segurança} = problemas de segurança.
+\item\textbf{Documentação} = detecta métodos e classes que não possuem a documentação da maneira correta.
+
+\end{itemize}
+
+Devido ao conjunto de métricas ser vasto e pouco conhecido por meio dos gestores, uma das soluções encontradas está na utilização de aprendizado de máquina para sugerir possíveis métricas.
+
 
 \section{Aprendizado de Máquina e Sistemas de Recomendação}
+
 Aprendizado de Máquina se caracteriza pela implementação de técnicas que ajudam a melhorar o desempenho de um software aprendendendo através de conhecimento indutivo \cite{mitchell1997mcgraw}. Maria Carolina \cite{monard2003conceitos} diz "A indução é a forma de inferência lógica que permite obter conclusões genéricas sobre um conjunto particular de exemplos. Ela é caracterizada como o raciocínio que se origina em um conceito específico e o generaliza, ou seja, da parte para o todo. Na indução, um conceito é aprendido efetuando-se inferência indutiva sobre os exemplos apresentado". Esse conhecimento se baseia no conceito que modelos são obtidos através de um conjunto de dados ou representações de experiências \cite{peres2012tutorial}. Podem ser divididos em duas categorias: aprendizagem supervisionada e não supervisionada \cite{russell2009artificial}.
 \begin{itemize}
 \item\textbf{Aprendizagem Supervisionada:} o algoritmo recebe dados exemplos de entradas e de saída e com base nesses exemplos define uma regra.
@@ -272,22 +245,25 @@ Segundo Lucas \cite{brunialti2015aprendizado} um Sistema de Recomendação (SR)t
 \graphicspath{{figuras/}}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.60]{sr1.png}
+\includegraphics[scale=0.50]{sr1.png}
 \caption{SR por Colaboração. Adaptado de: \cite{sarwar2001item}}
 \label{img:sr1}
 \end{figure}
 
-O segundo modelo é o com base no conteúdo, onde as recomendações são obtidas através das características dos itens e no perfil do usuário. A figura \ref{img:sr2} apresenta um modelo de SR com base em conteúdo, em que as avaliações feitas pelo usuário são comparadas com as avaliações feitas por outros usuários.
+O segundo modelo é o com base no conteúdo, onde as recomendações são obtidas através das características dos itens e no perfil do usuário. Uma analogia pode ser feita da seguinte maneira.
 
-\graphicspath{{figuras/}}
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.70]{sr2.png}
-\caption{SR por Conteúdo. Adaptado de: \cite{sr2}}
-\label{img:sr2}
-\end{figure}
+ \begin{itemize}
+ \item SR baseado em um \textbf{Sistema Colaborativo}: "Usuários que são similares a você também gostaram ..."
+ \item SR baseado em um \textbf{Sistema de Conteúdo}: "Usuários que gostaram desse item também gostaram ..." 
+ \end{itemize}
+ 
 
- Existe ainda um terceiro modelo que se baseia no conhecimento em que as recomendações são feitas apartir de uma dedução da necessidade ou preferência de um usuário.
+Baseando em um SR que utiliza Sistema de Conteúdo, A fórmula Euclidiana apresenta a menor distância entre dois pontos, neste caso a menor distância representa o grau de similaridade entre dois usuários. 
+
+\[E(x,y) = \sqrt{\sum_{i=0}^{n}(xi-yi)^{2}}\]
+
+
+Uma vez que as métricas se encontram definidas, deve-se pensar na melhor maneira de exibir as métricas para o usuário. O papel da visualização das métricas de software é definir, com base na natureza, e na escala de uma métrica, qual a melhor maneira de imprimir na tela essas informações.
 
 
 \section{Visualização da Informação}
@@ -452,6 +428,9 @@ Através do exemplo acima é possível deduzir um dos públicos alvos do site se
 
 
 \section{Resumo do Capítulo}
+ATUALIZAR RESUMO 
+
+
 Para que se possa terceirizar o desenvolvimento de software dentro de Órgãos Públicos, algumas regras são necessárias. Entre elas, a de que a empresa vencedora do pregão, a qual irá dispor do direito de produzir o software, entregue o mesmo com qualidade. No edital de contratação, são estabelecidos critérios de qualidade para que o software entregue seja aceito. Estes critérios de qualidade tem sua fundamentação baseada em princípios estabelecidos pela Norma SQuaRE, quanto à categoria de manutenibilidade. Essa categoria é fundamental na contratação de software, pois permite saber o quão manutenível é o software que está sendo contratado. O processo de manutenção de software está intimamente ligado a esta métrica, uma vez que quanto maior a manutenibilidade do software, menos esforço, tempo e dinheiro são gastos nesta etapa. Para definir o grau de manutenibilidade, são apresentadas suítes de métricas que avaliam conceitos específicos do software para validar se o software entregue pela terceirizada é passível de manutenção ou não. Neste trabalho, são apresentadas as suítes de Chidamber-Kemerer e MOOD. 
 
 Aprendizagem de máquina tem por objetivo auxiliar o computador na tomada de decisões. Para acompanhar a evolução da entrega e se todos os requisitos de análise estática do código estão sendo cumpridos, uma solução seria a utilização de um \textit{dashboard} para acompanhar o desenvolvimento do software a ser entregue. Para isso, faz-se necessário o aprendizado de técnicas de visualização da informação e de conceitos para criação de um \textit{dashboard} efetivo. Ao fim do capítulo é apresentado o SUS que é um questionário de avaliação para avaliar o grau de usabilidade de um sistema.

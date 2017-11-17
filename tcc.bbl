@@ -55,11 +55,6 @@ ISBN 978-85-7018-319-4.}
 {CHARTSJS documentation. \url{http://www.chartjs.org/docs/}.
 Accessed: 2016-10-10.}
 
-\bibitem[Chidamber 1994]{chidamber}
-\abntrefinfo{Chidamber}{CHIDAMBER}{1994}
-{CHIDAMBER, C. F.~K. S.~R. A metrics suite for object oriented design. In:
-  \emph{IEEE Transactions On Software Engineering}. [S.l.: s.n.], 1994.}
-
 \bibitem[Crosby 1980]{crosby}
 \abntrefinfo{Crosby}{CROSBY}{1980}
 {CROSBY, P.~B. \emph{Quality is free: {The} art of making quality certain}.
@@ -211,11 +206,6 @@ Dispon{\'\i}vel em: \url{http://ecoman.ktu.lt/index.php/elt/article/view/372}.}
 {MANNING, H.; TEMKIN, B.; BELANGER, N. The power of design personas.
 \emph{Cambridge, MA: Forrester Research}, 2003.}
 
-\bibitem[Martin 2009]{martin2009clean}
-\abntrefinfo{Martin}{MARTIN}{2009}
-{MARTIN, R.~C. \emph{Clean code: a handbook of agile software craftsmanship}.
-  [S.l.]: Pearson Education, 2009.}
-
 \bibitem[MARTINHO e MUNIZ 2013]{martinho_git_2013}
 \abntrefinfo{MARTINHO e MUNIZ}{MARTINHO; MUNIZ}{2013}
 {MARTINHO, M.; MUNIZ, E. {GIT} {SCM}: {Sistema} de {Controle} de
@@ -223,10 +213,6 @@ Dispon{\'\i}vel em: \url{http://ecoman.ktu.lt/index.php/elt/article/view/372}.}
 \emph{GIT SCM: Sistema de Controle de Versionamento Distribu{\'\i}do}, 2013.
 Dispon{\'\i}vel em:
   \url{http://www.tjam.jus.br/index.php?option=com\_content&view=article&id=4032\%3Agit-scm-sistema-de-controle-de-versionamento-distribuido&catid=344\%3Asds-artigos-cientificos-e-tecnologicos&Itemid=455&showall=1}.}
-
-\bibitem[McConnell 2004]{mcconnell2004code}
-\abntrefinfo{McConnell}{MCCONNELL}{2004}
-{MCCONNELL, S. \emph{Code complete}. [S.l.]: Pearson Education, 2004.}
 
 \bibitem[Meirelles 2008]{paulo_meirelles}
 \abntrefinfo{Meirelles}{MEIRELLES}{2008}
@@ -250,14 +236,6 @@ Disserta\c{c}\~{a}o (Mestrado) --- Universidade de S{\~a}o Paulo, 2008.}
 {MONARD, M.~C.; BARANAUSKAS, J.~A. Conceitos sobre aprendizado de m{\'a}quina.
 \emph{Sistemas Inteligentes-Fundamentos e Aplica{\c{c}}{\~o}es}, v.~1, n.~1,
   2003.}
-
-\bibitem[Moreira 2015]{moreira_avaliacao_2015}
-\abntrefinfo{Moreira}{MOREIRA}{2015}
-{MOREIRA, L.~N. Avalia{\c c}{\~a}o de qualidade de software baseada em
-  m{\'e}tricas est{\'a}ticas: um estudo de caso no {Tribunal} de {Contas} da
-  {Uni{\~a}o}.
-2015.
-Dispon{\'\i}vel em: \url{http://bdm.unb.br/handle/10483/10107}.}
 
 \bibitem[Moresi 2003]{moresi_metodologia_2003}
 \abntrefinfo{Moresi}{MORESI}{2003}
