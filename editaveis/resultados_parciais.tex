@@ -2,7 +2,7 @@
 \label{sec:resultados}
 Neste capítulo, estão descritos os resultados que foram obtidos até o momento de publicação deste trabalho. O capítulo apresenta duas seções: a seção \ref{resultados_obtidos} que apresenta os resultados que se obteve ao fim deste trabalho, e a seção \ref{futuro} que aborda possíveis trabalhos que podem dar prosseguimento a este.
 
-\subsection{Resultados Obtidos}
+\section{Resultados Obtidos}
 \label{resultados_obtidos}
 
 Após feito o levantamento bibliográfico começou-se a primeira \textit{sprint} do desenvolvimento da solução, que consistia em implementar a funcionalidades: cadastrar um gestor (sendo que este tivesse como realizar um \textit{login} na aplicação) e cadastrar projetos. Com a implementação feita, realizava-se um teste de usabilidade com um grupo de pessoas. Esse grupo de pessoas consistia em quatro alunos de Engenharia de Software da Universidade de Brasília, sendo dois alunos no último semestre do curso, 1 aluno no quinto período e outro do sétimo período. O teste de usabilidade consistia em uma lista de sete atividades que deveriam ser executadas pelo examinado. Nesse primeiro teste foram pedidos que os examinados realizassem atividades mais simples para se contextualizar com o software e com a finalidade do software. Através do gráfico da Figura \ref{img:grafico_iteracao1}, fica possível perceber que os entrevistados tiveram problema para realizar a ativdade 5. Maiores detalhes quanto ao tempo de cada entrevistado se encontram na Tabela \ref{tabela_iteracao1}.
@@ -84,12 +84,52 @@ Para a segunda \textit{sprint} decidiu-se elaborar as funcionalidades de acompan
  \label{img:compara_botao}
  \end{figure}
  
- 
- 
- 
+
+A terceira e última \textit{sprint} consistia na implementação da funcionalidade de Criar Módulo de Sugestão de Métricas. Para implementar essa função optou-se pela implementação de uma solução em Python que compara o perfil do gestor que está cadastrando um projeto com outros quatro perfis de gestores. Devido ao fato de não ter havido interesse por parte de gestores reais, optou-se pelo uso de Personas para simular os quatro gestores. A primeira persona criada é o Gestor 1. Gestor 1 possui um perfil mais voltado para gestores que preferem o excesso de métricas à insuficiencia de informação. A segunda \textit{Persona} é o Gestor 2. O perfil do Gestor 2 é mais parecido com o de um gestor mais inexperiente e que não sabe ainda ao certo quais métricas são mais importantes, por isso o valor alto na maioria das métricas escolhidas. O Gestor 3 possui um perfil voltado para gestores que só desejam as informações essenciais, as métricas desse perfil tendem a ser métricas que impactam diretamente na usabilidade da ferramenta. Por último, o Gestor 4 é uma simulação de um gestor que é inexperiente e ao mesmo tempo não conhece muitas das métricas e por isso avalia somente as que conhece. A Figura X ilustra um quadro com as métricas e as notas das métricas dada por cada \textit{Persona}. 
+
+
+COLOCAR FIGURA
+
+
+
+
+As Figuras seguintes apresentam o estado final da aplicação. Na Figura \ref{img:pag_inicial} destaca-se o botão para acesso rápido ao cadastro de um novo projeto, que foi um dos pontos levantados pelos entrevistados. Outro destaque desta figura está nos \textit{widgets} personalizaveis que apresentam uma visão resumida do estado atual do projeto.
+
+\graphicspath{{figuras/}}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.35]{pagina_inicial}
+\caption{Página Inicial da Aplicação}
+\label{img:pag_inicial}
+\end{figure}
+
+A Figura \ref{img:pag_visual} apresenta todos os projetos do gestor, indicando o status de completude do projeto em relação à data de entrega. Percebe-se também a utilização de ícones para representar ações comuns e ja conhecidas do usuário, como o lápis indicando que aquele botão refere-se ao alterar, e a lixeira indicando a ação de exclusão. Ressalta-se também o uso das cores nos botões, em que ações destrutivas (como a deleção de um projeto), apresenta uma cor de destaque em relação as demais.
+
+
+\graphicspath{{figuras/}}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.35]{visualizacao_projetos}
+\caption{Página de Visualização de Projetos}
+\label{img:pag_visual}
+\end{figure}
+
+A Figura \ref{img:pag_calendario} apresenta uma funcionalidade que foi sugerida por um dos entrevistados. Está funcionalidade não havia sido planejada inicialmente, mas por ser uma possível necessidade de um cliente, optou-se pela implementação. 
+
+\graphicspath{{figuras/}}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.35]{calendario}
+\caption{Página de Calendário da Aplicação}
+\label{img:pag_calendario}
+\end{figure}
+
+
+A Tabela \ref{table_status} apresenta os \textit{status} de completude do trabalho. Quase todas as atividades foram realizadas, apenas as atividades de Acompanhar Utilização do Software e Aplicar Questionário não foram realizadas. A não realização das atividades se deve ao fato de que não foi possível a implantação da ferramenta em um ambiente real e por consequência não foi possível avaliar a eficácia da ferramenta.
+
+
 \begin{table}[h!]
 \centering
-\caption{\textit{Status} Completude do Trabalho}
 \label{table_status}
 \begin{tabular}{lc}
 \rowcolor[HTML]{9A0000} 
@@ -109,3 +149,10 @@ Acompanhar Utilização do Software         & 0\%                               
 Aplicar Questionário                      & 0\%                                                                                \\ \hline
 \end{tabular}
 \end{table}
+
+
+\section{Conclusão}
+
+A escolha das métricas para análise, avaliação e acompanhamento de um software, é parte importante quando se fala de contratação de software. Contudo, a escolha das métricas é uma atividade muito subjetiva para que se possa definir contextos e situações específicas para um determinado grupo de métricas. A capacidade de avaliar as melhores métricas para determinados projetos veêm com a experiencia, por isso gestores mais antigos tendem a usar métricas mais específicas para cada projeto. 
+Através deste trabalho, pode-se observar a carencia do mercado em soluções de software que auxiliam os gestores nas tomadas de decisões, principalmente no que diz respeito à qualidade de código. Deve-se ressaltar também que o "engessamento" e a comodidade dentro dos órgãos, dificultam a implantação de novas tecnologias.
+Uma possível idéia de trabalho derivado deste, seria um estudo de caso avaliando a implantação do software produzido em um órgão real, e acompanhar o quão relevante a ferramenta se mostrou nas licitações de software.

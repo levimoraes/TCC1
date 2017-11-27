@@ -4,39 +4,39 @@
 \contentsline {figure}{\numberline {3}{\ignorespaces Produto de Qualidade de Software.Fonte:\cite {Square}}}{29}{figure.2.3}
 \contentsline {figure}{\numberline {4}{\ignorespaces Diagrama das Atividades de Manuten\IeC {\c c}\IeC {\~a}o de Software.Fonte:\cite {pfleeger_framework_1990}}}{31}{figure.2.4}
 \contentsline {figure}{\numberline {5}{\ignorespaces SR por Colabora\IeC {\c c}\IeC {\~a}o. Adaptado de: \cite {sarwar2001item}}}{35}{figure.2.5}
-\contentsline {figure}{\numberline {6}{\ignorespaces SR por Conte\IeC {\'u}do. Adaptado de: \cite {sr2}}}{35}{figure.2.6}
-\contentsline {figure}{\numberline {7}{\ignorespaces Tipos de Visualiza\IeC {\c c}\IeC {\~a}o Mais Frequente. Fonte: \cite {schwendimann_perceiving_2016}}}{37}{figure.2.7}
-\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Barra Utilizando Google Charts}}{37}{figure.2.8}
-\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Linhas utilizando HiCharts}}{37}{figure.2.9}
-\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Pizza utilizando Chart.js}}{38}{figure.2.10}
-\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo de \textit {Network Graph} utilizando Google Charts}}{38}{figure.2.11}
-\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo 1 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{39}{figure.2.12}
-\contentsline {figure}{\numberline {13}{\ignorespaces Exemplo 2 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{40}{figure.2.13}
-\contentsline {figure}{\numberline {14}{\ignorespaces Exemplo 3 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{41}{figure.2.14}
-\contentsline {figure}{\numberline {15}{\ignorespaces Sete aspectos de qualidade de c\IeC {\'o}digo cobertos pelo SonarQube. Fonte: \cite {sonar}}}{46}{figure.3.15}
-\contentsline {figure}{\numberline {16}{\ignorespaces Arquitetura SonarQube composta de quatro componentes: \cite {sonar}}}{47}{figure.3.16}
-\contentsline {figure}{\numberline {17}{\ignorespaces Integra\IeC {\c c}\IeC {\~a}o SonarQube em Diversas \IeC {\'A}reas de Desenvolvimento de Software: \cite {sonar}}}{47}{figure.3.17}
-\contentsline {figure}{\numberline {18}{\ignorespaces Processo de Desenvolvimento Adotado Pelo \IeC {\'O}rg\IeC {\~a}o X. Fonte: \cite {luiza_yago}}}{52}{figure.4.18}
-\contentsline {figure}{\numberline {19}{\ignorespaces Ciclo de Verifica\IeC {\c c}\IeC {\~a}o Utilizando a Solu\IeC {\c c}\IeC {\~a}o Compartilhada Entre \IeC {\'O}rg\IeC {\~a}o Contratante e Empresa Contratada}}{52}{figure.4.19}
-\contentsline {figure}{\numberline {20}{\ignorespaces Diagrama de Implanta\IeC {\c c}\IeC {\~a}o da Solu\IeC {\c c}\IeC {\~a}o no \IeC {\'O}rg\IeC {\~a}o X}}{53}{figure.4.20}
-\contentsline {figure}{\numberline {21}{\ignorespaces Exemplo de Perfis Coletados Ap\IeC {\'o}s Question\IeC {\'a}rio}}{54}{figure.4.21}
-\contentsline {figure}{\numberline {22}{\ignorespaces M\IeC {\'e}tricas Extra\IeC {\'\i }das do SonarQube}}{55}{figure.4.22}
-\contentsline {figure}{\numberline {23}{\ignorespaces Tela Login}}{56}{figure.4.23}
-\contentsline {figure}{\numberline {24}{\ignorespaces Tela Home}}{56}{figure.4.24}
-\contentsline {figure}{\numberline {25}{\ignorespaces Tela Dashboard}}{57}{figure.4.25}
-\contentsline {figure}{\numberline {26}{\ignorespaces Tela Adicionar}}{58}{figure.4.26}
-\contentsline {figure}{\numberline {27}{\ignorespaces P\IeC {\'a}gina do \textit {Dashboard} da Prova de Conceito}}{58}{figure.4.27}
-\contentsline {figure}{\numberline {28}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o das Caracter\IeC {\'\i }sticas Metodol\IeC {\'o}gicas. Fonte: \cite {moresi_metodologia_2003}}}{61}{figure.5.28}
-\contentsline {figure}{\numberline {29}{\ignorespaces Modelagem da Fase de Inicia\IeC {\c c}\IeC {\~a}o}}{63}{figure.5.29}
-\contentsline {figure}{\numberline {30}{\ignorespaces \textit {Screenshot} do Zotero contendo as categorias dos materiais pesquisados, suas \textit {tags} e anota\IeC {\c c}\IeC {\~o}es}}{65}{figure.5.30}
-\contentsline {figure}{\numberline {31}{\ignorespaces Modelagem da Fase de Execu\IeC {\c c}\IeC {\~a}o}}{66}{figure.5.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces Ciclo de Desenvolvimento do Scrum}}{67}{figure.5.32}
-\contentsline {figure}{\numberline {33}{\ignorespaces Exemplo de Hist\IeC {\'o}ria de Usu\IeC {\'a}rio. Fonte: \cite {sabbagh_scrum:_2014}}}{68}{figure.5.33}
-\contentsline {figure}{\numberline {34}{\ignorespaces Exemplo de \textit {Kanban}}}{69}{figure.5.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces Gr\IeC {\'a}fico Comparativo das Atividades Realizadas na Itera\IeC {\c c}\IeC {\~a}o 1}}{73}{figure.6.35}
-\contentsline {figure}{\numberline {36}{\ignorespaces Altera\IeC {\c c}\IeC {\~o}es feitas no \textit {link} de menu}}{74}{figure.6.36}
-\contentsline {figure}{\numberline {37}{\ignorespaces Gr\IeC {\'a}fico Comparativo das Atividades Realizadas na Itera\IeC {\c c}\IeC {\~a}o 2}}{75}{figure.6.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces Acr\IeC {\'e}scimo do Bot\IeC {\~a}o de Adicionar Projeto na P\IeC {\'a}gina Inicial}}{76}{figure.6.38}
+\contentsline {figure}{\numberline {6}{\ignorespaces Tipos de Visualiza\IeC {\c c}\IeC {\~a}o Mais Frequente. Fonte: \cite {schwendimann_perceiving_2016}}}{36}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Barra Utilizando Google Charts}}{37}{figure.2.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Linhas utilizando HiCharts}}{37}{figure.2.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Exemplo de Gr\IeC {\'a}fico de Pizza utilizando Chart.js}}{37}{figure.2.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Exemplo de \textit {Network Graph} utilizando Google Charts}}{38}{figure.2.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Exemplo 1 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{39}{figure.2.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo 2 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{40}{figure.2.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Exemplo 3 de \textit {Dashboard} apresentado por Stephen Few. Fonte: \cite {book_design}}}{41}{figure.2.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Sete aspectos de qualidade de c\IeC {\'o}digo cobertos pelo SonarQube. Fonte: \cite {sonar}}}{46}{figure.3.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Arquitetura SonarQube composta de quatro componentes: \cite {sonar}}}{47}{figure.3.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Integra\IeC {\c c}\IeC {\~a}o SonarQube em Diversas \IeC {\'A}reas de Desenvolvimento de Software: \cite {sonar}}}{47}{figure.3.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Processo de Desenvolvimento Adotado Pelo \IeC {\'O}rg\IeC {\~a}o X. Fonte: \cite {luiza_yago}}}{52}{figure.4.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Ciclo de Verifica\IeC {\c c}\IeC {\~a}o Utilizando a Solu\IeC {\c c}\IeC {\~a}o Compartilhada Entre \IeC {\'O}rg\IeC {\~a}o Contratante e Empresa Contratada}}{52}{figure.4.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Diagrama de Implanta\IeC {\c c}\IeC {\~a}o da Solu\IeC {\c c}\IeC {\~a}o no \IeC {\'O}rg\IeC {\~a}o X}}{53}{figure.4.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Exemplo de Perfis Coletados Ap\IeC {\'o}s Question\IeC {\'a}rio}}{54}{figure.4.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces M\IeC {\'e}tricas Extra\IeC {\'\i }das do SonarQube}}{54}{figure.4.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Tela Login}}{55}{figure.4.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Tela Home}}{56}{figure.4.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Tela Dashboard}}{57}{figure.4.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Tela Adicionar}}{57}{figure.4.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces P\IeC {\'a}gina do \textit {Dashboard} da Prova de Conceito}}{58}{figure.4.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Sele\IeC {\c c}\IeC {\~a}o das Caracter\IeC {\'\i }sticas Metodol\IeC {\'o}gicas. Fonte: \cite {moresi_metodologia_2003}}}{61}{figure.5.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces \textit {Screenshot} do Zotero contendo as categorias dos materiais pesquisados, suas \textit {tags} e anota\IeC {\c c}\IeC {\~o}es}}{64}{figure.5.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Ciclo de Desenvolvimento do Scrum}}{66}{figure.5.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces Exemplo de Hist\IeC {\'o}ria de Usu\IeC {\'a}rio. Fonte: \cite {sabbagh_scrum:_2014}}}{67}{figure.5.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces Exemplo de \textit {Kanban}}}{67}{figure.5.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Gr\IeC {\'a}fico Comparativo das Atividades Realizadas na Itera\IeC {\c c}\IeC {\~a}o 1}}{72}{figure.6.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Altera\IeC {\c c}\IeC {\~o}es feitas no \textit {link} de menu}}{72}{figure.6.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Gr\IeC {\'a}fico Comparativo das Atividades Realizadas na Itera\IeC {\c c}\IeC {\~a}o 2}}{73}{figure.6.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Acr\IeC {\'e}scimo do Bot\IeC {\~a}o de Adicionar Projeto na P\IeC {\'a}gina Inicial}}{74}{figure.6.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces P\IeC {\'a}gina Inicial da Aplica\IeC {\c c}\IeC {\~a}o}}{75}{figure.6.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces P\IeC {\'a}gina de Visualiza\IeC {\c c}\IeC {\~a}o de Projetos}}{76}{figure.6.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces P\IeC {\'a}gina de Calend\IeC {\'a}rio da Aplica\IeC {\c c}\IeC {\~a}o}}{77}{figure.6.38}
 \contentsline {figure}{\numberline {39}{\ignorespaces Formul\IeC {\'a}rio de Consentimento }}{87}{figure.A.39}
 \contentsline {figure}{\numberline {40}{\ignorespaces Modelagem da Fase de Inicia\IeC {\c c}\IeC {\~a}o}}{90}{figure.B.40}
 \contentsline {figure}{\numberline {41}{\ignorespaces Modelagem da Fase de Execu\IeC {\c c}\IeC {\~a}o}}{92}{figure.C.41}

@@ -1,7 +1,7 @@
 %\part{Aspectos Gerais}
 
 \chapter[Referencial Teórico]{Referencial Teórico}	
-Este capítulo tem como principal objetivo conferir detalhes sobre o referencial teórico, o qual embasa a presente proposta.    Inicialmente, o capítulo apresenta uma visão geral sobre o processo de contratação de software na Administração Pública Federal (APF), onde são destacadas algumas leis que fundamentam o tópico de contratação no âmbito das terceirizadas bem como, estabelecem o nível de qualidade exigido por parte dos Órgãos Públicos Brasileiros. Em seguida discute-se sobre o conceito de qualidade de software na visão de alguns atores com destaque para o que é qualidade de acordo com a ISO 9126. Essa serviu como base para a norma SQUARE também discutida neste trabalho. Após a definição de qualidade pela norma SQUARE, sendo apresentados conceitos fundamentais de manutenção de software, os quais servem como guias para o desenvolvimento desta proposta. Tendo definido manutenibilidade, alguns conjuntos de métricas, que visam identificar possíveis lacunas de mantenabilidade no código, são apresentados. Com as métricas definidas, é necessário que se faça a devida visualização das métricas, tópico final deste capítulo.
+Este capítulo tem como principal objetivo conferir detalhes sobre o referencial teórico, o qual suporta a presente proposta.    Inicialmente, o capítulo apresenta uma visão geral sobre o processo de contratação de software na Administração Pública Federal (APF), onde são destacadas algumas leis que fundamentam o tópico de contratação no âmbito das terceirizadas bem como, estabelecem o nível de qualidade exigido por parte dos Órgãos Públicos Brasileiros. Em seguida discute-se sobre o conceito de qualidade de software na visão de alguns atores com destaque para o que é qualidade de acordo com a ISO 9126. Essa serviu como base para a norma SQUARE também discutida neste trabalho. Após a definição de qualidade pela norma SQUARE, sendo apresentados conceitos fundamentais de manutenção de software, os quais servem como guias para o desenvolvimento desta proposta. Tendo definido manutenibilidade, alguns conjuntos de métricas, que visam identificar possíveis lacunas de manutenibilidade no código, são apresentados. Com as métricas definidas, é necessário que se faça a devida visualização das métricas, tópico final deste capítulo.
 	
 \section{Processo de Contratação de Software na APF}
 O Decreto n 2.271 de 1997 \cite{decreto_2271} dispõe sobre a contratação de serviços pela APF. Segundo o Decreto, todos os produtos ou serviços que não apresentam relação direta com o propósito da Instituição do Governo Federal devem ser terceirizados. O Decreto coloca como exemplo algumas atividades, tais como: conservação, limpeza, segurança, vigilância, transporte, informática, copeiragem, recepção, reprografia, telecomunicações. Essas atividades são livres para terceirização.
@@ -102,7 +102,7 @@ O conjunto de normas SQuaRE (Requisitos e Avaliação de Qualidade de Sistema e 
 
 \begin{itemize}
 \item O escopo dos modelos de qualidade foram estendidos para incluir sistemas computacionais e a qualidade em uso sob o ponto de vista do sistema.
-\item Segurança foi adicionada como característica, e não uma subcaracterística de funcionalidade.
+\item Segurança foi adicionada como característica, e não uma sub-característica de funcionalidade.
 \item Compatibilidade foi adicionada como característica.
 \item A qualidade interna e externa foram combinadas como modelo de qualidade de produto.
 \end{itemize}
@@ -149,7 +149,7 @@ O modelo da Figura \ref{img:modelo_manutencao} apresenta as atividades propostas
 \begin{itemize}
 \item \textbf{Análise do Impacto da Mudança de Software}: estima o impacto de uma determinada mudança. Nesta atividade, determina-se o grau de mudança e o quanto esta mudança impactará no resto do software. 
 \item \textbf{Entendimento do Software a ser Alterado}: nesta atividade, são analisados os códigos-fonte do software para entender a mudança e a integração do que deve ser alterado. Esta atividade depende muito do grau de manutenibilidade do software, uma vez que quanto mais manutenível, mais fácil e rápido se dá o processo de análise do software.
-\item \textbf{Implementação da Mudança}: incremento ou modificação do software. Esta atividade é diretamente relacionada com o grau de adaptação do software; o quanto o software pode ser expandido ou comprimido. Essa característica de adaptabilidade é uma subcaracterística da manutenibilidade de software apresentada pela norma SQuaRE. 
+\item \textbf{Implementação da Mudança}: incremento ou modificação do software. Esta atividade é diretamente relacionada com o grau de adaptação do software; o quanto o software pode ser expandido ou comprimido. Essa característica de adaptabilidade é uma sub-característica da manutenibilidade de software apresentada pela norma SQUARE. 
 \item \textbf{Mudanças pelo Efeito Cascata}: Análise da propagação das mudanças ao longo do software. Essa atividade está intimamente relacionada ao indicador de coesão, que relaciona a responsabilidade de uma classe com seus métodos, e acoplamento do software, este afere o quão amarrado estão as classes e os métodos do software.
 \item \textbf{(Re)Teste do Software}: é a última atividade antes da entrega do software alterado. O software é testado novamente sob a perspectiva do novo requisito.
 \end{itemize}
@@ -162,7 +162,7 @@ O modelo da Figura \ref{img:modelo_manutencao} apresenta as atividades propostas
 \label{img:modelo_manutencao}
 \end{figure}
 
-Um estudo realizado por Kustyers e Heemstra \cite{kusters} mostra as dificuldades atuais na manutenção de software com base em seis grandes organizações da Alemanha. Um dos resultados obtidos foi que existe um uma falta muito grande na percepção quanto ao tamanho e ao custo das manutenções de software. Os autores relatam que os gastos com manutenção são altos, e que das seis empresas apenas uma mantinha registrado os seus processos de manutenção e os usava para fazer um novo planejamento. 
+Um estudo realizado por Kustyers e Heemstra \cite{kusters} mostra as dificuldades atuais na manutenção de software com base em seis grandes organizações da Alemanha. Um dos resultados obtidos foi que existe um uma falta muito grande na percepção quanto ao tamanho e ao custo das manutenções de software. Os autores relatam que os gastos com manutenção são altos, e que das seis empresas apenas uma guardava os registros  dos seus processos de manutenção, e os usava para fazer um novo planejamento. 
 
 Normalmente, tem se como verdade, de que a manutenção de software está unicamente ligada ao conserto de \textit{bugs}. Entretanto, estudos e \textit{surveys} ao longo dos anos comprovam que mais de 80\% do esforço gasto na manutenção é utilizado em ações não corretivas, segundo Pigosky \cite{pigosky}. O autor também afirma que entre 40\% a 60\% do esforço de manutenção está em entender o software que será modificado.
 
@@ -175,7 +175,7 @@ Segundo Mills, algumas características são inerentes a uma boa métrica, tais 
 A ferramenta SonarQube apresenta algumas métricas dentre as quais ressalta-se:
 
 \begin{itemize}
-\item\textbf{Complexidade} = é a complexidade baseada no número de caminhos pelo código. Sempre que o fluxo de um caminho se divide, o contador da complexidade é incrementado em 1. Toda função tem no minímo complexidade igual a 1.
+\item\textbf{Complexidade} = é a complexidade baseada no número de caminhos pelo código. Sempre que o fluxo de um caminho se divide, o contador da complexidade é incrementado em 1. Toda função tem no mínimo complexidade igual a 1.
 \item\textbf{Complexidade por Classe} = média aritmética da complexidade em todas as classes.
 \item\textbf{Linhas Comentadas} = número de linhas que contém comentários fazem parte de um bloco de comentários. Linhas de comentário não significativas (linhas vazias ou que possuam apenas caracteres especiais), não incrementam o número de linhas comentadas.
 \item\textbf{\% Comentários} = Definido como sendo a densidade de linhas de código comentadas, é calculada como sendo o número de linhas comentadas / número de linhas totais.
@@ -188,10 +188,10 @@ A ferramenta SonarQube apresenta algumas métricas dentre as quais ressalta-se:
 
 \item\textbf{\textit{Issues}} = Erros de código. Podem ser classificados quanto a sua severidade como sendo:
 \begin{itemize}
-\item\textbf{Blocker} = risco operacional ou de segurança. Este tipo de \textit{issue} pode tornar toda a aplicação instável quando estiver no ambiente de produção. Ex: calling garbage collector, not closing a socket, etc.
-\item\textbf{Critical} = risco operacional ou de segurança. Este tipo de \textit{issue} pode levar a um comportamento inesperado quando em produção, sem impactar a integridade de toda a aplicação. Ex: NullPointerException, badly caught exceptions, lack of unit tests, etc.
-\item\textbf{Major} = este tipo de \textit{issue} pode ter um impacto substancial na aplicação. Ex: too complex methods, package cycles, etc.
-\item\textbf{Minor} = esta \textit{issue} pode impactar de maneira mínima ou substancial a aplicação. Ex: naming conventions, Finalizer does nothing but call superclass finalizer, etc.
+\item\textbf{\textit{Blocker}} = risco operacional ou de segurança. Este tipo de \textit{issue} pode tornar toda a aplicação instável quando estiver no ambiente de produção. Ex: calling garbage collector, not closing a socket, etc.
+\item\textbf{\textit{Critical}} = risco operacional ou de segurança. Este tipo de \textit{issue} pode levar a um comportamento inesperado quando em produção, sem impactar a integridade de toda a aplicação. Ex: NullPointerException, badly caught exceptions, lack of unit tests, etc.
+\item\textbf{\textit{Major}} = este tipo de \textit{issue} pode ter um impacto substancial na aplicação. Ex: too complex methods, package cycles, etc.
+\item\textbf{\textit{Minor}} = esta \textit{issue} pode impactar de maneira mínima ou substancial a aplicação. Ex: naming conventions, Finalizer does nothing but call superclass finalizer, etc.
 \item\textbf{Info} = não conhecidos ou não foram definidos impactos na aplicação.
 \end{itemize}
 
@@ -201,7 +201,7 @@ A ferramenta SonarQube apresenta algumas métricas dentre as quais ressalta-se:
 
 \[\frac{Custo de Conserto}{Custo de Produção}\]
 
-\item\textbf{Índice de Manutenabilidade} = também conhecido como Índice SQALE, é dado a um projeto relacionando-o com o valor do TDR. A escala  padrão do Índice de Manutenabilidade é: 
+\item\textbf{Índice de Manutenibilidade} = também conhecido como Índice SQALE, é dado a um projeto relacionando-o com o valor do TDR. A escala  padrão do Índice de Manutenibilidade é: 
 \begin{itemize}
 \item[A] 0-0.5
 \item[B] 0.06-0.1
@@ -214,7 +214,7 @@ A ferramenta SonarQube apresenta algumas métricas dentre as quais ressalta-se:
 
 \end{itemize}
 
-Outra ferramenta muito utilizada para fazer análise estática de código é o Codacy. O codacy diferencia-se do Sonarqube devido ao fato de ele não ser Open Source e ser totalmente \textit{online}, enquanto o Sonarqube é Open Source e funciona de maneira offline. Algumas das métricas apresentadas pelo Codacy são: 
+Outra ferramenta muito utilizada para fazer análise estática de código é o Codacy. O Codacy diferencia-se do Sonarqube devido ao fato de ele não ser \textit{Open Source} e ser totalmente \textit{online}, enquanto o Sonarqube é \textit{Open Source} e funciona de maneira offline. Algumas das métricas apresentadas pelo Codacy são: 
 
 \begin{itemize}
 \item\textbf{Estilo de Código} =  formatação de código e problemas de sintaxe. Ex: estilo de nome de variáveis, uso de chaves e aspas para marcação.
@@ -296,7 +296,7 @@ Schwendimann \cite{schwendimann_perceiving_2016} apresenta uma revisão sistemá
 \label{img:bar_graph}
 \end{figure}
 
-\item Gráfico de Linhas: muito utilizado quando se tem um conjunto de dados contínuos. Pode ainda ser utilzado para determinar padrões ou uma tendência (Figura \ref{img:line_graph}). Normalmente, representam dados relacionados à tempo.
+\item Gráfico de Linhas: muito utilizado quando se tem um conjunto de dados contínuos. Pode ainda ser utilizado para determinar padrões ou uma tendência (Figura \ref{img:line_graph}). Normalmente, representam dados relacionados à tempo.
 \graphicspath{{figuras/}}
 \begin{figure}[H]
 \centering
@@ -420,17 +420,15 @@ O método Personas foi criado para ser utilizado no desenvolvimento de soluçõe
 
 Uma persona deve ser descrita em forma de narrativa. Segundo Cooper \cite{maness2008using} a descrição em forma de narrativa tem dois objetivos principais, fazer com que a persona se parece com uma pessoa real e prover uma história que expresse as necessidades da persona no contexto do produto que está sendo criado. A narrativa de uma persona começa com a descrição do tipo de indivíduo que aquela persona representa, são detalhados, gostos, costumes, profissão, características físicas. Feito isso, são detalhadas as necessidades específicas daquela persona, são especificados quais são seus objetivos e metas relacionados com o contexto. Estas são as mesmas necessidades que seriam encontradas em um documento de requisitos, contudo estão escritas em forma de narrativa e associadas a uma persona específica \cite{manning2003power}.
 
-Supondo que se queira criar um site de compra de passagens, um exemplo de persona seria. 
+Supondo que se queira criar um site de compra de passagens, um exemplo de persona seria: 
 
-Bruce Wayne tem 50 anos, é casado com Diana Prince. Bruce é  um bibliotecário que trabalha na Biblioteca de Gotham City. Uma vez por ano Bruce tira férias de 30 dias para viajar com Diana. Todas as vezes que Bruce viaja ele compra as passagens e reserva o hotel em agências de viagem especializadas. Bruce tem preferência por viajar para lugares com clima frio e que não sejam muito procurados por turistas. Em sua última viagem, Bruce teve um desentendimento com o seu gerente de viagens e por isso quer comprar as passagens e reservar o hotel de maneira \textit{online}. Bruce vai comprar as passagens e reservar o hotel através de um notebook antigo que tem guardado e que quase nunca utiliza.
+Bruce Wayne tem 50 anos, é casado com Diana Prince. Bruce é  um bibliotecário que trabalha na Biblioteca de Gotham City. Uma vez por ano Bruce tira férias de 30 dias para viajar com Diana. Todas as vezes que Bruce viaja ele compra as passagens e reserva o hotel em agências de viagem especializadas. Bruce tem preferência por viajar para lugares com clima frio e que não sejam muito procurados por turistas. Em sua última viagem, Bruce teve um desentendimento com o seu gerente de viagens e por isso quer comprar as passagens e reservar o hotel de maneira que não seja necessário ter que ir a uma agência. Bruce vai comprar as passagens e reservar o hotel através de um celular antigo.
 
-Através do exemplo acima é possível deduzir um dos públicos alvos do site seriam adultos com idade próxima aos 50 anos e que são casados. Sabe-se que algum dos requisitos do site sejam, ter uma área para compra de passagens e outra para reserva em hotéis, e que todo o site deve ser rodado em um notebook simples e antigos.
+Através do exemplo acima, é possível deduzir um dos públicos alvos do site. Analisando o perfil de Bruce, percebe-se que um possível publico seria adultos com idade próxima aos 50 anos e que são casados. Sabe-se que algumas das funcionalidades do site seriam: ter uma área para compra de passagens e outra para reserva em hotéis. Percebe-se também que o site em questão deve ser responsivo a plataforma em que e apresentado.  
 
 
 \section{Resumo do Capítulo}
-ATUALIZAR RESUMO 
 
-
-Para que se possa terceirizar o desenvolvimento de software dentro de Órgãos Públicos, algumas regras são necessárias. Entre elas, a de que a empresa vencedora do pregão, a qual irá dispor do direito de produzir o software, entregue o mesmo com qualidade. No edital de contratação, são estabelecidos critérios de qualidade para que o software entregue seja aceito. Estes critérios de qualidade tem sua fundamentação baseada em princípios estabelecidos pela Norma SQuaRE, quanto à categoria de manutenibilidade. Essa categoria é fundamental na contratação de software, pois permite saber o quão manutenível é o software que está sendo contratado. O processo de manutenção de software está intimamente ligado a esta métrica, uma vez que quanto maior a manutenibilidade do software, menos esforço, tempo e dinheiro são gastos nesta etapa. Para definir o grau de manutenibilidade, são apresentadas suítes de métricas que avaliam conceitos específicos do software para validar se o software entregue pela terceirizada é passível de manutenção ou não. Neste trabalho, são apresentadas as suítes de Chidamber-Kemerer e MOOD. 
+Para que se possa terceirizar o desenvolvimento de software dentro de Órgãos Públicos, algumas regras são necessárias. Entre elas, a de que a empresa vencedora do pregão, a qual irá dispor do direito de produzir o software, entregue o mesmo com qualidade. No edital de contratação, são estabelecidos critérios de qualidade para que o software entregue seja aceito. Estes critérios de qualidade tem sua fundamentação baseada em princípios estabelecidos pela Norma SQuaRE, quanto à categoria de manutenibilidade. Essa categoria é fundamental na contratação de software, pois permite saber o quão manutenível é o software que está sendo contratado. O processo de manutenção de software está intimamente ligado a esta métrica, uma vez que quanto maior a manutenibilidade do software, menos esforço, tempo e dinheiro são gastos nesta etapa. Para definir o grau de manutenibilidade, são apresentadas suítes de métricas que avaliam conceitos específicos do software para validar se o software entregue pela terceirizada é passível de manutenção ou não. Neste trabalho, são apresentadas as métricas presentes no software SonarQube e Codacy. 
 
 Aprendizagem de máquina tem por objetivo auxiliar o computador na tomada de decisões. Para acompanhar a evolução da entrega e se todos os requisitos de análise estática do código estão sendo cumpridos, uma solução seria a utilização de um \textit{dashboard} para acompanhar o desenvolvimento do software a ser entregue. Para isso, faz-se necessário o aprendizado de técnicas de visualização da informação e de conceitos para criação de um \textit{dashboard} efetivo. Ao fim do capítulo é apresentado o SUS que é um questionário de avaliação para avaliar o grau de usabilidade de um sistema.
