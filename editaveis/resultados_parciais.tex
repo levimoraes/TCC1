@@ -1,6 +1,6 @@
 \chapter[Resultados]{Resultados}
 \label{sec:resultados}
-Neste capítulo, estão descritos os resultados que foram obtidos até o momento de publicação deste trabalho. O capítulo apresenta duas seções: a seção \ref{resultados_obtidos} que apresenta os resultados que se obteve ao fim deste trabalho, e a seção \ref{futuro} que aborda possíveis trabalhos que podem dar prosseguimento a este.
+Neste capítulo, estão descritos os resultados que foram obtidos até o momento de publicação deste trabalho. O capítulo está dividido em apenas uma seção, onde é relatado os resultados que foram alcançados ao final das iterações e o produto final que e o \textit{dashboard}.
 
 \section{Resultados Obtidos}
 \label{resultados_obtidos}
@@ -84,16 +84,7 @@ Para a segunda \textit{sprint} decidiu-se elaborar as funcionalidades de acompan
  \label{img:compara_botao}
  \end{figure}
  
-
-A terceira e última \textit{sprint} consistia na implementação da funcionalidade de Criar Módulo de Sugestão de Métricas. Para implementar essa função optou-se pela implementação de uma solução em Python que compara o perfil do gestor que está cadastrando um projeto com outros quatro perfis de gestores. Devido ao fato de não ter havido interesse por parte de gestores reais, optou-se pelo uso de Personas para simular os quatro gestores. A primeira persona criada é o Gestor 1. Gestor 1 possui um perfil mais voltado para gestores que preferem o excesso de métricas à insuficiencia de informação. A segunda \textit{Persona} é o Gestor 2. O perfil do Gestor 2 é mais parecido com o de um gestor mais inexperiente e que não sabe ainda ao certo quais métricas são mais importantes, por isso o valor alto na maioria das métricas escolhidas. O Gestor 3 possui um perfil voltado para gestores que só desejam as informações essenciais, as métricas desse perfil tendem a ser métricas que impactam diretamente na usabilidade da ferramenta. Por último, o Gestor 4 é uma simulação de um gestor que é inexperiente e ao mesmo tempo não conhece muitas das métricas e por isso avalia somente as que conhece. A Figura X ilustra um quadro com as métricas e as notas das métricas dada por cada \textit{Persona}. 
-
-
-COLOCAR FIGURA
-
-
-
-
-As Figuras seguintes apresentam o estado final da aplicação. Na Figura \ref{img:pag_inicial} destaca-se o botão para acesso rápido ao cadastro de um novo projeto, que foi um dos pontos levantados pelos entrevistados. Outro destaque desta figura está nos \textit{widgets} personalizaveis que apresentam uma visão resumida do estado atual do projeto.
+Ainda na \textit{sprint} 2, destaca-se o botão para acesso rápido ao cadastro de um novo projeto, que foi um dos pontos levantados pelos entrevistados, presente na Figura \ref{img:pag_inicial}. Outro destaque desta figura está nos \textit{widgets} personalizáveis que apresentam uma visão resumida do estado atual do projeto.
 
 \graphicspath{{figuras/}}
 \begin{figure}[h!]
@@ -103,7 +94,7 @@ As Figuras seguintes apresentam o estado final da aplicação. Na Figura \ref{im
 \label{img:pag_inicial}
 \end{figure}
 
-A Figura \ref{img:pag_visual} apresenta todos os projetos do gestor, indicando o status de completude do projeto em relação à data de entrega. Percebe-se também a utilização de ícones para representar ações comuns e ja conhecidas do usuário, como o lápis indicando que aquele botão refere-se ao alterar, e a lixeira indicando a ação de exclusão. Ressalta-se também o uso das cores nos botões, em que ações destrutivas (como a deleção de um projeto), apresenta uma cor de destaque em relação as demais.
+A Figura \ref{img:pag_visual} apresenta todos os projetos do gestor, indicando o status de completude do projeto em relação à data de entrega. Percebe-se também a utilização de ícones para representar ações comuns e conhecidas do usuário, como o símbolo do lápis indicando um botão com a funcionalidade de alterar e uma lixeira indicando a ação de exclusão. Ressalta-se também o uso das cores nos botões, em que ações destrutivas (como a exclusão de um projeto), apresenta uma cor de destaque em relação as demais.
 
 
 \graphicspath{{figuras/}}
@@ -114,7 +105,7 @@ A Figura \ref{img:pag_visual} apresenta todos os projetos do gestor, indicando o
 \label{img:pag_visual}
 \end{figure}
 
-A Figura \ref{img:pag_calendario} apresenta uma funcionalidade que foi sugerida por um dos entrevistados. Está funcionalidade não havia sido planejada inicialmente, mas por ser uma possível necessidade de um cliente, optou-se pela implementação. 
+A Figura \ref{img:pag_calendario} apresenta uma funcionalidade que foi sugerida por um dos entrevistados. Está funcionalidade não havia sido planejada inicialmente, mas por ser uma possível necessidade de um cliente, optou-se pela implementação. Ela consiste em um calendário onde e possível acompanhar as datas de inicio e fim de um projeto, assim como possíveis reuniões com a equipe de desenvolvimento.
 
 \graphicspath{{figuras/}}
 \begin{figure}[h]
@@ -124,35 +115,57 @@ A Figura \ref{img:pag_calendario} apresenta uma funcionalidade que foi sugerida 
 \label{img:pag_calendario}
 \end{figure}
 
+A terceira \textit{sprint} tinha como principal objetivo implementar uma tela em que fosse possível adicionar novas ferramentas de análise estática. O software funciona nativamente com o SonarQube, para está funcionalidade implementou-se a analise através da ferramenta Codacy. A Figura \ref{pag_conf} apresenta a página onde é adicionada uma nova ferramenta. Nesta página é necessário dizer o nome da ferramenta e adicionar um arquivo na linguagem Python com as instruções da ferramenta. Para que a ferramenta seja incorporada à analise do \textit{dashboard}, é necessário que no arquivo Python em que é submetido ao software atenda os seguintes critérios:
 
-A Tabela \ref{table_status} apresenta os \textit{status} de completude do trabalho. Quase todas as atividades foram realizadas, apenas as atividades de Acompanhar Utilização do Software e Aplicar Questionário não foram realizadas. A não realização das atividades se deve ao fato de que não foi possível a implantação da ferramenta em um ambiente real e por consequência não foi possível avaliar a eficácia da ferramenta.
+\begin{itemize}
+\item A ferramenta deve ser capaz de inserir no banco de dados todas as métricas que serão utilizadas pela ferramenta.
+\item A ferramenta deve prover uma descrição de cada métrica.
+\item A ferramenta deve indicar o endereço onde se encontra cada métrica.
+\end{itemize} 
 
+\graphicspath{{figuras/}}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.40]{pagina_configuracao.png}
+\caption{Página de Configuração da Aplicação}
+\label{pag_conf}
+\end{figure}
+
+
+A quarta e última \textit{sprint} consistia na implementação da funcionalidade de Criar Módulo de Sugestão de Métricas. Para implementar essa função optou-se pela implementação de uma solução em Python que compara o perfil do gestor que está cadastrando um projeto com outros quatro perfis de gestores. Devido ao fato de não ter havido interesse por parte de gestores reais, optou-se pelo uso de Personas para simular os quatro gestores. A primeira persona criada é o Excesso. Excesso possui um perfil mais voltado para gestores que preferem o excesso de métricas à insuficiência de informação. A segunda \textit{Persona} é o Novato. O perfil de Novato é semelhante ao de um gestor mais inexperiente, e que não sabe ainda quais métricas são mais importantes para cada tipo de projeto, por isso o valor alto na maioria das métricas escolhidas. O Mínimo possui um perfil voltado para gestores que só desejam as informações essenciais, as métricas desse perfil tendem a ser métricas que impactam diretamente na usabilidade da ferramenta. Por último, o Ingênuo é uma simulação de um gestor que é inexperiente e ao mesmo tempo não conhece muitas das métricas e por isso avalia somente as que conhece. A Figura \ref{img:tabela_notas} ilustra um quadro com as métricas e as notas das métricas atribuídas a cada \textit{Persona}. 
+
+
+\graphicspath{{figuras/}}
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.60]{tabela_de_usuarios.png}
+\caption{Tabela de Notas por Métrica Atribuído a Cada Persona}
+\label{img:tabela_notas}
+\end{figure}
+
+Com o término da quarta \textit{sprint} realizou-se a ultima iteração do teste de usabilidade, que consistia na realização de um questionário seguindo o modelo SUS para avaliação do software por parte dos usuários. O resultado do questionário e apresentado na Tabela \ref{tbl:questionario}. Os resultados foram coletados de forma que não fosse possível identificar as notas que cada usuário definiu. Seguindo a forma de pontuação do SUS as perguntas 1,3 e 5 foram subtraídos 1 do valor aferido enquanto que das perguntas foi subtraído 5 do valor coletado. 
 
 \begin{table}[h!]
 \centering
-\label{table_status}
-\begin{tabular}{lc}
-\rowcolor[HTML]{9A0000} 
-{\color[HTML]{FFFFFF} \textbf{Atividade}} & \multicolumn{1}{l}{\cellcolor[HTML]{9A0000}{\color[HTML]{FFFFFF} \textbf{Status}}} \\ \hline
-Definir Tema                              & 100\%                                                                              \\ \hline
-Validar Escopo                            & 100\%                                                                              \\ \hline
-Elaborar Roteiro de Pesquisa              & 100\%                                                                              \\ \hline
-Pesquisar Referência                      & 100\%                                                                              \\ \hline
-Refinar Pesquisa                          & 100\%                                                                              \\ \hline
-Catalogar Material                        & 100\%                                                                              \\ \hline
-Documentar                                & 100\%                                                                               \\ \hline
-Analisar Ambiente                         & 100\%                                                                               \\ \hline
-Configurar Ambiente                       & 100\%                                                                                \\ \hline
-Implementar Solução de Software           & 100\%                                                                                \\ \hline
-Implantar Solução em Ambiente Simulado    & 100\%                                                                                \\ \hline
-Acompanhar Utilização do Software         & 0\%                                                                                \\ \hline
-Aplicar Questionário                      & 0\%                                                                                \\ \hline
+\caption{Tabela de Resultados do Questionário SUS}
+\label{tbl:questionario}
+\begin{tabular}{ll}
+\textbf{}               & \textbf{Nota} \\
+\textbf{Entrevistado 1} & 80          \\
+\textbf{Entrevistado 2} & 82.5            \\
+\textbf{Entrevistado 3} & 72.5            \\
+\textbf{Entrevistado 4} & 90          \\
+\textbf{Entrevistado 5} & 50          \\
+\textbf{Entrevistado 6} & 92.5            \\
+\textbf{Entrevistado 7} & 70          \\
+\rowcolor[HTML]{34CDF9} 
+\textbf{Média Geral}    & 76.78        
 \end{tabular}
 \end{table}
 
+O valor médio de 76.78 representa um valor aceitável dado que a nota máxima que é possível alcançar no teste é 100. Um dos motivos ao qual se acredita a boa nota, se deve ao fato, de que algumas das perguntas do questionário estavam diretamente relacionadas à aplicabilidade do software no uso cotidiano, o que para três dos sete entrevistados faz parte da sua realidade.
 
-\section{Conclusão}
 
-A escolha das métricas para análise, avaliação e acompanhamento de um software, é parte importante quando se fala de contratação de software. Contudo, a escolha das métricas é uma atividade muito subjetiva para que se possa definir contextos e situações específicas para um determinado grupo de métricas. A capacidade de avaliar as melhores métricas para determinados projetos veêm com a experiencia, por isso gestores mais antigos tendem a usar métricas mais específicas para cada projeto. 
-Através deste trabalho, pode-se observar a carencia do mercado em soluções de software que auxiliam os gestores nas tomadas de decisões, principalmente no que diz respeito à qualidade de código. Deve-se ressaltar também que o "engessamento" e a comodidade dentro dos órgãos, dificultam a implantação de novas tecnologias.
-Uma possível idéia de trabalho derivado deste, seria um estudo de caso avaliando a implantação do software produzido em um órgão real, e acompanhar o quão relevante a ferramenta se mostrou nas licitações de software.
+
+\section{Resumo}
+Foram realizadas um total de quatro \textit{sprints} para desenvolver todo o \textit{dashboard}. Ao fim das \textit{sprints} um e dois, foram realizados testes de usabilidade com um grupo de sete usuários, neste teste eram coletados dados referentes à experiência na utilização da ferramenta quanto ao domínio da ferramenta. Juntamente com os testes de usabilidade, também era feita uma entrevista de maneira informal com o intuito de outras possíveis melhorias. Na última \textit{sprint} foi realizado o teste de usabilidade SUS com os entrevistados, obteve-se o resultado de 76.78 que é um resultado aceitável, levando em consideração que o teste não foi aplicado unicamente com possíveis usuários.
